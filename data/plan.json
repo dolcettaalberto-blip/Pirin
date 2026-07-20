@@ -4,49 +4,49 @@
   "targetRaceCtl": 42,
   "weeks": [
     {
-      "week": 1, "start": "2026-07-14", "block": "Consolidate",
+      "week": 1, "start": "2026-07-13", "block": "Consolidate",
       "runKm": 44, "weekendDplus": 1400,
-      "plannedDailyLoad": { "mon": 25, "tue": 35, "wed": 0, "thu": 55, "fri": 20, "sat": 90, "sun": 60 }
+      "plannedDailyLoad": { "mon": 0, "tue": 35, "wed": 0, "thu": 55, "fri": 20, "sat": 90, "sun": 60 }
     },
     {
-      "week": 2, "start": "2026-07-21", "block": "Consolidate",
+      "week": 2, "start": "2026-07-20", "block": "Consolidate",
       "runKm": 48, "weekendDplus": 1550,
       "plannedDailyLoad": { "mon": 25, "tue": 40, "wed": 0, "thu": 60, "fri": 20, "sat": 95, "sun": 65 }
     },
     {
-      "week": 3, "start": "2026-07-28", "block": "Build",
+      "week": 3, "start": "2026-07-27", "block": "Build",
       "runKm": 52, "weekendDplus": 1750,
       "plannedDailyLoad": { "mon": 25, "tue": 45, "wed": 0, "thu": 65, "fri": 25, "sat": 105, "sun": 70 }
     },
     {
-      "week": 4, "start": "2026-08-04", "block": "Recovery",
+      "week": 4, "start": "2026-08-03", "block": "Recovery",
       "runKm": 38, "weekendDplus": 1100,
-      "plannedDailyLoad": { "mon": 20, "tue": 35, "wed": 0, "thu": 45, "fri": 15, "sat": 70, "sun": 50 }
+      "plannedDailyLoad": { "mon": 25, "tue": 35, "wed": 0, "thu": 45, "fri": 15, "sat": 70, "sun": 50 }
     },
     {
-      "week": 5, "start": "2026-08-11", "block": "Build",
+      "week": 5, "start": "2026-08-10", "block": "Build",
       "runKm": 56, "weekendDplus": 2000,
-      "plannedDailyLoad": { "mon": 25, "tue": 55, "wed": 0, "thu": 75, "fri": 25, "sat": 120, "sun": 85 }
+      "plannedDailyLoad": { "mon": 20, "tue": 55, "wed": 0, "thu": 75, "fri": 25, "sat": 120, "sun": 85 }
     },
     {
-      "week": 6, "start": "2026-08-18", "block": "Peak",
+      "week": 6, "start": "2026-08-17", "block": "Peak",
       "runKm": 60, "weekendDplus": 2300,
       "plannedDailyLoad": { "mon": 25, "tue": 55, "wed": 0, "thu": 80, "fri": 30, "sat": 130, "sun": 95 }
     },
     {
-      "week": 7, "start": "2026-08-25", "block": "Peak",
+      "week": 7, "start": "2026-08-24", "block": "Peak",
       "runKm": 64, "weekendDplus": 2600,
-      "plannedDailyLoad": { "mon": 30, "tue": 60, "wed": 0, "thu": 80, "fri": 30, "sat": 140, "sun": 100 }
+      "plannedDailyLoad": { "mon": 25, "tue": 60, "wed": 0, "thu": 80, "fri": 30, "sat": 140, "sun": 100 }
     },
     {
-      "week": 8, "start": "2026-09-01", "block": "Taper",
+      "week": 8, "start": "2026-08-31", "block": "Taper",
       "runKm": 46, "weekendDplus": 1500,
-      "plannedDailyLoad": { "mon": 25, "tue": 50, "wed": 0, "thu": 60, "fri": 25, "sat": 90, "sun": 55 }
+      "plannedDailyLoad": { "mon": 30, "tue": 50, "wed": 0, "thu": 60, "fri": 25, "sat": 90, "sun": 55 }
     },
     {
-      "week": 9, "start": "2026-09-08", "block": "Race",
+      "week": 9, "start": "2026-09-07", "block": "Race",
       "runKm": 22, "weekendDplus": 600,
-      "plannedDailyLoad": { "mon": 0, "tue": 35, "wed": 0, "thu": 45, "fri": 20, "sat": 25, "sun": 0 }
+      "plannedDailyLoad": { "mon": 25, "tue": 35, "wed": 0, "thu": 45, "fri": 20, "sat": 25, "sun": 0 }
     }
   ]
 }

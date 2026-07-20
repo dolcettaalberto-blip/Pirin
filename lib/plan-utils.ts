@@ -7,7 +7,7 @@ export type CtlPoint = { date: string; ctl: number };
 
 /**
  * Expand the plan's weekly `plannedDailyLoad` maps into a per-date load series,
- * from the day after `baseline.date` through race day. Weeks run Tue -> Mon;
+ * from the day after `baseline.date` through race day. Weeks run Mon -> Sun;
  * each date maps to `plannedDailyLoad[weekday(date)]` of its containing week.
  */
 export function expandDailyLoads(plan: Plan): DailyLoad[] {

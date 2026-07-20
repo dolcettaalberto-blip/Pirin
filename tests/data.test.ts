@@ -11,7 +11,7 @@ describe("data files", () => {
     expect(() => loadCurrentPlan()).not.toThrow();
   });
 
-  it("plans share race, baseline and target; weeks are sequential Tuesdays", () => {
+  it("plans share race, baseline and target; weeks are sequential Mondays", () => {
     const original = loadOriginalPlan();
     const current = loadCurrentPlan();
     expect(current.race).toEqual(original.race);
@@ -21,7 +21,7 @@ describe("data files", () => {
     for (const plan of [original, current]) {
       plan.weeks.forEach((w, i) => {
         expect(w.week).toBe(i + 1);
-        expect(parseIso(w.start).getUTCDay()).toBe(2); // Tuesday
+        expect(parseIso(w.start).getUTCDay()).toBe(1); // Monday
         if (i > 0) expect(w.start).toBe(addDays(plan.weeks[i - 1].start, 7));
       });
       const lastWeekEnd = addDays(plan.weeks.at(-1)!.start, 6);

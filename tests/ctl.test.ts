@@ -11,9 +11,9 @@ describe("CTL formula", () => {
   });
 
   it("matches the hand-computed simulation for the first 14 days of the plan", () => {
-    // Daily loads Jul 15 -> Jul 28 read off plan.json by hand (Tue-start weeks,
-    // weekday-keyed loads): W1 wed..mon = 0,55,20,90,60,25; W2 tue..mon =
-    // 40,0,60,20,95,65,25; W3 tue = 45.
+    // Daily loads Jul 15 -> Jul 28 read off plan.json by hand (Mon-start weeks,
+    // weekday-keyed loads): W1 wed..sun = 0,55,20,90,60; W2 mon..sun =
+    // 25,40,0,60,20,95,65; W3 mon..tue = 25,45.
     const handLoads = [0, 55, 20, 90, 60, 25, 40, 0, 60, 20, 95, 65, 25, 45];
     // Recurrence from CTL=27 on 2026-07-14, computed independently of lib/:
     const handCtl = [

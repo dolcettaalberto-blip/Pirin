@@ -24,15 +24,16 @@ directory against the schemas and cross-checks (session filename matches its
 
 ## Week/date convention (important)
 
-**Weeks start on Tuesday.** Week 1 starts 2026-07-14, a Tuesday, and every
-`start` is 7 days after the previous one. A week covers `[start, start+6]`,
-i.e. Tue → Mon.
+**Weeks run Monday → Sunday.** Week 1 starts 2026-07-13, a Monday, and every
+`start` is 7 days after the previous one. A week covers `[start, start+6]`.
+Race day (2026-09-13) is the final Sunday of week 9.
 
-`plannedDailyLoad` keys (`mon`…`sun`) are **calendar weekdays**, not positions:
-the load for a given date is `plannedDailyLoad[weekdayOf(date)]` for the week
-containing that date. So `mon` in week N is the Monday at the *end* of that
-week (start+6). Race day (2026-09-13, Sunday) has planned load `0` — the race
-itself is not counted as training load in the CTL projection.
+`plannedDailyLoad` keys (`mon`…`sun`) are the calendar weekdays of that week in
+order: the load for a given date is `plannedDailyLoad[weekdayOf(date)]` for the
+week containing that date. Two special days: week 1's `mon` (2026-07-13) is `0`
+because the plan's CTL baseline is dated 2026-07-14 (simulation starts the day
+after); and race day (week 9 `sun`) has planned load `0` — the race itself is
+not counted as training load in the CTL projection.
 
 ## `plan.json` and `current-plan.json`
 
@@ -46,11 +47,11 @@ Identical schema. `plan.json` is frozen; `current-plan.json` is the living plan.
   "weeks": [
     {
       "week": 1,                       // 1-based, sequential
-      "start": "2026-07-14",           // ISO date, always a Tuesday
+      "start": "2026-07-13",           // ISO date, always a Monday
       "block": "Consolidate",          // free text: Consolidate | Build | Recovery | Peak | Taper | Race
       "runKm": 44,                     // planned weekly running volume
       "weekendDplus": 1400,            // planned Sat+Sun vertical gain, metres
-      "plannedDailyLoad": { "mon": 25, "tue": 35, "wed": 0, "thu": 55, "fri": 20, "sat": 90, "sun": 60 }
+      "plannedDailyLoad": { "mon": 0, "tue": 35, "wed": 0, "thu": 55, "fri": 20, "sat": 90, "sun": 60 }
     }
   ]
 }
