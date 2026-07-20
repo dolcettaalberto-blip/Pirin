@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-23",
+  "type": "quality",
+  "title": "Uphill tempo intervals",
+  "terrain": "climb only, no descent",
+  "estimatedLoad": 55,
+  "steps": [
+    { "kind": "warmup", "duration": "15m", "target": "Z1-Z2" },
+    { "kind": "repeat", "count": 4, "steps": [
+      { "kind": "work", "duration": "2m", "target": "Z4, 8-10% incline" },
+      { "kind": "recover", "duration": "1m", "target": "walk" }
+    ]},
+    { "kind": "recover", "duration": "2m", "note": "between series" },
+    { "kind": "cooldown", "duration": "10m", "target": "Z1" }
+  ],
+  "coachNotes": "Amber rule: cut to 3 reps, no incline change. ITB: zero descent — walk back down or use the lift road.",
+  "icuWorkoutText": "- 15m Z1-Z2\n- 4x\n  - 2m Z4\n  - 1m Z1\n- 10m Z1"
+}

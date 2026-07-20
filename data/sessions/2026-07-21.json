@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-21",
+  "type": "easy",
+  "title": "Easy run + strides",
+  "terrain": "flat to rolling",
+  "estimatedLoad": 40,
+  "steps": [
+    { "kind": "warmup", "duration": "10m", "target": "Z1" },
+    { "kind": "work", "duration": "30m", "target": "Z2" },
+    { "kind": "repeat", "count": 6, "steps": [
+      { "kind": "work", "duration": "20s", "target": "strides, fast but relaxed" },
+      { "kind": "recover", "duration": "40s", "target": "walk" }
+    ]},
+    { "kind": "cooldown", "duration": "5m", "target": "Z1" }
+  ],
+  "coachNotes": "Strides on flat ground only. ITB: no downhill strides.",
+  "icuWorkoutText": "- 10m Z1\n- 30m Z2\n- 6x\n  - 20s Z5\n  - 40s Z1\n- 5m Z1"
+}

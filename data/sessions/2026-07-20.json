@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-20",
+  "type": "recovery",
+  "title": "Recovery jog",
+  "terrain": "flat, soft surface if possible",
+  "estimatedLoad": 25,
+  "steps": [
+    { "kind": "work", "duration": "30m", "target": "Z1, conversational" }
+  ],
+  "coachNotes": "Absorb the weekend. If readiness is amber, walk instead — the week ahead matters more than today.",
+  "icuWorkoutText": "- 30m Z1"
+}

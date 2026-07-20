@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Dark-only theme. Chart/ink tokens follow the validated dark-surface palette. */
+:root {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface: #1a1a19;
+  --surface-2: #232322;
+  --ink: #ffffff;
+  --ink-2: #c3c2b7;
+  --muted: #898781;
+  --grid: #2c2c2a;
+  --hairline: rgba(255, 255, 255, 0.1);
+  --accent: #3987e5; /* "on plan" */
+  --projected: #199e70;
+  --good: #0ca30c;
+  --warn: #fab219;
+  --critical: #d03b3b;
+  /* intensity ramp (single blue hue, brighter = harder) */
+  --z1: #184f95;
+  --z2: #256abf;
+  --z3: #3987e5;
+  --z4: #6da7ec;
+  --z5: #9ec5f4;
+  --rest: #2c2c2a;
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-grid: var(--grid);
+  --color-accent: var(--accent);
+  --color-projected: var(--projected);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-critical: var(--critical);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--page);
+  color: var(--ink);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}

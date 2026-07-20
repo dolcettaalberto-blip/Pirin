@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-26",
+  "type": "long",
+  "title": "Medium hilly run",
+  "terrain": "rolling hills, ~550m D+",
+  "estimatedLoad": 65,
+  "steps": [
+    { "kind": "work", "duration": "1h40m", "target": "Z2 on tired legs" }
+  ],
+  "coachNotes": "Back-to-back stimulus — the point is running hills on Saturday's fatigue. Keep it honest Z2; walk anything steep.",
+  "icuWorkoutText": "- 1h40m Z2"
+}

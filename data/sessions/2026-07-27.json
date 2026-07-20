@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-27",
+  "type": "recovery",
+  "title": "Recovery jog",
+  "terrain": "flat",
+  "estimatedLoad": 25,
+  "steps": [
+    { "kind": "work", "duration": "30m", "target": "Z1, conversational" }
+  ],
+  "coachNotes": "Weekend absorbed? Check HRV trend before Tuesday's session.",
+  "icuWorkoutText": "- 30m Z1"
+}

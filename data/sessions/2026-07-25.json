@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-25",
+  "type": "long",
+  "title": "Long mountain run",
+  "terrain": "sustained climbs, ~1000m D+, runnable descents",
+  "estimatedLoad": 95,
+  "steps": [
+    { "kind": "work", "duration": "2h30m", "target": "Z1-Z2, hike the steep climbs" }
+  ],
+  "coachNotes": "Descend deliberately easy — short steps, high cadence. Stop at the first ITB niggle, no exceptions. Practice race fueling: 60g carbs/h.",
+  "icuWorkoutText": "- 2h30m Z1-Z2"
+}

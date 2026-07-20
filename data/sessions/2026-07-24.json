@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-24",
+  "type": "recovery",
+  "title": "Pre-long shakeout",
+  "terrain": "flat",
+  "estimatedLoad": 20,
+  "steps": [
+    { "kind": "work", "duration": "25m", "target": "Z1" }
+  ],
+  "coachNotes": "Short and boring on purpose. Prep gear for tomorrow: poles, 1.5L water, gels.",
+  "icuWorkoutText": "- 25m Z1"
+}
