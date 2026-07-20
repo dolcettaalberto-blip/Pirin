@@ -1,0 +1,29 @@
+components/activity-line.tsx
+  s_455b9b257d2f3c::t_9bef37c711d917 1-31
+app/week/page.tsx
+  s_455b9b257d2f3c::t_5c774ff3cbbcf1 33-44,46-48
+  s_455b9b257d2f3c::t_10021e9ade8dd8 2
+  s_455b9b257d2f3c::t_55324bad5a2e2e 151,155-187,189-196
+lib/dates.ts
+  s_455b9b257d2f3c::t_635e559ebd9e98 28,30
+app/session/[date]/page.tsx
+  s_455b9b257d2f3c::t_00e8eabf33d82e 1-50
+README.md
+  s_455b9b257d2f3c::t_02eff43d61374d 36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1fd65015a68f57674b8ae3e39d57bcaf78131109",
+  "prompts": {},
+  "sessions": {
+    "s_455b9b257d2f3c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9f47e8a3-b79f-43bc-92a8-da792409b73d",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
