@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { loadCurrentPlan, loadSession } from "@/lib/data";
 import { addDays, formatShort, formatWeekday, todayIso, weekdayKey } from "@/lib/dates";
 import { getActivities, type Activity } from "@/lib/icu";
@@ -14,6 +15,20 @@ const TYPE_GLYPH: Record<Session["type"], string> = {
   race: "★",
 };
 
+function WeekArrow({ week, dir }: { week?: { week: number }; dir: "prev" | "next" }) {
+  const glyph = dir === "prev" ? "‹" : "›";
+  if (!week) return <span className="w-10 text-center text-2xl text-grid select-none">{glyph}</span>;
+  return (
+    <Link
+      href={`/week?w=${week.week}`}
+      aria-label={`${dir === "prev" ? "Previous" : "Next"} week`}
+      className="w-10 py-1 text-center text-2xl text-ink-2 active:text-accent"
+    >
+      {glyph}
+    </Link>
+  );
+}
+
 function BarPair({ planned, actual, max }: { planned: number; actual: number | null; max: number }) {
   const w = (v: number) => `${Math.min(100, (v / max) * 100)}%`;
   return (
@@ -28,10 +43,16 @@ function BarPair({ planned, actual, max }: { planned: number; actual: number | n
   );
 }
 
-export default async function WeekPage() {
+export default async function WeekPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ w?: string }>;
+}) {
   const today = todayIso();
   const plan = loadCurrentPlan();
-  const week = weekFor(plan, today) ?? plan.weeks[0];
+  const currentWeek = weekFor(plan, today) ?? plan.weeks[0];
+  const { w } = await searchParams;
+  const week = plan.weeks.find((x) => x.week === Number(w)) ?? currentWeek;
   const weekEnd = addDays(week.start, 6);
 
   const activities = (await getActivities(week.start, weekEnd)) ?? [];
@@ -58,11 +79,22 @@ export default async function WeekPage() {
   return (
     <div className="space-y-4">
       <header>
-        <div className="flex items-baseline justify-between">
-          <h1 className="text-xl font-bold">Week {week.week}</h1>
-          <p className="text-[13px] text-muted">
-            {formatShort(week.start)} – {formatShort(weekEnd)} · {week.block}
-          </p>
+        <div className="flex items-center justify-between gap-2">
+          <WeekArrow week={plan.weeks.find((x) => x.week === week.week - 1)} dir="prev" />
+          <div className="text-center">
+            <h1 className="text-xl font-bold leading-tight">
+              Week {week.week}
+              {week.week !== currentWeek.week && (
+                <Link href="/week" className="ml-2 align-middle text-[11px] font-medium text-accent">
+                  back to now
+                </Link>
+              )}
+            </h1>
+            <p className="text-[13px] text-muted">
+              {formatShort(week.start)} – {formatShort(weekEnd)} · {week.block}
+            </p>
+          </div>
+          <WeekArrow week={plan.weeks.find((x) => x.week === week.week + 1)} dir="next" />
         </div>
         <div className="grid grid-cols-3 gap-2 mt-3 rounded-2xl bg-surface border border-[var(--hairline)] px-4 py-3 text-center">
           <div>
