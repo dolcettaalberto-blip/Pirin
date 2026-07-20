@@ -21,6 +21,9 @@ export type Activity = {
   distance: number | null;
   total_elevation_gain: number | null;
   moving_time: number | null;
+  average_heartrate: number | null;
+  max_heartrate: number | null;
+  icu_rpe: number | null;
 };
 
 function credentials(): { key: string; athleteId: string } | null {

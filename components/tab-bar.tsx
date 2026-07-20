@@ -39,16 +39,19 @@ const TABS = [
 export function TabBar() {
   const pathname = usePathname();
   return (
-    <nav className="fixed bottom-0 inset-x-0 border-t border-[var(--hairline)] bg-[var(--surface)]/95 backdrop-blur pb-[env(safe-area-inset-bottom)]">
-      <div className="mx-auto max-w-md grid grid-cols-3">
+    <nav className="fixed bottom-0 inset-x-0 border-t border-[var(--hairline)] bg-[var(--surface)]/95 backdrop-blur pb-[env(safe-area-inset-bottom)] md:bottom-auto md:top-0 md:border-t-0 md:border-b md:pb-0">
+      <div className="mx-auto max-w-md grid grid-cols-3 md:max-w-4xl md:flex md:items-center md:gap-2 md:px-6">
+        <span className="hidden md:block md:mr-auto font-bold tracking-tight">
+          Pirin <span className="text-accent">Tracker</span>
+        </span>
         {TABS.map((tab) => {
           const active = pathname === tab.href;
           return (
             <Link
               key={tab.href}
               href={tab.href}
-              className={`flex flex-col items-center gap-0.5 py-2.5 text-[11px] font-medium ${
-                active ? "text-accent" : "text-muted"
+              className={`flex flex-col items-center gap-0.5 py-2.5 text-[11px] font-medium md:flex-row md:gap-2 md:px-4 md:py-3.5 md:text-[13px] ${
+                active ? "text-accent" : "text-muted hover:text-ink-2"
               }`}
             >
               {tab.icon}

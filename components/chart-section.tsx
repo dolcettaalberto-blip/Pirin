@@ -51,7 +51,8 @@ function CtlChart({ data, raceDate }: { data: CtlChartPoint[]; raceDate: string 
         <LegendSwatch color="var(--accent)" label="Actual" />
         <LegendSwatch color="var(--projected)" dash="2 4" label="Projected" />
       </div>
-      <ResponsiveContainer width="100%" height={280}>
+      <div className="h-[280px] md:h-[460px]">
+      <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -22 }}>
           <CartesianGrid stroke="var(--grid)" strokeWidth={1} vertical={false} />
           <XAxis
@@ -80,6 +81,7 @@ function CtlChart({ data, raceDate }: { data: CtlChartPoint[]; raceDate: string 
           <Line type="monotone" dataKey="projected" name="Projected" stroke="var(--projected)" strokeWidth={2} strokeDasharray="2 4" dot={false} isAnimationActive={false} />
         </LineChart>
       </ResponsiveContainer>
+      </div>
     </>
   );
 }
@@ -91,7 +93,8 @@ function DplusChart({ data }: { data: DplusChartPoint[] }) {
         <LegendSwatch color="var(--muted)" label="Planned (weekend)" />
         <LegendSwatch color="var(--accent)" label="Actual (weekend)" />
       </div>
-      <ResponsiveContainer width="100%" height={280}>
+      <div className="h-[280px] md:h-[460px]">
+      <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -18 }} barGap={2}>
           <CartesianGrid stroke="var(--grid)" strokeWidth={1} vertical={false} />
           <XAxis dataKey="week" tick={{ fill: "var(--muted)", fontSize: 11 }} axisLine={{ stroke: "var(--grid)" }} tickLine={false} />
@@ -101,6 +104,7 @@ function DplusChart({ data }: { data: DplusChartPoint[] }) {
           <Bar dataKey="actual" name="Actual" fill="var(--accent)" radius={[4, 4, 0, 0]} maxBarSize={18} isAnimationActive={false} />
         </BarChart>
       </ResponsiveContainer>
+      </div>
     </>
   );
 }

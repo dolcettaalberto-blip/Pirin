@@ -51,25 +51,31 @@ export default async function TodayPage() {
         </p>
       </header>
 
-      <ReadinessCard
-        readiness={readiness}
-        hrv={todayEntry?.hrv ?? null}
-        restingHR={todayEntry?.restingHR ?? null}
-        sleepSecs={todayEntry?.sleepSecs ?? null}
-      />
-
-      {session ? (
-        <SessionCard session={session} />
-      ) : (
-        <section className="rounded-2xl bg-surface border border-[var(--hairline)] p-4">
-          <h2 className="text-lg font-semibold">{plannedLoad === 0 ? "Rest day" : "No session planned"}</h2>
-          <p className="text-[13px] text-ink-2 mt-1">
-            {plannedLoad === 0 ? "Full rest — recovery is training." : "No session file for today yet."}
-          </p>
-        </section>
-      )}
-
-      <StatusStrip ctl={latestCtl?.ctl ?? null} atl={latestWithData(sorted, "atl")?.atl ?? null} spark={spark} />
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start">
+        <div className="contents md:block md:space-y-4">
+          <ReadinessCard
+            readiness={readiness}
+            hrv={todayEntry?.hrv ?? null}
+            restingHR={todayEntry?.restingHR ?? null}
+            sleepSecs={todayEntry?.sleepSecs ?? null}
+          />
+          <div className="order-3 md:order-none">
+            <StatusStrip ctl={latestCtl?.ctl ?? null} atl={latestWithData(sorted, "atl")?.atl ?? null} spark={spark} />
+          </div>
+        </div>
+        <div className="order-2 md:order-none">
+          {session ? (
+            <SessionCard session={session} />
+          ) : (
+            <section className="rounded-2xl bg-surface border border-[var(--hairline)] p-4">
+              <h2 className="text-lg font-semibold">{plannedLoad === 0 ? "Rest day" : "No session planned"}</h2>
+              <p className="text-[13px] text-ink-2 mt-1">
+                {plannedLoad === 0 ? "Full rest — recovery is training." : "No session file for today yet."}
+              </p>
+            </section>
+          )}
+        </div>
+      </div>
 
       {!icuConfigured() && (
         <p className="text-[12px] text-muted text-center">

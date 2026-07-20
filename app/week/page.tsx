@@ -29,6 +29,41 @@ function WeekArrow({ week, dir }: { week?: { week: number }; dir: "prev" | "next
   );
 }
 
+function fmtTime(secs: number): string {
+  const h = Math.floor(secs / 3600);
+  const m = Math.round((secs % 3600) / 60);
+  return h > 0 ? `${h}h${m.toString().padStart(2, "0")}` : `${m}m`;
+}
+
+function fmtPace(secsPerKm: number): string {
+  const m = Math.floor(secsPerKm / 60);
+  const s = Math.round(secsPerKm % 60);
+  return `${m}:${s.toString().padStart(2, "0")}/km`;
+}
+
+/** One recorded intervals.icu activity, rendered under its day. */
+function ActivityLine({ activity }: { activity: Activity }) {
+  const km = activity.distance != null ? activity.distance / 1000 : null;
+  const parts: string[] = [];
+  if (km != null && km > 0) parts.push(`${km.toFixed(1)} km`);
+  if (activity.total_elevation_gain) parts.push(`${Math.round(activity.total_elevation_gain)} m D+`);
+  if (activity.moving_time) parts.push(fmtTime(activity.moving_time));
+  if (km != null && km > 0.5 && activity.moving_time && activity.type === "Run")
+    parts.push(fmtPace(activity.moving_time / km));
+  if (activity.average_heartrate) parts.push(`${Math.round(activity.average_heartrate)} bpm`);
+  if (activity.icu_rpe != null) parts.push(`RPE ${activity.icu_rpe}`);
+  return (
+    <p className="text-[12px] text-ink-2 leading-snug">
+      <span className="text-ink font-medium">{activity.name ?? activity.type ?? "Activity"}</span>
+      {activity.icu_training_load != null && (
+        <span className="text-muted"> · load {Math.round(activity.icu_training_load)}</span>
+      )}
+      <br />
+      <span className="text-muted tabular">{parts.join(" · ")}</span>
+    </p>
+  );
+}
+
 function BarPair({ planned, actual, max }: { planned: number; actual: number | null; max: number }) {
   const w = (v: number) => `${Math.min(100, (v / max) * 100)}%`;
   return (
@@ -56,20 +91,23 @@ export default async function WeekPage({
   const weekEnd = addDays(week.start, 6);
 
   const activities = (await getActivities(week.start, weekEnd)) ?? [];
-  const loadByDate = new Map<string, number>();
+  const actsByDate = new Map<string, Activity[]>();
   const kmActual = activities.reduce((sum, a) => sum + (a.distance ?? 0) / 1000, 0);
   const dplusActual = activities.reduce((sum, a) => sum + (a.total_elevation_gain ?? 0), 0);
-  for (const a of activities as Activity[]) {
+  for (const a of activities) {
     const date = a.start_date_local.slice(0, 10);
-    loadByDate.set(date, (loadByDate.get(date) ?? 0) + (a.icu_training_load ?? 0));
+    actsByDate.set(date, [...(actsByDate.get(date) ?? []), a]);
   }
 
   const days = Array.from({ length: 7 }, (_, i) => {
     const date = addDays(week.start, i);
     const planned = week.plannedDailyLoad[weekdayKey(date)];
     const session = loadSession(date);
-    const actual = loadByDate.has(date) ? Math.round(loadByDate.get(date)!) : null;
-    return { date, planned, session, actual, isPast: date < today, isToday: date === today };
+    const acts = actsByDate.get(date) ?? [];
+    const actual = acts.length
+      ? Math.round(acts.reduce((sum, a) => sum + (a.icu_training_load ?? 0), 0))
+      : null;
+    return { date, planned, session, acts, actual, isPast: date < today, isToday: date === today };
   });
 
   const plannedTotal = days.reduce((sum, d) => sum + d.planned, 0);
@@ -77,7 +115,7 @@ export default async function WeekPage({
   const maxLoad = Math.max(...days.map((d) => d.planned), ...days.map((d) => d.actual ?? 0), 1);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 md:max-w-2xl md:mx-auto">
       <header>
         <div className="flex items-center justify-between gap-2">
           <WeekArrow week={plan.weeks.find((x) => x.week === week.week - 1)} dir="prev" />
@@ -125,40 +163,49 @@ export default async function WeekPage({
           return (
             <li
               key={d.date}
-              className={`rounded-xl border px-3 py-2.5 flex items-center gap-3 ${
+              className={`rounded-xl border px-3 py-2.5 ${
                 d.isToday ? "border-accent bg-surface" : "border-[var(--hairline)] bg-surface"
               }`}
             >
-              <div className="w-11 shrink-0">
-                <p className={`text-[12px] font-semibold ${d.isToday ? "text-accent" : "text-ink-2"}`}>
-                  {formatWeekday(d.date)}
-                </p>
-                <p className="text-[11px] text-muted tabular">{formatShort(d.date)}</p>
+              <div className="flex items-center gap-3">
+                <div className="w-11 shrink-0">
+                  <p className={`text-[12px] font-semibold ${d.isToday ? "text-accent" : "text-ink-2"}`}>
+                    {formatWeekday(d.date)}
+                  </p>
+                  <p className="text-[11px] text-muted tabular">{formatShort(d.date)}</p>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-[14px] font-medium truncate">
+                    {d.session ? (
+                      <>
+                        <span className="text-muted mr-1.5" aria-hidden>{TYPE_GLYPH[d.session.type]}</span>
+                        {d.session.title}
+                      </>
+                    ) : d.planned === 0 ? (
+                      <span className="text-muted">Rest</span>
+                    ) : (
+                      <span className="text-ink-2">Load {d.planned}</span>
+                    )}
+                  </p>
+                  <p className="text-[11px] text-muted">
+                    {done
+                      ? `done · ${d.actual} vs ${d.planned} planned`
+                      : missed
+                        ? "no activity recorded"
+                        : d.planned === 0
+                          ? ""
+                          : `planned ${d.planned}${d.session?.terrain ? ` · ${d.session.terrain}` : ""}`}
+                  </p>
+                </div>
+                <BarPair planned={d.planned} actual={d.actual} max={maxLoad} />
               </div>
-              <div className="flex-1 min-w-0">
-                <p className="text-[14px] font-medium truncate">
-                  {d.session ? (
-                    <>
-                      <span className="text-muted mr-1.5" aria-hidden>{TYPE_GLYPH[d.session.type]}</span>
-                      {d.session.title}
-                    </>
-                  ) : d.planned === 0 ? (
-                    <span className="text-muted">Rest</span>
-                  ) : (
-                    <span className="text-ink-2">Load {d.planned}</span>
-                  )}
-                </p>
-                <p className="text-[11px] text-muted">
-                  {done
-                    ? `done · ${d.actual} vs ${d.planned} planned`
-                    : missed
-                      ? "no activity recorded"
-                      : d.planned === 0
-                        ? ""
-                        : `planned ${d.planned}${d.session?.terrain ? ` · ${d.session.terrain}` : ""}`}
-                </p>
-              </div>
-              <BarPair planned={d.planned} actual={d.actual} max={maxLoad} />
+              {d.acts.length > 0 && (
+                <div className="mt-2 ml-14 space-y-1.5 border-t border-[var(--hairline)] pt-2">
+                  {d.acts.map((a) => (
+                    <ActivityLine key={a.id} activity={a} />
+                  ))}
+                </div>
+              )}
             </li>
           );
         })}

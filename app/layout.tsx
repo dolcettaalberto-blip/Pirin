@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
-        <main className="flex-1 mx-auto w-full max-w-md px-4 pt-4 pb-24">{children}</main>
+        <main className="flex-1 mx-auto w-full max-w-md px-4 pt-4 pb-24 md:max-w-4xl md:px-6 md:pt-20 md:pb-10">{children}</main>
         <TabBar />
       </body>
     </html>
