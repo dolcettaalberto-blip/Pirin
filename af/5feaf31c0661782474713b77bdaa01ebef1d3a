@@ -1,0 +1,35 @@
+components/chart-section.tsx
+  s_455b9b257d2f3c::t_186563389760c2 54-55
+  s_455b9b257d2f3c::t_ad37578b24f766 96-97
+  s_455b9b257d2f3c::t_b206ed0efe169e 84
+  s_455b9b257d2f3c::t_fa09316d559f72 107
+app/page.tsx
+  s_455b9b257d2f3c::t_78a59a9b67f31a 54-78
+components/tab-bar.tsx
+  s_455b9b257d2f3c::t_7f09b09afcce87 42-46,53-54
+app/week/page.tsx
+  s_455b9b257d2f3c::t_7fa4802f131a56 94,97,99,106-110
+  s_455b9b257d2f3c::t_b3247235f03604 166,170-200,202-208
+  s_455b9b257d2f3c::t_8061831139135f 32-66
+  s_455b9b257d2f3c::t_feb31a6967b573 118
+lib/icu.ts
+  s_455b9b257d2f3c::t_6be0ef98a9d0fd 24-26
+app/layout.tsx
+  s_455b9b257d2f3c::t_265ef126b3a814 42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "af5feaf31c0661782474713b77bdaa01ebef1d3a",
+  "prompts": {},
+  "sessions": {
+    "s_455b9b257d2f3c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9f47e8a3-b79f-43bc-92a8-da792409b73d",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
