@@ -4,5 +4,11 @@
     "change": "Wk2 Thu uphill tempo cut 5x2m -> 4x2m (planned load 60 -> 55)",
     "reason": "HRV in low 40s Sunday morning; ITB caution after Saturday's 1000m D+ day",
     "affects": ["2026-07-23"]
+  },
+  {
+    "date": "2026-07-20",
+    "change": "Wk2 Mon recovery jog swapped to 40m indoor spin, same load (25)",
+    "reason": "HRV 51 vs ~57 baseline, 5.3h sleep after 4.4h Friday; zero-impact option post 872m D+ Saturday",
+    "affects": ["2026-07-20"]
   }
 ]
