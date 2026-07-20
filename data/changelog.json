@@ -10,5 +10,11 @@
     "change": "Wk2 Mon recovery jog swapped to 40m indoor spin, same load (25)",
     "reason": "HRV 51 vs ~57 baseline, 5.3h sleep after 4.4h Friday; zero-impact option post 872m D+ Saturday",
     "affects": ["2026-07-20"]
+  },
+  {
+    "date": "2026-07-20",
+    "change": "Wk2 Mon reverted to 30m Z1 recovery jog (load 25 unchanged)",
+    "reason": "Traveling Mon-Wed with no trainer access; jog acceptable at strict Z1 despite amber-ish readiness",
+    "affects": ["2026-07-20"]
   }
 ]

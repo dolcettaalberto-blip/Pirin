@@ -1,14 +1,12 @@
 {
   "date": "2026-07-20",
   "type": "recovery",
-  "title": "Recovery spin (indoor)",
-  "terrain": "indoor trainer, zero impact",
+  "title": "Recovery jog",
+  "terrain": "flat, soft surface if possible",
   "estimatedLoad": 25,
   "steps": [
-    { "kind": "warmup", "duration": "5m", "target": "Z1" },
-    { "kind": "work", "duration": "30m", "target": "Z1-Z2, high cadence 90+" },
-    { "kind": "cooldown", "duration": "5m", "target": "Z1" }
+    { "kind": "work", "duration": "30m", "target": "Z1, conversational" }
   ],
-  "coachNotes": "Swapped from jog: HRV 51 (below ~57 baseline) and 5.3h sleep after Friday's 4.4h. Same load, zero impact — legs carry Saturday's 872m D+. Keep it truly easy; the Thu tempo and weekend block are the priorities. Early night tonight.",
-  "icuWorkoutText": "- 5m Z1\n- 30m Z1-Z2\n- 5m Z1"
+  "coachNotes": "Traveling, no trainer access. Keep it truly Z1 — HRV 51 and 5.3h sleep, so walk breaks are fine if legs feel heavy. Flat route only. Early night tonight; Thu tempo is the week's priority.",
+  "icuWorkoutText": "- 30m Z1"
 }
