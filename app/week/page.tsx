@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ActivityLine } from "@/components/activity-line";
 import { loadCurrentPlan, loadSession } from "@/lib/data";
 import { addDays, formatShort, formatWeekday, todayIso, weekdayKey } from "@/lib/dates";
 import { getActivities, type Activity } from "@/lib/icu";
@@ -29,38 +30,22 @@ function WeekArrow({ week, dir }: { week?: { week: number }; dir: "prev" | "next
   );
 }
 
-function fmtTime(secs: number): string {
-  const h = Math.floor(secs / 3600);
-  const m = Math.round((secs % 3600) / 60);
-  return h > 0 ? `${h}h${m.toString().padStart(2, "0")}` : `${m}m`;
-}
-
-function fmtPace(secsPerKm: number): string {
-  const m = Math.floor(secsPerKm / 60);
-  const s = Math.round(secsPerKm % 60);
-  return `${m}:${s.toString().padStart(2, "0")}/km`;
-}
-
-/** One recorded intervals.icu activity, rendered under its day. */
-function ActivityLine({ activity }: { activity: Activity }) {
-  const km = activity.distance != null ? activity.distance / 1000 : null;
-  const parts: string[] = [];
-  if (km != null && km > 0) parts.push(`${km.toFixed(1)} km`);
-  if (activity.total_elevation_gain) parts.push(`${Math.round(activity.total_elevation_gain)} m D+`);
-  if (activity.moving_time) parts.push(fmtTime(activity.moving_time));
-  if (km != null && km > 0.5 && activity.moving_time && activity.type === "Run")
-    parts.push(fmtPace(activity.moving_time / km));
-  if (activity.average_heartrate) parts.push(`${Math.round(activity.average_heartrate)} bpm`);
-  if (activity.icu_rpe != null) parts.push(`RPE ${activity.icu_rpe}`);
+/** Day rows with a session file link through to the full session detail page. */
+function MaybeSessionLink({
+  date,
+  hasSession,
+  children,
+}: {
+  date: string;
+  hasSession: boolean;
+  children: React.ReactNode;
+}) {
+  const cls = "block px-3 py-2.5";
+  if (!hasSession) return <div className={cls}>{children}</div>;
   return (
-    <p className="text-[12px] text-ink-2 leading-snug">
-      <span className="text-ink font-medium">{activity.name ?? activity.type ?? "Activity"}</span>
-      {activity.icu_training_load != null && (
-        <span className="text-muted"> · load {Math.round(activity.icu_training_load)}</span>
-      )}
-      <br />
-      <span className="text-muted tabular">{parts.join(" · ")}</span>
-    </p>
+    <Link href={`/session/${date}`} className={`${cls} active:opacity-70`}>
+      {children}
+    </Link>
   );
 }
 
@@ -163,49 +148,52 @@ export default async function WeekPage({
           return (
             <li
               key={d.date}
-              className={`rounded-xl border px-3 py-2.5 ${
+              className={`rounded-xl border ${
                 d.isToday ? "border-accent bg-surface" : "border-[var(--hairline)] bg-surface"
               }`}
             >
-              <div className="flex items-center gap-3">
-                <div className="w-11 shrink-0">
-                  <p className={`text-[12px] font-semibold ${d.isToday ? "text-accent" : "text-ink-2"}`}>
-                    {formatWeekday(d.date)}
-                  </p>
-                  <p className="text-[11px] text-muted tabular">{formatShort(d.date)}</p>
+              <MaybeSessionLink date={d.date} hasSession={d.session != null}>
+                <div className="flex items-center gap-3">
+                  <div className="w-11 shrink-0">
+                    <p className={`text-[12px] font-semibold ${d.isToday ? "text-accent" : "text-ink-2"}`}>
+                      {formatWeekday(d.date)}
+                    </p>
+                    <p className="text-[11px] text-muted tabular">{formatShort(d.date)}</p>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[14px] font-medium truncate">
+                      {d.session ? (
+                        <>
+                          <span className="text-muted mr-1.5" aria-hidden>{TYPE_GLYPH[d.session.type]}</span>
+                          {d.session.title}
+                        </>
+                      ) : d.planned === 0 ? (
+                        <span className="text-muted">Rest</span>
+                      ) : (
+                        <span className="text-ink-2">Load {d.planned}</span>
+                      )}
+                    </p>
+                    <p className="text-[11px] text-muted">
+                      {done
+                        ? `done · ${d.actual} vs ${d.planned} planned`
+                        : missed
+                          ? "no activity recorded"
+                          : d.planned === 0
+                            ? ""
+                            : `planned ${d.planned}${d.session?.terrain ? ` · ${d.session.terrain}` : ""}`}
+                    </p>
+                  </div>
+                  <BarPair planned={d.planned} actual={d.actual} max={maxLoad} />
+                  {d.session && <span className="text-muted text-lg -ml-1" aria-hidden>›</span>}
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-[14px] font-medium truncate">
-                    {d.session ? (
-                      <>
-                        <span className="text-muted mr-1.5" aria-hidden>{TYPE_GLYPH[d.session.type]}</span>
-                        {d.session.title}
-                      </>
-                    ) : d.planned === 0 ? (
-                      <span className="text-muted">Rest</span>
-                    ) : (
-                      <span className="text-ink-2">Load {d.planned}</span>
-                    )}
-                  </p>
-                  <p className="text-[11px] text-muted">
-                    {done
-                      ? `done · ${d.actual} vs ${d.planned} planned`
-                      : missed
-                        ? "no activity recorded"
-                        : d.planned === 0
-                          ? ""
-                          : `planned ${d.planned}${d.session?.terrain ? ` · ${d.session.terrain}` : ""}`}
-                  </p>
-                </div>
-                <BarPair planned={d.planned} actual={d.actual} max={maxLoad} />
-              </div>
-              {d.acts.length > 0 && (
-                <div className="mt-2 ml-14 space-y-1.5 border-t border-[var(--hairline)] pt-2">
-                  {d.acts.map((a) => (
-                    <ActivityLine key={a.id} activity={a} />
-                  ))}
-                </div>
-              )}
+                {d.acts.length > 0 && (
+                  <div className="mt-2 ml-14 space-y-1.5 border-t border-[var(--hairline)] pt-2">
+                    {d.acts.map((a) => (
+                      <ActivityLine key={a.id} activity={a} />
+                    ))}
+                  </div>
+                )}
+              </MaybeSessionLink>
             </li>
           );
         })}

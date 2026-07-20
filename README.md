@@ -33,7 +33,7 @@ the same suite runs at the start of `npm run build`, so malformed `/data` JSON f
 2. Railway → New Project → Deploy from GitHub repo → select it. Railway detects Next.js and uses
    `npm run build` / `npm run start`.
 3. Set service variables: `ICU_API_KEY`, `ICU_ATHLETE_ID` (and optionally `APP_TIMEZONE`,
-   default `Europe/Sofia`).
+   default `Europe/Rome`).
 4. Enable auto-deploy on push to `main` (default). Generate a domain under Settings → Networking.
 
 ## Structure

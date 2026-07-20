@@ -25,9 +25,9 @@ export function weekdayKey(iso: string): WeekdayKey {
   return WEEKDAY_KEYS[parseIso(iso).getUTCDay()];
 }
 
-/** Today's date in the athlete's timezone (defaults to Europe/Sofia — Pirin time). */
+/** Today's date in the athlete's timezone (defaults to Europe/Rome; override with APP_TIMEZONE). */
 export function todayIso(): string {
-  const tz = process.env.APP_TIMEZONE ?? "Europe/Sofia";
+  const tz = process.env.APP_TIMEZONE ?? "Europe/Rome";
   return new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(new Date());
 }
 
