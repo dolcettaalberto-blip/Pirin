@@ -40,5 +40,11 @@
     "change": "Wk4 Mon (Aug 3) set to true rest, load 25 -> 0, for the full travel day to Greece; created all Wk4/Wk5 session files using real flat/hill terrain (no bike needed, none was available) with loads unchanged from the original plan",
     "reason": "Athlete confirmed no-bike but flat+hills-available in Greece for both weeks. Wk4 stays a genuine deload (unchanged loads, just outdoor terrain instead of placeholders). Wk5's jump vs Wk4 (weekendDplus 1100 -> 2000, load 70/50 -> 120/85) is intentionally NOT capped like Wk3 was: it's measured against the last true build week (Wk3, 1250) not the deload trough, standard cutback-then-resume periodization, so the site's single-week ramp warning here is an expected false positive, not a real risk",
     "affects": ["2026-08-04", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16"]
+  },
+  {
+    "date": "2026-07-21",
+    "change": "Wk2 Thu uphill tempo bumped 4x2m (load 55) -> 2 series of 3x2m (load 65), beyond the original pre-amber-cut 5x2m",
+    "reason": "Sat 25 is now a low day (post Sat/Sun swap), so two clear easy/low days sit between Thu and Sun's long run instead of one. No fresh HRV/sleep data available this session; the amber protocol still overrides live if Thursday's readiness is poor",
+    "affects": ["2026-07-23"]
   }
 ]
