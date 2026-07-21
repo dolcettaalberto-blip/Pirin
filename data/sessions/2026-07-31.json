@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-31",
+  "type": "recovery",
+  "title": "Protected easy hike + strength",
+  "terrain": "flat or gentle, walking pace only",
+  "estimatedLoad": 25,
+  "steps": [
+    { "kind": "work", "duration": "35m", "target": "Z1, walk" }
+  ],
+  "coachNotes": "Legs need to be fresh for tomorrow's big descent-focus long run. Resist adding more here even if the terrain is tempting. Strength: hip abduction, step-downs, glute bridges, Copenhagen planks.",
+  "icuWorkoutText": "- 35m Z1"
+}

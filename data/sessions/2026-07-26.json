@@ -1,12 +1,12 @@
 {
   "date": "2026-07-26",
   "type": "long",
-  "title": "Medium hilly run",
-  "terrain": "rolling hills, ~550m D+",
-  "estimatedLoad": 65,
+  "title": "Long mountain run (moved from Sat)",
+  "terrain": "sustained climbs, ~1000m D+, runnable descents",
+  "estimatedLoad": 95,
   "steps": [
-    { "kind": "work", "duration": "1h40m", "target": "Z2 on tired legs" }
+    { "kind": "work", "duration": "2h30m", "target": "Z1-Z2, hike the steep climbs" }
   ],
-  "coachNotes": "Back-to-back stimulus — the point is running hills on Saturday's fatigue. Keep it honest Z2; walk anything steep.",
-  "icuWorkoutText": "- 1h40m Z2"
+  "coachNotes": "This is Saturday's original session, moved a day so Saturday could be lowered for the last family day. Descend deliberately easy - short steps, high cadence. Stop at the first ITB niggle, no exceptions. Practice race fueling: 60g carbs/h.",
+  "icuWorkoutText": "- 2h30m Z1-Z2"
 }

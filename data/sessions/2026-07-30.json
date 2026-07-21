@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-30",
+  "type": "quality",
+  "title": "Uphill climbing repeats (outdoor)",
+  "terrain": "sustained climb, walk down between reps and after - no bike/treadmill available",
+  "estimatedLoad": 75,
+  "steps": [
+    { "kind": "warmup", "duration": "15m", "target": "Z1-Z2" },
+    { "kind": "repeat", "count": 2, "steps": [
+      { "kind": "work", "duration": "15m", "target": "Z3-Z4, hard hike or power-hike, poles if you have them" },
+      { "kind": "recover", "duration": "8m", "target": "walk down, easy" }
+    ]},
+    { "kind": "cooldown", "duration": "10m", "target": "Z1" }
+  ],
+  "coachNotes": "Replaces the usual treadmill-incline tempo since there's no treadmill or bike here. Real climbing is more race-specific anyway. The rule doesn't change: walk every descent today, don't run any of it.",
+  "icuWorkoutText": "- 15m Z1-Z2\n- 2x\n  - 15m Z3-Z4\n  - 8m walk\n- 10m Z1"
+}

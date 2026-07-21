@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-02",
+  "type": "long",
+  "title": "B2b tired legs",
+  "terrain": "rolling, ~300m D+, light descent only",
+  "estimatedLoad": 55,
+  "steps": [
+    { "kind": "work", "duration": "1h25m", "target": "Z2 on tired legs" }
+  ],
+  "coachNotes": "Classic back-to-back stimulus on yesterday's fatigue. Keep it honest Z2, walk anything steep or technical - this isn't the day to test the ITB.",
+  "icuWorkoutText": "- 1h25m Z2"
+}

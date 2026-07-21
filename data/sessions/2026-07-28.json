@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-28",
+  "type": "easy",
+  "title": "Easy mountain shakeout",
+  "terrain": "gentle uphill trail, arrival day",
+  "estimatedLoad": 40,
+  "steps": [
+    { "kind": "work", "duration": "40m", "target": "Z1-Z2" }
+  ],
+  "coachNotes": "Arrival day in the mountains. Keep it genuinely easy despite fresh legs and new terrain. No running on the way down anything steep.",
+  "icuWorkoutText": "- 40m Z1-Z2"
+}

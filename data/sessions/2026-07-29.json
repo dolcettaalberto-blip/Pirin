@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-29",
+  "type": "easy",
+  "title": "Easy uphill hike",
+  "terrain": "ascent-only where possible, walk any descent",
+  "estimatedLoad": 35,
+  "steps": [
+    { "kind": "work", "duration": "55m", "target": "Z2 on the climb, Z1 walking down" }
+  ],
+  "coachNotes": "Upgraded from a rest day - mountain terrain gives free aerobic volume with almost no ITB cost if you walk the way down. Hike up at a real effort, descend at walking pace only, never run it.",
+  "icuWorkoutText": "- 55m Z1-Z2"
+}

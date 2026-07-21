@@ -22,5 +22,17 @@
     "change": "Wk2 Wed rest swapped to 20m flat Z1 shakeout jog (load 0 -> 15)",
     "reason": "Tue easy run overshot to load 51 vs 40 planned (RPE 4, brief Z4 during strides) despite strong readiness (HRV 65 best in 9d, RHR 47, sleep score 86); athlete chose a light shakeout over full rest ahead of Thu's uphill tempo and the weekend 1550m D+ block",
     "affects": ["2026-07-22"]
+  },
+  {
+    "date": "2026-07-21",
+    "change": "Wk2 Sat/Sun swapped: long run (1000m D+, load 95) moved Sat -> Sun; Sat downgraded to easy family day (load 20). Wk3 Mon upgraded rest -> bike sweet-spot quality (load 25 -> 60, zero descent)",
+    "reason": "Family travels Mon 27; athlete wants Sat lowered as the last family day, Sun kept as the hard/primary session, Mon hard but no-descent for the first solo day",
+    "affects": ["2026-07-25", "2026-07-26", "2026-07-27"]
+  },
+  {
+    "date": "2026-07-21",
+    "change": "Wk3 redesigned for a mountain stay Jul28-Aug2 with hike/run-uphill access but no bike: Tue/Wed/Fri upgraded from rest/easy to easy-moderate ascent-only hikes (walk every descent); Thu tempo moved outdoor (treadmill -> real climb repeats, load 65 -> 75); weekend D+ scaled back 1750 -> 1250 (950 Sat + 300 Sun) to hold the 20% ramp ceiling against the new, lower Wk2 weekend baseline (1100 after the Sat/Sun swap)",
+    "reason": "Athlete confirmed mountain location Jul28-Aug2 with no bike access. The original 1750m weekend target would have been a ~67% jump over the new Wk2 baseline, breaching the descent-ramp rule that caused the March ITBS relapse",
+    "affects": ["2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02"]
   }
 ]

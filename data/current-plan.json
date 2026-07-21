@@ -10,13 +10,13 @@
     },
     {
       "week": 2, "start": "2026-07-20", "block": "Consolidate",
-      "runKm": 48, "weekendDplus": 1550,
-      "plannedDailyLoad": { "mon": 25, "tue": 40, "wed": 15, "thu": 55, "fri": 20, "sat": 95, "sun": 65 }
+      "runKm": 48, "weekendDplus": 1100,
+      "plannedDailyLoad": { "mon": 25, "tue": 40, "wed": 15, "thu": 55, "fri": 20, "sat": 20, "sun": 95 }
     },
     {
       "week": 3, "start": "2026-07-27", "block": "Build",
-      "runKm": 52, "weekendDplus": 1750,
-      "plannedDailyLoad": { "mon": 25, "tue": 45, "wed": 0, "thu": 65, "fri": 25, "sat": 105, "sun": 70 }
+      "runKm": 46, "weekendDplus": 1250,
+      "plannedDailyLoad": { "mon": 60, "tue": 40, "wed": 35, "thu": 75, "fri": 25, "sat": 90, "sun": 55 }
     },
     {
       "week": 4, "start": "2026-08-03", "block": "Recovery",

@@ -1,12 +1,17 @@
 {
   "date": "2026-07-27",
-  "type": "recovery",
-  "title": "Recovery jog",
-  "terrain": "flat",
-  "estimatedLoad": 25,
+  "type": "quality",
+  "title": "Sweet-spot bike intervals",
+  "terrain": "indoor bike, zero ITB load",
+  "estimatedLoad": 60,
   "steps": [
-    { "kind": "work", "duration": "30m", "target": "Z1, conversational" }
+    { "kind": "warmup", "duration": "15m", "target": "Z1-Z2" },
+    { "kind": "repeat", "count": 3, "steps": [
+      { "kind": "work", "duration": "8m", "target": "Z3-Z4, sweet spot" },
+      { "kind": "recover", "duration": "4m", "target": "Z1, easy spin" }
+    ]},
+    { "kind": "cooldown", "duration": "10m", "target": "Z1" }
   ],
-  "coachNotes": "Weekend absorbed? Check HRV trend before Tuesday's session.",
-  "icuWorkoutText": "- 30m Z1"
+  "coachNotes": "First solo day, family departs. Upgraded from a recovery jog because you asked for this week to be hard - bike delivers the stimulus with zero eccentric ITB cost the day after yesterday's big descent run. No running today regardless of how good legs feel.",
+  "icuWorkoutText": "- 15m Z1-Z2\n- 3x\n  - 8m Z3-Z4\n  - 4m Z1\n- 10m Z1"
 }

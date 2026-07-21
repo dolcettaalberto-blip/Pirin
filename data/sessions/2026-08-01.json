@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-01",
+  "type": "long",
+  "title": "Long mountain run, descent focus",
+  "terrain": "~950m D+, technical descent practice",
+  "estimatedLoad": 90,
+  "steps": [
+    { "kind": "work", "duration": "2h30m", "target": "Z1-Z2, hike the steep climbs" }
+  ],
+  "coachNotes": "This week's primary ITB dosing session, scaled back from the original 1750m weekend target so the jump over last weekend's (now lower) load stays inside the 20% ramp ceiling. Still the biggest stimulus of the week. Descend deliberately, stop at the first niggle.",
+  "icuWorkoutText": "- 2h30m Z1-Z2"
+}
