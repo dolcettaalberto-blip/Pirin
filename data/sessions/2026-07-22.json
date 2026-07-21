@@ -1,0 +1,16 @@
+{
+  "date": "2026-07-22",
+  "type": "recovery",
+  "title": "Shakeout jog",
+  "terrain": "flat",
+  "estimatedLoad": 15,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "20m",
+      "target": "Z1, conversational"
+    }
+  ],
+  "coachNotes": "Light shakeout, not a rest day swap for load. Tue overshot to 51 vs 40 planned (RPE 4, brief Z4 on strides) even though HRV/RHR/sleep were all strong. Keep this strictly Z1, flat ground, stop early if legs feel heavy. Thu's uphill tempo is the priority, don't dig into that reserve today.",
+  "icuWorkoutText": "- 20m Z1"
+}

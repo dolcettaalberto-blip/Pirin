@@ -16,5 +16,11 @@
     "change": "Wk2 Mon reverted to 30m Z1 recovery jog (load 25 unchanged)",
     "reason": "Traveling Mon-Wed with no trainer access; jog acceptable at strict Z1 despite amber-ish readiness",
     "affects": ["2026-07-20"]
+  },
+  {
+    "date": "2026-07-21",
+    "change": "Wk2 Wed rest swapped to 20m flat Z1 shakeout jog (load 0 -> 15)",
+    "reason": "Tue easy run overshot to load 51 vs 40 planned (RPE 4, brief Z4 during strides) despite strong readiness (HRV 65 best in 9d, RHR 47, sleep score 86); athlete chose a light shakeout over full rest ahead of Thu's uphill tempo and the weekend 1550m D+ block",
+    "affects": ["2026-07-22"]
   }
 ]

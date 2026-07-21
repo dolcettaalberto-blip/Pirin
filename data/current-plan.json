@@ -11,7 +11,7 @@
     {
       "week": 2, "start": "2026-07-20", "block": "Consolidate",
       "runKm": 48, "weekendDplus": 1550,
-      "plannedDailyLoad": { "mon": 25, "tue": 40, "wed": 0, "thu": 55, "fri": 20, "sat": 95, "sun": 65 }
+      "plannedDailyLoad": { "mon": 25, "tue": 40, "wed": 15, "thu": 55, "fri": 20, "sat": 95, "sun": 65 }
     },
     {
       "week": 3, "start": "2026-07-27", "block": "Build",
