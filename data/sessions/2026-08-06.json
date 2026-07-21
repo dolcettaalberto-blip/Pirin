@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-06",
+  "type": "quality",
+  "title": "Hill tempo intervals",
+  "terrain": "real hills, no treadmill/bike needed",
+  "estimatedLoad": 45,
+  "steps": [
+    { "kind": "warmup", "duration": "15m", "target": "Z1-Z2" },
+    { "kind": "repeat", "count": 4, "steps": [
+      { "kind": "work", "duration": "2m", "target": "Z4 climbing" },
+      { "kind": "recover", "duration": "1m", "target": "walk" }
+    ]},
+    { "kind": "recover", "duration": "2m", "note": "between series" },
+    { "kind": "cooldown", "duration": "10m", "target": "Z1" }
+  ],
+  "coachNotes": "Deload week, so this stays at the same modest dose as originally planned, just outdoors on real terrain now instead of a treadmill. Walk the descent between reps.",
+  "icuWorkoutText": "- 15m Z1-Z2\n- 4x\n  - 2m Z4\n  - 1m walk\n- 10m Z1"
+}

@@ -34,5 +34,11 @@
     "change": "Wk3 redesigned for a mountain stay Jul28-Aug2 with hike/run-uphill access but no bike: Tue/Wed/Fri upgraded from rest/easy to easy-moderate ascent-only hikes (walk every descent); Thu tempo moved outdoor (treadmill -> real climb repeats, load 65 -> 75); weekend D+ scaled back 1750 -> 1250 (950 Sat + 300 Sun) to hold the 20% ramp ceiling against the new, lower Wk2 weekend baseline (1100 after the Sat/Sun swap)",
     "reason": "Athlete confirmed mountain location Jul28-Aug2 with no bike access. The original 1750m weekend target would have been a ~67% jump over the new Wk2 baseline, breaching the descent-ramp rule that caused the March ITBS relapse",
     "affects": ["2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02"]
+  },
+  {
+    "date": "2026-07-21",
+    "change": "Wk4 Mon (Aug 3) set to true rest, load 25 -> 0, for the full travel day to Greece; created all Wk4/Wk5 session files using real flat/hill terrain (no bike needed, none was available) with loads unchanged from the original plan",
+    "reason": "Athlete confirmed no-bike but flat+hills-available in Greece for both weeks. Wk4 stays a genuine deload (unchanged loads, just outdoor terrain instead of placeholders). Wk5's jump vs Wk4 (weekendDplus 1100 -> 2000, load 70/50 -> 120/85) is intentionally NOT capped like Wk3 was: it's measured against the last true build week (Wk3, 1250) not the deload trough, standard cutback-then-resume periodization, so the site's single-week ramp warning here is an expected false positive, not a real risk",
+    "affects": ["2026-08-04", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16"]
   }
 ]

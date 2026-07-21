@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-11",
+  "type": "easy",
+  "title": "Easy aerobic",
+  "terrain": "flat or gentle hills",
+  "estimatedLoad": 55,
+  "steps": [
+    { "kind": "work", "duration": "55m", "target": "Z1-Z2" }
+  ],
+  "coachNotes": "Real aerobic volume, not a quality day. Flat is fine, or gentle hills if legs want more texture.",
+  "icuWorkoutText": "- 55m Z1-Z2"
+}

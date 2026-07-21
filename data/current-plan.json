@@ -20,8 +20,8 @@
     },
     {
       "week": 4, "start": "2026-08-03", "block": "Recovery",
-      "runKm": 38, "weekendDplus": 1100,
-      "plannedDailyLoad": { "mon": 25, "tue": 35, "wed": 0, "thu": 45, "fri": 15, "sat": 70, "sun": 50 }
+      "runKm": 34, "weekendDplus": 1100,
+      "plannedDailyLoad": { "mon": 0, "tue": 35, "wed": 0, "thu": 45, "fri": 15, "sat": 70, "sun": 50 }
     },
     {
       "week": 5, "start": "2026-08-10", "block": "Build",

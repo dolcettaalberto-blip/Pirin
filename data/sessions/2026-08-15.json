@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-15",
+  "type": "long",
+  "title": "Long run, peak-build dose",
+  "terrain": "hills, real descent",
+  "estimatedLoad": 120,
+  "steps": [
+    { "kind": "work", "duration": "3h", "target": "Z1-Z2, hike the steep climbs" }
+  ],
+  "coachNotes": "Biggest single day since Jul's rebuild started. This is a large jump over the deload week, expected and correct: it's measured against the last real build week (Wk3), not the deload trough, standard cutback-then-resume progression. Descend deliberately, stop at any niggle.",
+  "icuWorkoutText": "- 3h Z1-Z2"
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-08",
+  "type": "long",
+  "title": "Long run, deload dose",
+  "terrain": "hills, ~700m D+",
+  "estimatedLoad": 70,
+  "steps": [
+    { "kind": "work", "duration": "1h50m", "target": "Z1-Z2, hike the steep climbs" }
+  ],
+  "coachNotes": "Deliberately reduced from Wk3's dose so the ITB absorbs the harder fortnight before Wk5's build. Descend easy, stop at any niggle.",
+  "icuWorkoutText": "- 1h50m Z1-Z2"
+}

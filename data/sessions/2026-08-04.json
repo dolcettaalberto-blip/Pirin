@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-04",
+  "type": "easy",
+  "title": "Easy flat run",
+  "terrain": "flat, post-travel",
+  "estimatedLoad": 35,
+  "steps": [
+    { "kind": "work", "duration": "40m", "target": "Z1-Z2" }
+  ],
+  "coachNotes": "First run in Greece, day after the full travel day. Flat and easy, deload week, no reason to touch hills yet.",
+  "icuWorkoutText": "- 40m Z1-Z2"
+}

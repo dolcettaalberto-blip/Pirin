@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-13",
+  "type": "quality",
+  "title": "Hill tempo intervals",
+  "terrain": "real hills",
+  "estimatedLoad": 75,
+  "steps": [
+    { "kind": "warmup", "duration": "15m", "target": "Z1-Z2" },
+    { "kind": "repeat", "count": 2, "steps": [
+      { "kind": "work", "duration": "15m", "target": "Z3-Z4 sustained climb" },
+      { "kind": "recover", "duration": "8m", "target": "walk down, easy" }
+    ]},
+    { "kind": "cooldown", "duration": "10m", "target": "Z1" }
+  ],
+  "coachNotes": "Build week's key session, back to full dose now that the deload has absorbed Wk3. Walk the descents between reps.",
+  "icuWorkoutText": "- 15m Z1-Z2\n- 2x\n  - 15m Z3-Z4\n  - 8m walk\n- 10m Z1"
+}

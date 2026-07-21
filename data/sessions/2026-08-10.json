@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-10",
+  "type": "easy",
+  "title": "Easy flat shakeout",
+  "terrain": "flat",
+  "estimatedLoad": 20,
+  "steps": [
+    { "kind": "work", "duration": "25m", "target": "Z1" }
+  ],
+  "coachNotes": "Deload absorbed, Build block resumes. Keep Monday easy regardless.",
+  "icuWorkoutText": "- 25m Z1"
+}
