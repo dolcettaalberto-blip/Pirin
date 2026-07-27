@@ -1,12 +1,12 @@
 {
   "date": "2026-08-01",
   "type": "long",
-  "title": "Long mountain run, descent focus",
-  "terrain": "~950m D+, technical descent practice",
-  "estimatedLoad": 90,
+  "title": "Passo del Vivione to Rifugio Curo",
+  "terrain": "21.9km, 1385m D+, 1315m D-, high traverse between 1810m and 2615m",
+  "estimatedLoad": 175,
   "steps": [
-    { "kind": "work", "duration": "2h30m", "target": "Z1-Z2, hike the steep climbs" }
+    { "kind": "work", "duration": "3h40m", "target": "Z1-Z2, run the climbs and flats, HIKE the steep descents" }
   ],
-  "coachNotes": "This week's primary ITB dosing session, scaled back from the original 1750m weekend target so the jump over last weekend's (now lower) load stays inside the 20% ramp ceiling. Still the biggest stimulus of the week. Descend deliberately, stop at the first niggle.",
-  "icuWorkoutText": "- 2h30m Z1-Z2"
+  "coachNotes": "Biggest session of the block and level with Resegone on descent (1315m against 1319m), so no new single-day eccentric maximum. That flat peak is the argument that makes this week defensible against the 20% ramp flag. Saturday's descent is discretionary, Sunday's is your exit from the valley and is not, so spend today's cheaply: run every climb and every flat, then deliberately power-hike anything steep or technical down to Curo. You lose no training value and arrive Sunday with quads that can still absorb a 24% gradient. Cap average HR at 150 across the day. Garmin target 270-310. Full autonomy on water and food above 2000m.",
+  "icuWorkoutText": "- 3h40m Z1-Z2"
 }

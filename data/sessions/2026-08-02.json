@@ -1,12 +1,12 @@
 {
   "date": "2026-08-02",
-  "type": "long",
-  "title": "B2b tired legs",
-  "terrain": "rolling, ~300m D+, light descent only",
-  "estimatedLoad": 55,
+  "type": "easy",
+  "title": "Rifugio Curo to Valbondione",
+  "terrain": "4.3km, 0m D+, 1011m D- at -24% average",
+  "estimatedLoad": 33,
   "steps": [
-    { "kind": "work", "duration": "1h25m", "target": "Z2 on tired legs" }
+    { "kind": "work", "duration": "1h15m", "target": "Z1, controlled descent, poles" }
   ],
-  "coachNotes": "Classic back-to-back stimulus on yesterday's fatigue. Keep it honest Z2, walk anything steep or technical - this isn't the day to test the ITB.",
-  "icuWorkoutText": "- 1h25m Z2"
+  "coachNotes": "Pizzo Coca dropped by decision on 26 July, so this is the direct descent out and it is the week's real ITB test: 1011m of pure eccentric loading on legs that covered 21.9km the day before. Poles from the hut door, short steps, high cadence, never a locked knee. Take no less than 1h15, there is no prize for speed here. Cardiovascularly this is trivial at load 33 and mechanically it is the hardest thing you do all week, which is exactly the gap the load number hides. First lateral knee signal and you walk the rest and message me from the valley: Week 4 becomes a full down week, not a discussion.",
+  "icuWorkoutText": "- 1h15m Z1"
 }
