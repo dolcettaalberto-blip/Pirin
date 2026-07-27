@@ -2,11 +2,11 @@
   "date": "2026-07-31",
   "type": "easy",
   "title": "Schilpario to Passo del Vivione",
-  "terrain": "7.1km, 893m D+, only 211m D- (almost pure climbing)",
+  "terrain": "power hike, 7.1km, 893m D+, only 211m D-",
   "estimatedLoad": 60,
   "steps": [
     { "kind": "work", "duration": "2h15m", "target": "Z1-Z2, steady hiking, poles on" }
   ],
-  "coachNotes": "Close to free training from an ITB standpoint: 893m up against only 211m down. Hike it at a real effort, this is not a stroll, but do not turn it into a race. Poles from the trailhead, they cost you nothing today and build the habit for Sunday. Note this 893m sits outside the weekendDplus figure, so the week's true vertical is 2278m up and 2537m down. Garmin target 70-90. Eat and drink properly on arrival, Saturday is the big one.",
+  "coachNotes": "Close to free training from an ITB standpoint: 893m up against only 211m down. This is a power hike, not a stroll, so push a real effort on the climb, but do not turn it into a race. Poles from the trailhead, they cost you nothing today and build the habit for Sunday. This 893m is now counted inside weekendDplus (2278m total for the Fri-Sun block), so the site's ramp check sees the true vertical. Garmin target 70-90. Eat and drink properly on arrival, Saturday is the big one.",
   "icuWorkoutText": "- 2h15m Z1-Z2"
 }

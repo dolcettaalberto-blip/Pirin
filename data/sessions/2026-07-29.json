@@ -2,7 +2,7 @@
   "date": "2026-07-29",
   "type": "quality",
   "title": "Treadmill incline intervals",
-  "terrain": "treadmill, climb only, zero descent",
+  "terrain": "treadmill preferred, climb only, zero descent (location TBD)",
   "estimatedLoad": 82,
   "steps": [
     { "kind": "warmup", "duration": "15m", "target": "Z1-Z2, 2% incline" },
@@ -12,6 +12,6 @@
     ]},
     { "kind": "cooldown", "duration": "12m", "target": "Z1, 1% incline" }
   ],
-  "coachNotes": "42 minutes of work against roughly 16 on 23 July. That gap is exactly why Thursday came in at load 42 against 65 planned: intervals.icu load is close to hours x intensity squared x 100, so RPE 8 inside a 47-minute session cannot score 65 no matter how much it hurts. EXTEND RULE: if the Garmin reads under 280 when you finish rep 7, add an eighth before cooling down. Garmin target 290-330. Zero descent by design, the entire week's descent budget is spent Saturday and Sunday. Thursday is a full rest day to pay for this.",
+  "coachNotes": "42 minutes of work against roughly 16 on 23 July. That gap is exactly why Thursday came in at load 42 against 65 planned: intervals.icu load is close to hours x intensity squared x 100, so RPE 8 inside a 47-minute session cannot score 65 no matter how much it hurts. EXTEND RULE: if the Garmin reads under 280 when you finish rep 7, add an eighth before cooling down. Garmin target 290-330. Zero descent by design, the entire week's descent budget is spent Friday to Sunday. Thursday is a full rest day to pay for this. OUTDOOR FALLBACK if no treadmill: cut to 5 reps of 6m uphill with a slow 5m walk-down recovery, which caps accumulated descent near 550m instead of 750m and drops the load to about 71. Do not run any descent. If you end up outdoors, tell me and I will re-cut Wednesday's planned load to match.",
   "icuWorkoutText": "- 15m Z1-Z2\n- 7x\n  - 6m Z4\n  - 3m Z1\n- 12m Z1"
 }
