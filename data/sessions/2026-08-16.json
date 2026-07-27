@@ -5,8 +5,12 @@
   "terrain": "rolling/vertical",
   "estimatedLoad": 85,
   "steps": [
-    { "kind": "work", "duration": "2h", "target": "Z2 on tired legs" }
+    {
+      "kind": "work",
+      "duration": "2h",
+      "target": "Z2 on tired legs"
+    }
   ],
   "coachNotes": "Closes the peak-build weekend. This is the dress-rehearsal fatigue pattern, honest Z2, walk anything that feels off.",
-  "icuWorkoutText": "- 2h Z2"
+  "icuWorkoutText": "- 2h 55-89% LTHR"
 }

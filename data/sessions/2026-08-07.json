@@ -5,8 +5,12 @@
   "terrain": "flat",
   "estimatedLoad": 15,
   "steps": [
-    { "kind": "work", "duration": "20m", "target": "Z1" }
+    {
+      "kind": "work",
+      "duration": "20m",
+      "target": "Z1"
+    }
   ],
   "coachNotes": "Short and easy ahead of Saturday's long run. Strength: hip abduction, step-downs, glute bridges.",
-  "icuWorkoutText": "- 20m Z1"
+  "icuWorkoutText": "- 20m 70-84% LTHR"
 }

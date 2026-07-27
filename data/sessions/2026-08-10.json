@@ -5,8 +5,12 @@
   "terrain": "flat",
   "estimatedLoad": 20,
   "steps": [
-    { "kind": "work", "duration": "25m", "target": "Z1" }
+    {
+      "kind": "work",
+      "duration": "25m",
+      "target": "Z1"
+    }
   ],
   "coachNotes": "Deload absorbed, Build block resumes. Keep Monday easy regardless.",
-  "icuWorkoutText": "- 25m Z1"
+  "icuWorkoutText": "- 25m 70-84% LTHR"
 }

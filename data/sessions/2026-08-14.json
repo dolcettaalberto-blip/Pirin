@@ -5,8 +5,12 @@
   "terrain": "flat",
   "estimatedLoad": 25,
   "steps": [
-    { "kind": "work", "duration": "30m", "target": "Z1" }
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1"
+    }
   ],
   "coachNotes": "Legs need to be fresh for the weekend's big block. Strength as usual.",
-  "icuWorkoutText": "- 30m Z1"
+  "icuWorkoutText": "- 30m 70-84% LTHR"
 }

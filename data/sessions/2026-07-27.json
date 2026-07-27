@@ -7,6 +7,6 @@
   "steps": [
     { "kind": "work", "duration": "40m", "target": "Z1, cadence 90+" }
   ],
-  "coachNotes": "Day after Resegone (load 162, 1319m of descent). ATL 53 against CTL 33, TSB -20. This is decay, not training: zero impact, nothing above Z1. Garmin target 30-40. ITB check on waking before anything else: single-leg squat, direct pressure on the lateral epicondyle at 30 degrees flexion, descending stairs. Any of the three positive and today is off entirely.",
+  "coachNotes": "Day after Resegone (load 162, 1319m of descent). ATL 53 against CTL 33, TSB -20. This is decay, not training: zero impact, nothing above Z1. Garmin target 30-40. Bike target is 65-75% of your running LTHR (117-135bpm), an estimate: you have no separate cycling LTHR set, and cycling threshold HR normally sits several beats under the running figure, so applying run percentages here would over-prescribe a recovery spin. ITB check on waking before anything else: single-leg squat, direct pressure on the lateral epicondyle at 30 degrees flexion, descending stairs. Any of the three positive and today is off entirely.",
   "icuWorkoutText": "- 40m 65-75% LTHR 90-100rpm"
 }

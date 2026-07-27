@@ -5,8 +5,12 @@
   "terrain": "rolling, ~400m D+",
   "estimatedLoad": 50,
   "steps": [
-    { "kind": "work", "duration": "1h10m", "target": "Z2" }
+    {
+      "kind": "work",
+      "duration": "1h10m",
+      "target": "Z2"
+    }
   ],
   "coachNotes": "Closes the deload weekend. Keep it honest Z2, this is about absorbing, not testing anything.",
-  "icuWorkoutText": "- 1h10m Z2"
+  "icuWorkoutText": "- 1h10m 55-89% LTHR"
 }
