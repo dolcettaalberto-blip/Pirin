@@ -146,5 +146,13 @@
       "2026-07-28",
       "2026-07-29"
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "change": "Wk3 Thu 30 Jul converted from full rest to a defined 40m flat valley walk, load 0 -> 15, with a hard zero-vertical constraint in both directions. Week total 404 -> 419. Everything else in Wk3 held: no change to Tue 6x6m, Fri, Sat traverse or Sun descent.",
+    "reason": "Athlete asked to push the week to the max after confirming an unconstrained schedule. Declined on the load itself. Wk3 is already +18% on load against Wk2 actual (404 vs 343) and +65% on descent volume, Saturday projects TSB -27.8 against a -30 danger line, and Sunday's 1011m eccentric exit is the highest-ITB-risk session in the block to date. The binding constraint this week is eccentric tolerance, which extra available time does not relieve, and stacking more onto the week immediately before a scheduled deload is the specific pattern that produced the March ITBS relapse. The one change made is risk-reducing rather than load-seeking: an unstructured rest day in the mountains reliably becomes an improvised hike with vertical in it, so it is bounded and made flat. Thursday stays out of weekendDplus (2278 unchanged) precisely because it is prescribed at zero vertical. Real capacity decision deferred to 3 August: if Sunday's descent passes clean, Wk5-7 get rebuilt upward and targetRaceCtl 42 gets revisited as a separate conversation.",
+    "affects": [
+      "2026-07-30"
+    ]
   }
 ]
