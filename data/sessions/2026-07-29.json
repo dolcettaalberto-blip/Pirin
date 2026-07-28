@@ -1,17 +1,26 @@
 {
   "date": "2026-07-29",
-  "type": "quality",
-  "title": "Treadmill incline intervals",
-  "terrain": "treadmill preferred, climb only, zero descent (location TBD)",
-  "estimatedLoad": 82,
+  "type": "easy",
+  "title": "Arrival shakeout + strength",
+  "terrain": "travel to Schilpario, gentle valley trail, ascent-biased, cap descent at 200m",
+  "estimatedLoad": 35,
   "steps": [
-    { "kind": "warmup", "duration": "15m", "target": "Z1-Z2, 2% incline" },
-    { "kind": "repeat", "count": 7, "steps": [
-      { "kind": "work", "duration": "6m", "target": "Z4, HR 170-176, 8-10% incline" },
-      { "kind": "recover", "duration": "3m", "target": "walk, 4% incline" }
-    ]},
-    { "kind": "cooldown", "duration": "12m", "target": "Z1, 1% incline" }
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1, 70-84% LTHR"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z2, 84-89% LTHR, gentle uphill, walk anything steep down"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, 70-84% LTHR"
+    }
   ],
-  "coachNotes": "42 minutes of work against roughly 16 on 23 July. That gap is exactly why Thursday came in at load 42 against 65 planned: intervals.icu load is close to hours x intensity squared x 100, so RPE 8 inside a 47-minute session cannot score 65 no matter how much it hurts. EXTEND RULE: if the Garmin reads under 280 when you finish rep 7, add an eighth before cooling down. Garmin target 290-330. Zero descent by design, the entire week's descent budget is spent Friday to Sunday. Thursday is a full rest day to pay for this. OUTDOOR FALLBACK if no treadmill: cut to 5 reps of 6m uphill with a slow 5m walk-down recovery, which caps accumulated descent near 550m instead of 750m and drops the load to about 71. Do not run any descent. If you end up outdoors, tell me and I will re-cut Wednesday's planned load to match.",
-  "icuWorkoutText": "- 15m 75-89% LTHR\n- 7x\n  - 6m 94-98% LTHR\n  - 3m 70-80% LTHR\n- 12m 70-80% LTHR"
+  "coachNotes": "Arrival day, and the day the week's descent budget is easiest to leak. A loosener on mountain trails means downhill you did not plan for, so pick an out-and-back that climbs and walk every metre of the return. Hard cap 200m of descent. Then the glute med work that moved off Tuesday: single-leg squats, side plank with leg lift, monster walks, 3 sets each, and do it properly because it is the last strength session before three mountain days. Garmin target 45-55. ITB check tonight before bed: single-leg squat, direct pressure on the lateral epicondyle at 30 degrees flexion, descending stairs. Any of the three positive and Friday's hike gets cut before the traverse, not during it.",
+  "icuWorkoutText": "- 10m 70-84% LTHR\n- 30m 84-89% LTHR\n- 5m 70-84% LTHR"
 }

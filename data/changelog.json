@@ -3,72 +3,148 @@
     "date": "2026-07-19",
     "change": "Wk2 Thu uphill tempo cut 5x2m -> 4x2m (planned load 60 -> 55)",
     "reason": "HRV in low 40s Sunday morning; ITB caution after Saturday's 1000m D+ day",
-    "affects": ["2026-07-23"]
+    "affects": [
+      "2026-07-23"
+    ]
   },
   {
     "date": "2026-07-20",
     "change": "Wk2 Mon recovery jog swapped to 40m indoor spin, same load (25)",
     "reason": "HRV 51 vs ~57 baseline, 5.3h sleep after 4.4h Friday; zero-impact option post 872m D+ Saturday",
-    "affects": ["2026-07-20"]
+    "affects": [
+      "2026-07-20"
+    ]
   },
   {
     "date": "2026-07-20",
     "change": "Wk2 Mon reverted to 30m Z1 recovery jog (load 25 unchanged)",
     "reason": "Traveling Mon-Wed with no trainer access; jog acceptable at strict Z1 despite amber-ish readiness",
-    "affects": ["2026-07-20"]
+    "affects": [
+      "2026-07-20"
+    ]
   },
   {
     "date": "2026-07-21",
     "change": "Wk2 Wed rest swapped to 20m flat Z1 shakeout jog (load 0 -> 15)",
     "reason": "Tue easy run overshot to load 51 vs 40 planned (RPE 4, brief Z4 during strides) despite strong readiness (HRV 65 best in 9d, RHR 47, sleep score 86); athlete chose a light shakeout over full rest ahead of Thu's uphill tempo and the weekend 1550m D+ block",
-    "affects": ["2026-07-22"]
+    "affects": [
+      "2026-07-22"
+    ]
   },
   {
     "date": "2026-07-21",
     "change": "Wk2 Sat/Sun swapped: long run (1000m D+, load 95) moved Sat -> Sun; Sat downgraded to easy family day (load 20). Wk3 Mon upgraded rest -> bike sweet-spot quality (load 25 -> 60, zero descent)",
     "reason": "Family travels Mon 27; athlete wants Sat lowered as the last family day, Sun kept as the hard/primary session, Mon hard but no-descent for the first solo day",
-    "affects": ["2026-07-25", "2026-07-26", "2026-07-27"]
+    "affects": [
+      "2026-07-25",
+      "2026-07-26",
+      "2026-07-27"
+    ]
   },
   {
     "date": "2026-07-21",
     "change": "Wk3 redesigned for a mountain stay Jul28-Aug2 with hike/run-uphill access but no bike: Tue/Wed/Fri upgraded from rest/easy to easy-moderate ascent-only hikes (walk every descent); Thu tempo moved outdoor (treadmill -> real climb repeats, load 65 -> 75); weekend D+ scaled back 1750 -> 1250 (950 Sat + 300 Sun) to hold the 20% ramp ceiling against the new, lower Wk2 weekend baseline (1100 after the Sat/Sun swap)",
     "reason": "Athlete confirmed mountain location Jul28-Aug2 with no bike access. The original 1750m weekend target would have been a ~67% jump over the new Wk2 baseline, breaching the descent-ramp rule that caused the March ITBS relapse",
-    "affects": ["2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02"]
+    "affects": [
+      "2026-07-28",
+      "2026-07-29",
+      "2026-07-30",
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ]
   },
   {
     "date": "2026-07-21",
     "change": "Wk4 Mon (Aug 3) set to true rest, load 25 -> 0, for the full travel day to Greece; created all Wk4/Wk5 session files using real flat/hill terrain (no bike needed, none was available) with loads unchanged from the original plan",
     "reason": "Athlete confirmed no-bike but flat+hills-available in Greece for both weeks. Wk4 stays a genuine deload (unchanged loads, just outdoor terrain instead of placeholders). Wk5's jump vs Wk4 (weekendDplus 1100 -> 2000, load 70/50 -> 120/85) is intentionally NOT capped like Wk3 was: it's measured against the last true build week (Wk3, 1250) not the deload trough, standard cutback-then-resume periodization, so the site's single-week ramp warning here is an expected false positive, not a real risk",
-    "affects": ["2026-08-04", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16"]
+    "affects": [
+      "2026-08-04",
+      "2026-08-06",
+      "2026-08-07",
+      "2026-08-08",
+      "2026-08-09",
+      "2026-08-10",
+      "2026-08-11",
+      "2026-08-13",
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ]
   },
   {
     "date": "2026-07-21",
     "change": "Wk2 Thu uphill tempo bumped 4x2m (load 55) -> 2 series of 3x2m (load 65), beyond the original pre-amber-cut 5x2m",
     "reason": "Sat 25 is now a low day (post Sat/Sun swap), so two clear easy/low days sit between Thu and Sun's long run instead of one. No fresh HRV/sleep data available this session; the amber protocol still overrides live if Thursday's readiness is poor",
-    "affects": ["2026-07-23"]
+    "affects": [
+      "2026-07-23"
+    ]
   },
   {
     "date": "2026-07-26",
     "change": "Wk3 rebuilt around a confirmed Schilpario-Vivione-Curo-Valbondione hut traverse (Fri-Sun) with real GPX routes. Mon 25 recovery spin; Tue 45 -> 40 easy run + strength (Milan, not travel); Wed 90 -> 82 treadmill incline intervals 7x6m at 8-10% (was 4x4m-equivalent, 42min of work vs ~16); Thu confirmed full rest, session file removed; Fri 55 -> 60 Schilpario->Vivione hike (7.1km, 893 D+, 211 D-); Sat 170 -> 175 Vivione->Curo run (21.9km, 1385 D+, 1315 D-); Sun 20 -> 33 Curo->Valbondione descent (4.3km, 0 D+, 1011 D-). Week total 405 -> 415, runKm 44 -> 52, weekendDplus 1435 -> 1385. Pizzo Coca summit dropped from Sunday.",
     "reason": "Athlete confirmed the traverse with GPX files. Original Sunday plan (Pizzo Coca from Curo) was 12.5km / 1158 D+ / 2166 D-, which put the weekend at 3692m of descent, +140% over last weekend's 1537m actual and a new single-day eccentric maximum of 2166m against a post-injury best of 1319m. Dropping the summit for the direct descent cuts the weekend to 2537m D- (+65%) and, critically, caps the peak single day at Saturday's 1315m, level with Resegone on 26 Jul rather than above it. That flat single-day peak is the explicit justification for exceeding the 20% weekend-D+ flag: cumulative descent rises but peak eccentric exposure does not. Thursday goes to zero rest to fund Wednesday's larger quality session and the three mountain days. CTL ramp for the week is +4.5, inside the <=6 ceiling. Wednesday's volume increase is the fix for the recurring shortfall pattern (Wk2 Thu delivered load 42 against 65 planned at RPE 8: the session was under-volumed, not under-effort), and every session now carries an explicit Garmin on-watch target plus an extend rule on the quality day. Wk4 onward deliberately left untouched pending the ITB response to Sunday's descent.",
-    "affects": ["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02"]
+    "affects": [
+      "2026-07-27",
+      "2026-07-28",
+      "2026-07-29",
+      "2026-07-30",
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ]
   },
   {
     "date": "2026-07-26",
     "change": "Convention change: weekendDplus now counts the full contiguous mountain block, not strictly Sat+Sun. Wk3 weekendDplus 1385 -> 2278 (Fri 893 power hike + Sat 1385 + Sun 0). Wed 29 Jul session marked location-TBD with an explicit outdoor fallback (5x6m uphill, slow walk-down recovery, descent capped near 550m, load ~71) in case no treadmill is available. Per-session D+ and D- are recorded in the terrain field for every session including hikes.",
     "reason": "Friday's Schilpario->Vivione leg is a power hike at real effort, not a rest-day stroll, and excluding it made the site's ramp check see 1385m when the true planned vertical for the block is 2278m up and 2537m down. Under-reporting the vertical is the worse failure for an ITB athlete, so the field now measures the block. Applies going forward: any Friday (or Thursday) mountain day contiguous with the weekend counts. Week-on-week comparisons before Wk3 use the old Sat+Sun-only basis and are not directly comparable. The site will flag Wk3 against Wk2's 1100; that is expected and the justification is in the preceding entry (peak single-day descent held flat at 1315m).",
-    "affects": ["2026-07-29", "2026-07-31"]
+    "affects": [
+      "2026-07-29",
+      "2026-07-31"
+    ]
   },
   {
     "date": "2026-07-26",
     "change": "All Wk3 icuWorkoutText rewritten from bare zone notation (Z1, Z2, Z4) to explicit percent-of-LTHR ranges against LTHR 180, so the Send-to-watch push constrains heart rate rather than pace or power. Mapping used: Z1 70-84%, Z2 84-89%, Z3 89-94%, Z4 94-99%. Wed 29 work steps are 94-98% LTHR (170-176bpm). Mon 27 bike set lower at 65-75% LTHR since 180 is a running LTHR and cycling threshold HR sits below it. steps[].target left in Z-notation because the site's timeline visual parses the zone from that field.",
     "reason": "In intervals.icu syntax a bare zone resolves to the sport's default target, which is pace for runs and power for rides, so every workout pushed to Garmin so far has carried pace alerts rather than HR alerts. Heart rate targets must be marked explicitly with HR or LTHR. On mountain terrain a pace target is meaningless and actively misleading, and HR is the only constraint that transfers across gradient, altitude and fatigue. Needs verification on the first push: confirm the Garmin shows an HR alert range and not a pace range.",
-    "affects": ["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-31", "2026-08-01", "2026-08-02"]
+    "affects": [
+      "2026-07-27",
+      "2026-07-28",
+      "2026-07-29",
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ]
   },
   {
     "date": "2026-07-26",
     "change": "Extended the percent-of-LTHR conversion to every remaining session file (Wk4 and Wk5, 2026-08-04 through 2026-08-16). Separately, all long and back-to-back sessions switched to ceiling-only alerting: the upper bound stays the real constraint (88-89% LTHR on aerobic long days, 80% on Sunday's descent) and the lower bound is dropped to 50-55% so the watch cannot beep for being under target. Quality sessions keep genuine two-sided ranges because the floor is what makes the interval an interval. Mon 27 Jul bike target documented as an estimate at 65-75% of running LTHR.",
     "reason": "Athlete asked for a ceiling alert above 88% on Saturday. A two-sided Garmin range would alert on every descent and every hut stop, which trains you to ignore the alert entirely, so the fix is a floor low enough never to fire rather than any special open-ended syntax. Same logic applied to all long/b2b days for consistency. Athlete has no separate cycling LTHR configured, so the bike number stays a coach estimate and is flagged as such in the session note rather than presented as measured.",
-    "affects": ["2026-07-27", "2026-07-31", "2026-08-01", "2026-08-02", "2026-08-04", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16"]
+    "affects": [
+      "2026-07-27",
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02",
+      "2026-08-04",
+      "2026-08-06",
+      "2026-08-07",
+      "2026-08-08",
+      "2026-08-09",
+      "2026-08-10",
+      "2026-08-11",
+      "2026-08-13",
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "change": "Wk3 Tue/Wed swapped. Tue 28 becomes the treadmill incline quality session at 6x6m (load 40 -> 76, cut from the 7 reps and 82 planned for Wed); Wed 29 becomes an arrival shakeout plus the glute med strength block (load 82 -> 35) with a hard 200m descent cap. Warmup 15m -> 20m and cooldown 12m -> 15m to recover aerobic volume at zero eccentric cost. Extend rule removed. Week total 409 -> 404, runKm 52 -> 48, weekendDplus unchanged at 2278.",
+    "reason": "Athlete departs for the mountains Wed morning instead of Thu, so Tuesday night is the last treadmill access. The Wednesday outdoor fallback would have banked ~550m of walk-down descent in a week already at +65% on descent volume; running it indoors tonight makes that zero. The swap also widens the gap to Saturday's traverse from 48h to 72h, which was the stated reason for cutting to 6 reps, so 6 reps is held rather than restored to 7: the redundancy argument against a max threshold session before a 2278m climbing block is independent of the recovery gap, and the session is now an evening effort on 6h09 of sleep. Fatigue path improves marginally, Sat TSB -28.6 -> -27.8, race-day CTL unchanged at 41.8. Family away this week removes time pressure, which was the untested competing explanation for the 23 July load shortfall, so tonight's actual load is a clean calibration test of the treadmill load model.",
+    "affects": [
+      "2026-07-28",
+      "2026-07-29"
+    ]
   }
 ]
