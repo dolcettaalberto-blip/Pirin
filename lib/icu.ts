@@ -2,6 +2,9 @@ import "server-only";
 
 const BASE = "https://intervals.icu/api/v1";
 
+/** Cache tag on every intervals.icu read, so Sync can force fresh data. */
+export const ICU_CACHE_TAG = "icu";
+
 export type Wellness = {
   id: string; // ISO date
   ctl: number | null;
@@ -9,6 +12,7 @@ export type Wellness = {
   hrv: number | null;
   restingHR: number | null;
   sleepSecs: number | null;
+  sleepScore: number | null;
   readiness: number | null;
 };
 
@@ -44,7 +48,8 @@ async function icuGet<T>(path: string): Promise<T | null> {
     headers: {
       Authorization: "Basic " + Buffer.from(`API_KEY:${creds.key}`).toString("base64"),
     },
-    next: { revalidate: 3600 },
+    // Tagged so the manual "Sync" action can expire it on demand.
+    next: { revalidate: 3600, tags: [ICU_CACHE_TAG] },
   });
   if (!res.ok) {
     console.error(`intervals.icu GET ${path} failed: ${res.status} ${await res.text()}`);

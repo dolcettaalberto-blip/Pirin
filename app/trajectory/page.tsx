@@ -1,4 +1,5 @@
 import { ChartSection, type CtlChartPoint, type DplusChartPoint } from "@/components/chart-section";
+import { SyncReview } from "@/components/sync-review";
 import { loadChangelog, loadCurrentPlan, loadOriginalPlan } from "@/lib/data";
 import { addDays, formatShort, todayIso, weekdayKey } from "@/lib/dates";
 import { getActivities, getWellness } from "@/lib/icu";
@@ -108,6 +109,8 @@ export default async function TrajectoryPage() {
           ))}
         </section>
       )}
+
+      <SyncReview />
 
       <section>
         <h2 className="text-[13px] uppercase tracking-wide text-muted mb-2">Coach decisions</h2>
