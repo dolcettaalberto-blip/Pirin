@@ -154,5 +154,29 @@
     "affects": [
       "2026-07-30"
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "change": "Fixed a repeat-block syntax bug in icuWorkoutText across every interval session (Jul 21, Jul 23, Jul 28, Aug 6, Aug 13): the rep-count line was written as a dashed step (\"- 6x\") with no blank-line padding, which intervals.icu's parser does not recognize as a repeat header. It silently flattens the block instead of erroring. SCHEMA.md's documented syntax was itself wrong (it specified \"- Nx\") and has been corrected to the real spec: a bare \"Nx\" line, no leading dash, with a blank line before and after the block. No changes to steps, estimatedLoad, or coachNotes; this only fixes what gets sent to the watch.",
+    "reason": "Tonight's treadmill session (Jul 28, planned 20m warmup + 6x[6m/3m] + 15m cooldown, 89min total) arrived on the watch as 20m warmup, then the 15m cooldown misread as a second warmup, then a single unrepeated 6m/3m pair, then stop, 44min total with only 1 of 6 planned reps. Root cause confirmed against intervals.icu's Workout Builder syntax guide and reproduced in all 5 affected files via grep on the malformed pattern. Jul 21/23/28 already ran and cannot be redone; Aug 6 and Aug 13 are fixed before they reach the watch.",
+    "affects": [
+      "2026-07-21",
+      "2026-07-23",
+      "2026-07-28",
+      "2026-08-06",
+      "2026-08-13"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "change": "Wk3 Wed-Sun zeroed (35/15/60/175/33 -> 0); weekendDplus 2278 -> 0; 3-day Schilpario-Vivione-Curo traverse cancelled entirely",
+    "reason": "Fever/body aches reported 29 Jul plus a non-reproducible lateral knee twinge. Fever/body aches alone is an independent stop rule; ITB override also applies regardless of test result per protocol. Today's readiness badge showed AMBER only, the algorithm doesn't see symptoms, this overrides it.",
+    "affects": [
+      "2026-07-29",
+      "2026-07-30",
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ]
   }
 ]

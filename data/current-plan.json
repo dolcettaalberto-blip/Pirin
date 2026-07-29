@@ -47,17 +47,17 @@
     {
       "week": 3,
       "start": "2026-07-27",
-      "block": "Build",
+      "block": "Build (down week - illness/ITB)",
       "runKm": 48,
-      "weekendDplus": 2278,
+      "weekendDplus": 0,
       "plannedDailyLoad": {
         "mon": 25,
         "tue": 76,
-        "wed": 35,
-        "thu": 15,
-        "fri": 60,
-        "sat": 175,
-        "sun": 33
+        "wed": 0,
+        "thu": 0,
+        "fri": 0,
+        "sat": 0,
+        "sun": 0
       }
     },
     {
