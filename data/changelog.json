@@ -178,5 +178,15 @@
       "2026-08-01",
       "2026-08-02"
     ]
+  },
+  {
+    "date": "2026-07-31",
+    "change": "Wk3 Fri-Sun restored for the Vivione-Tagliaferri-Curo traverse at reduced sizing (0/0/0 -> 50/140/45, vs 60/175/33 in the pre-cancellation design); weekendDplus 0 -> 1700; runKm 48 -> 41",
+    "reason": "Fever (29 Jul) cleared: Fri 31 wellness is green after two full rest days (HRV 62 vs 46 yesterday, RHR 48, sleep score 87). Traverse reinstated ~20% smaller than the original design because it now sits 2-3 days post-fever: Friday is a no-run pack hike, Saturday carries a written go/no-go checkpoint at wake-up (morning HR >55 or any fever symptom downgrades it to hike-only with a Tagliaferri stop option), and Sunday's Curo->Valbondione eccentric exit is prescribed hike-only with poles. Weekend-D+ jump vs Wk2 (1100 -> 1700, +55%) is justified: the Wk3 zero was an illness artifact, and total weekly planned load (336) stays below the pre-cancellation design (404). Wk4 left untouched; review Monday 3 Aug with fresh HRV before deciding whether its Tue session needs cutting.",
+    "affects": [
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ]
   }
 ]

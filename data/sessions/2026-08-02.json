@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-02",
+  "type": "easy",
+  "title": "Traverse stage 3: Curo -> Valbondione descent",
+  "terrain": "~9km, ~-900m sustained descent, minimal climb",
+  "estimatedLoad": 45,
+  "steps": [
+    { "kind": "work", "duration": "2h", "target": "Z1, hike down, poles" }
+  ],
+  "coachNotes": "Highest ITB-risk segment of the weekend: pure eccentric on day-3 legs with a pack. Hike it, do not run it. Poles the whole way, short steps, take the switchbacks wide. Any knee signal: stop, stretch, slow further. This day is about getting home intact - there is zero training value in descending it fast.",
+  "icuWorkoutText": "- 2h Z1"
+}
