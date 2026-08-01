@@ -1,14 +1,13 @@
 {
   "date": "2026-08-01",
-  "type": "long",
-  "title": "Traverse stage 2: Vivione -> Rif. Nani Tagliaferri -> Rif. Curo",
-  "terrain": "~23km, ~1600m D+ / ~1500m D-, pack; sustained descents after Tagliaferri",
-  "estimatedLoad": 140,
+  "type": "easy",
+  "title": "Easy hike Valbondione -> Rif. Curo (+ optional Barbellino stroll)",
+  "terrain": "~7km, ~900m D+, pack; optional flat 3-4km around the lake",
+  "estimatedLoad": 60,
   "steps": [
-    { "kind": "work", "duration": "3h", "target": "Z1-Z2, run flats, hike all climbs" },
-    { "kind": "recover", "duration": "45m", "target": "walk", "note": "long stop at Rif. Tagliaferri - full meal, refill" },
-    { "kind": "work", "duration": "3h30m", "target": "Z1-Z2, poles on every descent" }
+    { "kind": "work", "duration": "2h30m", "target": "Z1-Z2, hike, conversational" },
+    { "kind": "work", "duration": "1h", "target": "Z1, optional relaxed stroll at the lake" }
   ],
-  "coachNotes": "GO/NO-GO at wake-up: if morning HR is >55 or you feel any fever symptoms after the tent night, this becomes a hike-only day with the option to stop at Tagliaferri. ITB rules absolute on the Tagliaferri->Curo descents: poles, short stride, high cadence, walk anything technical. Lateral knee signal >2-3/10 = walk it in, no exceptions. Fuel 60-80g carbs/h from the start, don't ration.",
-  "icuWorkoutText": "- 3h Z1-Z2\n- 45m Z1\n- 3h30m Z1-Z2"
+  "coachNotes": "Recovery-pace day, the only goal is arriving at Curo fresh for tomorrow. You felt weak Friday evening: if that feeling returns on the climb, slow down further, there is no time target. Big dinner, hydrate, early night. Skip the lake stroll without guilt if legs say so.",
+  "icuWorkoutText": "- 2h30m Z1-Z2\n- 1h Z1"
 }

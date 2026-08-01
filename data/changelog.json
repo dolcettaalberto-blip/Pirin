@@ -188,5 +188,15 @@
       "2026-08-01",
       "2026-08-02"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "change": "Traverse restructured after thunderstorm abort: Fri 50 -> 15 (approach aborted mid-hike, slept at home), Sat 140 -> 60 (easy hike Valbondione->Curo + optional lake stroll), Sun 45 -> 145 (Curo-Tagliaferri-Barbellino GPX loop ~19km/1250m D+ then Valbondione exit); weekendDplus 1700 -> 2200; runKm 41 -> 45",
+    "reason": "Heavy thunderstorm Friday evening forced a hike-back; athlete also reported feeling weak that night (post-fever), then slept well at home and reported feeling good Saturday morning (no wellness sync available yet for 1 Aug - go based on self-report). The reshuffle moves the big day onto fully rested legs instead of day-2 legs, which is favourable. Weekend-D+ at 2200 vs Wk2's 1100 (+100%) is justified: it replaces the cancelled traverse's planned volume, Saturday is recovery-pace, and Sunday concentrates ~2200m of descent, so the session is written descent-capped: loop descents easy, hike-only exit, poles mandatory, built-in bail-out at Curo, and a wake-up go/no-go (elevated HR or fever feeling = descend and go home). Biggest eccentric day since the March ITBS - flagged deliberately.",
+    "affects": [
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ]
   }
 ]

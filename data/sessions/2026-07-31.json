@@ -3,11 +3,11 @@
   "type": "easy",
   "title": "Traverse stage 1: evening approach to Passo del Vivione (camp)",
   "terrain": "hike with pack, ~800m D+, no meaningful descent",
-  "estimatedLoad": 50,
+  "estimatedLoad": 15,
   "steps": [
     { "kind": "warmup", "duration": "15m", "target": "Z1, easy walk" },
     { "kind": "work", "duration": "2h15m", "target": "Z1-Z2, hike, conversational" }
   ],
-  "coachNotes": "First effort since the fever (29 Jul). Strictly conversational - if HR drifts high for the effort or you feel feverish/chilled, stop and camp early. Real dinner at camp, warm layers, this is the recovery window before the long day. No running tonight.",
+  "coachNotes": "OUTCOME: aborted mid-approach due to heavy thunderstorm; hiked back down and slept at home. Felt weak in the evening (post-fever), slept well. Load reduced to reflect the short out-and-back. Right call.",
   "icuWorkoutText": "- 15m Z1\n- 2h15m Z1-Z2"
 }

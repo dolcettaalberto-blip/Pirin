@@ -1,12 +1,14 @@
 {
   "date": "2026-08-02",
-  "type": "easy",
-  "title": "Traverse stage 3: Curo -> Valbondione descent",
-  "terrain": "~9km, ~-900m sustained descent, minimal climb",
-  "estimatedLoad": 45,
+  "type": "long",
+  "title": "Curo loop (Tagliaferri-Barbellino GPX) + Valbondione descent",
+  "terrain": "loop ~19km, ~1250m D+ / D-, max 2596m; then ~7km / -900m exit. Total ~2200m descent on the day",
+  "estimatedLoad": 145,
   "steps": [
-    { "kind": "work", "duration": "2h", "target": "Z1, hike down, poles" }
+    { "kind": "work", "duration": "4h30m", "target": "Z1-Z2, run flats, hike climbs, easy on loop descents" },
+    { "kind": "recover", "duration": "45m", "target": "walk", "note": "full lunch stop back at Curo before the exit descent" },
+    { "kind": "work", "duration": "1h45m", "target": "Z1, hike-only descent to Valbondione, poles" }
   ],
-  "coachNotes": "Highest ITB-risk segment of the weekend: pure eccentric on day-3 legs with a pack. Hike it, do not run it. Poles the whole way, short steps, take the switchbacks wide. Any knee signal: stop, stretch, slow further. This day is about getting home intact - there is zero training value in descending it fast.",
-  "icuWorkoutText": "- 2h Z1"
+  "coachNotes": "GO/NO-GO at wake-up: elevated morning HR or feverish feeling = skip the loop, descend and go home. Biggest eccentric day since March (~2200m D-), so the ITB rules are absolute: poles on every descent, short stride, high cadence. Bail-out is built in - any lateral knee signal on the loop, cut it short back to Curo and take the exit slow. The final descent is on tired legs: hike it, do not run it. Fuel 60-80g carbs/h from the start.",
+  "icuWorkoutText": "- 4h30m Z1-Z2\n- 45m Z1\n- 1h45m Z1"
 }

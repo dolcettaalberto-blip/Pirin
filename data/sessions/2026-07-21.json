@@ -14,5 +14,5 @@
     { "kind": "cooldown", "duration": "5m", "target": "Z1" }
   ],
   "coachNotes": "Strides on flat ground only. ITB: no downhill strides.",
-  "icuWorkoutText": "- 10m Z1\n- 30m Z2\n- 6x\n  - 20s Z5\n  - 40s Z1\n- 5m Z1"
+  "icuWorkoutText": "- 10m Z1\n- 30m Z2\n\n6x\n- 20s Z5\n- 40s Z1\n\n- 5m Z1"
 }

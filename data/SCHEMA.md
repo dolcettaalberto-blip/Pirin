@@ -87,7 +87,7 @@ Rest days (load 0) simply have no file.
     { "kind": "cooldown", "duration": "10m", "target": "Z1" }
   ],
   "coachNotes": "Amber rule: cut to 3 reps, no incline change. ITB: zero descent.",
-  "icuWorkoutText": "- 15m Z1-Z2\n- 4x\n  - 2m Z4\n  - 1m Z1\n- 10m Z1"
+  "icuWorkoutText": "- 15m Z1-Z2\n\n4x\n- 2m Z4\n- 1m Z1\n\n- 10m Z1"
 }
 ```
 
@@ -103,10 +103,34 @@ Step rules:
 
 `icuWorkoutText` is the **exact intervals.icu workout syntax** sent by the
 "Send to watch" button (it becomes the workout `description` on the intervals.icu
-calendar event, which syncs to Garmin). Keep it consistent with `steps`. Syntax:
-one step per `- ` line; repeats as `- Nx` with the repeated steps indented two
-spaces below; durations like `15m`, `20s`; targets as zones (`Z1`…`Z5`) or
-explicit HR/pace/power ranges intervals.icu understands.
+calendar event, which syncs to Garmin). Keep it consistent with `steps`.
+
+**Syntax (intervals.icu Workout Builder spec — get this exact, it silently
+breaks otherwise):**
+- One step per `- ` line: `- 15m Z1-Z2`.
+- A repeat block's count line is a **bare line with no leading dash**
+  (`4x`, not `- 4x`) followed by its steps as plain `- ` lines directly below
+  (no extra indentation needed).
+- A **blank line is required before and after every repeat block.** Without
+  it, or with a `- ` prefix on the count line, intervals.icu fails to parse
+  the block as a repeat: it flattens the steps, drops the rep count, and the
+  workout that reaches the watch is wrong (this happened for real on
+  2026-07-28 — see changelog).
+- Nested repeats are not supported. Multiple separate repeat blocks in one
+  workout are fine (each needs its own blank-line padding).
+- Durations: `15m`, `20s`, `1h2m30s`. Targets: zones (`Z1`…`Z5`) or explicit
+  HR/pace/power ranges intervals.icu understands (e.g. `94-98% LTHR`).
+
+Correct example matching the `steps` above:
+```
+- 15m Z1-Z2
+
+4x
+- 2m Z4
+- 1m Z1
+
+- 10m Z1
+```
 
 ## `changelog.json`
 
@@ -128,6 +152,6 @@ Amber readiness on 2026-07-22 → cut Thursday's session:
 
 1. `current-plan.json`: week 2 `plannedDailyLoad.thu`: `60` → `55`.
 2. `sessions/2026-07-23.json`: repeat `count`: `5` → `4`, `estimatedLoad`: `60` → `55`,
-   update `icuWorkoutText` to `- 15m Z1-Z2\n- 4x\n  - 2m Z4\n  - 1m Z1\n- 10m Z1`.
+   update `icuWorkoutText` to `- 15m Z1-Z2\n\n4x\n- 2m Z4\n- 1m Z1\n\n- 10m Z1`.
 3. `changelog.json`: append the entry shown above.
 4. Commit with a message like `coach: cut Wk2 Thu tempo to 4 reps (amber HRV)` and push.
