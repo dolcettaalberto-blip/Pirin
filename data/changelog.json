@@ -217,5 +217,13 @@
       "2026-09-12",
       "2026-09-13"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "change": "Race session rebuilt from official GPX: 38.1km / 3440m D+ (vs 3300 official). Load 350 -> 360, estimated 7h45 moving. Profile written into the session: 1900m continuous opening climb to 2908m, 15km traverse above 2000m (9.7km above 2500m), single 1250m final descent.",
+    "reason": "Athlete uploaded the course GPX. Time estimate from flat-equivalent pace reference (Erve 26 Jul: 6.0 min/ekm at RPE 7 -> 72.5 ekm = 7h15) plus altitude penalty for half the course above 2000m. The final 1250m descent on 7h legs is the day's ITB test and now drives Wk5-7 rebuild priorities: long sustained descents on tired legs must be trained progressively.",
+    "affects": [
+      "2026-09-12"
+    ]
   }
 ]

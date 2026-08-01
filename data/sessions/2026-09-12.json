@@ -2,11 +2,13 @@
   "date": "2026-09-12",
   "type": "race",
   "title": "PIRIN EXTREME 38K - race day",
-  "terrain": "38km, 3300m D+, start 08:00 Bansko central square",
-  "estimatedLoad": 350,
+  "terrain": "38.1km, 3440m D+ (GPX). Km 0-13: climb 923->2908m (Vihren). Km 13-28: traverse above 2000m, 9.7km above 2500m. Km 28-38: one 1250m descent to Bansko",
+  "estimatedLoad": 360,
   "steps": [
-    { "kind": "work", "duration": "7h30m", "target": "Z2-Z3, hike the steep climbs, controlled descents" }
+    { "kind": "work", "duration": "3h", "target": "Z2, opening 1900m climb - hike, strictly conversational" },
+    { "kind": "work", "duration": "3h", "target": "Z2-Z3, high traverse - effort not pace, air is thin" },
+    { "kind": "work", "duration": "1h45m", "target": "Z2, final 1250m descent - controlled, short stride" }
   ],
-  "coachNotes": "The day you trained for. Start conservative - first climb at conversational effort, you pass people later. Fuel 70-90g carbs/h from minute one, drink to thirst plus electrolytes. Poles for the big climbs and descents. Registration and kit check are FRIDAY 13:00-20:00 in Bansko, mandatory medical check, be there.",
-  "icuWorkoutText": "- 7h30m Z2-Z3"
+  "coachNotes": "Estimated 7h45 moving from your Erve pace reference + altitude penalty. The race is decided by two disciplines: (1) the opening climb at conversational effort no matter who passes you - 1900m continuous from the gun; (2) the final 1250m descent on 7h legs is the single ITB test of the day: poles, short stride, brake with cadence not quads. Half the course is above 2000m - expect pace to mean nothing, run on effort and HR. Fuel 70-90g carbs/h from minute one. Registration + mandatory medical check FRIDAY 13:00-20:00 in Bansko.",
+  "icuWorkoutText": "- 3h Z2\n- 3h Z2-Z3\n- 1h45m Z2"
 }
