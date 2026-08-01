@@ -144,15 +144,15 @@
       "week": 9,
       "start": "2026-09-07",
       "block": "Race",
-      "runKm": 22,
-      "weekendDplus": 600,
+      "runKm": 55,
+      "weekendDplus": 3300,
       "plannedDailyLoad": {
         "mon": 25,
         "tue": 35,
         "wed": 0,
-        "thu": 45,
-        "fri": 20,
-        "sat": 25,
+        "thu": 30,
+        "fri": 15,
+        "sat": 350,
         "sun": 0
       }
     }

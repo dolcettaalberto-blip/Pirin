@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-12",
+  "type": "race",
+  "title": "PIRIN EXTREME 38K - race day",
+  "terrain": "38km, 3300m D+, start 08:00 Bansko central square",
+  "estimatedLoad": 350,
+  "steps": [
+    { "kind": "work", "duration": "7h30m", "target": "Z2-Z3, hike the steep climbs, controlled descents" }
+  ],
+  "coachNotes": "The day you trained for. Start conservative - first climb at conversational effort, you pass people later. Fuel 70-90g carbs/h from minute one, drink to thirst plus electrolytes. Poles for the big climbs and descents. Registration and kit check are FRIDAY 13:00-20:00 in Bansko, mandatory medical check, be there.",
+  "icuWorkoutText": "- 7h30m Z2-Z3"
+}

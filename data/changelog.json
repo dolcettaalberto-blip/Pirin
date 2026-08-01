@@ -206,5 +206,16 @@
     "affects": [
       "2026-08-02"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "change": "Wk9 restructured around the actual race day: Pirin Extreme 38K starts SATURDAY 12 Sep 08:00 (official schedule), not Sunday 13. Sat 25 -> 350 (race, estimated ~7.5h), Sun 0 (recovery/travel), Thu 45 -> 30 (openers), Fri 20 -> 15 (shakeout; registration + medical check + kit check Fri 13:00-20:00 in Bansko); weekendDplus 600 -> 3300, runKm 22 -> 55. race.date field NOT changed: it is test-locked to plan.json and to a Sunday, so the site header still shows 13 Sep until a proper migration (needs plan.json + one test line, outside coach-editable scope).",
+    "reason": "Verified on pirinultra.com/schedule: 38K program is Fri 11 Sep registration, Sat 12 Sep 08:00 start, award 18:00 same day. Race load 350 estimated from athlete reference (Erve 19.6km/1319m = 162 at 3.3h; race ~2x duration at similar blended IF). CTL-ramp and weekend-D+ warnings for Wk9 are expected and intentional - it is the race, not training. Note the CTL projection now counts race load on Sat, which slightly inflates post-race CTL display; irrelevant for training decisions.",
+    "affects": [
+      "2026-09-10",
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13"
+    ]
   }
 ]
