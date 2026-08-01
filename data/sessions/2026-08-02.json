@@ -3,7 +3,7 @@
   "type": "long",
   "title": "Curo loop (Tagliaferri-Barbellino GPX) + Valbondione descent",
   "terrain": "loop ~19km, ~1250m D+ / D-, max 2596m; then ~7km / -900m exit. Total ~2200m descent on the day",
-  "estimatedLoad": 145,
+  "estimatedLoad": 120,
   "steps": [
     { "kind": "work", "duration": "4h30m", "target": "Z1-Z2, run flats, hike climbs, easy on loop descents" },
     { "kind": "recover", "duration": "45m", "target": "walk", "note": "full lunch stop back at Curo before the exit descent" },

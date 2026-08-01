@@ -198,5 +198,13 @@
       "2026-08-01",
       "2026-08-02"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "change": "Sun 2 Aug estimated load 145 -> 120 (session content unchanged)",
+    "reason": "Athlete correctly flagged the estimate as too high: intervals.icu load is HR-based and descents/hiking score low IF for him (25 Jul hike: IF ~0.3). With hiked climbs, run flats and a hike-only exit, ~120 is the realistic hrTSS for ~6h moving. Descent caps and ITB rules unchanged - HR load does not measure eccentric stress, which is the actual constraint of the day.",
+    "affects": [
+      "2026-08-02"
+    ]
   }
 ]
