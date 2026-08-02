@@ -1,0 +1,42 @@
+data/current-plan.json
+  s_455b9b257d2f3c::t_4ceea107a07387 4
+data/SCHEMA.md
+  s_455b9b257d2f3c::t_7bf0b73344f419 25-48
+data/changelog.json
+  s_455b9b257d2f3c::t_17ac1e02a6f473 228-236
+lib/digest.ts
+  s_455b9b257d2f3c::t_1246ae3df06420 96,100-102
+  s_455b9b257d2f3c::t_129e60196fee3d 103
+data/plan.json
+  s_455b9b257d2f3c::t_4ceea107a07387 2-12,16-29,32-45,48-61,64-77,80-93,96-109,112-125,128-141,144-157
+components/chart-section.tsx
+  s_455b9b257d2f3c::t_b0de5f26f10245 78-83
+tests/data.test.ts
+  s_455b9b257d2f3c::t_f1851124d4f768 96-97,99,102
+  s_455b9b257d2f3c::t_f0eae6c2c4dd98 4-10
+  s_455b9b257d2f3c::t_b22bbc29a04cac 42-75
+  s_455b9b257d2f3c::t_152b24deb630f5 23-26
+lib/plan-utils.ts
+  s_455b9b257d2f3c::t_da9125f060a97f 10-16,24,31-41,46-52,62-65
+  s_455b9b257d2f3c::t_02f724349ad555 75-79,86
+  s_455b9b257d2f3c::t_9f2da54949424f 98-101,105
+app/trajectory/page.tsx
+  s_455b9b257d2f3c::t_df1a9b9a0b9331 83,88-90
+  s_455b9b257d2f3c::t_98b9d0e2363f22 91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "bc3bed0564d7d49630b23a9212030742888b57e6",
+  "prompts": {},
+  "sessions": {
+    "s_455b9b257d2f3c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9f47e8a3-b79f-43bc-92a8-da792409b73d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
