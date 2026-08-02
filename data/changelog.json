@@ -225,5 +225,14 @@
     "affects": [
       "2026-09-12"
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "change": "Race date corrected to 2026-09-12 in BOTH plan.json and current-plan.json, and the race is now excluded from the CTL simulation, the ramp warning and the weekend-D+ flag. Projected figure relabelled 'start-line CTL' (fitness carried into race morning): 41.5 vs target 42. Wk9 keeps its honest race-day load of 360 and the full 3300m course vertical.",
+    "reason": "The site was modelling the race as a training day: load 360 on 12 Sep added roughly +7 CTL on the final day, so the trajectory ended on a spike and Wk9 raised false ramp and descent-jump warnings. Root cause was a test that locked current-plan's race block to frozen plan.json, which is why the 2026-08-01 entry recorded the verified Saturday start but could not apply it. That rule now permits correcting the `race` block in both files together, since it describes a real event rather than a plan decision. No training load anywhere in the plan was changed by this.",
+    "affects": [
+      "2026-09-12",
+      "2026-09-13"
+    ]
   }
 ]

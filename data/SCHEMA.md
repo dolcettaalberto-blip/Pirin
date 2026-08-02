@@ -22,6 +22,30 @@ Before committing, run `npm test` if possible. It validates every file in this
 directory against the schemas and cross-checks (session filename matches its
 `date` field, changelog `affects` dates are valid, etc.).
 
+## The race is not training (important)
+
+`race.date` (**2026-09-12**, Saturday — verified against the official schedule)
+is excluded from the CTL simulation entirely. Whatever `plannedDailyLoad` that
+day carries, and whatever the session file says, it never enters the
+`CTL_t = CTL_{t-1} + (load − CTL_{t-1})/42` recurrence. The trajectory chart's
+final point is the **start-line CTL**: the fitness carried into race morning.
+
+Why: the race's load (~360) would add roughly +7 CTL on the last day, so the
+chart would end on a spike that describes the race rather than readiness for it.
+For the same reason the race week is skipped by the CTL-ramp warning and the
+weekend-D+ jump flag — its numbers are the race course, not a training
+progression.
+
+So you may set the race day's load and session honestly (load 360, `type:
+"race"`, the real course profile) without distorting the projection. Do that
+rather than zeroing it.
+
+**`race` is the one field in frozen `plan.json` you may correct.** It describes a
+real event, not a plan decision, so if the date or distance turns out to be
+wrong, fix it in **both** `plan.json` and `current-plan.json` in the same commit
+— the tests require the two to match, and the two chart lines need a shared
+x-axis. Never touch anything else in `plan.json`.
+
 ## Week/date convention (important)
 
 **Weeks run Monday → Sunday.** Week 1 starts 2026-07-13, a Monday, and every

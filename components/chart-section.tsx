@@ -75,7 +75,12 @@ function CtlChart({ data, raceDate }: { data: CtlChartPoint[]; raceDate: string 
             formatter={(value, name) => [Number(value).toFixed(1), String(name)]}
           />
           <ReferenceArea y1={40} y2={44} fill="var(--accent)" fillOpacity={0.08} />
-          <ReferenceLine x={raceDate} stroke="var(--ink-2)" strokeDasharray="3 3" />
+          <ReferenceLine
+            x={raceDate}
+            stroke="var(--ink-2)"
+            strokeDasharray="3 3"
+            label={{ value: "RACE", position: "insideTopRight", fill: "var(--ink-2)", fontSize: 10 }}
+          />
           <Line type="monotone" dataKey="plan" name="Original plan" stroke="var(--muted)" strokeWidth={1.5} strokeDasharray="6 4" dot={false} isAnimationActive={false} />
           <Line type="monotone" dataKey="actual" name="Actual" stroke="var(--accent)" strokeWidth={3} dot={false} isAnimationActive={false} />
           <Line type="monotone" dataKey="projected" name="Projected" stroke="var(--projected)" strokeWidth={2} strokeDasharray="2 4" dot={false} isAnimationActive={false} />

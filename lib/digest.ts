@@ -93,9 +93,13 @@ export async function buildDigest(options: DigestOptions = {}): Promise<string> 
   if (projRace != null) {
     const delta = projRace - current.targetRaceCtl;
     push(
-      `- Projected race-day CTL (current plan, 100% compliance): **${n(projRace, 1)}** ` +
+      `- Projected **start-line** CTL (current plan, 100% compliance): **${n(projRace, 1)}** ` +
         `vs target ${current.targetRaceCtl} (${delta >= 0 ? "+" : ""}${n(delta, 1)}). ` +
         `Original plan projected ${n(planRace, 1)}.`
+    );
+    push(
+      `- Race day (${current.race.date}) is excluded from the CTL simulation — the race is the ` +
+        `outcome, not a fitness input. Its load never enters the projection.`
     );
   }
   const warnings = rampWarnings(current, projected, today);

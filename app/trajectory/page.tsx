@@ -80,10 +80,14 @@ export default async function TrajectoryPage() {
       {projectedRaceCtl != null && delta != null && (
         <section className="rounded-2xl bg-surface border border-[var(--hairline)] px-4 py-3">
           <p className="text-[15px]">
-            Projected race-day CTL: <strong className="tabular">{projectedRaceCtl.toFixed(1)}</strong>{" "}
+            Projected start-line CTL: <strong className="tabular">{projectedRaceCtl.toFixed(1)}</strong>{" "}
             <span className={Math.abs(delta) <= 2 ? "text-good" : "text-warn"}>
               — {Math.abs(delta).toFixed(1)} {delta >= 0 ? "over" : "under"} target ({original.targetRaceCtl})
             </span>
+          </p>
+          <p className="text-[12px] text-muted mt-1">
+            Fitness carried into {formatShort(raceDate)}. The race itself is excluded from the
+            projection — it is the goal, not a session that builds fitness.
           </p>
         </section>
       )}
