@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-05",
+  "type": "easy",
+  "title": "Easy flat run",
+  "terrain": "flat",
+  "estimatedLoad": 35,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "40m",
+      "target": "Z1-Z2"
+    }
+  ],
+  "coachNotes": "Moved from Tue: extra rest day to clear sleep debt (5h15 + 5h33 nights) after Sunday's 27km/1600m unplanned trail. Keep it strictly Z1-Z2 — hill tempo follows tomorrow.",
+  "icuWorkoutText": "- 40m 70-89% LTHR"
+}

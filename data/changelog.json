@@ -234,5 +234,14 @@
       "2026-09-12",
       "2026-09-13"
     ]
+  },
+  {
+    "date": "2026-08-04",
+    "change": "Wk4 easy flat run moved Tue -> Wed (load 35 shifts with it)",
+    "reason": "Two short nights (5h15, 5h33) after unplanned 27km/1600m trail Sunday; slept in Tue to clear sleep debt. HRV rebounded to 69, green otherwise.",
+    "affects": [
+      "2026-08-04",
+      "2026-08-05"
+    ]
   }
 ]
