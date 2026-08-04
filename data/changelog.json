@@ -243,5 +243,13 @@
       "2026-08-04",
       "2026-08-05"
     ]
+  },
+  {
+    "date": "2026-08-04",
+    "change": "Wk4 Thu hill tempo: amber/red rule pre-agreed (HRV<55 or sleep<60 -> 3 reps; HRV<48 or RHR>=52 -> easy swap)",
+    "reason": "Athlete asked for pre-agreed autoregulation so Thursday needs no check-in; recovering from sleep debt earlier in week",
+    "affects": [
+      "2026-08-06"
+    ]
   }
 ]
