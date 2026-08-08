@@ -1,16 +1,16 @@
 {
   "date": "2026-08-09",
-  "type": "long",
-  "title": "B2b tired legs, light descent",
-  "terrain": "rolling, ~400m D+",
-  "estimatedLoad": 50,
+  "type": "easy",
+  "title": "B2b tired legs, flat",
+  "terrain": "flat/rolling, max 150m D+",
+  "estimatedLoad": 30,
   "steps": [
     {
       "kind": "work",
-      "duration": "1h10m",
-      "target": "Z2"
+      "duration": "45m",
+      "target": "Z1-Z2"
     }
   ],
-  "coachNotes": "Closes the deload weekend. Keep it honest Z2, this is about absorbing, not testing anything.",
-  "icuWorkoutText": "- 1h10m 55-89% LTHR"
+  "coachNotes": "Cut from 1h10m/400m D+ after Saturday came in at load 138 vs 70 planned (18.7km, 745m D+, avg HR 154). Legs are already more tired than the b2b intended, so the stimulus is banked. Strip the descent: ITB just absorbed 745m and stacking more on fatigued legs is the flare mechanism. Strictly Z1-Z2, walk any climb. Week 5 is a Build jump to 435 load, arrive fresh.",
+  "icuWorkoutText": "- 45m 70-84% LTHR"
 }

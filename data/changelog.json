@@ -251,5 +251,13 @@
     "affects": [
       "2026-08-06"
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "change": "Wk4 Sun b2b cut 1h10m/400m D+ -> 45m flat, max 150m D+ (load 50 -> 30). Wk4 weekendDplus 1100 -> 850, runKm 34 -> 38.",
+    "reason": "Sat long run came in at load 138 vs 70 planned (18.7km, 745m D+, avg HR 154, RPE 7) in a recovery week. ATL 54 vs CTL 38, TSB -16. Tired-legs stimulus already banked; descent stripped to protect ITB after 745m of descent, and to arrive fresh into the Wk5 Build jump (435 load, 2000m weekend D+). Wk5 D+ jump flag is expected and accepted here - Wk4 is a deload trough, not a progression step.",
+    "affects": [
+      "2026-08-09"
+    ]
   }
 ]
