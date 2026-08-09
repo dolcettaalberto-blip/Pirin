@@ -1,16 +1,16 @@
 {
   "date": "2026-08-09",
-  "type": "easy",
-  "title": "B2b tired legs, flat",
-  "terrain": "flat/rolling, max 150m D+",
-  "estimatedLoad": 30,
+  "type": "recovery",
+  "title": "Strength only, no run",
+  "terrain": "indoor",
+  "estimatedLoad": 10,
   "steps": [
     {
       "kind": "work",
-      "duration": "45m",
-      "target": "Z1-Z2"
+      "duration": "30m",
+      "target": "single-leg strength, glute med / hip abductor focus"
     }
   ],
-  "coachNotes": "Cut from 1h10m/400m D+ after Saturday came in at load 138 vs 70 planned (18.7km, 745m D+, avg HR 154). Legs are already more tired than the b2b intended, so the stimulus is banked. Strip the descent: ITB just absorbed 745m and stacking more on fatigued legs is the flare mechanism. Strictly Z1-Z2, walk any climb. Week 5 is a Build jump to 435 load, arrive fresh.",
-  "icuWorkoutText": "- 45m 70-84% LTHR"
+  "coachNotes": "HRV 49 (vs ~62 baseline) the morning after a 138-load Saturday. Run dropped entirely, not shortened. Strength only: single-leg work, glute med and hip abductors, the ITB-protective set. No plyo, no loaded descent. Week 4 closes at 175 load.",
+  "icuWorkoutText": "- 30m Z1"
 }

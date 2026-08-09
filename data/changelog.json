@@ -259,5 +259,22 @@
     "affects": [
       "2026-08-09"
     ]
+  },
+  {
+    "date": "2026-08-09",
+    "change": "Wk4 Sun run dropped entirely -> strength only (load 30 -> 10). Week 4 closes at 175.",
+    "reason": "HRV 49 vs ~62 baseline the morning after Saturday's 138-load / 745m D+ run. Dropped rather than shortened: the week had already overshot, no value in salvaging a token run.",
+    "affects": [
+      "2026-08-09"
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "change": "Wk5-8 recalibrated: weekend D+ trimmed (2000->1800, 2300->2000, 2600->2200, 1500->1300) and weekend loads raised to true Z2 cost (Sat 120->139, 130->158, 140->177, 90->107; Sun 85->83, 95->89, 100->95, 55->48). HR cap 142 added to all vert sessions.",
+    "reason": "Plan treated load, km and D+ as independent knobs. They are not: at Alberto's observed ~330-340 m/h vertical rate, D+ fixes duration and duration x intensity fixes load. Every weekend was understated 25-40%. Trimming vert ~12% and pricing the rest honestly gives race-morning CTL 43.6 (target 42) with weekly ramps of 3.2/3.7/3.7, all inside the <=6 guardrail. Longest Saturday capped at 4h25m (Wk7). The HR 142 cap is load-bearing: the same Wk5 Saturday run at HR 154 costs 195 instead of 139 and breaks the ramp.",
+    "affects": [
+      "2026-08-15",
+      "2026-08-16"
+    ]
   }
 ]

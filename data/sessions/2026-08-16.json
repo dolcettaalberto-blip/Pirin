@@ -2,15 +2,15 @@
   "date": "2026-08-16",
   "type": "long",
   "title": "B2b tired legs with descent",
-  "terrain": "rolling/vertical",
-  "estimatedLoad": 85,
+  "terrain": "rolling/vertical, ~700m D+",
+  "estimatedLoad": 83,
   "steps": [
     {
       "kind": "work",
-      "duration": "2h",
-      "target": "Z2 on tired legs"
+      "duration": "2h5m",
+      "target": "Z2 on tired legs, HR cap 142"
     }
   ],
-  "coachNotes": "Closes the peak-build weekend. This is the dress-rehearsal fatigue pattern, honest Z2, walk anything that feels off.",
-  "icuWorkoutText": "- 2h 55-89% LTHR"
+  "coachNotes": "Closes the peak-build weekend. 700m D+ at ~340m/h is just over 2h, costing 83 at honest Z2. This is the dress-rehearsal fatigue pattern. HR cap 142 matters more today than Saturday, tired legs drift the HR up for free. Walk anything that feels off.",
+  "icuWorkoutText": "- 2h5m 55-88% LTHR"
 }
