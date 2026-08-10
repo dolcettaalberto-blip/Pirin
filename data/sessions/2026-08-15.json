@@ -1,16 +1,37 @@
 {
   "date": "2026-08-15",
   "type": "long",
-  "title": "Long run, peak-build dose",
-  "terrain": "hills, ~1100m D+, real descent",
-  "estimatedLoad": 139,
+  "title": "Long run, 3 climb loops on Paros",
+  "terrain": "3x ~370m climb-descent loops, 1100m D+ / 1100m D-",
+  "estimatedLoad": 175,
   "steps": [
     {
-      "kind": "work",
-      "duration": "3h25m",
-      "target": "Z1-Z2, HR cap 142, hike the steep climbs"
+      "kind": "warmup",
+      "duration": "12m",
+      "target": "Z1-Z2 flat approach"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "38m",
+          "target": "Z3 climb, ~370m D+, 160-167 bpm, push"
+        },
+        {
+          "kind": "recover",
+          "duration": "20m",
+          "target": "Z1-Z2 descent, ~370m D-, controlled"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "8m",
+      "target": "Z1"
     }
   ],
-  "coachNotes": "Recalibrated: D+ drives duration, duration drives load. 1100m at your observed ~330m/h costs 3h25m, and 3h25m at honest Z2 costs 139, not 120. Vert trimmed from 1200m to keep the day under 3.5h. HR cap 142 is the whole plan: at HR 154 this same day costs 195 and the ramp breaks. Hike every steep climb to hold it. Descend deliberately, stop at any niggle.",
-  "icuWorkoutText": "- 3h25m 55-88% LTHR"
+  "coachNotes": "Climb cap lifted: the old HR 142 was reverse-engineered from the ramp budget, not from you. Climb at 89-93% LTHR (160-167), strong hike or run, RPE 6-7. Uphill is concentric so this is ITB-neutral, which is exactly why it is the lever we are using. Descents are NOT repriced: short strides, high cadence, no braking, poles if you have them. Stop the day at any lateral knee signal, the remaining loops are optional and the load target is not. Start by 06:30, Paros heat will inflate HR without adding fitness, so if it is hot judge the climbs by effort and let HR sit above range. Sunday go/no-go: if this comes in above 190, or ITB speaks at all, Sunday drops to 55 flat.",
+  "icuWorkoutText": "- 12m 55-84% LTHR\n\n3x\n- 38m 89-93% LTHR\n- 20m 55-84% LTHR\n\n- 8m 55-75% LTHR"
 }

@@ -276,5 +276,15 @@
       "2026-08-15",
       "2026-08-16"
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "change": "Saturday climb HR cap lifted and Wk5-7 Saturdays repriced: Sat 175 (was 139), 195 (was 158), 215 (was 177). Climbs now run at 89-93% LTHR (160-167) instead of a blanket 142. Descents, weekend D+ (1800/2000/2200) and every ITB descent cap are unchanged. Sat 15 Aug rebuilt as 3x ~370m climb-descent loops for Paros terrain, ~3h15m. Wk6/Wk7 Saturday session files not written yet - terrain unknown until location is confirmed.",
+    "reason": "Athlete reports feeling strong and that he can push the climbs harder than the plan assumes. He is right, and the 9 Aug recalibration was wrong in one specific way: the HR 142 cap (79% LTHR) was reverse-engineered from the ramp budget rather than from his physiology. Observed long-day HRs are 145 (Erve 26 Jul), 152 (Brendola 18 Jul), 154 (Paros 8 Aug), and the plan's own earlier convention set long-day ceilings at 88-89% LTHR. Repriced from his own load-per-hour curve (39/h at HR 138, 49/h at 145, 55/h at 154). New weekly ramps are 4.2/4.9/4.9, inside the <=6 guardrail but with less headroom than the pre-change 3.2/3.7/3.7. Simulated effect is smaller than it looks: start-line CTL moves 42.8 -> 44.4, only +1.7, because 111 units of extra load landing 14-28 days out is heavily decayed by race morning and the Wk8-9 taper sheds ~3.2 CTL regardless. Peak CTL (Wk7) reaches 47.6. Deliberately NOT changed: weekend vertical and descent caps. Athlete also asked for more fitness at the end, and the honest answer is that his race-day failure mode is the 1250m final descent on 7h45 legs with a March ITBS history, not aerobic capacity. Climbing effort is concentric and ITB-neutral, so it is the only safe place to add load. Extra aerobic volume beyond this should come from Wednesday indoor cycling from Wk6, not from more vertical: a 45-load Wed spin in Wk6-8 is worth +2.2 start-line CTL, more than this entire Saturday change, at zero eccentric cost. Not applied yet because it would push Wk6/Wk7 ramps to ~5.7 and consume all remaining headroom, so it is an either/or with any further increase, not an addition. targetRaceCtl left at 42 (immutable, and athlete declined to move the goalpost) so the site will now report start-line CTL well over target - that overshoot is intended, not a modelling error. Paros note: 1100m via repeated loops gives the vertical and the load but NOT the single-long-descent stimulus the race demands; that debt has to be paid in Wk6/Wk7.",
+    "affects": [
+      "2026-08-15",
+      "2026-08-22",
+      "2026-08-29"
+    ]
   }
 ]
