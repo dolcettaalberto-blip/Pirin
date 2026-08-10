@@ -286,5 +286,18 @@
       "2026-08-22",
       "2026-08-29"
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "change": "Wk6 travel fix: Tue 18 Aug 55 -> 0 (travel day to the mountains), Wed 19 Aug 0 -> 45 (arrival session, first mountain day). Wk6 total 474 -> 464. Wk8 taper reshaped rather than shortened: Wed 0 -> 45 (indoor bike), Tue 50 -> 65, Thu 60 -> 75, runKm 44 -> 47. Wk8 total 320 -> 395. Sat 107 and Sun 48 held. No bike added to Wk7. Wk6/Wk7/Wk8 session files still unwritten - Wk6 needs mountain routes, so all three get built once location and terrain are confirmed.",
+    "reason": "Athlete travels Tue 18 and is in the mountains from Wed 19, and has a trainer in Wk7-8 but not Wk6. He also suggested the taper may be too long. The data says otherwise: start-line TSB is +5.6 and the 13-day taper sheds only 3.2 CTL, so it is neither long nor deep, and shortening it after the largest eccentric block of the plan (Wk7: 505 load, 2200m D+, Sat 215) is the specific pattern that produced the March ITBS. Reshaped instead - volume stays down, intensity goes up, and the bike replaces what a pure rest week would waste. The real finding was unused ramp headroom: Wk6 and Wk7 run at 4.7 and 4.9 while Wk8 sat at -0.2. Loading Wk8 costs nothing in ramp terms and lands in the tissue-repair window. Wk7 bike declined despite being available: it would take that week's ramp to 5.9 against the <=6 ceiling in the week of peak eccentric exposure, which is buying CTL at the worst moment. Net effect start-line CTL 44.3 -> 45.8, TSB +5.6 -> +4.4, ramps Wk5-8 now 4.2/4.7/4.9/1.5. Separately: with Wk6 now a full mountain week from Wed 19, Sat 22 Aug (2000m D+) is the session that must carry ONE long sustained descent to pay off the debt left by Sat 15's Paros loop structure - do not design it as repeats.",
+    "affects": [
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-22",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03"
+    ]
   }
 ]
