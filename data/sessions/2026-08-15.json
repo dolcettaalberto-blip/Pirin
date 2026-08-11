@@ -1,37 +1,16 @@
 {
   "date": "2026-08-15",
-  "type": "long",
-  "title": "Long run, 3 climb loops on Paros",
-  "terrain": "3x ~370m climb-descent loops, 1100m D+ / 1100m D-",
-  "estimatedLoad": 175,
+  "type": "easy",
+  "title": "Rolling primer, descent kept small",
+  "terrain": "flat/rolling, ~450m D+, no long descents",
+  "estimatedLoad": 83,
   "steps": [
     {
-      "kind": "warmup",
-      "duration": "12m",
-      "target": "Z1-Z2 flat approach"
-    },
-    {
-      "kind": "repeat",
-      "count": 3,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "38m",
-          "target": "Z3 climb, ~370m D+, 160-167 bpm, push"
-        },
-        {
-          "kind": "recover",
-          "duration": "20m",
-          "target": "Z1-Z2 descent, ~370m D-, controlled"
-        }
-      ]
-    },
-    {
-      "kind": "cooldown",
-      "duration": "8m",
-      "target": "Z1"
+      "kind": "work",
+      "duration": "2h10m",
+      "target": "Z2 flat/rolling, ceiling 151 bpm"
     }
   ],
-  "coachNotes": "Climb cap lifted: the old HR 142 was reverse-engineered from the ramp budget, not from you. Climb at 89-93% LTHR (160-167), strong hike or run, RPE 6-7. Uphill is concentric so this is ITB-neutral, which is exactly why it is the lever we are using. Descents are NOT repriced: short strides, high cadence, no braking, poles if you have them. Stop the day at any lateral knee signal, the remaining loops are optional and the load target is not. Start by 06:30, Paros heat will inflate HR without adding fitness, so if it is hot judge the climbs by effort and let HR sit above range. Sunday go/no-go: if this comes in above 190, or ITB speaks at all, Sunday drops to 55 flat.",
-  "icuWorkoutText": "- 12m 55-84% LTHR\n\n3x\n- 38m 89-93% LTHR\n- 20m 55-84% LTHR\n\n- 8m 55-75% LTHR"
+  "coachNotes": "Day 1 of the swapped weekend, and its only job is to not compromise Sunday. Aerobic volume yes, eccentric load no: descent trimmed from 700m to ~450m and nothing long or steep. If you find yourself on a big descent you have picked the wrong route. Ceiling 151, and if HRV is under 55 Saturday morning cut this to 90 minutes rather than touching Sunday.",
+  "icuWorkoutText": "- 2h10m 55-84% LTHR"
 }

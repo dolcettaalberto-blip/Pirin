@@ -299,5 +299,14 @@
       "2026-09-02",
       "2026-09-03"
     ]
+  },
+  {
+    "date": "2026-08-11",
+    "change": "Wk5 Sat/Sun swapped at athlete request: the big 1100m/3-loop climb day moves Sat 15 -> Sun 16 (load 175), and Saturday becomes a rolling primer (load 83). Saturday's descent deliberately trimmed 700m -> ~450m so it does not pre-load the ITB, which drops weekendDplus 1800 -> 1550. Week total unchanged at 433, ramp unchanged at 4.2. Sunday carries a hard abort rule: stop after loop 2 on any lateral knee signal.",
+    "reason": "Athlete asked for the big climb on Sunday. Granted, but flagging what it actually does, because it is not the easier arrangement: it puts 1100m of descent on day-2 legs instead of fresh ones. That is a closer rehearsal of the race, whose defining feature is a single 1250m descent after ~7h, and it is the one race-specific thing Paros terrain can still teach before the mountain weeks. It is also the highest ITB exposure since 2 Aug, so Saturday was cut from a 700m b2b day to a ~450m rolling primer to buy the eccentric budget back, and total weekend descent falls from 1800m to 1550m. Recovery structure favours the swap: Mon 17 is easy 25 and Tue 18 is a travel day, giving two clear days after the big session instead of one. Cost accepted: Sun 16 to Sat 22 is a 6-day gap rather than 7 into Wk6's 2000m mountain Saturday, so Thu 20's 80-load hill tempo is now the session to trim if anything feels off. Readiness today is fine but not strong (HRV 57 vs ~62 baseline, RHR 47, sleep 6h15, and 6h26 average over five nights); Tue 11 came in at 52 against 55 planned, first on-target day in a while. Saturday-morning rule: HRV under 55 cuts Saturday to 90 minutes, never Sunday.",
+    "affects": [
+      "2026-08-15",
+      "2026-08-16"
+    ]
   }
 ]

@@ -81,15 +81,15 @@
       "start": "2026-08-10",
       "block": "Build",
       "runKm": 52,
-      "weekendDplus": 1800,
+      "weekendDplus": 1550,
       "plannedDailyLoad": {
         "mon": 20,
         "tue": 55,
         "wed": 0,
         "thu": 75,
         "fri": 25,
-        "sat": 175,
-        "sun": 83
+        "sat": 83,
+        "sun": 175
       }
     },
     {

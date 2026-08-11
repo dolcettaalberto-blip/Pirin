@@ -1,16 +1,37 @@
 {
   "date": "2026-08-16",
   "type": "long",
-  "title": "B2b tired legs with descent",
-  "terrain": "rolling/vertical, ~700m D+",
-  "estimatedLoad": 83,
+  "title": "Big climb day, 3 loops on tired legs",
+  "terrain": "3x ~370m climb-descent loops, 1100m D+ / 1100m D-",
+  "estimatedLoad": 175,
   "steps": [
     {
-      "kind": "work",
-      "duration": "2h5m",
-      "target": "Z2 on tired legs, HR cap 142"
+      "kind": "warmup",
+      "duration": "12m",
+      "target": "Z1-Z2 flat approach"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "38m",
+          "target": "Z3 climb, ~370m D+, 160-167 bpm, push"
+        },
+        {
+          "kind": "recover",
+          "duration": "20m",
+          "target": "Z1-Z2 descent, ~370m D-, controlled"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "8m",
+      "target": "Z1"
     }
   ],
-  "coachNotes": "Closes the peak-build weekend. 700m D+ at ~340m/h is just over 2h, costing 83 at honest Z2. This is the dress-rehearsal fatigue pattern. HR cap 142 matters more today than Saturday, tired legs drift the HR up for free. Walk anything that feels off.",
-  "icuWorkoutText": "- 2h5m 55-88% LTHR"
+  "coachNotes": "Moved from Saturday at athlete request. This is now the harder arrangement, not the easier one: 1100m of descent lands on day-2 legs, which is a closer rehearsal of the race's final 1250m drop but also the highest ITB exposure since 2 Aug. That is the deliberate trade. Climbs at 89-93% LTHR (160-167), strong hike or run. Descents short strides, high cadence, no braking, poles if you have them. Hard abort rule: stop after loop 2 if there is any lateral knee signal, any at all, and log it. Loop 3 is optional, the load target is not. Start by 06:30 for the heat; if it is hot, judge climbs by effort and let HR run above range. Monday 17 is easy 25 and Tuesday 18 is travel, so you have two clear days to absorb this.",
+  "icuWorkoutText": "- 12m 55-84% LTHR\n\n3x\n- 38m 89-93% LTHR\n- 20m 55-84% LTHR\n\n- 8m 55-75% LTHR"
 }
