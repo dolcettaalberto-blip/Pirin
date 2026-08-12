@@ -1,9 +1,9 @@
 {
   "date": "2026-08-13",
   "type": "quality",
-  "title": "Short hill reps, 5x3min",
-  "terrain": "one climb, 8-12% grade, ~45m vert per rep, ~225m D+ total, walk-down recoveries",
-  "estimatedLoad": 55,
+  "title": "Short hill reps, 5x3min + aerobic tail",
+  "terrain": "one climb, 8-12% grade, ~45m vert per rep, ~225m D+ total, walk-down recoveries, then flat",
+  "estimatedLoad": 65,
   "steps": [
     {
       "kind": "warmup",
@@ -50,10 +50,10 @@
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
-      "target": "Z1"
+      "duration": "25m",
+      "target": "Z1-Z2 flat, easy"
     }
   ],
-  "coachNotes": "Replaces the 2x15m sustained climb. Sunday already delivers 114 minutes of Z3 climbing, so duplicating that stimulus here only spends legs you need on day 2. This adds the thing missing from the whole log: nothing has gone above 96% LTHR since June. 15 minutes at intensity instead of 30, so it lifts the ceiling that all the Z3 climbing sits under and leaves Sunday intact. Walk the recoveries, do not jog them: full recovery makes rep 5 as good as rep 1, and walking keeps eccentric load near zero (~225m of easy descent total, no ITB exposure worth the name). HR lags on 3min reps so the first minute reads low, judge by effort and expect to touch 175-180 only in the last minute. If a rep drops more than 10s slower than rep 1, stop the set there, the quality is gone. Autoregulation ladder, decide from Thursday morning's numbers: GREEN, HRV >=55 and RHR <=50, do all 5. AMBER, HRV 48-54 or RHR 51 or sleep score <60, do 4 reps at the same intensity, never soften the intensity, cut the count. RED, HRV <48 or RHR >=52, swap to 40min flat Z1-Z2 plus 6x20s strides and bin the hill entirely. In all three cases Sunday is untouched.",
-  "icuWorkoutText": "- 12m 60-84% LTHR\n\n3x\n- 20s 90-100% LTHR\n- 40s 50-65% LTHR\n\n- 3m 50-70% LTHR\n\n5x\n- 3m 95-100% LTHR\n- 3m 50-70% LTHR\n\n- 10m 60-80% LTHR"
+  "coachNotes": "Replaces the 2x15m sustained climb. Sunday already delivers 114 minutes of Z3 climbing, so duplicating that stimulus here only spends legs you need on day 2. This adds the thing missing from the whole log: nothing has gone above 96% LTHR since June. 15 minutes at intensity instead of 30, so it lifts the ceiling that all the Z3 climbing sits under and leaves Sunday intact. Walk the recoveries, do not jog them: full recovery makes rep 5 as good as rep 1, and walking keeps eccentric load near zero (~225m of easy descent total, no ITB exposure worth the name). HR lags on 3min reps so the first minute reads low, judge by effort and expect to touch 175-180 only in the last minute. If a rep drops more than 10s slower than rep 1, stop the set there, the quality is gone. The cooldown is 25min of flat easy running, not 10: the hill set is deliberately small but there is no reason to leave free aerobic volume on the table, and Z1 flat costs you nothing on Sunday. Autoregulation ladder, decide from Thursday morning's numbers: GREEN, HRV >=55 and RHR <=50, do all 5. AMBER, HRV 48-54 or RHR 51 or sleep score <60, do 4 reps at the same intensity, never soften the intensity, cut the count. RED, HRV <48 or RHR >=52, swap to 40min flat Z1-Z2 plus 6x20s strides and bin the hill entirely. In all three cases Sunday is untouched.",
+  "icuWorkoutText": "- 12m 60-84% LTHR\n\n3x\n- 20s 90-100% LTHR\n- 40s 50-65% LTHR\n\n- 3m 50-70% LTHR\n\n5x\n- 3m 95-100% LTHR\n- 3m 50-70% LTHR\n\n- 25m 60-80% LTHR"
 }

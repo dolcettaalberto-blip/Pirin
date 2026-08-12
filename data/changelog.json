@@ -316,5 +316,14 @@
     "affects": [
       "2026-08-13"
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "change": "Above-threshold progression added Wk5-Wk8, one session per week, all on the already-planned Thursday loads. Wk5 Thu 13 Aug raised 55 -> 65 (cooldown 10m -> 25m flat Z1-Z2, hill set unchanged at 5x3m). Wk6 Thu 20 Aug written: 6x3m at 95-100% LTHR, load 80. Wk7 Thu 27 Aug penciled as 5x4m at 92-97% on a real mountain climb, load 80. Wk8 Thu 3 Sep penciled as 6x90s at 100-105% LTHR, load 75. Wk5 planned total 413 -> 423, still below the original 433. No change to any Saturday, Sunday, weekend D+ or the Wk6-8 plan numbers.",
+    "reason": "Two athlete calls. First, deliberately add above-threshold work: the log shows nothing over 96% LTHR since June, so every Z3 climbing block sits under an untrained ceiling with 4 weeks left to raise it. Progression is 15, 18, 20 then 9 minutes at intensity, introduced before the peak weeks rather than during them. Second, Thu 13 Aug at 55 was under-loaded: the hill set is correctly small, but hrTSS also undervalues short supra-threshold reps and walk-down recoveries suppress it further. Fixed with 15min of extra flat Z1-Z2 rather than more reps, which buys load at near-zero cost to Sunday freshness.",
+    "affects": [
+      "2026-08-13",
+      "2026-08-20"
+    ]
   }
 ]
