@@ -308,5 +308,13 @@
       "2026-08-15",
       "2026-08-16"
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "change": "Wk5 Thu 13 Aug rebuilt: 2x15m sustained Z3-Z4 climb -> 5x3m hill reps at 95-100% LTHR with 3min walk-down recoveries, plus 3x20s strides in the warmup. Load 75 -> 55. Wk5 total 433 -> 413 planned, ~429 including Mon/Tue actuals. Amber/red ladder written into the session: 4 reps if HRV 48-54 or RHR 51 or sleep <60, flat 40min + strides if HRV <48 or RHR >=52. Sunday's 3-loop 1100m day, its load 175 and its abort rule are all unchanged.",
+    "reason": "Athlete priority is arriving at Sunday feeling great, and is indifferent between race CTL 40 and 42. 2x15m duplicated a stimulus Sunday already delivers in a bigger dose (3x38m Z3 climbing) at high residual cost 3 days out. Nothing in the log has exceeded 96% LTHR since June, so the missing stimulus is ceiling not threshold. Short reps halve time-at-intensity (30min -> 15min) while adding what is absent, and walk-down recoveries drop Thursday's descent to ~225m, protecting the ITB before Sunday's 1100m. Readiness today is amber (HRV 53 vs 61 baseline, RHR 51 vs 48.9, 28d SD 1.7), which reinforces the lighter Thursday but did not drive the redesign.",
+    "affects": [
+      "2026-08-13"
+    ]
   }
 ]
