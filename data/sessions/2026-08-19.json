@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-19",
+  "type": "easy",
+  "title": "Mountain re-entry, short continuous climb",
+  "terrain": "alpine, ~450m D+ single climb",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "12m",
+      "target": "Z1-Z2 approach"
+    },
+    {
+      "kind": "work",
+      "duration": "32m",
+      "target": "Z2 continuous climb, 152-161 bpm, hike the steep pitches"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "20m",
+      "target": "Z1 descent, short strides, high cadence"
+    }
+  ],
+  "coachNotes": "Trimmed from 60 to 45 because Tuesday is a full travel day and Thursday is the key session of the block, 24 hours later. First real gradient since Valbondione on 2 August, so the job is reconnaissance, not training: re-teach the legs a sustained climb, scout the line you will use for Thursday's 3x12, and find out how the ITB feels on a proper descent. Strictly Z2, nothing above 161. Hike anything steeper than about 20%. Any lateral knee signal, walk it out and tell me before Thursday.",
+  "icuWorkoutText": "- 12m 55-84% LTHR\n- 32m 84-89% LTHR\n- 20m 55-75% LTHR"
+}

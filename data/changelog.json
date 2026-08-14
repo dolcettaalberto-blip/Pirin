@@ -325,5 +325,27 @@
       "2026-08-13",
       "2026-08-20"
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "change": "Wk5 Fri/Sat swapped: Fri 14 takes the rolling primer as a 16km/410m group run (25 -> 75), Sat 15 takes the easy flat 30min (83 -> 25). Wk5 weekendDplus 1550 -> 1150.",
+    "reason": "Athlete committed to a 16.2km / ~410m D+ trail run with a friend on Friday morning. It matches the planned Saturday primer in duration and terrain, so swapping preserves weekly volume and leaves Sunday's key climb session untouched. Friday priced at its actual 75 (executed at avg HR 136, well under the 151 cap). Week totals 433 vs 423 planned; ramp +3.9, inside the 6 cap.",
+    "affects": [
+      "2026-08-14",
+      "2026-08-15"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "change": "Wk6-Wk8 restructured around confirmed travel, then refined on athlete input. Wk6 (Alps from 18 Aug) becomes the peak vertical week: 464 -> 480, weekendDplus 2000 -> 2600. Thu 20 rebuilt as 3x12min threshold inside one unbroken 900m ascent. Sat 22 rebuilt as 950m unbroken + full descent + 550m second climb. Wed 19 cut 60 -> 45 (Tue is a full travel day). Wk7 (Milan then Belgium, no terrain) 505 -> 400, weekendDplus 2200 -> 150, carried by HR-only indoor cycling. Wk8 gains a real Alps weekend 5-6 Sep: 395 -> 430, weekendDplus 1300 -> 1800. runKm recalibrated Wk5-Wk9 (52/55/58/47/55 -> 68/73/59/64/59).",
+    "reason": "Athlete confirmed location: Alps from 18 Aug, Milan from 24 Aug, Belgium for the 28-30 Aug weekend, Milan then Alps for 5-6 Sep, plus a full travel day on 18 Aug, access to a continuous climb of more than 900m, and heart rate only on the indoor trainer. The old plan put its two biggest vertical weekends in Wk6 and Wk7, but Wk7's weekend is now in Belgium where 2200m of D+ is impossible, so the vertical moves forward into Wk6 and backward into Wk8. Wk7 becomes a flat aerobic week, which also gives the ITB a two-week break from eccentric load between the two mountain blocks. The 900m climb lets Thursday's threshold work happen inside a single ascent with easy-climbing recoveries instead of descend-and-repeat, removing repeated eccentric loading and roughly doubling continuous-uphill time. Aggression directed at specificity rather than volume: Wk6-Wk8 total falls 1364 -> 1310 while weekend vertical rises. Actual CTL is running ~5 points ahead of the plan's projection (38.0 actual vs 33.0 projected on 14 Aug). Projected: Wk6 ramp +4.6, Wk7 +1.9, Wk8 +2.3, all inside the 6 cap; start-line CTL 45.4, race-morning TSB +9.4. Wk6 weekendDplus jump over Wk5 is terrain-driven, not a progression error: Wk5 was on Paros where 229m is the highest point on the island, and the athlete covered ~2900m of weekend D+ on 1-2 Aug without incident.",
+    "affects": [
+      "2026-08-17",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23"
+    ]
   }
 ]

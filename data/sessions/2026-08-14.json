@@ -1,16 +1,16 @@
 {
   "date": "2026-08-14",
-  "type": "recovery",
-  "title": "Easy flat run + strength",
-  "terrain": "flat",
-  "estimatedLoad": 25,
+  "type": "easy",
+  "title": "Livadia Beach loop with a friend, 16km rolling",
+  "terrain": "coastal trail, 16.2km / ~410m D+, high point 229m",
+  "estimatedLoad": 75,
   "steps": [
     {
       "kind": "work",
-      "duration": "30m",
-      "target": "Z1"
+      "duration": "1h50m",
+      "target": "Z2 rolling trail, ceiling 151 bpm"
     }
   ],
-  "coachNotes": "Legs need to be fresh for the weekend's big block. Strength as usual.",
-  "icuWorkoutText": "- 30m 70-84% LTHR"
+  "coachNotes": "Swapped in from Saturday: an athlete-arranged group run over the Livadia Beach loop matches the planned rolling primer in duration and terrain, so the two days trade places and Sunday's climb block is untouched. Ceiling 151 average, walk the sustained pitches at km 3 (6.2%) and km 13. Two ITB-relevant descents, km 8.2-9.2 (-104m at -9.4%) and the final 2.3km (-154m to the sea): short strides, cadence above 170, no braking. EXECUTED: 16.17km, 1h49m, 410m D+, avg HR 136, load 75. Cap respected comfortably, lowest-intensity run of the block.",
+  "icuWorkoutText": "- 1h50m 55-84% LTHR"
 }

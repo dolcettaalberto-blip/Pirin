@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-23",
+  "type": "long",
+  "title": "Back-to-back, 2x550m on tired legs",
+  "terrain": "alpine, ~18km / 1100m D+, two climb-descent loops",
+  "estimatedLoad": 125,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2"
+    },
+    {
+      "kind": "repeat",
+      "count": 2,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "45m",
+          "target": "Z2-Z3 climb, ~550m D+, 158-167 bpm"
+        },
+        {
+          "kind": "recover",
+          "duration": "30m",
+          "target": "Z1-Z2 descent, controlled"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1"
+    }
+  ],
+  "coachNotes": "The second half of the back-to-back is where the adaptation lives. Legs will be poor for the first 20 minutes, that is expected and not a reason to abort. Climb effort one notch below Saturday. Descend with short strides and cadence above 170, no braking, poles if you have them. Hard abort: stop after loop 1 on any lateral knee signal and log it. Loop 2 is optional, the weekend already worked without it.",
+  "icuWorkoutText": "- 15m 55-84% LTHR\n\n2x\n- 45m 88-93% LTHR\n- 30m 55-84% LTHR\n\n- 10m 55-75% LTHR"
+}

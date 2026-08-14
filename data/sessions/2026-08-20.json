@@ -1,14 +1,14 @@
 {
   "date": "2026-08-20",
   "type": "quality",
-  "title": "Hill reps, 6x3min",
-  "terrain": "mountain climb, 8-12% grade, ~270m D+ total, walk-down recoveries",
-  "estimatedLoad": 80,
+  "title": "3x12min threshold inside one 900m ascent",
+  "terrain": "alpine, single continuous 900m+ climb, one descent",
+  "estimatedLoad": 85,
   "steps": [
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1-Z2 approach to the climb"
+      "target": "Z1-Z2, first section of the climb, easy"
     },
     {
       "kind": "repeat",
@@ -16,44 +16,27 @@
       "steps": [
         {
           "kind": "work",
-          "duration": "20s",
-          "target": "Z4 stride, uphill"
+          "duration": "12m",
+          "target": "Z4 climbing, 170-176 bpm, 94-98% LTHR"
         },
         {
           "kind": "recover",
-          "duration": "40s",
-          "target": "walk"
+          "duration": "6m",
+          "target": "keep climbing at Z1-Z2, do not stop or descend"
         }
       ]
     },
     {
-      "kind": "recover",
-      "duration": "3m",
-      "target": "Z1",
-      "note": "settle before the main set"
-    },
-    {
-      "kind": "repeat",
-      "count": 6,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "3m",
-          "target": "Z4-Z5 climb, 171-180 bpm, running not hiking"
-        },
-        {
-          "kind": "recover",
-          "duration": "3m",
-          "target": "walk down, Z1"
-        }
-      ]
+      "kind": "work",
+      "duration": "8m",
+      "target": "Z2 to the top if the climb has more left"
     },
     {
       "kind": "cooldown",
-      "duration": "20m",
-      "target": "Z1-Z2 easy"
+      "duration": "25m",
+      "target": "Z1 descent, controlled, short strides"
     }
   ],
-  "coachNotes": "Dose two of the above-threshold progression: 5 reps on 13 Aug, 6 here, 5x4min on 27 Aug, then 6x90s sharp in the taper. Adding a rep rather than lengthening them, because the point is repeatable quality and the sustained-climbing stimulus is already covered by Saturday. First mountain week, so pick a climb you can rep cleanly at 8-12%, not something so steep it forces a hike. Walk every recovery, full 3min. Stop the set if a rep is more than 10s slower than rep 1. Saturday is 195 load, so this must not leave residue: if you finish the sixth rep and it felt like a fight, log it and I will cut 27 Aug. Same ladder as last week, green all 6, amber 5, red flat 40min plus strides.",
-  "icuWorkoutText": "- 15m 60-84% LTHR\n\n3x\n- 20s 90-100% LTHR\n- 40s 50-65% LTHR\n\n- 3m 50-70% LTHR\n\n6x\n- 3m 95-100% LTHR\n- 3m 50-70% LTHR\n\n- 20m 60-80% LTHR"
+  "coachNotes": "Rebuilt now that a 900m+ continuous climb is available, and this is a much better session than the original repeat-a-short-hill version. All three reps happen inside one unbroken ascent: the recoveries are easy climbing, never descending and never standing still. Roughly 70 minutes of continuous uphill with 36 of them at threshold, the closest structural match to Pirin you can build, and it removes the repeated eccentric loading a descend-and-repeat session would have added. Pace it so rep 3 is the strongest. If the climb runs out before rep 3, finish the rep on whatever gradient continues rather than turning around. Single descent at the end, taken easy.",
+  "icuWorkoutText": "- 15m 55-84% LTHR\n\n3x\n- 12m 94-98% LTHR\n- 6m 55-84% LTHR\n\n- 8m 84-89% LTHR\n- 25m 55-75% LTHR"
 }

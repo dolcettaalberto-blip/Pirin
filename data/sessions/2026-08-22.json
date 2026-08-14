@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-22",
+  "type": "long",
+  "title": "Race rehearsal, 950m unbroken then 550m on tired legs",
+  "terrain": "alpine, ~22km / 1500m D+, two climbs, two full descents",
+  "estimatedLoad": 170,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "20m",
+      "target": "Z1-Z2 valley approach"
+    },
+    {
+      "kind": "work",
+      "duration": "1h25m",
+      "target": "Z2-Z3 unbroken climb, ~950m D+, 158-167 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "45m",
+      "target": "Z1-Z2 full descent, controlled, short strides"
+    },
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z2 second climb, ~550m D+, 152-161 bpm, legs already tired"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "30m",
+      "target": "Z1-Z2 descent to the valley"
+    }
+  ],
+  "coachNotes": "Restructured around the 900m+ climb you have access to. Two climbs and two full descents beats one climb and a traverse, because Pirin is 3300m over 38km and no single ascent wins that race, the second and third ones do. Climb 1 unbroken at 89-93% LTHR, never above 167, and treat the first 45 minutes as deliberately too easy. Eat every 40 minutes from the first hour, this is a fuelling rehearsal as much as a fitness one. Climb 2 is the point of the session: it teaches you what hour four feels like. Both descents run at full length because your ITB has to be conditioned for 3300m of give-back and only descent volume does that. Hard abort: any lateral knee signal, skip climb 2, walk out, and Sunday drops to 60 flat. Start by 07:00, roughly 3h50 total.",
+  "icuWorkoutText": "- 20m 55-84% LTHR\n- 1h25m 89-93% LTHR\n- 45m 55-84% LTHR\n- 50m 84-89% LTHR\n- 30m 55-84% LTHR"
+}

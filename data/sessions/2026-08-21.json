@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-21",
+  "type": "recovery",
+  "title": "Easy flat + mobility",
+  "terrain": "valley floor, flat",
+  "estimatedLoad": 25,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1"
+    }
+  ],
+  "coachNotes": "Valley floor only, no climbing, no descent. Saturday and Sunday are the biggest weekend of the entire build and they need intact legs. If HRV is under 52 Friday morning, take full rest instead.",
+  "icuWorkoutText": "- 30m 55-75% LTHR"
+}

@@ -1,16 +1,16 @@
 {
   "date": "2026-08-15",
-  "type": "easy",
-  "title": "Rolling primer, descent kept small",
-  "terrain": "flat/rolling, ~450m D+, no long descents",
-  "estimatedLoad": 83,
+  "type": "recovery",
+  "title": "Easy flat run + mobility",
+  "terrain": "flat, zero descent",
+  "estimatedLoad": 25,
   "steps": [
     {
       "kind": "work",
-      "duration": "2h10m",
-      "target": "Z2 flat/rolling, ceiling 151 bpm"
+      "duration": "30m",
+      "target": "Z1"
     }
   ],
-  "coachNotes": "Day 1 of the swapped weekend, and its only job is to not compromise Sunday. Aerobic volume yes, eccentric load no: descent trimmed from 700m to ~450m and nothing long or steep. If you find yourself on a big descent you have picked the wrong route. Ceiling 151, and if HRV is under 55 Saturday morning cut this to 90 minutes rather than touching Sunday.",
-  "icuWorkoutText": "- 2h10m 55-84% LTHR"
+  "coachNotes": "Flat only, no terrain, no descent. Its single job is to leave the legs intact for Sunday's 1100m climb block, the key session of the whole build. Friday's group run came in at 75 against a 100 estimate and at avg HR 136, so there is no case for adding volume back here: the marginal CTL is worth less than arriving at Sunday fresh. Gate: if HRV is under 52 or RHR is 52 or above Saturday morning, take full rest instead.",
+  "icuWorkoutText": "- 30m 70-84% LTHR"
 }
