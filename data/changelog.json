@@ -347,5 +347,14 @@
       "2026-08-22",
       "2026-08-23"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "change": "Sat 15 Aug converted to full rest (planned load 25 -> 0, session file removed). Wk5 runKm 68 -> 63, weekendDplus 1150 -> 1100. Wk5 total 423 -> 398. Sunday 16 keeps its 175 and its 3x370m structure, but gains a hard morning readiness gate: 3 loops only if RHR <=52 and HRV >=55, otherwise 2 loops (~120), and a single Z2 loop with walked descent (~55) if RHR >=55.",
+    "reason": "The 15 Aug session carried an explicit pre-written gate: full rest if HRV <52 or RHR >=52. This morning RHR is 54, the highest reading in the 28-day window at +2.6 SD above a 49.2 baseline, and the 7-day HRV mean has fallen four days running to 58.6 against a 61.4 baseline. HRV alone is only -0.5 SD, so this is a one-sided signal rather than a red flag, but the gate was written on Thursday with exactly this case in mind and the price of honouring it is 25 load. Projected start-line CTL falls 46.1 -> 45.8 against a target of 42, so the fitness cost is nil while Sunday is the highest-value session of the build: 1100m of descent on day-2 legs is the only ITB-specific rehearsal before the Alps block starts 18 Aug. Week 5 executed 233 against 215 planned Mon-Fri, so the rest also corrects a small overshoot. Weekend D+ falls versus Wk4's 850 planned once Saturday's flat run is removed, so no new jump flag.",
+    "affects": [
+      "2026-08-15",
+      "2026-08-16"
+    ]
   }
 ]
