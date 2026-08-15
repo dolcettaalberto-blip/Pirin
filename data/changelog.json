@@ -356,5 +356,13 @@
       "2026-08-15",
       "2026-08-16"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "change": "Sun 16 Aug rebuilt on the athlete's Home to Aliki GPX: 22.3km point-to-point, single 780m climb to 694m over 8km, then 11.7km continuous descent to sea level. Replaces 3x370m climb-descent loops. Load held at 175, so no plannedDailyLoad change. Wk5 weekendDplus 1100 -> 950, runKm 63 -> 67. Athlete's proposal to add an out-and-back at the summit to reach 1100m D+ declined. Descent split into two ~370m blocks at the km 16 riser with a mandatory 3min walk break. Morning readiness gate carried over from the loop version and restated in route terms.",
+    "reason": "The GPX is a materially better Pirin rehearsal than the loop design: one unbroken 780m ascent over 8km versus three 370m fragments, and Pirin's 3300m arrives in long sustained climbs. The 1100m D+ figure was only ever a stimulus proxy, and reaching it here would require re-climbing from the summit, which adds ~250m of descent on top of an 11.7km continuous drop already graded -7 to -11%. That is the largest single eccentric block since the March ITBS episode, so the round number is not worth buying. Saturday's conversion to full rest is what makes this acceptable: the athlete arrives on fresh legs rather than the day-2 legs the loop version was designed around, which was the original justification for fragmenting the descent. The km 16 riser reinstates that fragmentation naturally, giving two ~370m descent blocks. Load estimate 150-175 based on comparable Paros trail sessions (8 Aug 18.7km/745m = 138; 26 Jul 19.6km/1319m = 162), held at 175 since the climb is now prescribed at Z3 rather than split by recoveries. Correction to the 2026-08-15 Wk6 entry: it claimed 229m is the highest point on Paros, which is wrong. Profitis Ilias is roughly 750m and this route tops out at 694m, so the Wk5-to-Wk6 vertical step is smaller than that entry implied, though its conclusion is unchanged.",
+    "affects": [
+      "2026-08-16"
+    ]
   }
 ]

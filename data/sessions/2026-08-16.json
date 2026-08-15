@@ -1,37 +1,41 @@
 {
   "date": "2026-08-16",
   "type": "long",
-  "title": "Big climb day, 3 loops on tired legs",
-  "terrain": "3x ~370m climb-descent loops, 1100m D+ / 1100m D-",
+  "title": "Home to Aliki: one continuous 780m climb, then the full drop",
+  "terrain": "22.3km point-to-point, ~950m D+ / ~950m D-, single 780m ascent to 694m then 11.7km continuous descent to sea level",
   "estimatedLoad": 175,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "12m",
-      "target": "Z1-Z2 flat approach"
+      "duration": "22m",
+      "target": "Z1-Z2 rolling approach, km 0-2.5"
     },
     {
-      "kind": "repeat",
-      "count": 3,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "38m",
-          "target": "Z3 climb, ~370m D+, 160-167 bpm, push"
-        },
-        {
-          "kind": "recover",
-          "duration": "20m",
-          "target": "Z1-Z2 descent, ~370m D-, controlled"
-        }
-      ]
+      "kind": "work",
+      "duration": "1h08m",
+      "target": "Z3 climb km 2.5-10.6, 670m D+, 160-167 bpm, run the shallow, power-hike over 12%"
     },
     {
-      "kind": "cooldown",
-      "duration": "8m",
-      "target": "Z1"
+      "kind": "recover",
+      "duration": "5m",
+      "target": "Z1 at the 694m summit, drink, reset cadence"
+    },
+    {
+      "kind": "work",
+      "duration": "45m",
+      "target": "Z2 descent block 1, km 10.6-15.5, ~370m D-, cadence 175+"
+    },
+    {
+      "kind": "recover",
+      "duration": "3m",
+      "target": "walk, mandatory ITB break at the km 16 riser"
+    },
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z2 descent block 2, km 16.5-22.3, ~390m D-, cadence 175+"
     }
   ],
-  "coachNotes": "Moved from Saturday at athlete request. This is now the harder arrangement, not the easier one: 1100m of descent lands on day-2 legs, which is a closer rehearsal of the race's final 1250m drop but also the highest ITB exposure since 2 Aug. That is the deliberate trade. Climbs at 89-93% LTHR (160-167), strong hike or run. Descents short strides, high cadence, no braking, poles if you have them. MORNING GATE (Saturday 15 was converted to full rest, RHR 54): go full 3 loops only if RHR is 52 or below AND HRV is 55 or above. If RHR is 53 or higher, or HRV is under 55, run 2 loops and stop (load ~120), do not negotiate loop 3 on the hill. If RHR is 55 or higher, drop to a single loop at Z2 with a walked descent (load ~55). Hard abort rule regardless of the gate: stop after loop 2 if there is any lateral knee signal, any at all, and log it. Start by 06:30 for the heat; if it is hot, judge climbs by effort and let HR run above range. Monday 17 is easy 30 and Tuesday 18 is a full travel day, so you have two clear days to absorb this.",
-  "icuWorkoutText": "- 12m 55-84% LTHR\n\n3x\n- 38m 89-93% LTHR\n- 20m 55-84% LTHR\n\n- 8m 55-75% LTHR"
+  "coachNotes": "Route swapped from 3x370m loops to the athlete's Home to Aliki line, and it is the better session. Pirin is won on long sustained climbs, and this gives you one unbroken 780m ascent over 8km instead of three short ones, which the loop version could not buy at any price on this island. DO NOT add the out-and-back at the top to reach 1100m D+. The 1100 was a proxy for stimulus, not a target: the extra 250m of climb also buys 250m of extra descent on top of an 11.7km continuous drop that is already the largest single eccentric block since March. Take the specificity, decline the round number. Climb at 89-93% LTHR (160-167). The km 5-6 dip is a natural reset, use it, do not fight to hold effort through it. Descent is the whole ITB risk here and it is graded -7 to -11% for most of km 11-22: short strides, cadence 175 or higher, land under your hips, absolutely no braking or heel-jamming. The km 16 riser splits the drop into two roughly 370m blocks, which is the loop design's protection arriving by accident. Take the 3min walk there whether or not you feel you need it. Hard abort: any lateral knee signal, any at all, and you walk the remainder and log it. You are near roads the whole way down, so there is no reason to run through it. Because Saturday became full rest, you arrive on fresh legs rather than day-2 legs, which is exactly what makes the long unbroken descent an acceptable trade today. MORNING GATE: full route only if RHR is 52 or below AND HRV is 55 or above. If RHR is 53 or higher, or HRV is under 55, turn at the summit and take transport down, or descend walking (load ~110). If RHR is 55 or higher, climb to roughly 400m and walk down (load ~60). HEAT: this is the real limiter, not the legs. Start by 06:30, the descent ends at sea level mid-morning. Carry 1.5L minimum plus salt, and judge the climb by effort if HR runs high. Point-to-point, so arrange the ride home from Aliki before you leave.",
+  "icuWorkoutText": "- 22m 55-84% LTHR\n- 1h08m 89-93% LTHR\n- 5m 55-75% LTHR\n- 45m 70-84% LTHR\n- 3m 50-65% LTHR\n- 50m 70-84% LTHR"
 }

@@ -80,8 +80,8 @@
       "week": 5,
       "start": "2026-08-10",
       "block": "Build",
-      "runKm": 63,
-      "weekendDplus": 1100,
+      "runKm": 67,
+      "weekendDplus": 950,
       "plannedDailyLoad": {
         "mon": 20,
         "tue": 55,
