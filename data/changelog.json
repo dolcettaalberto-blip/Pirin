@@ -364,5 +364,16 @@
     "affects": [
       "2026-08-16"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "change": "Readiness gating protocol replaced for the Alps block (Wk6). Absolute RHR thresholds (52/53/55) retired on arrival. Wed 19 and Thu 20 are record-only, no RHR gate; Thu 20 gates on sleep >=7h and leg feel instead, cutting rep count not rep duration. From Sat 22 the gate runs on offsets from a locally measured baseline B = mean of Wed/Thu/Fri morning RHR: green <=B+2, amber B+3 to B+5, red >=B+6. HRV gating switches permanently from an absolute number to the 7-day mean over 28-day baseline ratio: green >0.95, amber 0.90-0.95, red <0.90. Altitude caveat written into Sat 22. No load or structure changes.",
+    "reason": "The current thresholds were fitted to sea-level Paros in August heat and are void the moment the athlete lands in the Alps on 18 Aug. Heat withdrawal should drop RHR 2-4bpm within a few days while modest altitude pushes it up, and the travel day contaminates the first readings, so the two effects partly cancel and no absolute number survives the move. Offsets from a locally re-measured baseline are portable; absolute levels are not. The HRV ratio change is the same argument and is permanent rather than block-specific, since numerator and denominator move together over a rolling window. Verified against the 15 Aug decision: 58.6/61.4 = 0.955, which reproduces the amber call that triggered Saturday's rest, so the new rule is consistent with the one it replaces. Sleeping altitude is unknown; if it is above 1800m the observation window extends and amber widens 2bpm, because the first four to five nights add 3-6bpm of hypoxic RHR elevation that would otherwise gate out the entire peak week.",
+    "affects": [
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-22",
+      "2026-08-23"
+    ]
   }
 ]
