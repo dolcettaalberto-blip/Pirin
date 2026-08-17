@@ -1,42 +1,37 @@
 {
   "date": "2026-08-20",
-  "type": "quality",
-  "title": "3x12min threshold inside one 900m ascent",
-  "terrain": "alpine, single continuous 900m+ climb, one descent",
-  "estimatedLoad": 85,
+  "type": "recovery",
+  "title": "Indoor bike, aerobic flush, zero eccentric",
+  "terrain": "indoor trainer",
+  "estimatedLoad": 40,
   "steps": [
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1-Z2, first section of the climb, easy"
+      "target": "Z1, cadence 90+, 55-70% LTHR"
     },
     {
       "kind": "repeat",
-      "count": 3,
+      "count": 4,
       "steps": [
         {
           "kind": "work",
-          "duration": "12m",
-          "target": "Z4 climbing, 170-176 bpm, 94-98% LTHR"
+          "duration": "3m",
+          "target": "84-88% LTHR, cadence 95+"
         },
         {
           "kind": "recover",
-          "duration": "6m",
-          "target": "keep climbing at Z1-Z2, do not stop or descend"
+          "duration": "3m",
+          "target": "55-70% LTHR"
         }
       ]
     },
     {
-      "kind": "work",
-      "duration": "8m",
-      "target": "Z2 to the top if the climb has more left"
-    },
-    {
       "kind": "cooldown",
-      "duration": "25m",
-      "target": "Z1 descent, controlled, short strides"
+      "duration": "15m",
+      "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "Rebuilt now that a 900m+ continuous climb is available, and this is a much better session than the original repeat-a-short-hill version. All three reps happen inside one unbroken ascent: the recoveries are easy climbing, never descending and never standing still. Roughly 70 minutes of continuous uphill with 36 of them at threshold, the closest structural match to Pirin you can build, and it removes the repeated eccentric loading a descend-and-repeat session would have added. Pace it so rep 3 is the strongest. If the climb runs out before rep 3, finish the rep on whatever gradient continues rather than turning around. Single descent at the end, taken easy. ALPS RE-BASELINE, DAY 2 OF 3: still no valid RHR baseline, so this session gates on sleep and legs instead. Green if you slept 7h or more and the legs feel normal on the warm-up climb. If you slept under 7h, or the first 15 minutes of climbing feel heavy, cut to 2x12min and keep the load by extending the easy climbing. Do not cut the rep duration, cut the rep count: 12 minutes is the whole point of the session.",
-  "icuWorkoutText": "- 15m 55-84% LTHR\n\n3x\n- 12m 94-98% LTHR\n- 6m 55-84% LTHR\n\n- 8m 84-89% LTHR\n- 25m 55-75% LTHR"
+  "coachNotes": "Rain arrives and the 3x12 threshold session was absorbed into Wednesday, so this is deliberately not a replacement for it. Bike because it buys aerobic minutes with no eccentric cost on quads that took 1000m of descent 24 hours earlier. Cadence high, resistance low, nothing that feels like a workout. Strength after: single-leg step-downs, glute med, Copenhagen. That is the actual training on this day. Garmin expect 50-80.",
+  "icuWorkoutText": "- 15m 55-70% LTHR\n\n4x\n- 3m 84-88% LTHR\n- 3m 55-70% LTHR\n\n- 15m 55-70% LTHR"
 }

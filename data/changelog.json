@@ -375,5 +375,16 @@
       "2026-08-22",
       "2026-08-23"
     ]
+  },
+  {
+    "date": "2026-08-17",
+    "change": "Wk6 restructured around the weather: Wed 45 -> 120 (Thursday's 3x12 threshold merged into a bounded 900-1100m Presolana-window traverse), Thu 85 -> 40 (indoor bike, zero eccentric), Sat 170 -> 140 (low-altitude double climb, rain-proof, bike fallback), Sun 125 -> 80 (rolling, D+ capped 400m). weekendDplus 2600 -> 1800, runKm 73 -> 52, week total 480 -> 435.",
+    "reason": "ARPA Lombardia bulletin of 17 Aug: stable and hot Tue/Wed with first storms only from Wednesday evening, then a perturbed phase with widespread locally intense rain from Thursday lasting at least to Sunday 23. Wednesday is the single reliable mountain day and the last descent terrain before 5-6 September, since Wk7 is flat (Milan/Belgium). Load moved forward rather than cancelled. Descent deliberately not maximised: the last real descent was 2 August (Valbondione, 1011m D-) and 17 days of Greek flat terrain means the ITB has lost eccentric conditioning, so single-day D- is capped at 1100m and the weekend goes aerobic instead of eccentric. weekendDplus 1800 is a +89% jump over Wk5's 950, explicitly justified here: Wk5 was flat Greece with no descent terrain available, not a training decision, and the ramp against the last real mountain week (Wk3, 2278m) is negative. CTL ramp +3.6 for the week, inside the <=6 guardrail, versus +4.9 on the original.",
+    "affects": [
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-22",
+      "2026-08-23"
+    ]
   }
 ]

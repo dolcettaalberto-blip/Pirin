@@ -1,26 +1,42 @@
 {
   "date": "2026-08-19",
-  "type": "easy",
-  "title": "Mountain re-entry, short continuous climb",
-  "terrain": "alpine, ~450m D+ single climb",
-  "estimatedLoad": 45,
+  "type": "long",
+  "title": "Presolana window: bounded traverse with threshold inside the climb",
+  "terrain": "alpine, 900-1100m D+ continuous, D- capped 1100m, non-technical descent line",
+  "estimatedLoad": 120,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "12m",
-      "target": "Z1-Z2 approach"
+      "duration": "25m",
+      "target": "Z1-Z2 approach, 55-84% LTHR"
+    },
+    {
+      "kind": "repeat",
+      "count": 2,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "12m",
+          "target": "Z4 climbing, 170-176 bpm, 94-98% LTHR"
+        },
+        {
+          "kind": "recover",
+          "duration": "8m",
+          "target": "keep climbing easy, 75-84% LTHR, never descend or stand still"
+        }
+      ]
     },
     {
       "kind": "work",
-      "duration": "32m",
-      "target": "Z2 continuous climb, 152-161 bpm, hike the steep pitches"
+      "duration": "45m",
+      "target": "Z2 continuous climb to the high point, 152-161 bpm"
     },
     {
       "kind": "cooldown",
-      "duration": "20m",
-      "target": "Z1 descent, short strides, high cadence"
+      "duration": "55m",
+      "target": "Z1-Z2 descent, poles, short strides, cadence 175+"
     }
   ],
-  "coachNotes": "Trimmed from 60 to 45 because Tuesday is a full travel day and Thursday is the key session of the block, 24 hours later. First real gradient since Valbondione on 2 August, so the job is reconnaissance, not training: re-teach the legs a sustained climb, scout the line you will use for Thursday's 3x12, and find out how the ITB feels on a proper descent. Strictly Z2, nothing above 161. Hike anything steeper than about 20%. Any lateral knee signal, walk it out and tell me before Thursday. ALPS RE-BASELINE, DAY 1 OF 3: record RHR and HRV this morning but do NOT gate on them. Tuesday was a full travel day and you have just swapped 30C at sea level for alpine nights, so the Paros baseline (RHR 49.2, SD 1.9) is void and the new one does not exist yet. Run this session on feel and on the Z2 cap, not on numbers.",
-  "icuWorkoutText": "- 12m 55-84% LTHR\n- 32m 84-89% LTHR\n- 20m 55-75% LTHR"
+  "coachNotes": "Wednesday is now the only guaranteed mountain day of the week and the only descent terrain before 5-6 September, so Thursday's quality session moves into it. Do not turn that into a reason to go bigger. ROUTE BRIEF: 900-1100m D+ in one continuous ascent, descent matched and hard-capped at 1100m, no sustained grade steeper than -12%, descent line runnable at cadence 175+ (rocky step-down braking terrain is the ITB failure mode, not the length). Loop or point-to-point both fine. WEATHER: ARPA has convection from Wednesday evening, so off any exposed crest by 15:00 and start by 06:00, which also handles the heat. Expect 15-18C at 2500m, not the 11C mountain-forecast is showing, with 35C in the valley; carry 2.5L minimum, limestone in August gives back everything it absorbs. ITB: this is the first real descent in 17 days, Valbondione on 2 August was the last one. That gap is the risk, not the gradient. Poles from the first metre of descent, no free-running the steep upper section, and any lateral knee signal means walk out and Saturday drops to the bike. Garmin on-watch load expect 200-260 against the intervals.icu 120.",
+  "icuWorkoutText": "- 25m 55-84% LTHR\n\n2x\n- 12m 94-98% LTHR\n- 8m 75-84% LTHR\n\n- 45m 84-89% LTHR\n- 55m 55-80% LTHR"
 }

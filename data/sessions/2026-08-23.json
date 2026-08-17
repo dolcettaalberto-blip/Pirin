@@ -1,37 +1,26 @@
 {
   "date": "2026-08-23",
   "type": "long",
-  "title": "Back-to-back, 2x550m on tired legs",
-  "terrain": "alpine, ~18km / 1100m D+, two climb-descent loops",
-  "estimatedLoad": 125,
+  "title": "Back-to-back on tired legs, rolling, D+ capped 400m",
+  "terrain": "valley / rolling forest, D+ and D- both under 400m",
+  "estimatedLoad": 80,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "15m",
-      "target": "Z1-Z2"
+      "duration": "10m",
+      "target": "Z1, 55-75% LTHR"
     },
     {
-      "kind": "repeat",
-      "count": 2,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "45m",
-          "target": "Z2-Z3 climb, ~550m D+, 158-167 bpm"
-        },
-        {
-          "kind": "recover",
-          "duration": "30m",
-          "target": "Z1-Z2 descent, controlled"
-        }
-      ]
+      "kind": "work",
+      "duration": "60m",
+      "target": "Z2 rolling, 80-88% LTHR, run every climb"
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
-      "target": "Z1"
+      "duration": "15m",
+      "target": "Z1, 55-75% LTHR"
     }
   ],
-  "coachNotes": "The second half of the back-to-back is where the adaptation lives. Legs will be poor for the first 20 minutes, that is expected and not a reason to abort. Climb effort one notch below Saturday. Descend with short strides and cadence above 170, no braking, poles if you have them. Hard abort: stop after loop 1 on any lateral knee signal and log it. Loop 2 is optional, the weekend already worked without it. ALPS GATE: same B and same offsets as Saturday. On a back-to-back the morning-after RHR is expected to be elevated by the previous day's work, so read the trend, not the level: amber only matters here if RHR is above B+5 or the HRV ratio is below 0.90. Loop 2 is the optional part, loop 1 is not.",
-  "icuWorkoutText": "- 15m 55-84% LTHR\n\n2x\n- 45m 88-93% LTHR\n- 30m 55-84% LTHR\n\n- 10m 55-75% LTHR"
+  "coachNotes": "The back-to-back survives, the vertical does not. Two consecutive days of aerobic work on legs that are not fresh is most of what the original weekend was buying; the 1100m of extra descent is what we cannot safely take after a 17-day descent gap plus rain. Last day in the Alps, so if a genuine dry window opens you may take up to 400m D+ on a non-technical line, no more. Bike substitution allowed one for one if it is raining hard: 90m endurance spin plus 20m flat jog. Garmin expect 130-160.",
+  "icuWorkoutText": "- 10m 55-75% LTHR\n- 60m 80-88% LTHR\n- 15m 55-75% LTHR"
 }
