@@ -386,5 +386,18 @@
       "2026-08-22",
       "2026-08-23"
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "change": "Wk6 Mon 17 corrected to rest (30 -> 0, session file removed) and Tue 18 to its executed value (0 -> 21, session file added); runKm 52 -> 50, week total 435 -> 426. No structural change to Wed-Sun. Session notes refreshed on the 18 Aug forecast: Wed 19 confirmed GREEN and unchanged at 120, Thu 20 explicitly held as a bike day despite an improved forecast, Sat 22 / Sun 23 gain a pre-authorised one-for-one swap if Sunday's window is clearly better by Friday evening. Sleep record for 17 Aug corrected in intervals.icu from 3h22 to 7h (watch misread; sleepScore 39 left as-is, the app reads sleepSecs only).",
+    "reason": "Monday's Paros shakeout was not executed and Tuesday's travel day carried 21 instead of the planned 0, so the projection was corrected to what actually happened rather than left to drift. Wednesday goes at full load on the strongest readiness of the block: HRV 72 vs a 62.9 28-day mean (z +1.06), 7d/28d ratio 1.007, RHR 51 flat at 50-51 for seven days, and 7h sleep on the 17th once the watch error was corrected. Thursday's forecast improved to 21C with little rain, which is exactly the condition under which a bike day gets converted into a run; it is held because the constraint is eccentric recovery 24-48h after Wednesday's ~1000m descent following a 17-day descent gap, not precipitation. Weekend rain risk now peaks Friday-Saturday with Sunday improving, hence the pre-authorised swap rather than a speculative re-plan four days out. Projected from actuals (CTL 38.2 / ATL 44.4 on 18 Aug): Wk6 ramp +4.9, Wk7 +2.3, Wk8 +2.6, all inside the 6 cap, race-morning CTL 43.9 and TSB +8.3. Note the 17 Aug weather restructure cost ~2.8 points of projected start-line CTL against the pre-restructure plan; the margin over the 42 target is now +1.9 on the plan line and +1.9 on the actuals line, which is thin but adequate, and Wk8's Alps weekend is where it gets rebuilt if needed.",
+    "affects": [
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-22",
+      "2026-08-23"
+    ]
   }
 ]

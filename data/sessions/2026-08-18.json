@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-18",
+  "type": "easy",
+  "title": "Departure shakeout + strength",
+  "terrain": "flat coastal, then travel day",
+  "estimatedLoad": 21,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "8m",
+      "target": "Z1, 55-70% LTHR"
+    },
+    {
+      "kind": "work",
+      "duration": "15m",
+      "target": "Z2 easy, 75-84% LTHR"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, 55-70% LTHR"
+    }
+  ],
+  "coachNotes": "Recorded after the fact. Monday's Paros farewell shakeout did not happen, so it moved to Tuesday morning before the flight: 4.3km at avg HR 133 plus 15min of strength, 21 load against a planned rest day. Net effect over the two days is 21 against 30 planned, which is inside the noise. Strength on a travel day is the right trade: single-leg and glute med work is the ITB insurance policy and Wednesday is the first real descent in 17 days. Do not add anything else today, the rest of Tuesday is sitting in transit and Wednesday is the biggest session of the week.",
+  "icuWorkoutText": "- 8m 55-70% LTHR\n- 15m 75-84% LTHR\n- 5m 55-70% LTHR"
+}
