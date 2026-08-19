@@ -411,5 +411,21 @@
       "2026-08-22",
       "2026-08-23"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "change": "Wk8 restructured around a single 2000m D+ rehearsal on Sat 5 Sep: sat 140 -> 235, sun 80 -> 25, thu 55 -> 45, wed 45 -> 40, fri 20 -> 0 (travel), week 430 -> 435, weekendDplus 1800 -> 2000, runKm 64 -> 60. New session file 2026-09-05 with D- hard-capped at 1500m and a route-enforced rather than number-enforced ceiling. Wk9 taper deepened: mon 25 -> 0, thu 30 -> 25, fri 15 -> 10, runKm 59 -> 52; race day untouched at 360. Projected race morning 12 Sep: CTL 44.6, ATL 38.8, TSB +5.8.",
+    "reason": "Athlete asked for at least one 2000m D+ day and 5 September is the only slot: week 7 is flat (Milan/Belgium) and 5-6 September is the last mountain weekend. Stated honestly in the session file that this is not a fitness session, CTL is already 45 against a 42 target; it buys pacing, a five-hour fuelling rehearsal and confidence, and 61% of race vertical is the largest single-day dose available without eating the taper. Descent capped at 1500m rather than matched to the climb because a full 2000m D- seven days out risks quad damage or ITB with no recovery week behind it, and the cap outranks the climb target if the terrain only offers a loop. Ceiling specified as a fixed point-to-point route after the athlete confirmed the 19 August overshoot was feeling good and extending, not terrain: a number he can round up is the wrong control, a line with a fixed endpoint is not. Week 7 eccentric mandate written into the session as a precondition, since 22 Aug to 5 Sep is a 14-day eccentric gap and that gap, not the gradient, is the ITB failure mode; without it the session downgrades to 1600m D+ / 1200m D-. Wk9 taper deepened to land TSB near +6 with CTL 44.6, keeping fitness well above target while fully absorbing a 235-load day at 7 days out. The weekend-D+ flag will fire on wk8 (150 -> 2000) and is expected: week 7 is a flat travel week, and the meaningful comparison is the 2931m weekend of 1-2 August, which this sits below.",
+    "affects": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07",
+      "2026-09-10",
+      "2026-09-11"
+    ]
   }
 ]

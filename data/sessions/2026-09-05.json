@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-05",
+  "type": "long",
+  "title": "Race rehearsal: 2000m D+ in one day",
+  "terrain": "alpine, 2000m D+ over 24-26km, D- hard-capped 1500m, point-to-point or lift-assisted finish",
+  "estimatedLoad": 235,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "20m",
+      "target": "Z1-Z2 approach, 55-84% LTHR"
+    },
+    {
+      "kind": "work",
+      "duration": "1h50m",
+      "target": "Z2-Z3 first sustained climb, ~1100m D+, 84-89% LTHR"
+    },
+    {
+      "kind": "recover",
+      "duration": "40m",
+      "target": "Z1-Z2 descent ~600m, poles, cadence 175+"
+    },
+    {
+      "kind": "work",
+      "duration": "1h20m",
+      "target": "Z2-Z3 second climb, ~900m D+, 84-89% LTHR"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "60m",
+      "target": "Z1-Z2 descent ~900m, poles, 55-80% LTHR"
+    }
+  ],  "coachNotes": "THE 2000m DAY. Seven days out, 24-26km, ~5h10, 2000m D+ against Pirin's 3300m, so 61% of race vertical at roughly race gradient (80m/km against the race's 87m/km). Be clear about what this buys: it is not fitness. CTL is already 45 against a 42 target and one session cannot move it meaningfully. It buys the pacing, the fuelling and the knowledge that you can climb for five hours, and at this point that is worth more than another 1.6 CTL points. DESCENT HARD-CAPPED AT 1500m, and this is the one number that is not negotiable. Full 2000m of descent seven days before the race is how you arrive with dead quads or a hot ITB, and there is no week left to absorb it. Build the route point-to-point finishing ~500m above the start, or take a lift down the last section. If the only option is a loop with matched D-, then the day becomes 1700m D+ / 1700m D- instead: the descent cap wins over the climb target, every time. THE CAP IS THE ROUTE, NOT YOUR DISCIPLINE. You went 27% over on 19 August because you felt good, which is the honest and the most common reason, so this session is specified as a fixed line with a fixed endpoint rather than a number to respect. Load the GPX, no extensions, no summit out-and-backs. If you finish feeling strong, that is the session working, not an invitation. PRECONDITION, read this now and not on 5 September: your last descent is 22 August, which leaves a 14-day eccentric gap into a 1500m descent day. That is the exact pattern that made 19 August a risk, and it is worse here because there is no recovery week behind it. Week 7 (Milan/Belgium, 150m D+ available) must carry real eccentric loading: step-downs, slow-tempo split squats and Nordics twice a week minimum, plus stair or building descents or a negative-grade treadmill if you can find one. If week 7 has no eccentric work, this session drops to 1600m D+ / 1200m D- and we accept the smaller day. FUELLING: full race kit, nothing new, 60-90g carbs per hour from minute 40, and write down what you actually took. This is your last chance to find out what your stomach does at hour four. AMBER: HRV 7d/28d under 0.90 or any lateral knee signal on Thursday or Friday means one climb and out, ~1200m D+, load 150. Garmin expect 380-450.",
+  "icuWorkoutText": "- 20m 55-84% LTHR\n- 1h50m 84-89% LTHR\n- 40m 55-84% LTHR\n- 1h20m 84-89% LTHR\n- 60m 55-80% LTHR"
+}

@@ -127,31 +127,31 @@
     {
       "week": 8,
       "start": "2026-08-31",
-      "block": "Peak specific + taper start",
-      "runKm": 64,
-      "weekendDplus": 1800,
+      "block": "Peak specific (2000m rehearsal) + taper start",
+      "runKm": 60,
+      "weekendDplus": 2000,
       "plannedDailyLoad": {
         "mon": 30,
         "tue": 60,
-        "wed": 45,
-        "thu": 55,
-        "fri": 20,
-        "sat": 140,
-        "sun": 80
+        "wed": 40,
+        "thu": 45,
+        "fri": 0,
+        "sat": 235,
+        "sun": 25
       }
     },
     {
       "week": 9,
       "start": "2026-09-07",
       "block": "Race",
-      "runKm": 59,
+      "runKm": 52,
       "weekendDplus": 3300,
       "plannedDailyLoad": {
-        "mon": 25,
+        "mon": 0,
         "tue": 35,
         "wed": 0,
-        "thu": 30,
-        "fri": 15,
+        "thu": 25,
+        "fri": 10,
         "sat": 360,
         "sun": 0
       }
