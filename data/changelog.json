@@ -399,5 +399,17 @@
       "2026-08-22",
       "2026-08-23"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "change": "Wk6 Wed corrected to executed 120 -> 152 (16.0km / 1206m D+, 121.6% compliance, 21min in Z4 against 24 planned). Thu 20 rebuilt as rest plus hip strength, 40 -> 8, indoor bike unavailable on location and the session is not converted to a run; single-leg step-downs removed from the strength set, hip abduction and isometrics only. Fri 21 held at 25 and reframed as the second ITB gate. Sat 22 raised 140 -> 155 with D+ 800 -> 1000 as a 2x500m double climb, pre-authorised Sat/Sun swap explicitly cancelled. Sun 23 held at 80 with D+ and D- capped at 400m. Week 426 -> 441, runKm 50 -> 53, weekendDplus 1800 -> 1400. Projected CTL 43.4 on 23 Aug, weekly ramp 3.8.",
+    "reason": "Three inputs. First, Wednesday ran 27% over plan on load and 10% over the 1100m descent cap, so the projection is corrected to what happened rather than left to drift. Second, the bike is not with the athlete, which removes the aerobic flush but not the reason Thursday was never a running day: 1206m of descent after a 17-day eccentric gap, with ITB symptoms surfacing 24-48h later, i.e. Thursday and Friday. Losing 32 load is cheap against CTL already projecting above the 42 target. Third, the 19 Aug model runs invert the earlier forecast read: Saturday is now the only day with consensus (1-3mm, 5h sun) and Sunday scatters 4-20mm, so the swap is cancelled and Saturday takes the vertical. Saturday raised because week 7 is flat (Milan/Belgium, 150m D+) and 5-6 September is the only other climbing weekend left, making this the last real descent-tolerance stimulus. Athlete proposed going big both Saturday and Sunday; declined on the numbers: it buys 1.6 CTL points against a target already exceeded, in exchange for 2000m of descent in 48 hours and TSB -30 into a travel week. Weekend D+ falls to 1400 against 1640 actual last weekend, so no jump flag.",
+    "affects": [
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23"
+    ]
   }
 ]

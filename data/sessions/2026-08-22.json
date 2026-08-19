@@ -1,14 +1,14 @@
 {
   "date": "2026-08-22",
   "type": "long",
-  "title": "Weather-tolerant double climb, low altitude",
-  "terrain": "forested / non-exposed, 2 x ~400m D+, total D- ~800m non-technical",
-  "estimatedLoad": 140,
+  "title": "Last mountain day: double sustained climb, 2 x 500m",
+  "terrain": "forested to open, 2 x ~500m D+, total D- ~1000m, non-technical descent line, no exposed crest",
+  "estimatedLoad": 155,
   "steps": [
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1-Z2, 55-84% LTHR"
+      "target": "Z1-Z2 approach, 55-84% LTHR"
     },
     {
       "kind": "repeat",
@@ -16,22 +16,21 @@
       "steps": [
         {
           "kind": "work",
-          "duration": "50m",
-          "target": "Z2-Z3 climb ~400m D+, 158-167 bpm"
+          "duration": "55m",
+          "target": "Z3 sustained climb, 88-93% LTHR, ~500m D+ continuous"
         },
         {
           "kind": "recover",
-          "duration": "30m",
-          "target": "Z1-Z2 descent, controlled, short strides"
+          "duration": "35m",
+          "target": "Z1-Z2 descent, 55-84% LTHR, poles, cadence 175+"
         }
       ]
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
-      "target": "Z1, 55-75% LTHR"
+      "duration": "15m",
+      "target": "Z1 flat, 55-70% LTHR"
     }
-  ],
-  "coachNotes": "ARPA gives a perturbed phase Thursday to Sunday with widespread, locally intense rain, and the 18 Aug local forecast puts the wettest window on Friday and Saturday with Sunday improving (23C, storm risk decreasing). So this is written to be done in rain, not in a window. Tree line and below, no crests, no exposed traverses, no via ferrata cable sections, abort to the valley on the first thunder. Wet limestone is the reason this is not the Presolana. FALLBACK if it is electrical rather than just wet: 2h30 indoor trainer, 3x20m at 84-89% LTHR with 10m easy between, then 20m flat jog off the bike, load 130. Take the fallback without negotiating, the weekend is aerobic maintenance now, the descent stimulus was Wednesday. PRE-AUTHORISED SWAP: if by Friday evening Sunday clearly has the better window, swap this session with Sunday's one-for-one, loads and all (Sat 80 rolling, Sun 140 double climb). Tell me and I will re-publish so the tracker matches. Do not run both days big. Eat every 40 minutes either way, the fuelling rehearsal still has to happen. Garmin expect 230-280.",
-  "icuWorkoutText": "- 15m 55-84% LTHR\n\n2x\n- 50m 88-93% LTHR\n- 30m 55-84% LTHR\n\n- 10m 55-75% LTHR"
+  ],  "coachNotes": "THE SWAP IS OFF, this is the big day and Sunday stays small. The 19 Aug model runs agree on Saturday and only on Saturday: 1-3mm across mountain-forecast and yr, meteoblue gives 5h of sun, the highest of the period, wind 10-15 km/h. Sunday scatters from 4 to 20mm and ARPA calls both days the same, so when the human forecaster does not separate two days and the models do, take the models on the relative call. Saturday it is. Session raised 140 -> 155 and D+ 800 -> 1000 because this is the last vertical before the race: week 7 is Milan and Belgium at 150m of D+ for the entire week, and the only other climbing weekend left is 5-6 September. TERRAIN: 65-107mm falls Thursday and Friday, so limestone will be soaked. No exposed crest, no cable sections, no slabby or polished rock, no steep step-down braking terrain. Pick a forested or grassy line that stays runnable at cadence 175+ even wet, and treat mud as the technical hazard it is. Two climbs of ~500m in one continuous push each, not fragments, Pirin's 3300m arrives in long sustained ascents. GATE: this goes at 155 / 1000m only if Thursday and Friday mornings are both clean on the lateral knee. Any signal and it is 1x500m climb plus flat, load 110, no negotiation. FUELLING REHEARSAL: eat every 40 minutes from the first climb, race products only, 2 x 500ml minimum. ELECTRICAL STORM FALLBACK: abort to the valley on the first thunder and finish flat, do not wait it out under the tree line. Garmin expect 250-300.",
+  "icuWorkoutText": "- 15m 55-84% LTHR\n\n2x\n- 55m 88-93% LTHR\n- 35m 55-84% LTHR\n\n- 15m 55-70% LTHR"
 }

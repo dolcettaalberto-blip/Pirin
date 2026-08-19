@@ -96,15 +96,15 @@
       "week": 6,
       "start": "2026-08-17",
       "block": "Peak (Alps, weather-compressed)",
-      "runKm": 50,
-      "weekendDplus": 1800,
+      "runKm": 53,
+      "weekendDplus": 1400,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 21,
-        "wed": 120,
-        "thu": 40,
+        "wed": 152,
+        "thu": 8,
         "fri": 25,
-        "sat": 140,
+        "sat": 155,
         "sun": 80
       }
     },

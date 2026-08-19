@@ -1,37 +1,67 @@
 {
   "date": "2026-08-20",
   "type": "recovery",
-  "title": "Indoor bike, aerobic flush, zero eccentric",
-  "terrain": "indoor trainer",
-  "estimatedLoad": 40,
+  "title": "Full rest from running + posterior chain / hip strength",
+  "terrain": "indoor, bodyweight",
+  "estimatedLoad": 8,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "15m",
-      "target": "Z1, cadence 90+, 55-70% LTHR"
+      "duration": "8m",
+      "target": "Z1 mobility, hip flow, ankle and calf, no loaded knee flexion"
     },
     {
       "kind": "repeat",
-      "count": 4,
+      "count": 3,
       "steps": [
         {
           "kind": "work",
-          "duration": "3m",
-          "target": "84-88% LTHR, cadence 95+"
+          "duration": "45s",
+          "target": "Z1 side plank with hip abduction, each side"
         },
         {
           "kind": "recover",
-          "duration": "3m",
-          "target": "55-70% LTHR"
+          "duration": "45s",
+          "target": "walk"
+        }
+      ]
+    },    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "40s",
+          "target": "Z1 Copenhagen plank, each side"
+        },
+        {
+          "kind": "recover",
+          "duration": "50s",
+          "target": "walk"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "60s",
+          "target": "Z1 single-leg glute bridge, each side, slow"
+        },
+        {
+          "kind": "recover",
+          "duration": "40s",
+          "target": "walk"
         }
       ]
     },
     {
       "kind": "cooldown",
-      "duration": "15m",
-      "target": "Z1, 55-70% LTHR"
+      "duration": "8m",
+      "target": "Z1 glute med and TFL release, hip flexor stretch"
     }
-  ],
-  "coachNotes": "The Thursday forecast improved after this session was written (21C, cloud, little rain rather than the washout ARPA implied on 17 Aug). It changes nothing. The reason this is a bike day is not the weather, it is the 1000m of descent 24 hours earlier after a 17-day eccentric gap, and ITB symptoms show up 24-48h after the descent that caused them, not during it. If Thursday is dry and you feel good, that is the day this plan is most likely to be broken, so it is being said in advance: do not convert this into a run. Bike because it buys aerobic minutes with no eccentric cost. Cadence high, resistance low, nothing that feels like a workout. Strength after: single-leg step-downs, glute med, Copenhagen. That is the actual training on this day. Garmin expect 50-80.",
-  "icuWorkoutText": "- 15m 55-70% LTHR\n\n4x\n- 3m 84-88% LTHR\n- 3m 55-70% LTHR\n\n- 15m 55-70% LTHR"
+  ],  "coachNotes": "The bike is not with you, so the 40-load aerobic flush is gone and this becomes true rest plus strength. Do not replace it with a run. The reason this was never a running day is the 1206m of descent on Wednesday after a 17-day eccentric gap, and ITB symptoms surface 24-48h after the descent that caused them, which is today and tomorrow. Losing 32 load matters less than it looks: projected CTL still lands at 43 on Sunday, above the 42 race target, 20 days out. STEP-DOWNS ARE DELIBERATELY REMOVED from the usual set. They are the one exercise here that loads the knee eccentrically and today is the wrong day for it, they come back next week in Milan when the legs are on flat ground. Everything left is hip abduction and isometric, which is what actually protects the ITB. THIS IS ALSO THE GATE FOR SATURDAY: log lateral knee feel this morning and tomorrow morning honestly. Clean both days, Saturday goes at 1000m D+. Any lateral tightness, any of that specific band-over-the-condyle ache on stairs, and Saturday reverts to 800m and load 110. Garmin expect 10-20.",
+  "icuWorkoutText": "- 8m Z1\n\n3x\n- 45s Z1\n- 45s Z1\n\n3x\n- 40s Z1\n- 50s Z1\n\n3x\n- 60s Z1\n- 40s Z1\n\n- 8m Z1"
 }
