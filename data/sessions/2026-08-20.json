@@ -25,7 +25,8 @@
           "target": "walk"
         }
       ]
-    },    {
+    },
+    {
       "kind": "repeat",
       "count": 3,
       "steps": [
@@ -62,6 +63,7 @@
       "duration": "8m",
       "target": "Z1 glute med and TFL release, hip flexor stretch"
     }
-  ],  "coachNotes": "The bike is not with you, so the 40-load aerobic flush is gone and this becomes true rest plus strength. Do not replace it with a run. The reason this was never a running day is the 1206m of descent on Wednesday after a 17-day eccentric gap, and ITB symptoms surface 24-48h after the descent that caused them, which is today and tomorrow. Losing 32 load matters less than it looks: projected CTL still lands at 43 on Sunday, above the 42 race target, 20 days out. STEP-DOWNS ARE DELIBERATELY REMOVED from the usual set. They are the one exercise here that loads the knee eccentrically and today is the wrong day for it, they come back next week in Milan when the legs are on flat ground. Everything left is hip abduction and isometric, which is what actually protects the ITB. THIS IS ALSO THE GATE FOR SATURDAY: log lateral knee feel this morning and tomorrow morning honestly. Clean both days, Saturday goes at 1000m D+. Any lateral tightness, any of that specific band-over-the-condyle ache on stairs, and Saturday reverts to 800m and load 110. Garmin expect 10-20.",
+  ],
+  "coachNotes": "GATE 1 OF 2 PASSED, 20 Aug morning. Lateral knee reported completely clean 24h after Wednesday's 1206m descent, legs felt but fine. Systemic picture is green on the metric that governs: HRV 7-day/28-day ratio 1.039, comfortably above the 0.95 green line and effectively unchanged from yesterday's 1.048. Today's single HRV reading of 49 is a z of -1.47 against the 28-day mean and looks worse than it is, it is the expected one-day parasympathetic dip after a 152-load day with 1206m of descent, and it is exactly the reading the ratio protocol was adopted on 15 Aug to stop overreacting to. Sleep 8h06 at score 80 supports that read. RHR 53 for a second day, +2 over the 51/51 of arrival, which sets the local Alps baseline B at 53 rather than flagging anything, so today is B+0, green. ATL 50.9, CTL 39.9, TSB -11. NO CHANGE TO TODAY. Rest from running stands, strength set as written. Friday morning is the second and deciding gate: ITB symptoms from a descent surface 24-48h later and 48h is tomorrow. Clean again and Saturday goes at 155 / 1000m D+ as written. The bike is not with you, so the 40-load aerobic flush is gone and this becomes true rest plus strength. Do not replace it with a run. The reason this was never a running day is the 1206m of descent on Wednesday after a 17-day eccentric gap, and ITB symptoms surface 24-48h after the descent that caused them, which is today and tomorrow. Losing 32 load matters less than it looks: projected CTL still lands at 43 on Sunday, above the 42 race target, 20 days out. STEP-DOWNS ARE DELIBERATELY REMOVED from the usual set. They are the one exercise here that loads the knee eccentrically and today is the wrong day for it, they come back next week in Milan when the legs are on flat ground. Everything left is hip abduction and isometric, which is what actually protects the ITB. THIS IS ALSO THE GATE FOR SATURDAY: log lateral knee feel this morning and tomorrow morning honestly. Clean both days, Saturday goes at 1000m D+. Any lateral tightness, any of that specific band-over-the-condyle ache on stairs, and Saturday reverts to 800m and load 110. Garmin expect 10-20.",
   "icuWorkoutText": "- 8m Z1\n\n3x\n- 45s Z1\n- 45s Z1\n\n3x\n- 40s Z1\n- 50s Z1\n\n3x\n- 60s Z1\n- 40s Z1\n\n- 8m Z1"
 }

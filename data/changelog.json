@@ -427,5 +427,15 @@
       "2026-09-10",
       "2026-09-11"
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "change": "No load or structure change. Thu 20 and Fri 21 session notes updated to record the ITB gate result and reframe the HRV rule. Saturday 22 confirmed provisionally at 155 / 1000m D+, pending Friday's second gate.",
+    "reason": "Athlete reports the lateral knee completely clean on Thursday morning, 24h after Wednesday's 1206m descent, legs felt but fine, sleep 8h06 at score 80. Gate 1 of 2 passed. Systemic readiness is green on the governing metric: HRV 7d/28d ratio 1.039 against a 0.95 green line, essentially flat on yesterday's 1.048. The raw HRV of 49 is a z of -1.47 and is the expected one-day dip after a 152-load day with 1206m of descent, which is precisely the case the 15 Aug switch from absolute HRV to the rolling ratio was made to absorb; it is recorded here so it is not misread on the dashboard. RHR 53 for a second day sets the local Alps baseline B at 53 rather than signalling anything, so today is B+0. No plan change is warranted, and making one on a single post-session HRV reading would be the error. Friday remains the deciding gate because ITB symptoms from a descent surface 24-48h later.",
+    "affects": [
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22"
+    ]
   }
 ]
