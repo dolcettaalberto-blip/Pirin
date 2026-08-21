@@ -1,31 +1,41 @@
 {
   "date": "2026-08-22",
   "type": "long",
-  "title": "Clusone to home via Cima Blum, Monte Pare and the Agnelli ridge",
-  "terrain": "point-to-point, 18.2km, 1534m D+ / 1074m D-, high point 2045m, limestone above 1600m, finishes at the front door",
-  "estimatedLoad": 185,
+  "title": "Clusone to home via Cime di Bares, 5am start",
+  "terrain": "point-to-point, 20.7km, 1697m D+ / 1244m D-, high point 2108m, descent split 815m + 284m by a 95m re-climb",
+  "estimatedLoad": 195,
   "steps": [
     {
       "kind": "warmup",
       "duration": "25m",
-      "target": "Z1-Z2 approach out of Clusone, 55-84% LTHR"
+      "target": "Z1-Z2 approach out of Clusone in the dark, headtorch, 55-84% LTHR"
     },
     {
       "kind": "work",
-      "duration": "2h15m",
-      "target": "Z2-Z3 sustained climb to ~1890m, ~1240m D+ continuous, 84-89% LTHR"
+      "duration": "2h5m",
+      "target": "Z2-Z3 sustained climb to ~1890m, ~1150m D+ continuous, 84-89% LTHR"
     },
     {
       "kind": "recover",
       "duration": "35m",
-      "target": "Z1-Z2 rolling ridge to the 2045m high point, 55-84% LTHR"
+      "target": "Z1-Z2 ridge and second climb to the 2108m high point, 55-84% LTHR"
+    },
+    {
+      "kind": "recover",
+      "duration": "55m",
+      "target": "Z1-Z2 main descent 815m, hike everything over 25%, poles, 55-80% LTHR"
+    },
+    {
+      "kind": "work",
+      "duration": "15m",
+      "target": "Z2 re-climb 95m on trashed quads, RUN this, 80-88% LTHR"
     },
     {
       "kind": "cooldown",
-      "duration": "55m",
-      "target": "Z1-Z2 descent 930m to home, poles, hike anything over 20%, 55-80% LTHR"
+      "duration": "20m",
+      "target": "Z1-Z2 final descent 284m to the door, 55-80% LTHR"
     }
   ],
-  "coachNotes": "ROUTE APPROVED, athlete's own GPX, 21 Aug. Clusone 652m to home 1111m, 18.2km, 1534m D+, 1074m D-, high point 2045m. WHY IT IS A YES. Gradient density is 84 m/km against Pirin's 87: this is the closest thing to race terrain available, and the 10km unbroken climb from Clusone to 1890m is the specific rehearsal, because Pirin's 3300m arrives in long sustained ascents and not in fragments. Total descent is 1074m, which is LESS than the 1400m the 3x470m loop design carried, because the route finishes 459m above where it starts. And it ends at the front door: no car to return to, no loop to extend, the endpoint is fixed by geography rather than by discipline. That last point is why this beats the session it replaces. THE ONE DEVIATION, AND IT IS REAL. The descent is 932m in a single continuous bout over 4.7km, averaging -20%, with the final kilometre at -25%. The plan said no bout over 470m. This is double, and it is the steepest, latest, most fatigued braking of the day. It is being accepted rather than waved through, on one argument: this bout is worth more risk today than on 5 September. Today it has three weeks and a flat week 7 behind it, so a band that complains has somewhere to complain. At D-7 it has nothing. Note also that 1011m in one bout is what 2 August already carried without incident, so 932m is not new ground, only new ground after a flat fortnight. THE RULE THAT MAKES IT SAFE: HIKE ANYTHING OVER 20%. That is the whole of the final kilometre and most of km 15-16. Poles from the high point, short steps, cadence 175+, no heel-braking, no let-it-run. This is not caution, it is what you will actually do at hour eight in Pirin, so rehearse it. If you run that last kilometre because it is nearly home, the session failed. WET LIMESTONE ABOVE 1600m. 65-107mm fell Thursday and Friday and the Blum to Pare ridge is limestone. No polished slab, no cable section, no exposed step-down. You know the variants better than any forecast does: if the ridge line is greasy, drop to the lower path and lose the metres. NO BAIL-OUT ABOVE 1800m and the car stays in Clusone. Storm rule inverts because of that: turn back BEFORE the high point, not after. First thunder on the climb and you go back down the way you came. FUELLING, this is the main rehearsal now: eat every 40 minutes from the first climb, race products only, 60-90g carbs per hour, 2 x 500ml minimum. You are out ~4h10, which is your first honest read on hour four. Write down what you actually took. CLIMB EFFORT 84-89% LTHR, not Z3. You will not climb Pirin at Z3, so do not rehearse it here. If the last 300m of climbing is a grind at that effort, that is the session working. AMBER: any lateral knee signal in the first hour and you turn at Monte Pare and take the lower line home, ~800m D+, load 110. Garmin expect 300-360.",
-  "icuWorkoutText": "- 25m 55-84% LTHR\n- 2h15m 84-89% LTHR\n- 35m 55-84% LTHR\n- 55m 55-80% LTHR"
+  "coachNotes": "FINAL TRACK, v2, approved 21 Aug. Clusone 652m to home 1104m, 20.7km, 1697m D+, 1244m D-, high point 2108m, start 05:00. Load 185 -> 195 on the extra 2.5km and 163m. V2 IS BETTER THAN V1 AND THE REASON IS THE 95m RE-CLIMB AT km 18.3. It breaks what was a single 932m descent into 815m plus 284m, so the worst continuous eccentric bout drops rather than rises even though total descent goes up 1074 -> 1244m. And climbing 95m on quads that have just absorbed 815m at -20% is the single most race-specific thing in this route: Pirin does exactly that to you late, and a rehearsal that ends on a descent never tests it. RUN THAT RE-CLIMB. Do not hike it because it is small and you are nearly home. If it feels awful, that is the data point you came for. DESCENT GRADIENT IS THE NEW EXPOSURE. km 15-16 is -30% and km 16-17 is -27%, steeper than v1's worst. That is beyond running gradient, so the terrain enforces the hiking rule rather than leaving it to you, which is the honest reason I am comfortable with a bigger day. Working assumption, and it is a moderate-confidence one rather than a certainty: unrunnable-steep hiking loads the quads hard but cycles the knee through the 20-30 degree flexion band far less than a runnable 10-12% descent does, and that band is where the ITB actually gets provoked. So expect sore quads on Sunday and treat lateral knee as the signal that matters. Poles from the high point, short steps, no heel-braking. DESCENT RAMP IS ESSENTIALLY FLAT: 1206m D- on Wednesday to 1244m today, +3%. The number that grew is the climb, which costs nothing eccentric. The site's weekend-D+ flag will fire on 2100 against week 5 and will overstate this day. 05:00 START IS THE RIGHT CALL AND IT SOLVES THE STORM PROBLEM. You top out around 07:45 and are home by 09:35, so the afternoon convective risk that shaped the last three sessions does not apply. Two things it introduces instead. First, headtorch for the first hour: sunrise is about 06:20 and km 1-2 is 21% in the dark, so this is not the section to be casual on. Second, and more important, it breaks the fuelling rehearsal unless you fix it deliberately. BREAKFAST AT 04:15, A REAL ONE. Pirin starts at 08:00 and you will eat at about 05:30, so running this fasted rehearses a race you are not doing. Eat what you intend to eat on race morning, at the same interval before moving, even though 04:15 is unpleasant. Then every 40 minutes from the first climb, race products only, 60-90g carbs per hour, 2 x 500ml minimum. Write down what you actually took and what your stomach did at hour four. This is the whole point of the day. COLD AT THE TOP: 2108m at 07:45 after two hours of sweating on the climb. Carry a layer and put it on at the high point before the descent, not after you are cold on it. NO TIME PRESSURE, car retrieval is not urgent, so the descent is not to be hurried. That is deliberate: the only expensive mistake available today is rushing 30% gradient on tired legs. CLIMB EFFORT 84-89% LTHR, not Z3. You will not climb Pirin's 3300m at Z3. AMBER: any lateral knee signal in the first hour, turn at Monte Pare and take the lower line home, ~800m D+, load 110. Garmin expect 330-400.",
+  "icuWorkoutText": "- 25m 55-84% LTHR\n- 2h5m 84-89% LTHR\n- 35m 55-84% LTHR\n- 55m 55-80% LTHR\n- 15m 80-88% LTHR\n- 20m 55-80% LTHR"
 }
