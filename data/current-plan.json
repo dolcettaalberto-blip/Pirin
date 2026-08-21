@@ -96,15 +96,15 @@
       "week": 6,
       "start": "2026-08-17",
       "block": "Peak (Alps, weather-compressed)",
-      "runKm": 53,
-      "weekendDplus": 1400,
+      "runKm": 61,
+      "weekendDplus": 1800,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 21,
         "wed": 152,
         "thu": 8,
         "fri": 25,
-        "sat": 155,
+        "sat": 185,
         "sun": 80
       }
     },
@@ -128,15 +128,15 @@
       "week": 8,
       "start": "2026-08-31",
       "block": "Peak specific (2000m rehearsal) + taper start",
-      "runKm": 60,
-      "weekendDplus": 2000,
+      "runKm": 56,
+      "weekendDplus": 1600,
       "plannedDailyLoad": {
         "mon": 30,
         "tue": 60,
         "wed": 40,
         "thu": 45,
         "fri": 0,
-        "sat": 235,
+        "sat": 195,
         "sun": 25
       }
     },

@@ -1,9 +1,9 @@
 {
   "date": "2026-08-22",
   "type": "long",
-  "title": "Last mountain day: double sustained climb, 2 x 500m",
-  "terrain": "forested to open, 2 x ~500m D+, total D- ~1000m, non-technical descent line, no exposed crest",
-  "estimatedLoad": 155,
+  "title": "Race rehearsal brought forward: 3 x 470m sustained climbs",
+  "terrain": "forested to open, 3 x ~470m D+, total D+ ~1400m, D- ~1400m in three separate bouts, non-technical descent line, no exposed crest",
+  "estimatedLoad": 185,
   "steps": [
     {
       "kind": "warmup",
@@ -12,16 +12,16 @@
     },
     {
       "kind": "repeat",
-      "count": 2,
+      "count": 3,
       "steps": [
         {
           "kind": "work",
-          "duration": "55m",
-          "target": "Z3 sustained climb, 88-93% LTHR, ~500m D+ continuous"
+          "duration": "50m",
+          "target": "Z2-Z3 sustained climb, 84-89% LTHR, ~470m D+ continuous"
         },
         {
           "kind": "recover",
-          "duration": "35m",
+          "duration": "33m",
           "target": "Z1-Z2 descent, 55-84% LTHR, poles, cadence 175+"
         }
       ]
@@ -31,6 +31,7 @@
       "duration": "15m",
       "target": "Z1 flat, 55-70% LTHR"
     }
-  ],  "coachNotes": "THE SWAP IS OFF, this is the big day and Sunday stays small. The 19 Aug model runs agree on Saturday and only on Saturday: 1-3mm across mountain-forecast and yr, meteoblue gives 5h of sun, the highest of the period, wind 10-15 km/h. Sunday scatters from 4 to 20mm and ARPA calls both days the same, so when the human forecaster does not separate two days and the models do, take the models on the relative call. Saturday it is. Session raised 140 -> 155 and D+ 800 -> 1000 because this is the last vertical before the race: week 7 is Milan and Belgium at 150m of D+ for the entire week, and the only other climbing weekend left is 5-6 September. TERRAIN: 65-107mm falls Thursday and Friday, so limestone will be soaked. No exposed crest, no cable sections, no slabby or polished rock, no steep step-down braking terrain. Pick a forested or grassy line that stays runnable at cadence 175+ even wet, and treat mud as the technical hazard it is. Two climbs of ~500m in one continuous push each, not fragments, Pirin's 3300m arrives in long sustained ascents. GATE: this goes at 155 / 1000m only if Thursday and Friday mornings are both clean on the lateral knee. Any signal and it is 1x500m climb plus flat, load 110, no negotiation. FUELLING REHEARSAL: eat every 40 minutes from the first climb, race products only, 2 x 500ml minimum. ELECTRICAL STORM FALLBACK: abort to the valley on the first thunder and finish flat, do not wait it out under the tree line. Garmin expect 250-300.",
-  "icuWorkoutText": "- 15m 55-84% LTHR\n\n2x\n- 55m 88-93% LTHR\n- 35m 55-84% LTHR\n\n- 15m 55-70% LTHR"
+  ],
+  "coachNotes": "RAISED 155 -> 185, D+ 1000 -> 1400, ON THE ATHLETE'S CALL. Gate 2 passed: lateral knee completely clean this morning, 48h after Wednesday's 1206m descent, which is the window in which a developing band problem announces itself. Both gates green, so the day goes. WHY THREE CLIMBS AND NOT TWO BIGGER ONES: the ITB reacts to the length of a continuous eccentric bout, not to the day's descent total. Three ~470m descents with a climb between each is a materially different stress from two 700m ones, and the same total metres. No single descent bout goes over ~470m. If the terrain only offers one long line down, the day is 2 x 470m and you go home at 940m, the bout cap outranks the volume target. WHY NOT 2000m: Wednesday was 1206m of descent three days ago and it was your first in 17 days. Adding 2000m makes 3200m inside four days off a cold band, which is the shape of late February, not a rehearsal. 1400m is +16% on Wednesday, inside the 15-20% descent ramp rule. EFFORT IS DELIBERATELY LOWER THAN THE 2x500 VERSION: 84-89% LTHR on the climbs, not 88-93%. This is race climbing effort. At Pirin you will not climb 3300m at Z3, so rehearsing at Z3 rehearses the wrong thing. If the third climb is a grind, that is the session working. THE ROUTE IS THE CAP, NOT YOUR DISCIPLINE. You went 27% over on 19 August because you felt good, which is the honest reason and the most common one. Pick the three-lap or three-spur line tonight, load it, and finish where the GPX finishes. No fourth climb, no summit out-and-back. TERRAIN: 65-107mm fell Thursday and Friday so limestone will be soaked. No exposed crest, no cable sections, no polished slab, no steep step-down braking terrain. Forested or grassy, runnable at cadence 175+ even wet. FUELLING REHEARSAL, this is now the main one and not a side benefit: eat every 40 minutes from the first climb, race products only, 60-90g carbs/hour, 2 x 500ml minimum, write down what you actually took. You are on your feet ~4h30, which is the first honest look at what your stomach does at hour four. ELECTRICAL STORM FALLBACK: abort to the valley on the first thunder and finish flat, do not wait it out under the tree line. AMBER OVERRIDE: any lateral knee signal in the warm-up and it is 1 x 470m plus flat, load 110, no negotiation. Garmin expect 300-360.",
+  "icuWorkoutText": "- 15m 55-84% LTHR\n\n3x\n- 50m 84-89% LTHR\n- 33m 55-84% LTHR\n\n- 15m 55-70% LTHR"
 }
