@@ -447,5 +447,13 @@
       "2026-08-23",
       "2026-09-05"
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "change": "Sat 22 bound to the athlete's GPX: Clusone to home via Cima Blum, Monte Pare and the Agnelli ridge. 18.2km, 1534m D+, 1074m D-, high point 2045m, point-to-point finishing 459m above the start. Load held at 185, no change to plannedDailyLoad. Wk6 weekendDplus 1800 -> 1950, runKm 61 -> 56. Session steps rebuilt to the real profile (25m approach, 2h15 sustained climb to ~1890m, 35m rolling ridge, 55m descent) and a hike-over-20% rule written in. No other day touched.",
+    "reason": "The route is accepted on three counts and one exception. Gradient density is 84 m/km against the race's 87, and the 10km unbroken climb out of Clusone is the specific stimulus, since Pirin's 3300m arrives in long sustained ascents rather than fragments. Descent volume falls rather than rises: 1074m against the 1400m the 3x470m loop design carried, because the line finishes 459m above where it starts, which is the same structure specified for 5 September. And the endpoint is the athlete's front door, which fixes the route by geography instead of by discipline, the control the 19 August 27% overshoot showed was needed. The exception is bout length: 932m of continuous descent over 4.7km at -20% average with a final kilometre at -25%, against a 470m bout cap. Accepted rather than waived, on the argument that this bout costs less today than on 5 September, since today has three weeks and a flat week 7 behind it while D-7 has nothing, and on the observation that 2 August already carried 1011m in one bout without incident, so the novelty is the flat fortnight preceding it and not the bout itself. Mitigation is behavioural and specified as a rule rather than a hope: hike everything over 20%, which is the whole final kilometre and most of km 15-16, poles from the high point, no heel-braking. That is also what he will do at hour eight in Pirin, so it is rehearsal and not just protection. Two hazards written into the session because the route introduces them: limestone above 1600m two days after 65-107mm of rain, and no bail-out above 1800m with the car left in Clusone, which inverts the storm rule to turn back before the high point rather than push over it. weekendDplus rises 1800 -> 1950 on the climb total while actual descent load falls, which is worth noting because the site's D+ flag reads the climb number and will overstate the eccentric stress of this particular day.",
+    "affects": [
+      "2026-08-22"
+    ]
   }
 ]
