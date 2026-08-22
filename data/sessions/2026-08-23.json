@@ -1,26 +1,26 @@
 {
   "date": "2026-08-23",
-  "type": "long",
-  "title": "Back-to-back on tired legs, rolling, D+ capped 400m",
-  "terrain": "valley / rolling forest, D+ and D- both under 400m",
-  "estimatedLoad": 80,
+  "type": "recovery",
+  "title": "Flush spin, zero eccentric",
+  "terrain": "flat road or trainer, no running, no descent, no stairs",
+  "estimatedLoad": 25,
   "steps": [
     {
       "kind": "warmup",
       "duration": "10m",
-      "target": "Z1, 55-75% LTHR"
+      "target": "Z1, 55-70% LTHR"
     },
     {
       "kind": "work",
-      "duration": "60m",
-      "target": "Z2 rolling, 80-88% LTHR, run every climb"
+      "duration": "20m",
+      "target": "Z1-Z2 flat spin, high cadence, 70-80% LTHR"
     },
     {
       "kind": "cooldown",
-      "duration": "15m",
-      "target": "Z1, 55-75% LTHR"
+      "duration": "10m",
+      "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "This stays at 80 and it stays rolling, and it matters more now that Saturday is 1400m instead of 1000m. The back-to-back is the point, the vertical is not. You will have 1400m of descent in the legs from Saturday on top of 1206m on Wednesday: 2600m across four days, off a band that had seen no descent for 17 days before the 19th. Three descent days inside five is already the aggressive read of the ITB history; a fourth big one is the version that ends the build. D+ AND D- BOTH CAPPED AT 400m, non-technical, and if the forecast holds it will be raining anyway, meteoblue gives 10-20mm and the models scatter from 4 to 20. THIS IS THE DAY THE SATURDAY DECISION GETS PAID FOR. The 21 August rebalance moved load forward specifically because there are 21 days to absorb it, and absorbing it means Sunday is small and Monday is a travel day. Going big today would spend the freshness the rebalance just bought: TSB is already heading to -25 into a travel week. LAST DAY IN THE ALPS, which is exactly the psychology that makes people go big, so it is being named in advance. If it rains hard: 60-75min flat easy, or full rest, both are fine and neither costs anything. LATERAL KNEE: this is the read on whether Saturday was the right call. Any band signal today or Monday and week 8's 5 September session drops to one climb, and we take that quietly rather than arguing with it. Eat every 40 minutes regardless, you get few chances left. Garmin expect 130-160.",
-  "icuWorkoutText": "- 10m 55-75% LTHR\n- 60m 80-88% LTHR\n- 15m 55-75% LTHR"
+  "coachNotes": "CUT 80 -> 25, AND THE RUN IS GONE. Yesterday came in at 289 against a planned 195. The trail run itself was not the overshoot, that was my arithmetic: 22.0km and 4h31 moving against 20.7km and 4h35 planned, so the route and the time were on the money and my load-per-minute coefficient was 22% low. The overshoot was the afternoon. The 6.6km hike with 511m of descent carrying a child, three and a half hours on emptied quads, is the highest ITB-risk thing that happened yesterday and it was in no plan. Plus the unlogged 30min bike, which has not synced and will add roughly 30 more when it does. WHERE THAT LEAVES YOU: CTL 45.4, ATL 79.9, TSB -34.5. Below the -30 line your own Friel reference calls the injury and illness danger zone, and the weekly ramp is 8.3 against a 6 cap, so both guardrails are breached this morning. Descent arithmetic: about 1480m from the run plus 511m from the hike is roughly 1990m yesterday, on top of Wednesday's 1206m, so about 3200m in four days. That is precisely the total I declined to prescribe on Friday when I held Saturday at 1400m instead of 2000m. You got there anyway, through the afternoon rather than the route. THERE IS NO FITNESS ARGUMENT FOR TRAINING TODAY. Full rest lands race-morning CTL at 44.2 and TSB +7.9, against a 42 target. This spin lands 44.6 and +8.1. Riding hard would land 45.4 and buy nothing you can use. The only thing today can still do for you is let tomorrow's numbers and the lateral knee read clean, and running on it muddies exactly that reading. WHY A SPIN RATHER THAN NOTHING: zero eccentric load, and it moves blood through quads that took 1990m of braking yesterday better than lying still does. If you wake up and the legs say no, take the rest instead. Both land in the same place, so pick by feel and do not overthink it. THE READ THAT MATTERS IS TOMORROW MORNING. ITB symptoms from a descent surface 24-48h later, which puts the real gate on Monday, mid-travel. No pain today is good and it is not yet the answer. Any lateral knee signal Monday or Tuesday and 5 September drops to one climb, and we take that quietly. NOT TODAY: no running, no descent, no stairs sessions, no carrying children downhill. Eat properly and sleep. 5.5h on Friday night into a 289-load day is the other half of why you feel dead.",
+  "icuWorkoutText": "- 10m 55-70% LTHR\n- 20m 70-80% LTHR\n- 10m 55-70% LTHR"
 }

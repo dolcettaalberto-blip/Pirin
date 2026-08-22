@@ -463,5 +463,14 @@
     "affects": [
       "2026-08-22"
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "change": "Wk6 corrected to actuals and Sunday cut. Sat 22: planned 195 -> executed 289 (trail run 251 + descent ride to Clusone 6 + afternoon hike 35; a 30min bike is unlogged and will add ~30 when it syncs). Sun 23: 80 -> 25, run replaced by a 40min flat spin, zero eccentric, no running and no descent. weekendDplus 2100 -> 2444 (run 1933 + hike 511), runKm 58 -> 48. Session 2026-08-22 annotated with executed values, original prescription preserved. No change to Wk7, Wk8 or Wk9. Resulting CTL 45.4, ATL 79.9, TSB -34.5, weekly ramp 8.3; projected race morning CTL 44.6 / TSB +8.1.",
+    "reason": "Two guardrails are breached this morning and both are recorded rather than smoothed over: TSB -34.5 against the -30 line the athlete's own Friel reference calls the injury and illness danger zone, and a weekly ramp of 8.3 against the 6 cap. Attribution matters here and cuts against the previous two entries. The trail run was not an overshoot: 22.0km and 4h31 moving against 20.7km and 4h35 prescribed, with the D+ gap (1933 against 1697) mostly barometric recording versus a 120m-smoothed GPX rather than extra climbing. The 251 against a planned 195 is a coaching error, my load-per-minute coefficient was 22% low on a session whose duration I predicted almost exactly. The genuine unplanned load was the afternoon: 6.6km with 511m of descent over 3h28 carrying a child, on quads that had just absorbed roughly 1480m of braking. That takes the day's descent to about 1990m and the four-day total to about 3200m, which is exactly the figure I declined to prescribe on 21 August when Saturday was held at 1400m rather than 2000m; it arrived through the afternoon instead of the route. Flagged explicitly because the Saturday-afternoon question was raised in advance and the answer turned out to matter. Sunday cut on the arithmetic rather than on caution: full rest projects race-morning CTL 44.2 / TSB +7.9 and the 80-load run projects 45.4 / +8.5, against a 42 target already exceeded by 3.4, so the session cannot buy anything usable and can only degrade Monday's ITB reading. The spin is preferred over full rest for perfusion through quads that took 1990m of eccentric load, at zero eccentric cost, and the two are declared equivalent so the athlete can pick by feel. The decisive read is Monday morning, not today: descent-driven ITB symptoms surface at 24-48h and today is only hour 24, so a clean lateral knee today is encouraging and not conclusive. Contingency stated in the session: any band signal Monday or Tuesday drops 5 September to a single climb. Sleep is the secondary concern, 5.5h into a 289-load day, and week 7 is a travel week where that pattern repeats easily.",
+    "affects": [
+      "2026-08-22",
+      "2026-08-23"
+    ]
   }
 ]
