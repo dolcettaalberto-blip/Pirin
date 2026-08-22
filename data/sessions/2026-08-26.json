@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-26",
+  "type": "easy",
+  "title": "Milan: treadmill incline steady",
+  "terrain": "treadmill 8-10% incline, climbing only, zero descent",
+  "estimatedLoad": 55,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1 flat, 55-70% LTHR"
+    },
+    {
+      "kind": "work",
+      "duration": "35m",
+      "target": "Z2 at 8-10% incline, 80-88% LTHR"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1 flat, 55-70% LTHR"
+    }
+  ],
+  "coachNotes": "Climbing strength with no eccentric cost, which is the whole argument for a treadmill in a flat week. Hold the incline and let the pace be whatever it needs to be, the gradient is the prescription and the speed is not. This is also race-pace climbing effort, so learn what 80-88% feels like when it is boring. GUT TRAINING: 60 g/h from minute 30, on this run too. Transporter capacity adapts over about two weeks of repeated exposure, so the adaptation either starts now or it does not happen before 5 September. Put carbohydrate in the bottle rather than trying to chew your way there. No gym today, legs recover between Tuesday and Thursday.",
+  "icuWorkoutText": "- 10m 55-70% LTHR\n- 35m 80-88% LTHR\n- 5m 55-70% LTHR"
+}

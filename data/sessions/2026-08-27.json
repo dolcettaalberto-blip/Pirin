@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-27",
+  "type": "quality",
+  "title": "Milan: incline intervals 5 x 5min + eccentric block",
+  "terrain": "treadmill 10% incline, climbing only, zero descent",
+  "estimatedLoad": 85,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2 flat, 55-84% LTHR"
+    },
+    {
+      "kind": "repeat",
+      "count": 5,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "5m",
+          "target": "Z4 at 10% incline, 90-95% LTHR"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "walk, flat"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1 flat, 55-70% LTHR"
+    }
+  ],
+  "coachNotes": "THE WEEK'S ONE HARD SESSION. Five by five at 10% is 25 minutes of quality with zero descent, which is the only kind of hard day an ITB history allows in a week with no recovery terrain. Hold the incline fixed and drop the speed if the heart rate runs over 95%; the reps are meant to be repeatable, and rep five should look like rep one. AMBER: cut to 4 reps, never shorten the rep. ECCENTRIC BLOCK, the reason this week exists. Single-leg step-downs 3x10 per leg from a 25-30cm box with a 4-second lowering; Nordic curls 3x5, slow lower; split squats 3x8 per leg, 4s down; side-lying hip abduction 3x15; Copenhagen planks 3x20s per side; single-leg calf raises 3x12. Quality over load, the lowering phase is the whole point. Milan Tue-Thu is the only gym window you have: Belgium has none, so this does not get postponed to the weekend. Second and last gym day before Belgium.",
+  "icuWorkoutText": "- 15m 55-84% LTHR\n\n5x\n- 5m 90-95% LTHR\n- 2m 55-70% LTHR\n\n- 10m 55-70% LTHR"
+}

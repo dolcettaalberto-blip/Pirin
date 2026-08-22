@@ -111,9 +111,9 @@
     {
       "week": 7,
       "start": "2026-08-24",
-      "block": "Build (flat - Milan/Belgium)",
+      "block": "Flat block (Milan gym + Belgium roads)",
       "runKm": 59,
-      "weekendDplus": 150,
+      "weekendDplus": 100,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 65,

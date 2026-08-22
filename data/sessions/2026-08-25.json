@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-25",
+  "type": "easy",
+  "title": "Milan: easy flat + full eccentric block",
+  "terrain": "flat road or treadmill, zero descent",
+  "estimatedLoad": 65,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1, 55-70% LTHR"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z2 flat, 75-85% LTHR"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, 55-70% LTHR"
+    }
+  ],
+  "coachNotes": "FIRST DAY OF THE MILAN BLOCK. Run easy, the session is the gym work afterwards. GATE: this only goes ahead if Monday morning's lateral knee was clean; step-downs 72h after 1990m of descent are exactly wrong if the band is still talking, in which case drop step-downs and Nordics and keep abduction and Copenhagens only. ECCENTRIC BLOCK, the reason this week exists. Single-leg step-downs 3x10 per leg from a 25-30cm box with a 4-second lowering; Nordic curls 3x5, slow lower; split squats 3x8 per leg, 4s down; side-lying hip abduction 3x15; Copenhagen planks 3x20s per side; single-leg calf raises 3x12. Quality over load, the lowering phase is the whole point. Milan Tue-Thu is the only gym window you have: Belgium has none, so this does not get postponed to the weekend. ALONE IN MILAN FROM MONDAY EVENING, which makes this the week to fix sleep. You ran 22 August on 5.5h. Seven hours is worth more than any session below.",
+  "icuWorkoutText": "- 10m 55-70% LTHR\n- 30m 75-85% LTHR\n- 5m 55-70% LTHR"
+}

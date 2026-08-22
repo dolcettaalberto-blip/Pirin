@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-28",
+  "type": "recovery",
+  "title": "Travel day: easy 30 flat",
+  "terrain": "flat, wherever you land",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1, 55-70% LTHR"
+    }
+  ],
+  "coachNotes": "Travel to Belgium. Thirty minutes conversational, whenever it fits, before or after the flight. No gym from here to Monday, so nothing to make up: the eccentric work was Tuesday and Thursday and it is done or it is not.",
+  "icuWorkoutText": "- 30m 55-70% LTHR"
+}
