@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "type": "easy",
-  "title": "Milan: easy flat + full eccentric block",
+  "title": "Milan: ITB test run + graded eccentric block",
   "terrain": "flat road or treadmill, zero descent",
   "estimatedLoad": 65,
   "steps": [
@@ -12,7 +12,18 @@
     },
     {
       "kind": "work",
-      "duration": "30m",
+      "duration": "20m",
+      "target": "Z2 flat, 75-85% LTHR"
+    },
+    {
+      "kind": "recover",
+      "duration": "1m",
+      "target": "walk",
+      "note": "ITB CHECK STOP: palpate, 5 slow single-leg bends, compare against minute 10"
+    },
+    {
+      "kind": "work",
+      "duration": "15m",
       "target": "Z2 flat, 75-85% LTHR"
     },
     {
@@ -21,6 +32,6 @@
       "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "FIRST DAY OF THE MILAN BLOCK. Run easy, the session is the gym work afterwards. GATE: this only goes ahead if Monday morning's lateral knee was clean; step-downs 72h after 1990m of descent are exactly wrong if the band is still talking, in which case drop step-downs and Nordics and keep abduction and Copenhagens only. ECCENTRIC BLOCK, the reason this week exists. Single-leg step-downs 3x10 per leg from a 25-30cm box with a 4-second lowering; Nordic curls 3x5, slow lower; split squats 3x8 per leg, 4s down; side-lying hip abduction 3x15; Copenhagen planks 3x20s per side; single-leg calf raises 3x12. Quality over load, the lowering phase is the whole point. Milan Tue-Thu is the only gym window you have: Belgium has none, so this does not get postponed to the weekend. ALONE IN MILAN FROM MONDAY EVENING, which makes this the week to fix sleep. You ran 22 August on 5.5h. Seven hours is worth more than any session below.",
-  "icuWorkoutText": "- 10m 55-70% LTHR\n- 30m 75-85% LTHR\n- 5m 55-70% LTHR"
+  "coachNotes": "MONDAY READ, 24 AUG: band tender to press and to stretch, silent in normal movement. That is not ITBS, that is tissue sensitivity 48h after roughly 1990m of descent, and it is the expected result rather than a warning. The 5 September single-climb contingency does NOT fire on this. Systemic markers are green and are not the limiter: HRV 68 against a 60-day mean of 60, 7/60 ratio 1.05, resting HR 49, ATL down from 79.9 to 60.0 in two days. TEST IT PROPERLY BEFORE YOU RUN, SIXTY SECONDS. Noble compression: sit with the knee bent, find the bony bump on the outside of the knee about 2-3cm above the joint line, press firmly with your thumb and hold the pressure, then slowly straighten and re-bend the knee through that position five times. Sharp, familiar, reproducible pain arriving right there as the knee passes about 30 degrees is a positive test. Vague tenderness under static pressure that does not spike at 30 degrees is a negative test, and is what you almost certainly have. This distinction is the whole point, because 'hurts when I press it' and 'positive Noble' are indistinguishable from the outside and they mean completely different things. Then five slow single-leg squats to 30 degrees per side in front of a mirror: pain plus the opposite hip dropping is the combination that matters. THE RUN IS THE REAL TEST, AND THE TELL IS DIRECTION OF TRAVEL. ITBS gets worse the longer you run and does not warm up. Post-descent soreness fades inside the first ten minutes. That is why there is a check stop at minute 30 in the steps: stop, palpate, five slow single-leg bends, and compare against how it felt at minute 10. Worse than minute 10 means walk home and Thursday's incline session comes off. Same or better means finish the run and the gym goes ahead. ECCENTRIC BLOCK, GRADED TODAY rather than gated all-or-nothing. Step-downs are the single most ITB-provocative thing in the gym because they load precisely the 20-30 degree flexion band, so earn them set by set: set 1 is 10 reps per leg from a LOW box, 20cm, four-second lowering, then reassess. Clean means sets 2 and 3 at 25-30cm as originally prescribed. Any lateral knee pain during set 1 means step-downs are finished for the day, no negotiation, and you go straight to the rest. Nordic curls 3x5 with a slow lower, split squats 3x8 per leg with 4s down, side-lying hip abduction 3x15, Copenhagen planks 3x20s per side, single-leg calf raises 3x12. Those five carry no ITB risk and go ahead whatever the step-downs do. The lowering phase is the whole point. FULL GYM AVAILABLE IN MILAN, so no substitutions needed. Milan Tue-Thu is the only gym window you have, the NL coast has none, so this does not get postponed to the weekend. ALONE UNTIL FRIDAY EVENING. Seven hours of sleep is worth more than any session below and you are averaging 6.5h over the last week; this is the only stretch in the next three weeks where fixing that is purely a decision. HOMEWORK TONIGHT: check whether your gels and drink mix are glucose or maltodextrin only, or a glucose-fructose blend. Single-transporter products cap absorption around 60 g/h whatever the gut training does; blends clear that ceiling. It is the one input that could raise the race intake target above 60 g/h and it needs answering this week, not on 5 September.",
+  "icuWorkoutText": "- 10m 55-70% LTHR\n- 20m 75-85% LTHR\n- 1m 55-70% LTHR\n- 15m 75-85% LTHR\n- 5m 55-70% LTHR"
 }

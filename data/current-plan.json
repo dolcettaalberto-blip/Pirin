@@ -111,16 +111,16 @@
     {
       "week": 7,
       "start": "2026-08-24",
-      "block": "Flat block (Milan gym + Belgium roads)",
-      "runKm": 59,
-      "weekendDplus": 100,
+      "block": "Flat block (Milan gym + NL coast dunes)",
+      "runKm": 56,
+      "weekendDplus": 350,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 65,
         "wed": 55,
         "thu": 85,
         "fri": 30,
-        "sat": 100,
+        "sat": 110,
         "sun": 65
       }
     },

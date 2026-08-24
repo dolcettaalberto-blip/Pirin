@@ -1,26 +1,42 @@
 {
   "date": "2026-08-29",
   "type": "long",
-  "title": "Belgium: flat long run, THE FUELLING TEST",
-  "terrain": "flat outdoor, Belgium, no vertical available",
-  "estimatedLoad": 100,
+  "title": "NL coast: THE FUELLING TEST + dune repeats",
+  "terrain": "firm sand at the waterline for the steady work, soft dune for the reps, ~300m D+ and D- on sand",
+  "estimatedLoad": 110,
   "steps": [
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1, 55-75% LTHR"
+      "target": "Z1 firm sand, 55-75% LTHR"
     },
     {
       "kind": "work",
-      "duration": "1h20m",
-      "target": "Z2 steady flat, 80-88% LTHR"
+      "duration": "30m",
+      "target": "Z2 steady firm sand, 80-88% LTHR"
+    },
+    {
+      "kind": "repeat",
+      "count": 10,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "2m",
+          "target": "Z3 dune climb, 85-90% LTHR, power-hike the steep half"
+        },
+        {
+          "kind": "recover",
+          "duration": "3m",
+          "target": "walk down the SOFT dry sand, then easy flat"
+        }
+      ]
     },
     {
       "kind": "cooldown",
       "duration": "10m",
-      "target": "Z1, 55-70% LTHR"
+      "target": "Z1 firm sand, 55-70% LTHR"
     }
   ],
-  "coachNotes": "THIS IS THE FUELLING SESSION, not the running session. Belgium is flat and there is no vertical to chase, so the only thing this day can teach you is whether 60 g/h goes down while you are working. 22 August returned 21-29 g/h and a happy stomach, which proved nothing because the gut was never asked a question. FEED EVERY 30 MINUTES FROM MINUTE 30, carbohydrate in the bottle, 60 g/h measured not estimated. Write down grams, product, and what the stomach did in the last 30 minutes. If 60 is uncomfortable here, at 1h45 and flat, then 60 will not survive hour six at Pirin and we need to know that on 29 August and not on 5 September. Sodium 500-700 mg/h, which was missing entirely on 22 August. Pace is irrelevant today.",
-  "icuWorkoutText": "- 15m 55-75% LTHR\n- 1h20m 80-88% LTHR\n- 10m 55-70% LTHR"
+  "coachNotes": "THIS IS STILL THE FUELLING SESSION FIRST. The dunes are a bonus, the 60 g/h is the objective, and if the two conflict you cut the reps and keep the intake. FEED EVERY 30 MINUTES FROM MINUTE 30, carbohydrate in the bottle, 60 g/h measured and not estimated. Sodium 500-700 mg/h, which was missing entirely on 22 August. 22 August returned 21-29 g/h and a happy stomach, which proved nothing because the gut was never asked a question. Write down grams, product, and what the stomach did in the last 30 minutes of each hour. If 60 g/h is uncomfortable here, at 1h45 on flat sand, it will not survive hour six at Pirin, and we need to know that on 29 August rather than on 5 September. WHY THE DUNES ARE WORTH ADDING. The week was designed flat because Belgium roads offered nothing, and dunes change that: 10 reps is roughly 300m of climbing and 300m of descending, which is the only vertical available between 22 August and 5 September, a 14-day eccentric gap. Soft dry sand is also the most forgiving descent surface there is, because it yields under the foot and strips most of the impact-braking cycle that provokes the band. That makes this near-free eccentric exposure for an ITB history, which is exactly what a normal trail descent is not. GATE: dunes only if Tuesday and Thursday both came back clean at the knee. Any positive Noble test or in-run lateral knee pain this week and Saturday reverts to 1h45 flat at Z2, load 100, no reps. SURFACE RULES, TAKE THESE SERIOUSLY. Walk or jog easy down the soft dry face, never a packed path or a boardwalk, because a hard-surface dune descent gives back everything the sand was saving you. Power-hike the steep half of each climb rather than forcing a run; hiking steep ground is the Pirin skill anyway. Do the steady blocks on the firm wet sand near the waterline, but BEACH CAMBER IS A REAL ITB RISK: an hour with the same leg on the low side is a canted-surface exposure and canted surfaces are a documented ITBS provoker. Turn around every 10-15 minutes so the camber alternates, or run the flattest band you can find just above the high tide line. SAND IS A NEW SURFACE TWO WEEKS OUT. It loads the calf and Achilles far harder than road, so 10 reps is a ceiling and not a target; if the calves are shouting by rep 6, stop at 6 and jog the rest flat. An Achilles problem on 29 August ends the race just as thoroughly as the band does. Pace is irrelevant today.",
+  "icuWorkoutText": "- 15m 55-75% LTHR\n- 30m 80-88% LTHR\n\n10x\n- 2m 85-90% LTHR\n- 3m 55-70% LTHR\n\n- 10m 55-70% LTHR"
 }

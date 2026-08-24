@@ -1,8 +1,8 @@
 {
   "date": "2026-08-30",
   "type": "easy",
-  "title": "Belgium: easy hour",
-  "terrain": "flat outdoor",
+  "title": "NL coast: easy hour, firm sand",
+  "terrain": "firm wet sand at the waterline, flat, no dunes today",
   "estimatedLoad": 65,
   "steps": [
     {
@@ -13,7 +13,7 @@
     {
       "kind": "work",
       "duration": "45m",
-      "target": "Z2 flat, 75-85% LTHR"
+      "target": "Z2 firm sand, 75-85% LTHR"
     },
     {
       "kind": "cooldown",
@@ -21,6 +21,6 @@
       "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "Last day of the flat block, fly home tonight. Easy hour, nothing to prove. GUT TRAINING: 60 g/h from minute 30, on this run too. Transporter capacity adapts over about two weeks of repeated exposure, so the adaptation either starts now or it does not happen before 5 September. Put carbohydrate in the bottle rather than trying to chew your way there. Next weekend is the Alps and 5 September is the last specific day, so land Monday intact rather than fit.",
+  "coachNotes": "Last day of the flat block, fly home tonight. Easy hour, nothing to prove. NO DUNES TODAY: Saturday took the vertical and the calves will know it, and a second sand-climbing day 48h apart two weeks out is how a new surface turns into an Achilles problem. Flat firm sand only. BEACH CAMBER: turn around every 10-15 minutes so the same leg is not on the low side for an hour, or run the flattest band above the high tide line. A canted surface is a documented ITBS provoker and it is the one avoidable risk on this beach. If the calves are sore from Saturday, run the road instead and lose nothing. GUT TRAINING: 60 g/h from minute 30, on this run too, easy or not. Transporter capacity adapts over roughly two weeks of repeated exposure, so every run over an hour between now and 5 September is part of the adaptation. Carbohydrate in the bottle rather than chewing your way there. Next weekend is the Alps and 5 September is the last specific day, so land Monday intact rather than fit.",
   "icuWorkoutText": "- 10m 55-70% LTHR\n- 45m 75-85% LTHR\n- 10m 55-70% LTHR"
 }
