@@ -1,37 +1,26 @@
 {
   "date": "2026-08-25",
   "type": "easy",
-  "title": "Milan: ITB test run + graded eccentric block",
-  "terrain": "flat road or treadmill, zero descent",
-  "estimatedLoad": 65,
+  "title": "Milan: NO RUNNING. Bike + hip abductor block",
+  "terrain": "indoor bike, zero impact, zero descent",
+  "estimatedLoad": 60,
   "steps": [
     {
       "kind": "warmup",
       "duration": "10m",
-      "target": "Z1, 55-70% LTHR"
+      "target": "Z1, 55-70% LTHR, cadence 90+"
     },
     {
       "kind": "work",
-      "duration": "20m",
-      "target": "Z2 flat, 75-85% LTHR"
-    },
-    {
-      "kind": "recover",
-      "duration": "1m",
-      "target": "walk",
-      "note": "ITB CHECK STOP: palpate, 5 slow single-leg bends, compare against minute 10"
-    },
-    {
-      "kind": "work",
-      "duration": "15m",
-      "target": "Z2 flat, 75-85% LTHR"
+      "duration": "40m",
+      "target": "Z2, 75-85% LTHR, cadence 90-100, seated"
     },
     {
       "kind": "cooldown",
-      "duration": "5m",
+      "duration": "10m",
       "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "MONDAY READ, 24 AUG: band tender to press and to stretch, silent in normal movement. That is not ITBS, that is tissue sensitivity 48h after roughly 1990m of descent, and it is the expected result rather than a warning. The 5 September single-climb contingency does NOT fire on this. Systemic markers are green and are not the limiter: HRV 68 against a 60-day mean of 60, 7/60 ratio 1.05, resting HR 49, ATL down from 79.9 to 60.0 in two days. TEST IT PROPERLY BEFORE YOU RUN, SIXTY SECONDS. Noble compression: sit with the knee bent, find the bony bump on the outside of the knee about 2-3cm above the joint line, press firmly with your thumb and hold the pressure, then slowly straighten and re-bend the knee through that position five times. Sharp, familiar, reproducible pain arriving right there as the knee passes about 30 degrees is a positive test. Vague tenderness under static pressure that does not spike at 30 degrees is a negative test, and is what you almost certainly have. This distinction is the whole point, because 'hurts when I press it' and 'positive Noble' are indistinguishable from the outside and they mean completely different things. Then five slow single-leg squats to 30 degrees per side in front of a mirror: pain plus the opposite hip dropping is the combination that matters. THE RUN IS THE REAL TEST, AND THE TELL IS DIRECTION OF TRAVEL. ITBS gets worse the longer you run and does not warm up. Post-descent soreness fades inside the first ten minutes. That is why there is a check stop at minute 30 in the steps: stop, palpate, five slow single-leg bends, and compare against how it felt at minute 10. Worse than minute 10 means walk home and Thursday's incline session comes off. Same or better means finish the run and the gym goes ahead. ECCENTRIC BLOCK, GRADED TODAY rather than gated all-or-nothing. Step-downs are the single most ITB-provocative thing in the gym because they load precisely the 20-30 degree flexion band, so earn them set by set: set 1 is 10 reps per leg from a LOW box, 20cm, four-second lowering, then reassess. Clean means sets 2 and 3 at 25-30cm as originally prescribed. Any lateral knee pain during set 1 means step-downs are finished for the day, no negotiation, and you go straight to the rest. Nordic curls 3x5 with a slow lower, split squats 3x8 per leg with 4s down, side-lying hip abduction 3x15, Copenhagen planks 3x20s per side, single-leg calf raises 3x12. Those five carry no ITB risk and go ahead whatever the step-downs do. The lowering phase is the whole point. FULL GYM AVAILABLE IN MILAN, so no substitutions needed. Milan Tue-Thu is the only gym window you have, the NL coast has none, so this does not get postponed to the weekend. ALONE UNTIL FRIDAY EVENING. Seven hours of sleep is worth more than any session below and you are averaging 6.5h over the last week; this is the only stretch in the next three weeks where fixing that is purely a decision. HOMEWORK TONIGHT: check whether your gels and drink mix are glucose or maltodextrin only, or a glucose-fructose blend. Single-transporter products cap absorption around 60 g/h whatever the gut training does; blends clear that ceiling. It is the one input that could raise the race intake target above 60 g/h and it needs answering this week, not on 5 September.",
-  "icuWorkoutText": "- 10m 55-70% LTHR\n- 20m 75-85% LTHR\n- 1m 55-70% LTHR\n- 15m 75-85% LTHR\n- 5m 55-70% LTHR"
+  "coachNotes": "MONDAY EVENING, 24 AUG: THE READ CHANGED AND SO DOES THE WEEK. This morning was tenderness to press only, which is benign. Tonight it is intermittent pin sensations at the lateral knee WHILE WALKING, on the right side. Symptoms during weight-bearing gait are a different category from symptoms on palpation, because walking cycles the knee through the 20-30 degree impingement band under load. That is the prodrome, and it is the thing worth spending three days on. RUNNING IS OFF UNTIL THE WALKING IS CLEAN. Not reduced, off. Early ITBS responds to a short decisive deload; established ITBS does not resolve in 19 days. Spending three flat days now is close to free and it is the highest-value decision available. THE ARITHMETIC THAT MAKES THIS CHEAP: CTL is 43 against a target of 42. There is no fitness left to gain before 12 September. Every session from here is risk management and sharpening, so the cost of cutting is almost zero and the cost of pushing through is the race. BIKE INSTEAD, AND IT IS NOT A CONSOLATION PRIZE: it holds the load so CTL does not fall while removing every impact cycle. SET THE SADDLE 1-2cm HIGHER THAN YOUR NORMAL POSITION and keep cadence 90-100 with moderate resistance. A low saddle and grinding a big gear both drive the knee through more flexion under more force, which is the one way a bike can aggravate a band. If you feel pins on the bike, stop the bike too. STILL DO THE NOBLE TEST, it tells us which problem this is: press hard on the bony bump 2-3cm above the joint line on the outside of the right knee, hold, then slowly straighten and re-bend the knee five times. Sharp familiar pain arriving at about 30 degrees is a positive test. Note the answer, we act on it Thursday. ONE MORE THING, AND DO IT THIS WEEK: book a physiotherapist in Milan. You are alone until Friday, you have a documented March ITBS, and you are 19 days out. Hands on the leg beats anything I can infer from a CSV, and this is the week where it is still cheap to act on what they find. HIP BLOCK, THIS IS THE ACTUAL ITBS INTERVENTION AND IT GOES AHEAD: side-lying hip abduction 3x15 per side, clamshells 3x15 per side, single-leg glute bridges 3x12 per side, side plank with top-leg abduction 3x30s per side, Copenhagen planks 3x20s per side, single-leg calf raises 3x15. Hip abductor weakness with contralateral pelvic drop is the mechanism that lets the band compress the lateral epicondyle, and strengthening it is the one gym intervention with real evidence behind it. OUT THIS WEEK, NO NEGOTIATION: step-downs, split squats, walking lunges, anything that loads a bent knee through 20-40 degrees. Step-downs load precisely the flexion band that is currently symptomatic. Nordics are out too, not because they provoke the band but because there is no reason to add novel soreness in a week we are trying to read a signal through. SELF-CARE: do not foam-roll the IT band itself, you are compressing a structure whose problem is compression. Roll the TFL at the front of the hip, the glutes, and the outer quad above the knee. Ice the lateral knee 10 minutes after training.",
+  "icuWorkoutText": "- 10m 55-70% LTHR\n- 40m 75-85% LTHR\n- 10m 55-70% LTHR"
 }

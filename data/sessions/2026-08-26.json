@@ -1,26 +1,26 @@
 {
   "date": "2026-08-26",
   "type": "easy",
-  "title": "Milan: treadmill incline steady",
-  "terrain": "treadmill 8-10% incline, climbing only, zero descent",
+  "title": "Milan: GATED - treadmill incline if walking is clean, otherwise bike",
+  "terrain": "treadmill 10-12% incline (climbing only) or indoor bike, zero descent either way",
   "estimatedLoad": 55,
   "steps": [
     {
       "kind": "warmup",
       "duration": "10m",
-      "target": "Z1 flat, 55-70% LTHR"
+      "target": "Z1, 55-70% LTHR"
     },
     {
       "kind": "work",
       "duration": "35m",
-      "target": "Z2 at 8-10% incline, 80-88% LTHR"
+      "target": "Z2 at 10-12% incline or bike Z2, 80-88% LTHR"
     },
     {
       "kind": "cooldown",
-      "duration": "5m",
-      "target": "Z1 flat, 55-70% LTHR"
+      "duration": "10m",
+      "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "FUELLING TARGET RAISED 60 -> 80 g/h ON 24 AUG. THIS SUPERSEDES EVERY 60 g/h TARGET BELOW. Products checked: Enervit Carbo Gel C2:1 Pro is 40g of carbohydrate per 60ml gel at a 2:1 glucose-fructose ratio, roughly double a normal gel, and the fructose clears the single-transporter ceiling that set the old 60 target. SiS GO Isotonic is 22g and maltodextrin only, i.e. glucose pathway only, 10mg sodium. GUT TRAINING ON ANY RUN OVER AN HOUR: 2 Enervit gels per hour, one on the hour and one on the half hour. WATER IS NOT OPTIONAL WITH THESE GELS: 40g in 60ml is about a 66% solution, strongly hypertonic, and taken dry it pulls water into the gut. 150-250ml of water with every gel. Do not stack a SiS gel on top of 2 Enervit, it is glucose only and pushes you past the ~60 g/h glucose ceiling without adding fructose. Transporter capacity adapts over roughly two weeks of repeated exposure, so this starts now or it does not happen before 5 September. Today is 50 minutes, just under the hour, so take one gel at minute 30 anyway to keep the exposure going. Climbing strength with no eccentric cost, which is the whole argument for a treadmill in a flat week. Hold the incline and let the pace be whatever it needs to be, the gradient is the prescription and the speed is not. This is also race-pace climbing effort, so learn what 80-88% feels like when it is boring. GUT TRAINING: 60 g/h from minute 30, on this run too. Transporter capacity adapts over about two weeks of repeated exposure, so the adaptation either starts now or it does not happen before 5 September. Put carbohydrate in the bottle rather than trying to chew your way there. No gym today, legs recover between Tuesday and Thursday.",
-  "icuWorkoutText": "- 10m 55-70% LTHR\n- 35m 80-88% LTHR\n- 5m 55-70% LTHR"
+  "coachNotes": "THE GATE: run this on the treadmill ONLY if you have walked for a full 24 hours with no pin sensations at all. Anything at all, even once, and today is the bike again at the same load. Do not average the day out in your head, one pin is a fail. WHY UPHILL IS THE EXCEPTION. If running comes back this week it comes back on a steep treadmill and nowhere else. ITBS is provoked by the knee cycling repeatedly through roughly 20-30 degrees of flexion under load, which is what flat running and especially downhill running do. Steep uphill running keeps the knee outside that band for most of the stride and has no eccentric braking phase at all, so it is the one running modality that buys fitness without paying the band. Hold 10-12%, let the pace be whatever it needs to be, walk the belt if that is what the gradient demands. ABORT RULE: any pin, twinge or lateral knee sensation during the run, step off immediately and finish on the bike. This is not a test of tolerance, we already know the band is talking. It is a test of whether uphill is available to us. NO GYM TODAY, legs recover between the hip blocks. GUT TRAINING CONTINUES REGARDLESS OF MODALITY: 80 g/h means 2 Enervit Carbo Gel C2:1 Pro per hour (40g each, 2:1 glucose-fructose) with 150-250ml of water per gel. Today is 55 minutes so take one gel at minute 30. The bike is a perfectly good place to train a gut, so this part of the week is untouched by the ITB.",
+  "icuWorkoutText": "- 10m 55-70% LTHR\n- 35m 80-88% LTHR\n- 10m 55-70% LTHR"
 }

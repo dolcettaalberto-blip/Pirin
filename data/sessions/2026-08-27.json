@@ -1,14 +1,14 @@
 {
   "date": "2026-08-27",
   "type": "quality",
-  "title": "Milan: incline intervals 5 x 5min + eccentric block",
-  "terrain": "treadmill 10% incline, climbing only, zero descent",
-  "estimatedLoad": 85,
+  "title": "Milan: DECISION DAY - incline intervals or bike intervals",
+  "terrain": "treadmill 10-12% incline or indoor bike, zero descent",
+  "estimatedLoad": 75,
   "steps": [
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1-Z2 flat, 55-84% LTHR"
+      "target": "Z1-Z2, 55-84% LTHR"
     },
     {
       "kind": "repeat",
@@ -16,22 +16,22 @@
       "steps": [
         {
           "kind": "work",
-          "duration": "5m",
-          "target": "Z4 at 10% incline, 90-95% LTHR"
+          "duration": "4m",
+          "target": "Z4 at 10-12% incline, or bike Z4, 88-94% LTHR"
         },
         {
           "kind": "recover",
           "duration": "2m",
-          "target": "walk, flat"
+          "target": "walk flat, or easy spin"
         }
       ]
     },
     {
       "kind": "cooldown",
       "duration": "10m",
-      "target": "Z1 flat, 55-70% LTHR"
+      "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "THE WEEK'S ONE HARD SESSION. Five by five at 10% is 25 minutes of quality with zero descent, which is the only kind of hard day an ITB history allows in a week with no recovery terrain. Hold the incline fixed and drop the speed if the heart rate runs over 95%; the reps are meant to be repeatable, and rep five should look like rep one. AMBER: cut to 4 reps, never shorten the rep. ECCENTRIC BLOCK, the reason this week exists. Single-leg step-downs 3x10 per leg from a 25-30cm box with a 4-second lowering; Nordic curls 3x5, slow lower; split squats 3x8 per leg, 4s down; side-lying hip abduction 3x15; Copenhagen planks 3x20s per side; single-leg calf raises 3x12. Quality over load, the lowering phase is the whole point. Milan Tue-Thu is the only gym window you have: Belgium has none, so this does not get postponed to the weekend. Second and last gym day before Belgium.",
-  "icuWorkoutText": "- 15m 55-84% LTHR\n\n5x\n- 5m 90-95% LTHR\n- 2m 55-70% LTHR\n\n- 10m 55-70% LTHR"
+  "coachNotes": "THIS IS THE DECISION POINT FOR 5 SEPTEMBER AND FOR THE WEEKEND, so run the numbers honestly tonight rather than hoping. GREEN, meaning 48 hours of walking with zero pins and a negative Noble test: do this on the treadmill at 10-12%, and Saturday's dune repeats come back on. AMBER, meaning pins have faded but are not gone: bike version at the same load, and Saturday stays flat. RED, meaning pins unchanged or worse, or a positive Noble: bike only for the rest of the week, and we have a different conversation about 12 September. CUT FROM 5x5min TO 5x4min AND FROM 85 TO 75. The week lost its eccentric strength block, which was its main justification for a hard day, and there is no fitness to chase at CTL 43 against a 42 target. What this session is still worth keeping for is the climbing-specific intensity, which transfers directly to 1900m of continuous ascent off the gun at Pirin, and which costs the band nothing when it is done uphill or on a bike. Hold the gradient or the resistance fixed and drop the speed if HR runs over 94%. Rep five should look like rep one. HIP BLOCK AFTER, second and last one before you travel. HIP BLOCK, THIS IS THE ACTUAL ITBS INTERVENTION AND IT GOES AHEAD: side-lying hip abduction 3x15 per side, clamshells 3x15 per side, single-leg glute bridges 3x12 per side, side plank with top-leg abduction 3x30s per side, Copenhagen planks 3x20s per side, single-leg calf raises 3x15. Hip abductor weakness with contralateral pelvic drop is the mechanism that lets the band compress the lateral epicondyle, and strengthening it is the one gym intervention with real evidence behind it. OUT THIS WEEK, NO NEGOTIATION: step-downs, split squats, walking lunges, anything that loads a bent knee through 20-40 degrees. Step-downs load precisely the flexion band that is currently symptomatic. Nordics are out too, not because they provoke the band but because there is no reason to add novel soreness in a week we are trying to read a signal through. SELF-CARE: do not foam-roll the IT band itself, you are compressing a structure whose problem is compression. Roll the TFL at the front of the hip, the glutes, and the outer quad above the knee. Ice the lateral knee 10 minutes after training.",
+  "icuWorkoutText": "- 15m 55-84% LTHR\n\n5x\n- 4m 88-94% LTHR\n- 2m 55-70% LTHR\n\n- 10m 55-70% LTHR"
 }

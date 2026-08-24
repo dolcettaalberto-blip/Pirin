@@ -111,32 +111,32 @@
     {
       "week": 7,
       "start": "2026-08-24",
-      "block": "Flat block (Milan gym + NL coast dunes)",
-      "runKm": 56,
-      "weekendDplus": 350,
+      "block": "ITB deload (bike + uphill only)",
+      "runKm": 30,
+      "weekendDplus": 100,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 65,
+        "tue": 60,
         "wed": 55,
-        "thu": 85,
+        "thu": 75,
         "fri": 30,
-        "sat": 110,
-        "sun": 65
+        "sat": 90,
+        "sun": 55
       }
     },
     {
       "week": 8,
       "start": "2026-08-31",
       "block": "Peak specific (2000m rehearsal) + taper start",
-      "runKm": 56,
-      "weekendDplus": 1600,
+      "runKm": 45,
+      "weekendDplus": 900,
       "plannedDailyLoad": {
         "mon": 30,
         "tue": 60,
         "wed": 40,
         "thu": 45,
         "fri": 0,
-        "sat": 195,
+        "sat": 130,
         "sun": 25
       }
     },

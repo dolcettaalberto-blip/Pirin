@@ -1,9 +1,9 @@
 {
   "date": "2026-08-29",
   "type": "long",
-  "title": "NL coast: THE FUELLING TEST + dune repeats",
-  "terrain": "firm sand at the waterline for the steady work, soft dune for the reps, ~300m D+ and D- on sand",
-  "estimatedLoad": 110,
+  "title": "NL coast: THE FUELLING TEST, flat (dunes gated off)",
+  "terrain": "flat firm sand or road, no dunes unless Thursday came back green",
+  "estimatedLoad": 90,
   "steps": [
     {
       "kind": "warmup",
@@ -12,31 +12,15 @@
     },
     {
       "kind": "work",
-      "duration": "30m",
-      "target": "Z2 steady firm sand, 80-88% LTHR"
-    },
-    {
-      "kind": "repeat",
-      "count": 10,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "2m",
-          "target": "Z3 dune climb, 85-90% LTHR, power-hike the steep half"
-        },
-        {
-          "kind": "recover",
-          "duration": "3m",
-          "target": "walk down the SOFT dry sand, then easy flat"
-        }
-      ]
+      "duration": "1h15m",
+      "target": "Z2 steady flat, 80-88% LTHR"
     },
     {
       "kind": "cooldown",
       "duration": "10m",
-      "target": "Z1 firm sand, 55-70% LTHR"
+      "target": "Z1, 55-70% LTHR"
     }
   ],
-  "coachNotes": "FUELLING SYSTEM SET 24 AUG, TODAY'S TARGET IS 80 g/h AND NOT 60. THIS SUPERSEDES EVERY 60 g/h FIGURE BELOW. Enervit Carbo Gel C2:1 Pro is 40g per 60ml gel at 2:1 glucose-fructose, so 2 gels an hour is 80 g/h at roughly 53g glucose and 27g fructose, inside both transporter ceilings with margin. 1h45 means 3 gels: one at minute 30, one at minute 60, one at minute 90. DO NOT ADD A SiS GEL ON TOP. It is 22g of maltodextrin, glucose pathway only, and it takes you to about 75g of glucose an hour, past the ~60 g/h limit; the surplus stays in the gut. WATER IS NOT OPTIONAL: 40g in 60ml is about a 66% solution and strongly hypertonic. 150-250ml with every gel, which is 300-500ml an hour and matches the 487 ml/h you already drank on 22 August. If today goes wrong, this is the most likely reason. SODIUM: read the Bulk Complete Electrolyte tub and work out milligrams of sodium per 1g scoop. It is almost certainly 150-250mg, so one scoop in 500ml leaves you well short of 500-700 mg/h. Use two or three scoops, or a pinch of table salt, and write down what you used. TODAY TESTS THE RATE, 5 SEPTEMBER TESTS THE DURATION. 1h45 is short enough that 80 g/h is safe to try even from a 25 g/h baseline, which is exactly why it is tested here first. THIS IS STILL THE FUELLING SESSION FIRST. The dunes are a bonus, the 60 g/h is the objective, and if the two conflict you cut the reps and keep the intake. FEED EVERY 30 MINUTES FROM MINUTE 30, carbohydrate in the bottle, 60 g/h measured and not estimated. Sodium 500-700 mg/h, which was missing entirely on 22 August. 22 August returned 21-29 g/h and a happy stomach, which proved nothing because the gut was never asked a question. Write down grams, product, and what the stomach did in the last 30 minutes of each hour. If 60 g/h is uncomfortable here, at 1h45 on flat sand, it will not survive hour six at Pirin, and we need to know that on 29 August rather than on 5 September. WHY THE DUNES ARE WORTH ADDING. The week was designed flat because Belgium roads offered nothing, and dunes change that: 10 reps is roughly 300m of climbing and 300m of descending, which is the only vertical available between 22 August and 5 September, a 14-day eccentric gap. Soft dry sand is also the most forgiving descent surface there is, because it yields under the foot and strips most of the impact-braking cycle that provokes the band. That makes this near-free eccentric exposure for an ITB history, which is exactly what a normal trail descent is not. GATE: dunes only if Tuesday and Thursday both came back clean at the knee. Any positive Noble test or in-run lateral knee pain this week and Saturday reverts to 1h45 flat at Z2, load 100, no reps. SURFACE RULES, TAKE THESE SERIOUSLY. Walk or jog easy down the soft dry face, never a packed path or a boardwalk, because a hard-surface dune descent gives back everything the sand was saving you. Power-hike the steep half of each climb rather than forcing a run; hiking steep ground is the Pirin skill anyway. Do the steady blocks on the firm wet sand near the waterline, but BEACH CAMBER IS A REAL ITB RISK: an hour with the same leg on the low side is a canted-surface exposure and canted surfaces are a documented ITBS provoker. Turn around every 10-15 minutes so the camber alternates, or run the flattest band you can find just above the high tide line. SAND IS A NEW SURFACE TWO WEEKS OUT. It loads the calf and Achilles far harder than road, so 10 reps is a ceiling and not a target; if the calves are shouting by rep 6, stop at 6 and jog the rest flat. An Achilles problem on 29 August ends the race just as thoroughly as the band does. Pace is irrelevant today.",
-  "icuWorkoutText": "- 15m 55-75% LTHR\n- 30m 80-88% LTHR\n\n10x\n- 2m 85-90% LTHR\n- 3m 55-70% LTHR\n\n- 10m 55-70% LTHR"
+  "coachNotes": "DUNE REPEATS ARE CANCELLED BY DEFAULT AFTER THE 24 AUG ITB SIGNAL, and load drops 110 -> 90. They come back only if Thursday 27 August returned green, meaning 48 hours of walking with zero pin sensations and a negative Noble test. If it did, add 8 x 2min dune climbs with the descent walked on the SOFT dry face, never a packed path, and put the load back to 105. If it did not, this is a flat hour and a half and nothing more. IF WALKING IS STILL SYMPTOMATIC ON SATURDAY, DO NOT RUN THIS AT ALL. Walk it, or do the fuelling test on a bike if you can find one, or do it walking on the beach. The fuelling objective does not require running and it never did. BEACH CAMBER, which matters more now than it did: an hour with the right leg on the low side of a canted beach is a documented ITBS mechanism and your right side is the symptomatic one. Turn around every 10 minutes, or run the flat band above the high tide line, or use the road. THE FUELLING TEST IS THE POINT OF THIS DAY AND IT IS UNAFFECTED BY THE KNEE. FUELLING SYSTEM SET 24 AUG, TODAY'S TARGET IS 80 g/h AND NOT 60. THIS SUPERSEDES EVERY 60 g/h FIGURE BELOW. Enervit Carbo Gel C2:1 Pro is 40g per 60ml gel at 2:1 glucose-fructose, so 2 gels an hour is 80 g/h at roughly 53g glucose and 27g fructose, inside both transporter ceilings with margin. 1h45 means 3 gels: one at minute 30, one at minute 60, one at minute 90. DO NOT ADD A SiS GEL ON TOP. It is 22g of maltodextrin, glucose pathway only, and it takes you to about 75g of glucose an hour, past the ~60 g/h limit; the surplus stays in the gut. WATER IS NOT OPTIONAL: 40g in 60ml is about a 66% solution and strongly hypertonic. 150-250ml with every gel, which is 300-500ml an hour and matches the 487 ml/h you already drank on 22 August. If today goes wrong, this is the most likely reason. SODIUM: read the Bulk Complete Electrolyte tub and work out milligrams of sodium per 1g scoop. It is almost certainly 150-250mg, so one scoop in 500ml leaves you well short of 500-700 mg/h. Use two or three scoops, or a pinch of table salt, and write down what you used. TODAY TESTS THE RATE, 5 SEPTEMBER TESTS THE DURATION. 1h45 is short enough that 80 g/h is safe to try even from a 25 g/h baseline, which is exactly why it is tested here first. THIS IS STILL THE FUELLING SESSION FIRST. The dunes are a bonus, the 60 g/h is the objective, and if the two conflict you cut the reps and keep the intake. FEED EVERY 30 MINUTES FROM MINUTE 30, carbohydrate in the bottle, 60 g/h measured and not estimated. Sodium 500-700 mg/h, which was missing entirely on 22 August. 22 August returned 21-29 g/h and a happy stomach, which proved nothing because the gut was never asked a question. Write down grams, product, and what the stomach did in the last 30 minutes of each hour. If 60 g/h is uncomfortable here, at 1h45 on flat sand, it will not survive hour six at Pirin, and we need to know that on 29 August rather than on 5 September. WHY THE DUNES ARE WORTH ADDING. The week was designed flat because Belgium roads offered nothing, and dunes change that: 10 reps is roughly 300m of climbing and 300m of descending, which is the only vertical available between 22 August and 5 September, a 14-day eccentric gap. Soft dry sand is also the most forgiving descent surface there is, because it yields under the foot and strips most of the impact-braking cycle that provokes the band. That makes this near-free eccentric exposure for an ITB history, which is exactly what a normal trail descent is not. GATE: dunes only if Tuesday and Thursday both came back clean at the knee. Any positive Noble test or in-run lateral knee pain this week and Saturday reverts to 1h45 flat at Z2, load 100, no reps. SURFACE RULES, TAKE THESE SERIOUSLY. Walk or jog easy down the soft dry face, never a packed path or a boardwalk, because a hard-surface dune descent gives back everything the sand was saving you. Power-hike the steep half of each climb rather than forcing a run; hiking steep ground is the Pirin skill anyway. Do the steady blocks on the firm wet sand near the waterline, but BEACH CAMBER IS A REAL ITB RISK: an hour with the same leg on the low side is a canted-surface exposure and canted surfaces are a documented ITBS provoker. Turn around every 10-15 minutes so the camber alternates, or run the flattest band you can find just above the high tide line. SAND IS A NEW SURFACE TWO WEEKS OUT. It loads the calf and Achilles far harder than road, so 10 reps is a ceiling and not a target; if the calves are shouting by rep 6, stop at 6 and jog the rest flat. An Achilles problem on 29 August ends the race just as thoroughly as the band does. Pace is irrelevant today.",
+  "icuWorkoutText": "- 15m 55-75% LTHR\n- 1h15m 80-88% LTHR\n- 10m 55-70% LTHR"
 }
