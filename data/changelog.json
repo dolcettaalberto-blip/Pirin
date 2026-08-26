@@ -560,5 +560,13 @@
       "2026-08-29",
       "2026-08-30"
     ]
+  },
+  {
+    "date": "2026-08-26",
+    "change": "Thu 27 Aug moved to a morning slot at the athlete's request. Load unchanged at 80 and structure unchanged at 5x5min. Warmup extended 15m -> 20m and made a condition of the morning slot; icuWorkoutText updated to match. Hip block explicitly decoupled from the run and allowed to move to the evening.",
+    "reason": "Morning puts the session roughly 14 hours after the shockwave rather than 26, which is a real but small difference given the session is uphill treadmill and therefore places very little mechanical demand on the lateral knee. Two things outweigh it. First, observability: the optimal load rule tests symptoms during, immediately after, and the next day, and an 8pm finish collapses the middle test into sleep, whereas a 9am finish gives a full waking day of walking, stairs and sitting to read it. That test is worth more than usual this week because the shockwave analgesic window has already degraded the in-session signal. Second, sleep, which has been running 5.5-6.5h and is the more plausible limiter over the next 17 days than half a day of shockwave recovery. The warmup extension is the price and it is not a formality: treated tissue is stiffest overnight, and 5x5min at 88-94% LTHR off a cold 15 minutes is the specific way a morning slot could go wrong. Morning stiffness at the treated site is named as expected so it is not misread as a relapse; the discriminating observation remains whether anything appears during the reps and worsens rep to rep.",
+    "affects": [
+      "2026-08-27"
+    ]
   }
 ]
