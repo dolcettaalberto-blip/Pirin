@@ -111,16 +111,16 @@
     {
       "week": 7,
       "start": "2026-08-24",
-      "block": "ITB deload (bike + uphill only)",
-      "runKm": 30,
-      "weekendDplus": 100,
+      "block": "ITB managed return (physio-cleared)",
+      "runKm": 42,
+      "weekendDplus": 350,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 60,
-        "wed": 55,
-        "thu": 75,
+        "wed": 0,
+        "thu": 80,
         "fri": 30,
-        "sat": 90,
+        "sat": 105,
         "sun": 55
       }
     },
