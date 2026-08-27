@@ -568,5 +568,18 @@
     "affects": [
       "2026-08-27"
     ]
+  },
+  {
+    "date": "2026-08-27",
+    "change": "Coach notes rewritten short and front-loaded (EXECUTION / GYM / FUEL / STOP RULE / WHY) for 27-30 Aug, 5 Sep and race day; all HR targets converted from % LTHR to absolute bpm (LTHR 180)",
+    "reason": "Alberto's request: notes read like a book and buried the actual exercises; he wants bpm, not percentages. No training content changed, loads untouched.",
+    "affects": [
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-09-05",
+      "2026-09-12"
+    ]
   }
 ]

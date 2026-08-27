@@ -61,7 +61,10 @@ Hard rules:
   Change both together or the build fails.
 - `icuWorkoutText` is exact intervals.icu workout syntax — it's what gets pushed
   to my Garmin by the "Send to watch" button. Keep it consistent with `steps`.
-  Use explicit `% LTHR` ranges (LTHR 180) rather than bare zone names.
+  Use explicit **bpm** ranges (LTHR 180) rather than `% LTHR` or bare zone names.
+- `coachNotes` are **short and front-loaded**: one line each for EXECUTION, GYM,
+  FUEL, STOP RULE, and at most one WHY line. Concrete instructions first,
+  rationale last, no walls of prose. Line breaks render on the card.
 - `steps[].target` keeps Z-notation (`Z1`…`Z5`) because the site's timeline
   visual parses the zone from that field.
 - Every change gets a `changelog.json` entry with a real `reason` — that log is

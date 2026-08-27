@@ -8,19 +8,19 @@
     {
       "kind": "work",
       "duration": "3h",
-      "target": "Z2, opening 1900m climb - hike, strictly conversational"
+      "target": "Z2, opening 1900m climb, hike it, 130-145 bpm"
     },
     {
       "kind": "work",
       "duration": "3h",
-      "target": "Z2-Z3, high traverse - effort not pace, air is thin"
+      "target": "Z2-Z3 high traverse, effort not pace, 140-155 bpm"
     },
     {
       "kind": "work",
       "duration": "1h45m",
-      "target": "Z2, final 1250m descent - controlled, short stride"
+      "target": "Z2 final 1250m descent, controlled, short stride, 130-150 bpm"
     }
   ],
-  "coachNotes": "OPTIMAL LOAD RULE, THE GOVERNING GATE FROM 24 AUG: a session passes only if it produces no symptoms during it, none immediately after, and none the next day. Any one of the three is a fail, and the next session drops back to the last level that passed. The ceiling during a run is 2/10 with no spike afterwards; mild is allowed, new or worsening is not. This replaces every softer wording elsewhere in this plan. GAIT, MEASURED FROM THE 22 AUG CADENCE STREAM ON 24 AUG. Your descent cadence is already good and is NOT the problem: 177 spm on grades steeper than -20%, 179 spm across the second half of the sustained descents, 176 on the final descent to the door. Do not change it, and do not let anyone tell you to. THE EXPOSURE IS FLAT AND SHALLOW DOWNHILL: 152 spm on flat ground and 156 spm at -3 to -10%. That is precisely the gradient band where the knee spends longest inside the 20-30 degree compression zone under load, it is the running you do most of, and the final 1250m into Bansko is full of it. TARGET 165-170 spm ON FLAT AND SHALLOW DOWNHILL, a 5-10% lift, which is the range the gait-retraining literature uses. Metronome or a 165 bpm playlist. Shorter steps at the same effort; do not convert it into more pace. STEP WIDTH: run slightly wider than feels natural, not on a tightrope. Narrow step width raises ITB strain and strain rate directly and it is one of the few things you can change inside 19 days. FUELLING, FIXED 24 AUG: 80 g/h from minute one, delivered as one 65g sachet of Enervit Isocarb C2:1 Pro per 500ml bottle per hour (60g carbs, 600mg sodium, isotonic) plus one 40g Enervit Carbo Gel C2:1 Pro every second hour. Over 7h45 that is roughly 8 sachets and 4 gels. Both are 2:1 glucose-fructose, which is what makes 80 g/h absorbable; a maltodextrin-only gel cannot be stacked on top without exceeding the glucose ceiling. Carry plain water separately for the high traverse if it is warm, and take 150-250ml with every gel. Nothing here is new on the day: this exact system is rehearsed on 29 August and 5 September. Estimated 7h45 moving from your Erve pace reference + altitude penalty. The race is decided by two disciplines: (1) the opening climb at conversational effort no matter who passes you - 1900m continuous from the gun; (2) the final 1250m descent on 7h legs is the single ITB test of the day: poles, short stride, brake with cadence not quads. Half the course is above 2000m - expect pace to mean nothing, run on effort and HR. Fuel 70-90g carbs/h from minute one. Registration + mandatory medical check FRIDAY 13:00-20:00 in Bansko.",
-  "icuWorkoutText": "- 3h Z2\n- 3h Z2-Z3\n- 1h45m Z2"
+  "coachNotes": "THE RACE IN THREE PARTS. 1) Opening 1900m climb from the gun, km 0-13: hike it, strictly conversational, 130-145 bpm, let people pass. 2) High traverse, km 13-28 with 9.7km above 2500m: run on effort and HR, 140-155 bpm, pace means nothing that high. 3) Final 1250m descent to Bansko on 7h legs, the single ITB test of the day: poles, short stride, brake with cadence not quads, 165-170 spm.\nFUEL: 80 g/h from minute one. 1 Enervit Isocarb C2:1 Pro sachet per 500ml bottle per hour plus 1 Carbo Gel C2:1 Pro every second hour, roughly 8 sachets and 4 gels over 7h45. Carry plain water separately for the traverse, 150-250ml with every gel. Nothing new on the day, this exact system is rehearsed 29 Aug and 5 Sep.\nESTIMATE: 7h45 moving, from your Erve pace reference plus an altitude penalty.\nLOGISTICS: registration and mandatory medical check Friday 13:00-20:00 in Bansko.",
+  "icuWorkoutText": "- 3h 130-145bpm\n- 3h 140-155bpm\n- 1h45m 130-150bpm"
 }

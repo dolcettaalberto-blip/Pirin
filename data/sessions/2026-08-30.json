@@ -8,19 +8,19 @@
     {
       "kind": "warmup",
       "duration": "10m",
-      "target": "Z1, 55-70% LTHR"
+      "target": "Z1, 99-126 bpm"
     },
     {
       "kind": "work",
       "duration": "30m",
-      "target": "Z2 flat, 75-85% LTHR"
+      "target": "Z2 flat, 135-153 bpm"
     },
     {
       "kind": "cooldown",
       "duration": "10m",
-      "target": "Z1, 55-70% LTHR"
+      "target": "Z1, 99-126 bpm"
     }
   ],
-  "coachNotes": "OPTIMAL LOAD RULE, THE GOVERNING GATE: a session passes only if it produces no symptoms during it, none immediately after, and none the next day. Any one of the three is a fail, and the next session drops back to the last level that passed. The ceiling during a run is 2/10 with no spike afterwards; mild is allowed, new or worsening is not. GAIT, MEASURED FROM THE 22 AUG CADENCE STREAM. Your descent cadence is already good and is NOT the problem: 177 spm on grades steeper than -20%, 179 spm across the second half of the sustained descents, 176 on the final descent. Do not change it. THE EXPOSURE IS FLAT AND SHALLOW DOWNHILL: 152 spm on flat ground and 156 spm at -3 to -10%. That is precisely the gradient band where the knee spends longest inside the 20-30 degree compression zone under load, it is the running you do most of, and the final 1250m into Bansko is full of it. TARGET 165-170 spm ON FLAT AND SHALLOW DOWNHILL, a 5-10% lift. Metronome or a 165 bpm playlist. Shorter steps at the same effort; do not convert it into more pace. STEP WIDTH: run slightly wider than feels natural, not on a tightrope. Narrow step width raises ITB strain and strain rate directly and it is one of the few things you can change inside 17 days. EASY 50 MINUTES FLAT, and today the job is cadence rather than fitness. Yesterday took the vertical and the calves will know it. NO DUNES TODAY: a second sand-climbing day 48h apart, two weeks out, is how a new surface becomes an Achilles problem. Flat firm sand or road only. BEACH CAMBER: turn around every 10-15 minutes so the right leg is not on the low side for an hour, or run the flattest band above the high tide line. A canted surface is a documented ITBS provoker and it is the one avoidable risk on this beach. THIS IS THE FIRST DAY THE ANALGESIC WINDOW IS THINNING, roughly 96 hours post-shockwave, so what the knee reports today and tomorrow morning is the most informative reading of the week. Report it, it decides how much of the 5 September rehearsal we restore. FUELLING: 2 Enervit Carbo Gel C2:1 Pro per hour on anything over an hour, 150-250ml of water with each gel. Transporter capacity adapts over roughly two weeks of repeated exposure, so every run over an hour between now and 5 September is part of the adaptation. Do not stack a SiS gel on top, it is maltodextrin only and pushes you past the glucose ceiling without adding fructose. Fly home tonight, land Monday intact rather than fit.",
-  "icuWorkoutText": "- 10m 55-70% LTHR\n- 30m 75-85% LTHR\n- 10m 55-70% LTHR"
+  "coachNotes": "EXECUTION: easy 50 flat on firm sand or road, no dunes today. The job is cadence, not fitness: 165-170 spm on flat and shallow downhill, metronome or a 165 bpm playlist, shorter steps at the same effort. Step width slightly wider than natural. Turn around every 10-15min for the camber.\nGYM: none.\nFUEL: 2 Enervit Carbo Gel C2:1 Pro for the hour, 150-250ml water each. Every run over an hour between now and 5 Sep is gut training.\nSTOP RULE: no symptoms during, after, or next day.\nWHY IT MATTERS: no second sand-climbing day 48h apart, that is how a new surface becomes an Achilles problem. At 96h post-shockwave the analgesic window is thinning, so what the knee reports today and tomorrow morning is the most informative reading of the week. It decides how much of the 5 Sep rehearsal gets restored.",
+  "icuWorkoutText": "- 10m 99-126bpm\n- 30m 135-153bpm\n- 10m 99-126bpm"
 }

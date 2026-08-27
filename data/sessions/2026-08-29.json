@@ -8,12 +8,12 @@
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1 firm sand, 55-75% LTHR"
+      "target": "Z1 firm sand, 99-135 bpm"
     },
     {
       "kind": "work",
       "duration": "25m",
-      "target": "Z2 steady flat, 80-88% LTHR"
+      "target": "Z2 steady flat, 144-158 bpm"
     },
     {
       "kind": "repeat",
@@ -22,7 +22,7 @@
         {
           "kind": "work",
           "duration": "2m",
-          "target": "Z3-Z4 dune climb, power-hike the steep half"
+          "target": "Z3-Z4 dune climb, 153-166 bpm, power-hike the steep half"
         },
         {
           "kind": "recover",
@@ -34,14 +34,14 @@
     {
       "kind": "work",
       "duration": "20m",
-      "target": "Z2 steady flat, 80-88% LTHR"
+      "target": "Z2 steady flat, 144-158 bpm"
     },
     {
       "kind": "cooldown",
       "duration": "10m",
-      "target": "Z1, 55-70% LTHR"
+      "target": "Z1, 99-126 bpm"
     }
   ],
-  "coachNotes": "DUNE REPEATS ARE BACK ON AFTER THE 26 AUGUST PHYSIO CLEARANCE, load 90 -> 105. They were cancelled by default on 24 August pending a read on the knee; the read came back as minor localised inflammation with training and intensity explicitly cleared, so the gate is satisfied. 8 reps and not 10, because you will have run three days in a row by then off a near-zero running week, and because sand is a novel surface 14 days out. WHY THIS IS WORTH 15 LOAD POINTS. 22 August to 5 September is a 14-day gap with almost no eccentric loading in it, and 5 September is your only remaining descent rehearsal before a race that finishes with a continuous 1250m descent. Soft dry sand yields under the foot and strips most of the impact-braking cycle, so a sand descent is a fraction of the band provocation of the same drop on trail. This is close to free eccentric exposure for an ITB history, which is exactly what ordinary descent is not. 300m is deliberately small, roughly a quarter of 22 August's descent. SURFACE RULES, THESE ARE THE SESSION. Walk or jog easy down the SOFT DRY FACE, never a packed path, a boardwalk or a staircase, because a hard-surface dune descent gives back everything the sand was saving you. Power-hike the steep half of each climb rather than forcing a run. BEACH CAMBER IS THE REAL RISK HERE AND IT CUTS AGAINST THE WHOLE IDEA: an hour with the right leg on the low side of a canted beach is a documented ITBS mechanism and the right side is the symptomatic one. Turn around every 10-15 minutes, or run the flat band above the high tide line. CALVES: sand loads calf and Achilles far above road. 8 reps is a ceiling, not a target. If the calves are shouting by rep 5, stop at 5 and jog the rest flat. An Achilles problem on 29 August ends the race just as thoroughly as the band does. SHOCKWAVE ANALGESIC WINDOW: this is roughly 72 hours post-treatment, so the knee may be quieter than it truly is. Do not add reps because it feels good. The written 8 is the number. OPTIMAL LOAD RULE, THE GOVERNING GATE: a session passes only if it produces no symptoms during it, none immediately after, and none the next day. Any one of the three is a fail, and the next session drops back to the last level that passed. The ceiling during a run is 2/10 with no spike afterwards; mild is allowed, new or worsening is not. GAIT, MEASURED FROM THE 22 AUG CADENCE STREAM. Your descent cadence is already good and is NOT the problem: 177 spm below -20%, 179 spm across the second half of the sustained descents, 176 on the final descent. Do not change it. THE EXPOSURE IS FLAT AND SHALLOW DOWNHILL: 152 spm on flat ground and 156 spm at -3 to -10%, the exact band where the knee spends longest inside the 20-30 degree compression zone under load, and the band the final 1250m into Bansko is full of. TARGET 165-170 spm ON FLAT AND SHALLOW DOWNHILL. Metronome or a 165 bpm playlist, shorter steps at the same effort, do not convert it into pace. STEP WIDTH: slightly wider than feels natural, not on a tightrope. THE FUELLING TEST IS STILL THE RANKED OBJECTIVE OF THIS DAY AND IT IS UNAFFECTED BY THE KNEE. TARGET IS 80 g/h. Enervit Carbo Gel C2:1 Pro is 40g per 60ml at 2:1 glucose-fructose, so 2 gels an hour is 80 g/h at roughly 53g glucose and 27g fructose, inside both transporter ceilings with margin. This is 1h50, so 3 gels: minute 30, minute 60, minute 90. DO NOT ADD A SiS GEL ON TOP. It is 22g of maltodextrin, glucose pathway only, and it takes you to about 75g of glucose an hour, past the roughly 60 g/h limit; the surplus stays in the gut and ferments. WATER IS NOT OPTIONAL: 40g in 60ml is about a 66% solution and strongly hypertonic. 150-250ml with every gel, which is 300-500ml an hour and matches the 487 ml/h you already drank on 22 August. If today goes wrong, this is the most likely reason, not the carbohydrate. SODIUM: read the Bulk Complete Electrolyte tub and work out milligrams of sodium per 1g scoop. It is almost certainly 150-250mg, so one scoop in 500ml leaves you well short of 500-700 mg/h. Use two or three scoops, or a pinch of table salt, and write down what you used. TODAY TESTS THE RATE, 5 SEPTEMBER TESTS THE DURATION. 22 August returned roughly 25 g/h on a happy stomach, which proved nothing because the gut was never asked a question. Write down grams, product, and what the stomach did in the last 30 minutes of each hour. IF THE REPS AND THE INTAKE CONFLICT, THE REPS GO AND THE INTAKE STAYS.",
-  "icuWorkoutText": "- 15m 55-75% LTHR\n- 25m 80-88% LTHR\n\n8x\n- 2m 85-92% LTHR\n- 3m 55-70% LTHR\n\n- 20m 80-88% LTHR\n- 10m 55-70% LTHR"
+  "coachNotes": "EXECUTION: 8 dune reps, not 10. Power-hike the steep half of each climb. Walk or jog down the SOFT DRY face only, never a packed path, boardwalk or staircase. Turn around every 10-15min so the right leg is not on the low side of the beach camber, or run the flat band above the high tide line. Cadence 165-170 spm on flat and shallow downhill.\nGYM: none, the dunes are the strength work.\nFUEL, THE RANKED OBJECTIVE OF THE DAY: 80 g/h = 2 Enervit Carbo Gel C2:1 Pro per hour. This is 1h50, so gels at minute 30, 60 and 90, each with 150-250ml water. No SiS gel on top, it is maltodextrin only and breaks the glucose ceiling. Sodium 500-700 mg/h: check the Bulk tub for mg per scoop, it likely needs 2-3 scoops per 500ml. Write down grams, product, and what the stomach did.\nSTOP RULE: no symptoms during, after, or next day. Calves shouting by rep 5 means stop at 5 and jog the rest flat. If reps and intake conflict, the reps go and the intake stays.\nWHY SAND: soft sand strips most of the impact-braking cycle, so this is close to free eccentric exposure 14 days out, in a 14-day window that otherwise has none. 72h post-shockwave the knee may be quieter than it truly is, so 8 is the number.",
+  "icuWorkoutText": "- 15m 99-135bpm\n- 25m 144-158bpm\n\n8x\n- 2m 153-166bpm\n- 3m 99-126bpm\n\n- 20m 144-158bpm\n- 10m 99-126bpm"
 }

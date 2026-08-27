@@ -64,7 +64,7 @@ export function SessionCard({ session }: { session: Session }) {
       </ul>
 
       {session.coachNotes && (
-        <p className="text-[13px] text-ink-2 border-l-2 border-accent pl-3 leading-snug">{session.coachNotes}</p>
+        <p className="text-[13px] text-ink-2 border-l-2 border-accent pl-3 leading-snug whitespace-pre-line">{session.coachNotes}</p>
       )}
 
       <SendToWatch date={session.date} />

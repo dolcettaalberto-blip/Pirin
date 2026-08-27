@@ -120,7 +120,8 @@ Step rules:
 - `repeat` steps have `count` (integer ≥ 1) and nested `steps`; all other kinds
   have `duration` (`"20s"`, `"2m"`, `"1h40m"`, `"2h"`) and usually `target`.
 - `target` is free text but should start with the zone (`Z1`…`Z5`, or a range
-  like `Z1-Z2`) when there is one — the timeline visual parses the zone from it.
+  like `Z1-Z2`) when there is one, followed by the bpm range (e.g.
+  `Z4 at 10-12% incline, 158-169 bpm`) — the timeline visual parses the zone from it.
   `"walk"` renders as rest-colored.
 - `estimatedLoad` should equal the day's `plannedDailyLoad` value in
   `current-plan.json`; keep them in sync when adjusting a session.
@@ -142,8 +143,12 @@ breaks otherwise):**
   2026-07-28 — see changelog).
 - Nested repeats are not supported. Multiple separate repeat blocks in one
   workout are fine (each needs its own blank-line padding).
-- Durations: `15m`, `20s`, `1h2m30s`. Targets: zones (`Z1`…`Z5`) or explicit
-  HR/pace/power ranges intervals.icu understands (e.g. `94-98% LTHR`).
+- Durations: `15m`, `20s`, `1h2m30s`. Targets: **absolute heart rate in bpm**
+  (e.g. `158-169bpm`) — always bpm, never `% LTHR`. LTHR is 180.
+
+**`coachNotes` style (required):** short and front-loaded. One line each for
+`EXECUTION`, `GYM`, `FUEL`, `STOP RULE`, and at most one `WHY` line. Concrete
+instructions first, rationale last. Newlines render on the card. No walls of prose.
 
 Correct example matching the `steps` above:
 ```
