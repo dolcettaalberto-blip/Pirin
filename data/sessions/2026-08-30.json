@@ -1,9 +1,9 @@
 {
   "date": "2026-08-30",
   "type": "long",
-  "title": "NL coast: THE 80 g/h RATE TEST, with dune repeats back on",
-  "terrain": "firm wet sand and dunes, roughly 300m D+ and 300m D- on soft sand, no packed paths or boardwalks on the descents",
-  "estimatedLoad": 105,
+  "title": "NL coast: THE 80 g/h RATE TEST, flat + hip block",
+  "terrain": "firm wet sand at the waterline or road, flat, no D+. Dunes are out, national park",
+  "estimatedLoad": 95,
   "steps": [
     {
       "kind": "warmup",
@@ -12,29 +12,13 @@
     },
     {
       "kind": "work",
-      "duration": "25m",
+      "duration": "50m",
       "target": "Z2 steady flat, 144-158 bpm"
-    },
-    {
-      "kind": "repeat",
-      "count": 8,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "2m",
-          "target": "Z3-Z4 dune climb, 153-166 bpm, power-hike the steep half"
-        },
-        {
-          "kind": "recover",
-          "duration": "3m",
-          "target": "walk down the SOFT dry face, then easy flat"
-        }
-      ]
     },
     {
       "kind": "work",
-      "duration": "20m",
-      "target": "Z2 steady flat, 144-158 bpm"
+      "duration": "35m",
+      "target": "Z2 cadence block, 165-170 spm, 144-158 bpm"
     },
     {
       "kind": "cooldown",
@@ -42,6 +26,6 @@
       "target": "Z1, 99-126 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 8 dune reps, not 10. Power-hike the steep half of each climb. Walk or jog down the SOFT DRY face only, never a packed path, boardwalk or staircase. Turn around every 10-15min so the right leg is not on the low side of the beach camber, or run the flat band above the high tide line. Cadence 165-170 spm on flat and shallow downhill.\nGYM: none, the dunes are the strength work.\nFUEL, THE RANKED OBJECTIVE OF THE DAY: 80 g/h = 2 Enervit Carbo Gel C2:1 Pro per hour. This is 1h50, so gels at minute 30, 60 and 90, each with 150-250ml water. No SiS gel on top, it is maltodextrin only and breaks the glucose ceiling. Sodium 500-700 mg/h: check the Bulk tub for mg per scoop, it likely needs 2-3 scoops per 500ml. Write down grams, product, and what the stomach did.\nSTOP RULE: no symptoms during, after, or next day. Calves shouting by rep 5 means stop at 5 and jog the rest flat. If reps and intake conflict, the reps go and the intake stays.\nWHY SAND: soft sand strips most of the impact-braking cycle, so this is close to free eccentric exposure 13 days out, in a window that otherwise has none. Moved from Saturday after a broken night. At 96h post-shockwave the analgesic cover is thinning, so what the knee reports today is the more honest reading - which is the one thing that decides how much of the 5 Sep rehearsal gets restored. Still 8 reps, not 10.",
-  "icuWorkoutText": "- 15m 99-135bpm\n- 25m 144-158bpm\n\n8x\n- 2m 153-166bpm\n- 3m 99-126bpm\n\n- 20m 144-158bpm\n- 10m 99-126bpm"
+  "coachNotes": "EXECUTION: 1h50 flat on firm wet sand at the waterline or road. No dunes, the park is off limits. Cadence 165-170 spm throughout, strict in the 35min block. Turn around every 10-15min so the right leg is not on the low side of the camber.\nGYM, REPLACING THE DUNES: hip abductor block, the one gym intervention with real evidence for ITBS. Side-lying hip abduction 3x15/side, clamshells 3x15/side, single-leg glute bridges 3x12/side, side plank with top-leg abduction 3x30s/side, Copenhagen planks 3x20s/side, single-leg calf raises 3x15. Still no step-downs, split squats or lunges: they load the 20-40 degree flexion band that is symptomatic again.\nFUEL, THE RANKED OBJECTIVE OF THE DAY: 80 g/h = 2 Enervit Carbo Gel C2:1 Pro per hour. This is 1h50, so gels at minute 30, 60 and 90, each with 150-250ml water. No SiS gel on top, it is maltodextrin only and breaks the glucose ceiling. Sodium 500-700 mg/h: check the Bulk tub for mg per scoop, it likely needs 2-3 scoops per 500ml. Write down grams, product, and what the stomach did.\nSTOP RULE: no symptoms during, after, or next day. If the knee speaks, cut to 60min flat and keep the intake.\nWHY IT CHANGED: dunes are unavailable, so this window now has no eccentric descent exposure at all, and the hip block does not replace it - 13 days is too short to build descent durability either way. What still pays is the fuelling rehearsal and holding CTL near 42. At 96h post-shockwave the analgesic cover is thinning, so today's knee report is the honest one and it decides how much of the 5 Sep rehearsal gets restored.",
+  "icuWorkoutText": "- 15m 99-135bpm\n- 50m 144-158bpm\n- 35m 144-158bpm\n- 10m 99-126bpm"
 }

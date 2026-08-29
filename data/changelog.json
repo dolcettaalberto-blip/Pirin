@@ -591,5 +591,15 @@
       "2026-08-30",
       "2026-09-05"
     ]
+  },
+  {
+    "date": "2026-08-29",
+    "change": "Dune repeats removed from 30 Aug and the session rebuilt flat: 1h50 on firm sand as 15m warmup, 50m Z2, 35m Z2 cadence block, 10m cooldown, carrying the 80 g/h rate test unchanged. Hip abductor block added to both 29 and 30 Aug in their place. Wk7 sun load 105 -> 95, weekendDplus 350 -> 50. Race-day note now cites 30 Aug and 5 Sep as the fuelling rehearsals.",
+    "reason": "The dunes are inside a national park and off limits, so the terrain the session was built on does not exist. That removes the only eccentric descent exposure in the NL window. The athlete asked for gym work in its place; the gym written in is the hip abductor block, not the step-downs and split squats that would actually substitute for descent loading, because the 24 August ruling put those out with no negotiation - they load the 20-40 degree flexion band, and the band is symptomatic again after overnight sensations on 28-29 Aug. The 26 August physio clearance reversed the running suspension, not that ruling. The honest position is that nothing available in the Netherlands replaces descent-specific eccentric work, and at 13 days out it would not build meaningfully anyway, so the remaining value of the long day is the 80 g/h fuelling rehearsal and holding CTL near the 42 target. Load cut 105 -> 95 because flat Z2 replaces eight Z3-Z4 dune reps; weekendDplus cut to 50 because the weekend is now flat.",
+    "affects": [
+      "2026-08-29",
+      "2026-08-30",
+      "2026-09-12"
+    ]
   }
 ]

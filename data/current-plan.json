@@ -113,7 +113,7 @@
       "start": "2026-08-24",
       "block": "ITB managed return (physio-cleared)",
       "runKm": 42,
-      "weekendDplus": 350,
+      "weekendDplus": 50,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 60,
@@ -121,7 +121,7 @@
         "thu": 80,
         "fri": 30,
         "sat": 55,
-        "sun": 105
+        "sun": 95
       }
     },
     {
