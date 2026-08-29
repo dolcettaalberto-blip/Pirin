@@ -1,40 +1,19 @@
 {
   "date": "2026-08-29",
-  "type": "long",
-  "title": "NL coast: THE 80 g/h RATE TEST, with dune repeats back on",
-  "terrain": "firm wet sand and dunes, roughly 300m D+ and 300m D- on soft sand, no packed paths or boardwalks on the descents",
-  "estimatedLoad": 105,
+  "type": "easy",
+  "title": "NL coast: easy 50 flat, cadence session",
+  "terrain": "firm wet sand at the waterline, flat, no dunes today",
+  "estimatedLoad": 55,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "15m",
-      "target": "Z1 firm sand, 99-135 bpm"
+      "duration": "10m",
+      "target": "Z1, 99-126 bpm"
     },
     {
       "kind": "work",
-      "duration": "25m",
-      "target": "Z2 steady flat, 144-158 bpm"
-    },
-    {
-      "kind": "repeat",
-      "count": 8,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "2m",
-          "target": "Z3-Z4 dune climb, 153-166 bpm, power-hike the steep half"
-        },
-        {
-          "kind": "recover",
-          "duration": "3m",
-          "target": "walk down the SOFT dry face, then easy flat"
-        }
-      ]
-    },
-    {
-      "kind": "work",
-      "duration": "20m",
-      "target": "Z2 steady flat, 144-158 bpm"
+      "duration": "30m",
+      "target": "Z2 flat, 135-153 bpm"
     },
     {
       "kind": "cooldown",
@@ -42,6 +21,6 @@
       "target": "Z1, 99-126 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 8 dune reps, not 10. Power-hike the steep half of each climb. Walk or jog down the SOFT DRY face only, never a packed path, boardwalk or staircase. Turn around every 10-15min so the right leg is not on the low side of the beach camber, or run the flat band above the high tide line. Cadence 165-170 spm on flat and shallow downhill.\nGYM: none, the dunes are the strength work.\nFUEL, THE RANKED OBJECTIVE OF THE DAY: 80 g/h = 2 Enervit Carbo Gel C2:1 Pro per hour. This is 1h50, so gels at minute 30, 60 and 90, each with 150-250ml water. No SiS gel on top, it is maltodextrin only and breaks the glucose ceiling. Sodium 500-700 mg/h: check the Bulk tub for mg per scoop, it likely needs 2-3 scoops per 500ml. Write down grams, product, and what the stomach did.\nSTOP RULE: no symptoms during, after, or next day. Calves shouting by rep 5 means stop at 5 and jog the rest flat. If reps and intake conflict, the reps go and the intake stays.\nWHY SAND: soft sand strips most of the impact-braking cycle, so this is close to free eccentric exposure 14 days out, in a 14-day window that otherwise has none. 72h post-shockwave the knee may be quieter than it truly is, so 8 is the number.",
-  "icuWorkoutText": "- 15m 99-135bpm\n- 25m 144-158bpm\n\n8x\n- 2m 153-166bpm\n- 3m 99-126bpm\n\n- 20m 144-158bpm\n- 10m 99-126bpm"
+  "coachNotes": "EXECUTION: easy 50 flat on firm sand or road, no dunes today. The job is cadence, not fitness: 165-170 spm on flat and shallow downhill, metronome or a 165 bpm playlist, shorter steps at the same effort. Step width slightly wider than natural. Turn around every 10-15min for the camber.\nGYM: none.\nFUEL: 2 Enervit Carbo Gel C2:1 Pro for the hour, 150-250ml water each. Every run over an hour between now and 5 Sep is gut training.\nSTOP RULE: no symptoms during, after, or next day.\nWHY IT MOVED: swapped with Sunday. Night knee sensation plus HRV 47 after 37, on two nights under 5h30 - the dune and fuel day needs honest legs and a working stomach and gets neither today. Nothing is lost: 14 days out the fitness account is closed, this fortnight holds CTL near 42, it does not build it.",
+  "icuWorkoutText": "- 10m 99-126bpm\n- 30m 135-153bpm\n- 10m 99-126bpm"
 }

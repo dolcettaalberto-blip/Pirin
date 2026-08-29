@@ -581,5 +581,15 @@
       "2026-09-05",
       "2026-09-12"
     ]
+  },
+  {
+    "date": "2026-08-29",
+    "change": "Wk7 weekend swapped: Sat 29 Aug and Sun 30 Aug exchange sessions. 29 Aug is now the easy 50 flat cadence run (load 105 -> 55), 30 Aug is now the NL coast dune session with the 80 g/h rate test (load 55 -> 105). Weekly load, runKm and weekendDplus unchanged. 5 Sep coach note updated to cite 30 Aug as the fuelling rate test.",
+    "reason": "Mild knee sensation overnight, not strong, on top of HRV 47 following 37 and two consecutive nights under 5h30 - his worst two-day autonomic window since July. The dune repeats and the 80 g/h test both need a clear head and an honest stomach, and a session run on a broken night reads as a false negative on fuelling and a false positive on the knee. Nothing is lost by moving it 24 hours: at 14 days out the aerobic account is effectively closed (CTL 41.9, ATL 44.4, target race CTL 42), so this fortnight's job is to hold fitness, not add to it, and the swap keeps the week's total load identical. The swap also improves the session as a diagnostic: at 96h post-shockwave rather than 72h the analgesic cover is thinner, so what the knee reports on Sunday is the truer reading, and that reading is what decides how much of the 5 Sep rehearsal gets restored. Athlete's stated goal for the long session was fitness; told him plainly it buys close to none this late and its real value now is the fuelling protocol and the eccentric sand exposure.",
+    "affects": [
+      "2026-08-29",
+      "2026-08-30",
+      "2026-09-05"
+    ]
   }
 ]
