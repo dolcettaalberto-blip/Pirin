@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-06",
+  "type": "recovery",
+  "title": "Flush: 25min very easy or easy spin",
+  "terrain": "flat, or indoor trainer if the legs are heavy",
+  "estimatedLoad": 25,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "25m",
+      "target": "Z1 very easy, 99-135 bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 25min, Z1, flat. If the quads are sore from Saturday's 1000m descent, take the bike instead - same duration, easy spin, no impact.\nGYM: hip abductor block, light.\nFUEL: water only.\nSTOP RULE: quad soreness from the descent is expected and fine. Lateral knee pain is not, and it means the descent cap was still too high - report it, because it changes race-day descent strategy, not the training.\nWHY: taper starts here. Nothing between today and 12 September adds fitness; every session from now is about arriving able to run downhill.",
+  "icuWorkoutText": "- 25m 99-135bpm"
+}

@@ -1,9 +1,9 @@
 {
   "date": "2026-09-05",
   "type": "long",
-  "title": "One climb and out: 900m D+, fuelling test carrying it",
-  "terrain": "alpine, ONE sustained climb ~900m D+, descent hard-capped 600m, lift-assisted down if available",
-  "estimatedLoad": 130,
+  "title": "Presolana rehearsal: 1600m D+, descent capped 1000m, the 80 g/h duration test",
+  "terrain": "Presolana, ONE sustained climb ~1600m D+, descent hard-capped 1000m, fixed line",
+  "estimatedLoad": 195,
   "steps": [
     {
       "kind": "warmup",
@@ -12,15 +12,15 @@
     },
     {
       "kind": "work",
-      "duration": "1h40m",
-      "target": "Z2-Z3 single sustained climb ~900m D+, 151-160 bpm"
+      "duration": "2h40m",
+      "target": "Z2-Z3 single sustained climb ~1600m D+, 151-160 bpm"
     },
     {
       "kind": "cooldown",
-      "duration": "45m",
-      "target": "Z1-Z2 descent, capped 600m, poles, cadence 175+, 99-144 bpm"
+      "duration": "1h15m",
+      "target": "Z1-Z2 descent, capped 1000m, poles, cadence 175+, 99-144 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: one climb and out. ~900m D+, descent hard-capped at 600m, take the lift down if there is one. Fixed line, fixed endpoint, load the GPX, no summit out-and-backs. Descend with poles, short stride, cadence 175+.\nGYM: none.\nFUEL, THE POINT OF THE DAY: 80 g/h held from minute 30 to the finish, measured. Race system is 1 Enervit Isocarb C2:1 Pro sachet (65g) per 500ml bottle per hour, 60g carbs and 600mg sodium, plus 1 Carbo Gel every second hour. If the Isocarb has not arrived, run on 2 Carbo Gels an hour with 200ml water each, and order it before 12 Sep. Write down grams per hour and what the stomach did at hour 3.\nSTOP RULE: no symptoms during, after, or next day. If holding the intake means cutting the route, cut the route. A day that returns 900m and a verified 80 g/h is a success; 900m at 30 g/h is a wasted last chance.\nWHY IT IS THIS SIZE: cut from 195 to 130 on 24 Aug after the knee signal, and it is not restored without 10 consecutive symptom-free days including running. 30 Aug tested whether 80 g/h goes down at all; today tests whether it holds for four hours, which is the number that predicts hour six at Pirin.",
-  "icuWorkoutText": "- 20m 99-151bpm\n- 1h40m 151-160bpm\n- 45m 99-144bpm"
+  "coachNotes": "EXECUTION: one climb and out, ~4h15 total. 1600m D+, descent hard-capped at 1000m. Fixed line, fixed endpoint, load the GPX, no summit out-and-backs. Descend with poles, short stride, cadence 175+. If the route offers more descent than 1000m, take the lift or the road.\nGYM: none.\nFUEL, THE RANKED OBJECTIVE: 80 g/h from minute 30 to the finish. 1 Isocarb C2:1 Pro sachet-equivalent per 500ml, one bottle per hour, plus 1 Carbo Gel at hour 2 and hour 4. DRINK ON THE CLOCK: 125ml every 15min, not to thirst. That single instruction is the whole test.\nSTOP RULE: no symptoms during, after, or next day. If holding the intake means cutting the route, cut the route. 1600m at 40 g/h is a wasted last chance.\nWHY IT IS RESTORED: cut to 900m on 24 Aug after the knee signal, held there on 26 Aug pending evidence outside the shockwave analgesic window, restored now on a clean 30 Aug long run and a clean Monday morning. Descent is the reason for the middle option rather than the full 1200m: Pirin finishes with a continuous 1250m descent onto seven-hour legs and arriving with a 600m maximum in the previous three weeks is genuinely under-prepared, but this is the last day a descent error can still be paid for.\nWHY THE DRINKING RULE: on 30 Aug the gut took 96 g/h without complaint, so carbohydrate tolerance is not the constraint. Drinking volume is. He took 404 ml/h and felt fine, but this system needs 500 ml/h to deliver its 60g from the bottle - at 400 ml/h the total silently lands near 68 g/h instead of 80, with nothing that feels wrong.",
+  "icuWorkoutText": "- 20m 99-151bpm\n- 2h40m 151-160bpm\n- 1h15m 99-144bpm"
 }

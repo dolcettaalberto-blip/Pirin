@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-31",
+  "type": "recovery",
+  "title": "Shakeout 30min + THE MONDAY KNEE GATE",
+  "terrain": "flat road or firm sand, no camber",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "5m",
+      "target": "Z1 walk-jog, 99-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "25m",
+      "target": "Z1-Z2 easy, 130-150 bpm, cadence 168-172 spm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 30min easy, flat, no camber. Turn around halfway. This is the restorative session, not a workout - if it feels like effort you are running it wrong.\nGYM: hip abductor block as on 30 Aug. Side-lying abduction 3x15/side, clamshells 3x15/side, single-leg glute bridges 3x12/side, side plank with top-leg abduction 3x30s/side, Copenhagen 3x20s/side. Still no step-downs, split squats or lunges.\nFUEL: none needed. Water only.\nSTOP RULE / THE GATE: this morning's knee report decides 5 September. Check it on waking, before the run: stairs, first steps, sitting-to-standing. Clean this morning AND clean on 27-30 Aug confirms 5 Sep at 1600m D+ with the descent capped at 1000m, load 195. Any lateral knee pain that appears during a run and worsens with duration, or a knee that reports on waking today, drops 5 Sep back to 900m D+ / 600m D- / load 130 and I revert the plan the same day.\nWHY: this is the last data point taken before the decision, and the first one fully outside the shockwave analgesic window at 5 days post-treatment. It is the honest reading.",
+  "icuWorkoutText": "- 5m 99-125bpm\n- 25m 130-150bpm"
+}
