@@ -1,14 +1,14 @@
 {
   "date": "2026-09-03",
   "type": "quality",
-  "title": "Last quality: 4x4min uphill treadmill",
-  "terrain": "treadmill, 10-12% incline, no descent",
-  "estimatedLoad": 45,
+  "title": "Indoor bike: aerobic load, zero impact",
+  "terrain": "indoor trainer",
+  "estimatedLoad": 60,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "15m",
-      "target": "Z1-Z2 rising, 1-3% incline, 110-150 bpm"
+      "duration": "12m",
+      "target": "Z1-Z2 spin, 100-140 bpm, cadence 90+"
     },
     {
       "kind": "repeat",
@@ -16,22 +16,22 @@
       "steps": [
         {
           "kind": "work",
-          "duration": "4m",
-          "target": "Z4 at 10-12% incline, 158-169 bpm"
+          "duration": "6m",
+          "target": "Z3 steady, 152-162 bpm, cadence 85-90"
         },
         {
           "kind": "recover",
-          "duration": "2m",
-          "target": "walk at 5%"
+          "duration": "3m",
+          "target": "Z1 spin, 100-130 bpm"
         }
       ]
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
-      "target": "Z1 flat, 99-130 bpm"
+      "duration": "12m",
+      "target": "Z1 spin, 100-130 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 4x4min at 10-12% incline, 158-169 bpm, 2min walking recovery at 5% between. Warmup 15min minimum, non-negotiable. Last hard session before the race.\nGYM: none. Legs are for Saturday.\nFUEL: 1 gel 20min before, water during.\nSTOP RULE: no symptoms during, after, or next day. If rep 1 or 2 produces lateral knee pain, stop the session - do not test rep 3.\nWHY IT IS UPHILL: steep uphill keeps the knee largely outside the 20-30 degree flexion band where the band compresses the lateral epicondyle, has no eccentric braking phase, and transfers directly to 1900m of continuous ascent off the gun at Pirin. Cut from 5x5min on 27 Aug to 4x4min because at 9 days out this is a sharpener, not a stimulus - there is no fitness left to acquire and everything to protect.",
-  "icuWorkoutText": "- 15m 110-150bpm\n\n4x\n- 4m 158-169bpm\n- 2m 100-125bpm\n\n- 10m 99-130bpm"
+  "coachNotes": "EXECUTION: 4x6min at 152-162 bpm, 3min easy spin between. Seated throughout, cadence 85-90 in the efforts, 90+ in the warmup. Do not stand: standing loads the band through the flexion range.\nGYM: none.\nFUEL: 1 Isocarb C2:1 Pro bottle, 500ml, sipped across the hour. Treat it as bottle practice, not calorie need.\nSTOP RULE: the bike should be silent on the knee. Any lateral pain here is a different and worse signal than pain running, and it stops the session.\nWHY: 60 load with no eccentric cost and no ground impact, 9 days out, 48h before Presolana. This is the cheapest CTL on the board and a better pre-rehearsal day than a treadmill quality block.",
+  "icuWorkoutText": "- 12m 100-140bpm\n\n4x\n- 6m 152-162bpm\n- 3m 100-130bpm\n\n- 12m 100-130bpm"
 }

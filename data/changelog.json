@@ -615,5 +615,14 @@
       "2026-09-06",
       "2026-09-12"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "change": "Wk8 Tue/Thu swapped: 4x4min uphill treadmill moves 3 Sep -> 1 Sep, indoor bike 4x6min moves 1 Sep -> 3 Sep. Planned load tue 60 -> 45, thu 45 -> 60. Weekly total unchanged at 395.",
+    "reason": "Monday knee gate clean: no residual shockwave pain, zero signal during or after the shakeout, so 5 Sep stays at 1600m D+ / 1000m D- / load 195. Running the last quality on Tue moves its next-day symptom check to Wed, leaving three days to reshape Saturday instead of discovering a problem on Friday. Also makes Thu a zero-impact day 48h before the rehearsal. Solo training window Tue morning before family return.",
+    "affects": [
+      "2026-09-01",
+      "2026-09-03"
+    ]
   }
 ]
