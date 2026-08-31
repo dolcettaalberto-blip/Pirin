@@ -1,16 +1,16 @@
 {
   "date": "2026-09-06",
   "type": "recovery",
-  "title": "Flush: 25min very easy or easy spin",
-  "terrain": "flat, or indoor trainer if the legs are heavy",
-  "estimatedLoad": 25,
+  "title": "Descent from Olmo: 600m down with the family, walking",
+  "terrain": "Rifugio Olmo (1819m) to the trailhead, ~600m D-, walking, poles",
+  "estimatedLoad": 30,
   "steps": [
     {
       "kind": "work",
-      "duration": "25m",
-      "target": "Z1 very easy, 99-135 bpm"
+      "duration": "1h45m",
+      "target": "Z1 walking descent, poles, short steps, 95-125 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 25min, Z1, flat. If the quads are sore from Saturday's 1000m descent, take the bike instead - same duration, easy spin, no impact.\nGYM: hip abductor block, light.\nFUEL: water only.\nSTOP RULE: quad soreness from the descent is expected and fine. Lateral knee pain is not, and it means the descent cap was still too high - report it, because it changes race-day descent strategy, not the training.\nWHY: taper starts here. Nothing between today and 12 September adds fitness; every session from now is about arriving able to run downhill.",
-  "icuWorkoutText": "- 25m 99-135bpm"
+  "coachNotes": "EXECUTION: walk the whole 600m down from Olmo with the family. Poles, short steps, cadence high, no running on any of it however easy it feels. Second descent in 24h and the last eccentric load before the race.\nGYM: hip abductor block, light.\nFUEL: water, plus one bottle of Isocarb if the walk runs long. No test today.\nSTOP RULE: quad soreness from Saturday is expected and fine. Lateral knee pain here is not, and it changes race-day descent strategy rather than the training - report it the same day.\nWHY: separating Saturday's running descent from this one by a full night is the reason the weekend clears the ITB guardrails at all. Taper starts here; nothing between today and 12 September adds fitness.",
+  "icuWorkoutText": "- 1h45m 95-125bpm"
 }

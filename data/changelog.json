@@ -624,5 +624,14 @@
       "2026-09-01",
       "2026-09-03"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "change": "Wk8 weekend restructured for the Presolana family trip. Sat 5 Sep rehearsal cut from 1600m D+ / 1000m D- to ~1200m D+ / 1100m D- capped, duration held at 4h, and the afternoon family hike to Rifugio Olmo (~600m D+, walking) folded into the day: planned load sat 195 -> 220. Sun 6 Sep flush (25min easy) replaced by the 600m walking descent from Olmo with the family: sun 25 -> 30. Weekend D+ 1600 -> 1800. Week total 395 -> 425.",
+    "reason": "Alberto walks up to Olmo with the family Saturday afternoon and back down Sunday, so the run has to be a valley loop back to the car on Saturday morning. A closed loop makes D+ equal D-, so a 1600m climb would mean 1600m of running descent, 60% over the cap, with a further 600m of walking descent added on Sunday. Descent is the binding constraint so descent sets the climb, not the reverse: climb capacity is already proven (1933m D+ at Clusone, 22 Aug) while descent tolerance is not. Duration held at 4h because the 80 g/h fuelling test is the ranked objective and needs time, not vertical. Saturday's running descent and Sunday's walking descent are separated by a full night, which is what keeps the weekend inside the ITB guardrails. Weekend D+ jump over wk7 (50) is deliberate: wk7 was a flat Noordwijk weekend, not a taper decision. Projected start-line TSB ~+6, CTL ~43. GPX to be confirmed; terrain will be refined when it lands.",
+    "affects": [
+      "2026-09-05",
+      "2026-09-06"
+    ]
   }
 ]

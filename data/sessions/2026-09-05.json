@@ -1,9 +1,9 @@
 {
   "date": "2026-09-05",
   "type": "long",
-  "title": "Presolana rehearsal: 1600m D+, descent capped 1000m, the 80 g/h duration test",
-  "terrain": "Presolana, ONE sustained climb ~1600m D+, descent hard-capped 1000m, fixed line",
-  "estimatedLoad": 195,
+  "title": "Presolana rehearsal: 4h fuelling test, 1200m D+, descent capped 1100m",
+  "terrain": "Presolana valley loop from the family trailhead, one sustained climb, back at the car by 11:00, family hike to Olmo in the afternoon",
+  "estimatedLoad": 220,
   "steps": [
     {
       "kind": "warmup",
@@ -12,15 +12,15 @@
     },
     {
       "kind": "work",
-      "duration": "2h40m",
-      "target": "Z2-Z3 single sustained climb ~1600m D+, 151-160 bpm"
+      "duration": "2h20m",
+      "target": "Z2-Z3 single sustained climb ~1200m D+, 151-160 bpm"
     },
     {
       "kind": "cooldown",
-      "duration": "1h15m",
-      "target": "Z1-Z2 descent, capped 1000m, poles, cadence 175+, 99-144 bpm"
+      "duration": "1h20m",
+      "target": "Z1-Z2 descent, capped 1100m, poles, cadence 175+, 99-144 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: one climb and out, ~4h15 total. 1600m D+, descent hard-capped at 1000m. Fixed line, fixed endpoint, load the GPX, no summit out-and-backs. Descend with poles, short stride, cadence 175+. If the route offers more descent than 1000m, take the lift or the road.\nGYM: none.\nFUEL, THE RANKED OBJECTIVE: 80 g/h from minute 30 to the finish. 1 Isocarb C2:1 Pro sachet-equivalent per 500ml, one bottle per hour, plus 1 Carbo Gel at hour 2 and hour 4. DRINK ON THE CLOCK: 125ml every 15min, not to thirst. That single instruction is the whole test.\nSTOP RULE: no symptoms during, after, or next day. If holding the intake means cutting the route, cut the route. 1600m at 40 g/h is a wasted last chance.\nWHY IT IS RESTORED: cut to 900m on 24 Aug after the knee signal, held there on 26 Aug pending evidence outside the shockwave analgesic window, restored now on a clean 30 Aug long run and a clean Monday morning. Descent is the reason for the middle option rather than the full 1200m: Pirin finishes with a continuous 1250m descent onto seven-hour legs and arriving with a 600m maximum in the previous three weeks is genuinely under-prepared, but this is the last day a descent error can still be paid for.\nWHY THE DRINKING RULE: on 30 Aug the gut took 96 g/h without complaint, so carbohydrate tolerance is not the constraint. Drinking volume is. He took 404 ml/h and felt fine, but this system needs 500 ml/h to deliver its 60g from the bottle - at 400 ml/h the total silently lands near 68 g/h instead of 80, with nothing that feels wrong.",
-  "icuWorkoutText": "- 20m 99-151bpm\n- 2h40m 151-160bpm\n- 1h15m 99-144bpm"
+  "coachNotes": "EXECUTION: out by 06:30, back at the car by 11:00. ONE sustained climb, ~1200m D+, no repeats, no summit out-and-backs, fixed line, load the GPX. Descent hard-capped at 1100m including rolling accumulation: poles, short stride, cadence 175+. PM: family hike to Rifugio Olmo, ~600m D+, walking only, sleep at the hut. That hike is inside today's 220 load, record it as a separate activity.\nGYM: none.\nFUEL, THE RANKED OBJECTIVE: 80 g/h from minute 30 to the end of the run. 1 Isocarb C2:1 Pro per 500ml, one bottle per hour, plus 1 Carbo Gel at hour 2 and hour 4. DRINK ON THE CLOCK: 125ml every 15min, not to thirst. That single instruction is the whole test. Keep sipping on the walk up to Olmo.\nSTOP RULE: no symptoms during, after, or next day. Lateral knee pain on the descent ends the descent, walk the rest out. If holding the intake means cutting the route, cut the route.\nWHY 1200 AND NOT 1600: a closed loop back to the car makes D+ equal D-, so 1600m of climb means 1600m of running descent, 60% over the cap, and Sunday now adds another 600m walking down from Olmo. Climb capacity is proven (1933m at Clusone, 22 Aug); descent tolerance is not, and duration is what the fuel test needs, not metres.",
+  "icuWorkoutText": "- 20m 99-151bpm\n- 2h20m 151-160bpm\n- 1h20m 99-144bpm"
 }
