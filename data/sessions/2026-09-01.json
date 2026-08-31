@@ -1,37 +1,66 @@
 {
   "date": "2026-09-01",
   "type": "quality",
-  "title": "Last quality: 4x4min uphill treadmill",
-  "terrain": "treadmill, 10-12% incline, no descent",
-  "estimatedLoad": 45,
+  "title": "Max-intensity ladder: 5x3min uphill treadmill to 15%",
+  "terrain": "treadmill, 12-15% incline, no descent",
+  "estimatedLoad": 65,
   "steps": [
     {
       "kind": "warmup",
       "duration": "15m",
-      "target": "Z1-Z2 rising, 1-3% incline, 110-150 bpm"
+      "target": "Z1-Z2 rising to 3% incline, 110-150 bpm"
     },
     {
-      "kind": "repeat",
-      "count": 4,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "4m",
-          "target": "Z4 at 10-12% incline, 158-169 bpm"
-        },
-        {
-          "kind": "recover",
-          "duration": "2m",
-          "target": "walk at 5%"
-        }
-      ]
+      "kind": "work",
+      "duration": "3m",
+      "target": "12% incline, 168-174 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "3m",
+      "target": "walk at 5%, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "3m",
+      "target": "13% incline, 172-178 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "3m",
+      "target": "walk at 5%, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "3m",
+      "target": "14% incline, 175-182 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "3m",
+      "target": "walk at 5%, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "3m",
+      "target": "14% incline, 175-182 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "3m",
+      "target": "walk at 5%, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "3m",
+      "target": "15% or max holdable, 180-188 bpm, empty it"
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
+      "duration": "12m",
       "target": "Z1 flat, 99-130 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 4x4min at 10-12% incline, 158-169 bpm, 2min walking recovery at 5% between. Warmup 15min minimum, non-negotiable. Last hard session before the race. Four reps, not five - moving it earlier is not licence to add work.\nGYM: none. Legs are for Saturday.\nFUEL: 1 gel 20min before, water during.\nSTOP RULE: no symptoms during, after, or next day. If rep 1 or 2 produces lateral knee pain, stop the session - do not test rep 3.\nWHY IT IS UPHILL: steep uphill keeps the knee largely outside the 20-30 degree flexion band where the band compresses the lateral epicondyle, has no eccentric braking phase, and transfers directly to 1900m of continuous ascent off the gun at Pirin. At 11 days out this is a sharpener, not a stimulus - there is no fitness left to acquire and everything to protect.\nWHY TUESDAY: the next-day symptom check now falls on Wednesday, leaving three days to reshape Saturday if the knee talks. On Thursday that check fell on Friday, with nothing left to do about it.",
-  "icuWorkoutText": "- 15m 110-150bpm\n\n4x\n- 4m 158-169bpm\n- 2m 100-125bpm\n\n- 10m 99-130bpm"
+  "coachNotes": "EXECUTION: ladder, 5x3min at 12-15% incline with 3min walking at 5% between. Rep1 12% / 168-174, rep2 13% / 172-178, rep3 14% / 175-182, rep4 14% / 175-182, rep5 15% or max holdable / 180-188 and empty it. 15min warmup rising to 3%, non-negotiable. 12min flat cooldown. Reference: 27 Aug treadmill hit 188 max at RPE 8 and was absorbed cleanly - that is the ceiling, not a target to beat.\nGYM: none.\nFUEL: 1 gel 20min before, water during.\nSTOP RULE: no symptoms during, after, or next day. Lateral knee pain on any rep ends the session, do not test the next one. Calf or Achilles tightness also ends it: at 15% and 185 bpm the posterior chain is the exposed tissue, not the band, and a calf strain 11 days out ends the race as completely as the ITB would.\nWHY THE LADDER AND WHY IT IS ALLOWED: steep uphill is the lowest-ITB-risk way to go hard - no eccentric phase, knee held outside the 20-30 degree compression band - so if max intensity goes anywhere in this block it goes here. The ladder exists because the documented pattern is starting hard sessions conservatively and finishing under prescription; it puts the maximum where it will actually be reached. This is the last time the intensity dial gets touched before 12 September.",
+  "icuWorkoutText": "- 15m 110-150bpm\n- 3m 168-174bpm\n- 3m 100-125bpm\n- 3m 172-178bpm\n- 3m 100-125bpm\n- 3m 175-182bpm\n- 3m 100-125bpm\n- 3m 175-182bpm\n- 3m 100-125bpm\n- 3m 180-188bpm\n- 12m 99-130bpm"
 }

@@ -1,9 +1,9 @@
 {
   "date": "2026-09-02",
   "type": "easy",
-  "title": "Easy 45min + ENERVIT CARBO GEL PRODUCT TEST",
-  "terrain": "flat road or path",
-  "estimatedLoad": 40,
+  "title": "Single easy 45min + ENERVIT CARBO GEL PRODUCT TEST",
+  "terrain": "flat road or path, morning",
+  "estimatedLoad": 35,
   "steps": [
     {
       "kind": "warmup",
@@ -13,7 +13,7 @@
     {
       "kind": "work",
       "duration": "30m",
-      "target": "Z2 steady, 144-158 bpm"
+      "target": "Z1-low Z2, 135-152 bpm"
     },
     {
       "kind": "cooldown",
@@ -21,6 +21,6 @@
       "target": "Z1, 99-130 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 45min flat and easy. The run is the vehicle, not the point.\nGYM: hip abductor block.\nFUEL, THE POINT OF THE DAY: first ever exposure to Enervit Carbo Gel C2:1 Pro at rate. 2 gels, at minute 15 and minute 35, each washed with 200ml water. Carry a 500ml Isocarb bottle and finish it inside the 45min - 125ml every 15min, on the clock, not to thirst. Write down what the stomach did.\nSTOP RULE: no symptoms during, after, or next day.\nWHY: 30 Aug proved the rate goes down - 178g in 1h51, about 96 g/h, with a clean gut - but it proved it on the wrong gel. SiS went in instead of Enervit because of a packing error, so the race gel has still never been taken at rate. Testing it for the first time on 5 September would make that day a product test and a duration test at once, which is one variable too many nine days out. This costs 45 easy minutes and removes it.",
-  "icuWorkoutText": "- 10m 99-135bpm\n- 30m 144-158bpm\n- 5m 99-130bpm"
+  "coachNotes": "EXECUTION: one session, morning, 45min flat, easier than before - Z1 to low Z2 throughout, 135-152 bpm, never above. The run is the vehicle, not the point. Legs are still clearing Tuesday's ladder.\nGYM: none today - the abductor block moves to Sunday.\nFUEL, THE POINT OF THE DAY: first ever exposure to Enervit Carbo Gel C2:1 Pro at rate. 2 gels, minute 15 and minute 35, each washed with 200ml water. Carry a 500ml Isocarb bottle and finish it inside the 45min - 125ml every 15min, on the clock, not to thirst. Write down what the stomach did.\nSTOP RULE: no symptoms during, after, or next day. This is the morning-after check on the ladder - any lateral knee signal here drops Saturday to 900m and shortens the fuel test, and that is not negotiable on the day.\nWHY THE DURATION STAYS 45MIN: 30 Aug proved the rate goes down, 178g in 1h51 with a clean gut, but it proved it on SiS because of a packing error, so the race gel has still never been taken at rate. Two gels plus a 500ml bottle need the full 45min to fit. Cut the duration and gel two has nowhere to go, which makes 5 September a product test and a duration test at once - one variable too many. The intensity came down instead.",
+  "icuWorkoutText": "- 10m 99-135bpm\n- 30m 135-152bpm\n- 5m 99-130bpm"
 }

@@ -633,5 +633,14 @@
       "2026-09-05",
       "2026-09-06"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "change": "Wk8 Tue 1 Sep upgraded from 4x4min at 158-169 bpm to a max-intensity ladder, 5x3min at 12-15% incline stepping 168-174 / 172-178 / 175-182 / 175-182 / 180-188, 3min walk recoveries: planned load tue 45 -> 65. Wed 2 Sep consolidated to a single morning session with the gym block removed and intensity dropped to 135-152 bpm, duration held at 45min: wed 40 -> 35. Week total 425 -> 440.",
+    "reason": "Athlete requested maximum intensity. Granted on evidence: 27 Aug treadmill session hit 188 max at RPE 8 for load 64 and was absorbed cleanly, followed by a clean 30 Aug long run and a clean 31 Aug knee gate, so the 4x4 at 158-169 was a step down from work already tolerated rather than a ceiling. Steep uphill treadmill is the lowest-ITB-risk hard modality available: no eccentric phase and the knee stays outside the 20-30 degree compression band, so if maximum intensity goes anywhere in this block it goes here. Ladder structure chosen because the documented failure mode is starting hard sessions conservatively and finishing under prescription. Exposed tissue shifts from the ITB to calf and Achilles at 15% and 185 bpm, so the stop rule now names both. Wednesday duration protected at 45min because two Enervit gels plus a 500ml bottle will not fit in less, and the race gel has still never been taken at rate after the 30 Aug packing error; intensity was cut instead of time. Race-day TSB moves under one point. Standing condition: this is the last intensity increase before 12 September, and any lateral knee signal on 2 Sep drops Saturday to 900m.",
+    "affects": [
+      "2026-09-01",
+      "2026-09-02"
+    ]
   }
 ]
