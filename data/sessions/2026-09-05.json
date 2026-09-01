@@ -1,26 +1,46 @@
 {
   "date": "2026-09-05",
   "type": "long",
-  "title": "Presolana rehearsal: 4h fuelling test, 1200m D+, descent capped 1100m",
-  "terrain": "Presolana valley loop from the family trailhead, one sustained climb, back at the car by 11:00, family hike to Olmo in the afternoon",
-  "estimatedLoad": 220,
+  "title": "Dorga to Monte Ferrante: 1435m unbroken climb, meet the lift at 2122m",
+  "terrain": "Dorga (1097m) to the Colere top station (2122m) on foot, 11.9km +1435/-410. Then with the family: ridge to Vetta Monte Ferrante (2332m) and down to Rifugio Albani, 4.8km +235/-357. Lift down. Day total 16.7km, +1670, -767",
+  "estimatedLoad": 235,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "20m",
-      "target": "Z1-Z2 approach, 99-151 bpm"
+      "duration": "25m",
+      "target": "Z1-Z2 first 2km out of Dorga, 99-140 bpm"
     },
     {
       "kind": "work",
-      "duration": "2h20m",
-      "target": "Z2-Z3 single sustained climb ~1200m D+, 151-160 bpm"
+      "duration": "1h20m",
+      "target": "Z2-Z3 climb km2-6 to ~1900m, 145-160 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "25m",
+      "target": "Z1-Z2 the 410m drop at km6-7, poles, short stride, 110-140 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "1h10m",
+      "target": "Z2-Z3 second climb km8-12 to 2122m, 145-160 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "20m",
+      "target": "Z1 regroup with the family at the top station, 95-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "45m",
+      "target": "Z1-Z2 ridge to Vetta Monte Ferrante 2332m, pack allowed, 120-145 bpm"
     },
     {
       "kind": "cooldown",
-      "duration": "1h20m",
-      "target": "Z1-Z2 descent, capped 1100m, poles, cadence 175+, 99-144 bpm"
+      "duration": "1h",
+      "target": "Z1 descent 357m to Rifugio Albani, poles, no pack, 95-130 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: out by 06:30, back at the car by 11:00. ONE sustained climb, ~1200m D+, no repeats, no summit out-and-backs, fixed line, load the GPX. Descent hard-capped at 1100m including rolling accumulation: poles, short stride, cadence 175+. PM: family hike to Rifugio Olmo, ~600m D+, walking only, sleep at the hut. That hike is inside today's 220 load, record it as a separate activity.\nGYM: none.\nFUEL, THE RANKED OBJECTIVE: 80 g/h from minute 30 to the end of the run. 1 Isocarb C2:1 Pro per 500ml, one bottle per hour, plus 1 Carbo Gel at hour 2 and hour 4. DRINK ON THE CLOCK: 125ml every 15min, not to thirst. That single instruction is the whole test. Keep sipping on the walk up to Olmo.\nSTOP RULE: no symptoms during, after, or next day. Lateral knee pain on the descent ends the descent, walk the rest out. If holding the intake means cutting the route, cut the route.\nWHY 1200 AND NOT 1600: a closed loop back to the car makes D+ equal D-, so 1600m of climb means 1600m of running descent, 60% over the cap, and Sunday now adds another 600m walking down from Olmo. Climb capacity is proven (1933m at Clusone, 22 Aug); descent tolerance is not, and duration is what the fuel test needs, not metres.",
-  "icuWorkoutText": "- 20m 99-151bpm\n- 2h20m 151-160bpm\n- 1h20m 99-144bpm"
+  "coachNotes": "EXECUTION: out of Dorga by 06:30. 11.9km, 1435m D+, unbroken except the 410m drop at km6-7 - walk that drop, do not race it, it is the only running descent before the ridge. Reach the top station at 2122m and regroup. Then family legs: 45min up to Vetta Ferrante, 1h down to Albani. TAKE THE LIFT DOWN FROM ALBANI.\nGYM: none.\nFUEL, THE RANKED OBJECTIVE: 80 g/h from minute 30. 1 Isocarb C2:1 Pro per 500ml, one bottle per hour, 1 Carbo Gel at hour 2 and hour 4. Drink 125ml every 15min on the clock, not to thirst. Keep it running through the ridge legs.\nSTOP RULE: the 15kg goes UP only. You do not carry it on the 357m down to Albani and you do not carry it on the km6-7 drop. Lateral knee pain at any point ends the descent and you walk out.\nWHY: this route trades descent for climb. 1435m unbroken is the closest rehearsal of the race opening (1900m from the gun, km0-13) you will get, but it leaves only 767m of fragmented D-, so the descent test moves to Sunday on fresh legs. Do not fix that by walking Albani to Colere - that line is ~1000m at 25% average, far steeper than the race's 12.5% final descent, and testing a harder stimulus than the race demands six days out is a bad trade.",
+  "icuWorkoutText": "- 25m 99-140bpm\n- 1h20m 145-160bpm\n- 25m 110-140bpm\n- 1h10m 145-160bpm\n- 20m 95-125bpm\n- 45m 120-145bpm\n- 1h 95-130bpm"
 }

@@ -1,16 +1,26 @@
 {
   "date": "2026-09-06",
-  "type": "recovery",
-  "title": "Descent from Olmo: 600m down with the family, walking",
-  "terrain": "Rifugio Olmo (1819m) to the trailhead, ~600m D-, walking, poles",
-  "estimatedLoad": 30,
+  "type": "long",
+  "title": "Descent test: 700m up easy, 700m down at race grade",
+  "terrain": "Cassinelli line from Dorga, home trail, out-and-back. ~10km, +700/-700, descent at 10-15% average, bail-out at every point",
+  "estimatedLoad": 55,
   "steps": [
     {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1 flat approach, 99-130 bpm"
+    },
+    {
       "kind": "work",
-      "duration": "1h45m",
-      "target": "Z1 walking descent, poles, short steps, 95-125 bpm"
+      "duration": "1h15m",
+      "target": "Z1-Z2 easy climb 700m D+, hike it, 130-150 bpm"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "1h",
+      "target": "Z1-Z2 sustained 700m descent, poles, short stride, cadence 175+, 99-140 bpm"
     }
   ],
-  "coachNotes": "EXECUTION: walk the whole 600m down from Olmo with the family. Poles, short steps, cadence high, no running on any of it however easy it feels. Second descent in 24h and the last eccentric load before the race.\nGYM: hip abductor block, light.\nFUEL: water, plus one bottle of Isocarb if the walk runs long. No test today.\nSTOP RULE: quad soreness from Saturday is expected and fine. Lateral knee pain here is not, and it changes race-day descent strategy rather than the training - report it the same day.\nWHY: separating Saturday's running descent from this one by a full night is the reason the weekend clears the ITB guardrails at all. Taper starts here; nothing between today and 12 September adds fitness.",
-  "icuWorkoutText": "- 1h45m 95-125bpm"
+  "coachNotes": "EXECUTION: the climb is transport, keep it under 150 bpm, no push. The descent is the session: 700m continuous at 10-15%, poles out from the top, short stride, cadence 175+, quiet feet. Same grade as the race's final 1250m.\nGYM: hip abductor block, light, after.\nFUEL: one Isocarb bottle across the session. No test today, Saturday was the test.\nSTOP RULE: quad soreness from Saturday is expected and fine. Lateral knee is not. First twinge, stop descending, walk out, report the same evening - it changes race-day descent strategy, not the training.\nWHY: Rifugio Olmo is closed so the old two-descent weekend is gone, and Saturday's route only yields 767m of fragmented D-. This is the only sustained descent rehearsal before 12 September and the last eccentric load of the block. Fresh legs, known trail, bail-out everywhere: that is deliberate, it makes the ITB signal clean instead of confounded by 5 hours of fatigue.",
+  "icuWorkoutText": "- 15m 99-130bpm\n- 1h15m 130-150bpm\n- 1h 99-140bpm"
 }

@@ -642,5 +642,14 @@
       "2026-09-01",
       "2026-09-02"
     ]
+  },
+  {
+    "date": "2026-09-01",
+    "change": "Wk8 weekend rebuilt: Sat is Dorga->Monte Ferrante->Albani (16.7km, +1670/-767, lift down, load 220->235); Sun becomes a dedicated 700m descent test on the Cassinelli line (load 30->55). Weekend D+ 1800->2370, D- 1917->1467, runKm 50->46",
+    "reason": "Rifugio Olmo and its approach are closed, so the planned Sat valley loop + PM loaded ascent + Sun family descent are all off. New family plan is the Colere lift to Ferrante and Albani. Saturday now delivers a 1435m unbroken climb, the best available rehearsal of the race opening, but only 767m of fragmented descent, so the descent test is moved to Sunday on fresh legs at race grade (10-15%). Walking Albani->Colere was rejected: ~1000m at 25% average is a steeper stimulus than the race's 12.5% final descent, six days out. Weekend D+ jump over Wk7 is expected and accepted - Wk7 was a deliberate ITB down week at 50m D+, not a training baseline. 15kg carry permitted on ascents only.",
+    "affects": [
+      "2026-09-05",
+      "2026-09-06"
+    ]
   }
 ]
