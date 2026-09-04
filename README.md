@@ -36,6 +36,38 @@ the same suite runs at the start of `npm run build`, so malformed `/data` JSON f
    default `Europe/Rome`).
 4. Enable auto-deploy on push to `main` (default). Generate a domain under Settings → Networking.
 
+## Claude connector (MCP)
+
+`POST /api/mcp` is a Model Context Protocol server, so Claude can query intervals.icu
+and change the plan by being asked, instead of you downloading CSVs. Six tools:
+
+| Tool | What it does |
+|---|---|
+| `get_wellness(oldest, newest)` | Daily HRV / RHR / sleep / CTL / ATL — replaces `wellness.csv` |
+| `get_activities(oldest, newest)` | Activities with load, distance, D+, HR, RPE — replaces `activities.csv` |
+| `get_digest(days)` | The full analysis digest (same content as `/api/digest`) |
+| `get_plan()` | Living plan, frozen plan, session index, changelog |
+| `get_session(date)` | One session in full |
+| `update_plan({...})` | Patch weeks, write/delete sessions, append changelog — one validated commit |
+
+Reads bypass the hourly cache, so an agent always sees current data.
+
+`update_plan` validates the **entire resulting state** before committing (schemas,
+Monday week starts, `estimatedLoad` matching `plannedDailyLoad`, frozen
+`race`/`baseline`/`targetRaceCtl`). If anything fails, nothing is committed and the
+errors come back. Pass `dryRun: true` to preview without writing. It reads
+`current-plan.json` and `changelog.json` from the branch HEAD rather than the running
+container, so it cannot revert a change that has not redeployed yet.
+
+Auth: `Authorization: Bearer $MCP_TOKEN`, or `?key=$MCP_TOKEN` for clients that only
+accept a URL. Without `MCP_TOKEN` set the endpoint returns 401 for everything.
+
+Add it to Claude Code with:
+
+```bash
+claude mcp add --transport http pirin "https://pirin-production.up.railway.app/api/mcp" --header "Authorization: Bearer YOUR_MCP_TOKEN"
+```
+
 ## Structure
 
 | Path | What |

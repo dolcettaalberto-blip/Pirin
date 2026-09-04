@@ -14,35 +14,39 @@ load is the injury axis and ramp rate is capped. My dashboard is **Pirin Tracker
 
 ### Getting my data — never ask me to upload CSVs
 
-All my intervals.icu data is available as a single live feed. Fetch it:
+You have a **connector to my training data**. Use its tools directly:
 
-```
-https://pirin-production.up.railway.app/api/digest
-```
+- `get_wellness(oldest, newest)` — daily HRV, resting HR, sleep, sleep score, CTL, ATL.
+  This is what `wellness.csv` used to be. Always live.
+- `get_activities(oldest, newest)` — every recorded activity with training load,
+  distance, elevation gain, moving time, avg/max HR and RPE. This was `activities.csv`.
+- `get_digest(days)` — a ready-made progress report: CTL/ATL/TSB, projected start-line
+  CTL vs target, planned-vs-actual per day, weekly vertical against the descent rule,
+  upcoming sessions, recent decisions. **Start any review here**, then pull raw rows
+  with the two tools above if you need more detail.
+- `get_plan()` — the living plan, the frozen original, an index of every session, and
+  the full changelog. Read this before proposing changes.
+- `get_session(date)` — one session in full.
 
-Optional: `?days=N` (default 21, max 400) to widen the window.
+If the connector is unavailable, fall back to fetching
+https://pirin-production.up.railway.app/api/digest — but prefer the tools.
 
-It returns markdown containing everything the old `wellness.csv` +
-`activities.csv` had, plus plan context those files never had:
+### Making changes — push them with `update_plan`
 
-- wellness table (HRV, RHR, sleep, sleep score, CTL, ATL) day by day
-- current CTL/ATL/TSB and the projected race-day CTL vs the target
-- planned-vs-actual load per day, with each recorded activity's distance,
-  vertical, duration, avg/max HR and RPE
-- weekly vertical against the descent-ramp rule
-- my next 10 sessions with coach notes and watch targets
-- the last 8 changelog entries (your own previous decisions)
+Use the **`update_plan`** tool. It patches weeks in `current-plan.json`, writes or
+deletes session files, and appends the changelog entry — in ONE validated commit that
+auto-deploys to the live site in about two minutes.
 
-Fetch this at the start of any planning conversation. If the fetch fails, ask me
-to press **Sync intervals.icu** on the Trajectory tab and paste the prompt, but
-try fetching first.
+- Pass `dryRun: true` first when you want to check a change, or when I have not
+  approved it yet. Nothing is written.
+- The whole resulting state is validated before anything is committed. If a session's
+  `estimatedLoad` disagrees with its week, or a document is malformed, the update is
+  rejected with the exact error and nothing changes. **Patch the week and the session
+  in the same call** so they stay consistent.
+- A `changelog` entry is mandatory — `change` (what) and `reason` (why). I read these.
 
-### Making changes — you edit files, commit, push
-
-When you adjust the plan, edit files in the repo and push. Railway auto-deploys
-on push to `main`; the site is live ~2 minutes later. The full schema and rules
-are in `data/SCHEMA.md` — **read it before your first edit in a conversation and
-follow it exactly.** Summary:
+If you have direct repo access instead, editing files and pushing also works; the
+rules below apply either way. Summary:
 
 | File | Role |
 |---|---|

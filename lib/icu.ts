@@ -41,15 +41,17 @@ export function icuConfigured(): boolean {
   return credentials() !== null;
 }
 
-async function icuGet<T>(path: string): Promise<T | null> {
+async function icuGet<T>(path: string, fresh = false): Promise<T | null> {
   const creds = credentials();
   if (!creds) return null;
   const res = await fetch(`${BASE}/athlete/${creds.athleteId}${path}`, {
     headers: {
       Authorization: "Basic " + Buffer.from(`API_KEY:${creds.key}`).toString("base64"),
     },
-    // Tagged so the manual "Sync" action can expire it on demand.
-    next: { revalidate: 3600, tags: [ICU_CACHE_TAG] },
+    // Page reads are cached for an hour and tagged so Sync can expire them.
+    // Agent reads (MCP) bypass the cache: an agent asking a question now wants
+    // the current answer, not one from up to an hour ago.
+    ...(fresh ? { cache: "no-store" as const } : { next: { revalidate: 3600, tags: [ICU_CACHE_TAG] } }),
   });
   if (!res.ok) {
     console.error(`intervals.icu GET ${path} failed: ${res.status} ${await res.text()}`);
@@ -58,12 +60,12 @@ async function icuGet<T>(path: string): Promise<T | null> {
   return (await res.json()) as T;
 }
 
-export async function getWellness(oldest: string, newest: string): Promise<Wellness[] | null> {
-  return icuGet<Wellness[]>(`/wellness?oldest=${oldest}&newest=${newest}`);
+export async function getWellness(oldest: string, newest: string, fresh = false): Promise<Wellness[] | null> {
+  return icuGet<Wellness[]>(`/wellness?oldest=${oldest}&newest=${newest}`, fresh);
 }
 
-export async function getActivities(oldest: string, newest: string): Promise<Activity[] | null> {
-  return icuGet<Activity[]>(`/activities?oldest=${oldest}&newest=${newest}`);
+export async function getActivities(oldest: string, newest: string, fresh = false): Promise<Activity[] | null> {
+  return icuGet<Activity[]>(`/activities?oldest=${oldest}&newest=${newest}`, fresh);
 }
 
 /**
