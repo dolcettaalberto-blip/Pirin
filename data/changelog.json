@@ -651,5 +651,16 @@
       "2026-09-05",
       "2026-09-06"
     ]
+  },
+  {
+    "date": "2026-09-07",
+    "change": "Race week Tue-Fri session files created: 8 Sep openers 4x2min uphill 153-162bpm (load 35, Milan, last quality before travel); 10 Sep Sofia shakeout 15min flat + 4x20s strides with a pre-agreed amber/red gate (load 25); 11 Sep transfer-day shakeout 15min flat on arrival in Bansko before registration (load 10). No plannedDailyLoad changes, all three match the numbers already in current-plan.json. 9 Sep (Sofia arrival, load 0) gets no session file per convention; fuelling for that evening's team dinner is recorded here instead: eat normally, carb-forward where easy, no new foods, alcohol capped at one glass, hydrate normally. No training content attached because there is none that day.",
+    "reason": "These four days were the last unbuilt piece of the plan, 5 days out. Three open decisions resolved by default rather than delaying the push further: Thursday's HRV gate follows the same amber/red convention used all block (drop to flat-only on amber, full rest on red, no negotiation this close to race); Friday's shakeout placed after arrival rather than before departure, since loosening legs from a ~160km drive is the actual point and it doubles as a walk-through of the registration route; Wednesday's dinner gets plain moderation rather than a rigid rule, since there is no session the next morning to protect and the actual constraint (race day fuelling system) is already locked and rehearsed. Tuesday's session is deliberately sub-maximal: the intensity ceiling for this block was already spent 1 Sep (188bpm ladder), so this is a primer, not a test.",
+    "affects": [
+      "2026-09-08",
+      "2026-09-09",
+      "2026-09-10",
+      "2026-09-11"
+    ]
   }
 ]

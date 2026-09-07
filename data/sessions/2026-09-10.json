@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-10",
+  "type": "easy",
+  "title": "Sofia shakeout: 15min flat + strides",
+  "terrain": "flat, urban Sofia, no vertical",
+  "estimatedLoad": 25,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "5m",
+      "target": "Z1, 99-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "15m",
+      "target": "Z1-Z2 flat, 110-140 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "20s",
+      "target": "stride, relaxed, 150-165 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "40s",
+      "target": "walk"
+    },
+    {
+      "kind": "work",
+      "duration": "20s",
+      "target": "stride, relaxed, 150-165 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "40s",
+      "target": "walk"
+    },
+    {
+      "kind": "work",
+      "duration": "20s",
+      "target": "stride, relaxed, 150-165 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "40s",
+      "target": "walk"
+    },
+    {
+      "kind": "work",
+      "duration": "20s",
+      "target": "stride, relaxed, 150-165 bpm"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, 99-120 bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 15min easy flat plus 4x20sec relaxed strides (not sprints) with 40sec walk recovery. Flat only, no hills, no descent.\nGYM: none.\nFUEL: normal.\nAMBER/RED GATE (pre-agreed, no check-in needed): amber (HRV 7d/28d ratio <0.95, or RHR 3bpm+ above local baseline) - drop the strides, keep 15min flat Z1 only. Red (fever, illness, or any lateral knee report) - full rest, walk only.\nSTOP RULE: any lateral knee signal ends the strides.\nWHY: last leg-opener before Friday's transfer and Saturday's race. Small dose, flat terrain, zero ITB risk - purpose is turnover and circulation, not fitness. Nothing here is worth negotiating against a bad wellness reading.",
+  "icuWorkoutText": "- 5m 99-125bpm\n- 15m 110-140bpm\n- 20s 150-165bpm\n- 40s recovery\n- 20s 150-165bpm\n- 40s recovery\n- 20s 150-165bpm\n- 40s recovery\n- 20s 150-165bpm\n- 5m 99-120bpm"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-11",
+  "type": "easy",
+  "title": "Transfer day shakeout: 15min flat, Bansko on arrival",
+  "terrain": "flat, Bansko, wherever legs land after the drive",
+  "estimatedLoad": 10,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "15m",
+      "target": "Z1 flat, easy, 100-130 bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 15min flat easy jog after arriving in Bansko, ideally before registration if legs allow, otherwise after. Priority is loosening up from the ~160km drive, not exercise - if it turns into a scout of the finish area, good, but that's a bonus not the point.\nGYM: none.\nFUEL: normal meals, hydrate through the drive (car AC dries you out), no alcohol.\nSTOP RULE: anything but completely clean legs, cut it to a walk.\nLOGISTICS: registration and mandatory medical check 13:00-20:00 in Bansko.\nWHY: last movement before the race. Zero training value, purely circulation plus a logistics dry run - parking, walk to registration, where the start line is.",
+  "icuWorkoutText": "- 15m 100-130bpm"
+}

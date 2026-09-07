@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-08",
+  "type": "quality",
+  "title": "Openers: 4x2min uphill, last sharpener before travel",
+  "terrain": "treadmill or real hill, 8-10% incline, no descent (walk down if outdoors)",
+  "estimatedLoad": 35,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "12m",
+      "target": "Z1 flat, 99-130 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "2m",
+      "target": "153-162 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "2m",
+      "target": "walk, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "2m",
+      "target": "153-162 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "2m",
+      "target": "walk, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "2m",
+      "target": "153-162 bpm"
+    },
+    {
+      "kind": "recover",
+      "duration": "2m",
+      "target": "walk, 100-125 bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "2m",
+      "target": "153-162 bpm"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1 flat, 99-125 bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 4x2min uphill at 153-162bpm, moderately hard, not max, with 2min walk recovery between reps. Walk down if outdoors, no running descent. 12min warmup, 10min cooldown flat.\nGYM: none.\nFUEL: normal, no gel needed for 36min.\nSTOP RULE: any lateral knee signal ends the rep, don't push through to the next one.\nWHY: last quality touch before Wednesday's travel to Sofia. 4 days out there is no fitness left to gain, this is a primer to keep the legs sharp without banking residual fatigue into the travel block. Max intensity was already spent 1 Sep (188bpm ladder) - this is deliberately sub-maximal.",
+  "icuWorkoutText": "- 12m 99-130bpm\n- 2m 153-162bpm\n- 2m 100-125bpm\n- 2m 153-162bpm\n- 2m 100-125bpm\n- 2m 153-162bpm\n- 2m 100-125bpm\n- 2m 153-162bpm\n- 10m 99-125bpm"
+}
