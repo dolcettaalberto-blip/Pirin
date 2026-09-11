@@ -670,5 +670,13 @@
     "affects": [
       "2026-09-12"
     ]
+  },
+  {
+    "date": "2026-09-11",
+    "change": "Race-day HR bands raised across all four Route C segments (opening climb 135-148 -> 142-152 cap 155; steep climbs -> 148-158; descents 135-152; final descent 130-150 -> 140-155). Estimate revised 6h30 -> 6h15 moving, splits pulled forward ~25min. estimatedLoad unchanged at 300 (shorter duration offsets higher intensity), no plannedDailyLoad change. Km 0-5 cap at 155 and the 170 spm descent floor are explicitly held.",
+    "reason": "Original bands were carried over from the 38km/3300m course and sit ~20bpm below demonstrated durability: LTHR 175, HRmax 190, 152 avg sustained 4h31 with 1933m D+ on 22 Aug, 156 avg for 3h30 on 5 Sep. Independently, with storms forecast from 12:00 a faster front half reduces time exposed above 2000m, so the conservative bands were optimising the smaller risk.",
+    "affects": [
+      "2026-09-12"
+    ]
   }
 ]

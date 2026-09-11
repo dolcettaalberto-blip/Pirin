@@ -7,25 +7,25 @@
   "steps": [
     {
       "kind": "work",
-      "duration": "1h45m",
-      "target": "Km 0-10 to Banderitsa. Run km 0-5 (6%), hike from km 5. 135-148 bpm"
-    },
-    {
-      "kind": "work",
       "duration": "1h35m",
-      "target": "Km 10-15.4. Steep hike to 2402m then 530m descent to h. Vihren. 145-158 up, 135-150 down"
+      "target": "Km 0-10 to Banderitsa. Run km 0-5 (6%), hike from km 5. 142-152 bpm, hard cap 155"
     },
     {
       "kind": "work",
-      "duration": "1h50m",
-      "target": "Km 15.4-24.5. Climb to 2544m high point, 750m descent to Demyanitsa. 145-155 up, 130-150 down, 170+ spm"
+      "duration": "1h30m",
+      "target": "Km 10-15.4. Steep hike to 2402m 148-158, then 530m descent to h. Vihren 138-152"
     },
     {
       "kind": "work",
-      "duration": "1h25m",
-      "target": "Km 24.5-36.9. Forest descent 1106m to Bansko. 130-150 bpm, 175 spm, poles"
+      "duration": "1h45m",
+      "target": "Km 15.4-24.5. Climb to 2544m 148-158 (RPE above 2400m), 750m descent to Demyanitsa 135-152, 170+ spm"
+    },
+    {
+      "kind": "work",
+      "duration": "1h20m",
+      "target": "Km 24.5-36.9. Runnable forest descent 1106m. 140-155 bpm, 175 spm, poles"
     }
   ],
-  "coachNotes": "ROUTE C, NOT THE ORIGINAL. 1000m less climb, 1000m less descent, 320m lower. Estimate 6h30 (range 6h15-7h00), finish ~14:30. Splits: Banderitsa 1:45 (cut 2:30), h. Vihren 3:20 (cut 5:00), Demyanitsa 5:10, finish 6:30. Last two hours are shorter than trained for, so you can run the two climbs 5-10 bpm harder than the original plan.\nWEATHER IS THE RACE PLAN. Storms from 12-13h, worse 13:30-14. Exposed above 2000m is km 11-22, on the splits above that is 10:20-12:45. Be over the km 19 high point by 12:15 and into the trees below Demyanitsa by 13:00. Do not linger at h. Vihren, max 2 min. If thunder while above 2000m, keep moving down, poles in the pack. Waterproof jacket, gloves, buff and a dry base layer in a bag are mandatory kit, not optional. Wet rock: brake with poles and cadence, not quads.\nFUEL 80 g/h, rehearsed system, 6h30 = ~520g. 1 Isocarb C2:1 PRO sachet in 500ml per hour (60g, 600mg Na) + 1 Carbo Gel C2:1 PRO every second hour (hours 2, 4, 6). Carry 7 sachets, 4 gels (1 spare). Aid-station solids REPLACE that hour's gel, never stack: 1 banana (~25g) or 2 dates (~10g) or 150ml cola (~15g). Salty at Demyanitsa: chips, cheese, salami, lyutenitsa, 5-10 pieces, breaks the sweetness for the descent. Soup only if the hut confirms no flour or noodles. Gluten-free confirmed by organiser: bananas, apples, cucumbers, dates, cheese, cola, isotonic. Skip anything unlabeled.\nWATER on the clock: 125ml every 15min, 500ml/h (cool day, no need for more). Carry 2x500ml flasks Isocarb + 1x500ml plain water for gels. Refill at each aid: 1 sachet flask + plain. Longest gap Vihren-Demyanitsa 1h50 = 900ml, fits. 15min repeating watch alarm.\nITB: total descent 2360m in three blocks (530, 750, 1106), no single 1250m drop. Final descent is 9% avg, forest, runnable: 175 spm target, 170 floor, short stride, poles active. Any lateral right knee signal: walk 5 min, poles heavy, reassess. Pin signal that persists: walk it in, you finish anyway with 14h cut-off.\nSTATUS 11 Sep: RHR 46, HRV 48 (down from 60 Mon, travel and 900m noise), sleep 80, TSB +6.4 rising to ~+8 at the gun, CTL 43. Green.",
-  "icuWorkoutText": "- 1h45m 135-148bpm\n- 1h35m 140-158bpm\n- 1h50m 135-155bpm\n- 1h25m 130-150bpm"
+  "coachNotes": "ROUTE C, NOT THE ORIGINAL. 1000m less climb, 1000m less descent, 320m lower. Estimate 6h15 moving / 6h25 elapsed (range 6h00-6h45), finish ~14:10-14:25. Splits from 08:00: Banderitsa 09:35 (cut 10:30), h. Vihren 11:05 (cut 13:00), high point 11:50, Demyanitsa 12:50, finish 14:10.\nHR BANDS RAISED, and the reason matters. LTHR 175, HRmax 190. On 22 Aug you held 152 avg for 4h31 with 1933m D+, and 156 avg for 3h30 on 5 Sep. Target day average 145-150. Two non-negotiables remain: km 0-5 capped at 155 even though it feels absurdly easy (6% runnable gradient at the gun is where 30 minutes gets lost at hour five), and the final descent cadence floor of 170 spm. The band there rose because the terrain is runnable, not because the brake came off.\nFASTER IS SAFER TODAY. Every 15min off the front half is 15min less exposure above 2000m with storms from 12:00. That is the main argument for the raised bands, not fitness.\nDURABILITY CAVEAT: longest 2026 session is 5h06 (Valbondione, 27km). This is 6h15. Hour six is unrehearsed, which is an argument for fuelling discipline, not a lower HR.\nWEATHER IS THE RACE PLAN. Storms from 12-13h, worse 13:30-14. Exposed above 2000m is km 11-22, on the splits above that is 10:20-12:45. On the revised splits you are over the km 19 high point by 11:50 and into the trees by ~12:20, which is the whole point of the raised bands. Treat 12:15 at the high point as the hard line: later than that and you shorten stops and move. Do not linger at h. Vihren, max 2 min. If thunder while above 2000m, keep moving down, poles in the pack. Waterproof jacket, gloves, buff and a dry base layer in a bag are mandatory kit, not optional. Wet rock: brake with poles and cadence, not quads.\nFUEL 80 g/h, rehearsed system, 6h15 = ~500g. 1 Isocarb C2:1 PRO sachet in 500ml per hour (60g, 600mg Na) + 1 Carbo Gel C2:1 PRO every second hour (hours 2, 4, 6). Carry 7 sachets, 4 gels (1 spare). Aid-station solids REPLACE that hour's gel, never stack: 1 banana (~25g) or 2 dates (~10g) or 150ml cola (~15g). Salty at Demyanitsa: chips, cheese, salami, lyutenitsa, 5-10 pieces, breaks the sweetness for the descent. Soup only if the hut confirms no flour or noodles. Gluten-free confirmed by organiser: bananas, apples, cucumbers, dates, cheese, cola, isotonic. Skip anything unlabeled.\nWATER on the clock: 125ml every 15min, 500ml/h (cool day, no need for more). Carry 2x500ml flasks Isocarb + 1x500ml plain water for gels. Refill at each aid: 1 sachet flask + plain. Longest gap Vihren-Demyanitsa 1h50 = 900ml, fits. 15min repeating watch alarm.\nITB: total descent 2360m in three blocks (530, 750, 1106), no single 1250m drop. Final descent is 9% avg, forest, runnable: 175 spm target, 170 floor, short stride, poles active. Any lateral right knee signal: walk 5 min, poles heavy, reassess. Pin signal that persists: walk it in, you finish anyway with 14h cut-off.\nSTATUS 11 Sep: RHR 46, HRV 48 (down from 60 Mon, travel and 900m noise), sleep 80, TSB +6.4 rising to ~+8 at the gun, CTL 43. Green.",
+  "icuWorkoutText": "- 1h35m 142-152bpm\n- 1h30m 138-158bpm\n- 1h45m 135-158bpm\n- 1h20m 140-155bpm"
 }
