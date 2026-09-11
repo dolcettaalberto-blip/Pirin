@@ -662,5 +662,13 @@
       "2026-09-10",
       "2026-09-11"
     ]
+  },
+  {
+    "date": "2026-09-11",
+    "change": "Race day rebuilt for Route C after organiser storm reroute: 36.9km / 2350m D+ (was 38.1km / 3300m), high point 2584m, no Vihren summit. Sat load 360->300, weekendDplus 3300->2350, runKm 52->51. Four segments matching the aid stations (Banderitsa 10, h. Vihren 15.4, Demyanitsa 24.5), estimate 6h30, HR bands raised 5-10 bpm on the climbs. Fuelling kept at 80 g/h on the rehearsed Isocarb+gel split, 7 sachets 4 gels, aid-station GF solids replace a gel, 500ml/h water with refills at every aid.",
+    "reason": "Pre-frontal thunderstorms and wind forecast after 12-13h, intensifying 13:30-14. Weekend D+ drop is a reduction, not a jump. Weather timing dictates the schedule: exposed section km 11-22 must be cleared by ~12:45.",
+    "affects": [
+      "2026-09-12"
+    ]
   }
 ]
