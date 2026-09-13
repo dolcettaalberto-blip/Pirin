@@ -678,5 +678,13 @@
     "affects": [
       "2026-09-12"
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "change": "Race closed out. Actual: 36.7km / 2179m barometric D+, 5h22m50s moving, 5h37m34s elapsed (~15min stopped, mostly bottle refills), top 25, icu load 429. Avg HR 164, max 177, whole race inside a 155-172 band, no cardiac drift, negative-split finish (last 5km at 4:49-5:10/km, 326W, HR rising to 172). Power-hike protocol held on the 25% and 20% grade kilometres (cadence 46-59). Knee clean post-race: the March ITBS file is closed. Two execution defects recorded for the next race: (1) closing-descent cadence averaged ~168 spm, below the 175 target and scraping the 170 floor, reverting toward the 166 default under fatigue; (2) HR hit 170 by km 5 (34min in, 96% of day's max), which produced cramps at km 12-13 and cost an estimated 8-12min. Fuelling v2 agreed: Enervit Isocarb dropped as a race product (does not dissolve fast enough to refill bottles mid-race, only 3 of ~6 sachets consumed), replaced by Tailwind Endurance Fuel at 2 scoops / 500ml (50g carb, 620mg sodium per flask), one flask per hour plus one Carbo Gel every 90min; Bulk salts removed from the kit as the drink covers sodium. Actual Pirin intake reconstructed at ~80-84 g/h and ~570 mg/h sodium with zero gut issues, so the 80 g/h target is validated and carries forward.",
+    "reason": "Post-race debrief against Strava streams and the updated intervals.icu export. CTL 42.8 into race morning (target was 42-44), 51.9 immediately after, ATL 88.7, TSB -36.8 (deepest of the whole block; the 429 load is 1.7x the previous biggest single day). The Isocarb failure was operational, not physiological, and the cramps were pacing, not electrolytes: ~1200mg sodium was on board by hour two.",
+    "affects": [
+      "2026-09-12"
+    ]
   }
 ]
