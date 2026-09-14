@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-22",
+  "type": "quality",
+  "title": "Threshold intro 3x8min",
+  "terrain": "flat, no descent",
+  "estimatedLoad": 55,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "20m",
+      "target": "Z1-Z2, 130-145bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "8m",
+          "target": "Z4, 164-170bpm, cadence 176+"
+        },
+        {
+          "kind": "recover",
+          "duration": "3m",
+          "target": "Z1, jog under 135bpm"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1, under 135bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 3x8min at 164-170bpm, 3min jog between. Hold the TOP of the band on rep 3, do not drift over 172.\nGYM: box step-downs 3x10/leg, 4s lowering, 35-40cm. Copenhagen 3x25s/side.\nFUEL: nothing needed under 70min.\nSTOP RULE: cut to 2 reps if HRV under 45 or sleep under 6h.\nWHY: first threshold work of the year. Everything long you did for Pirin sat at 134-156bpm; the race asks for 170 for two hours.",
+  "icuWorkoutText": "- 20m 130-145bpm\n\n3x\n- 8m 164-170bpm\n- 3m Z1\n\n- 10m Z1"
+}

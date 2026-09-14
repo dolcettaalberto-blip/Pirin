@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-24",
+  "type": "easy",
+  "title": "Easy 8km + cadence strides",
+  "terrain": "flat",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "45m",
+      "target": "Z2, 138-148bpm, cadence 174+"
+    },
+    {
+      "kind": "repeat",
+      "count": 6,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "fast, cadence 180+, relaxed"
+        },
+        {
+          "kind": "recover",
+          "duration": "60s",
+          "target": "walk"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1"
+    }
+  ],
+  "coachNotes": "EXECUTION: 8km easy, then 6x20s strides at 180+ spm with 60s walk. Strides are cadence work, not speed work, stay relaxed.\nGYM: none.\nFUEL: none.\nSTOP RULE: skip the strides if the legs still feel race-heavy.\nWHY: your descent cadence fell to 168 at Pirin under fatigue. 180 needs to feel normal before it can survive 900m of terraces.",
+  "icuWorkoutText": "- 45m 138-148bpm\n\n6x\n- 20s Z5\n- 1m Z1\n\n- 5m Z1"
+}

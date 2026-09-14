@@ -1,158 +1,142 @@
 {
   "race": {
-    "name": "Pirin Extreme",
-    "date": "2026-09-12",
-    "distanceKm": 38,
-    "dPlus": 3300
+    "name": "Valtellina Wine Trail (Half)",
+    "date": "2026-11-07",
+    "distanceKm": 21.7,
+    "dPlus": 914
   },
   "baseline": {
-    "date": "2026-07-14",
-    "ctl": 27,
-    "atl": 39
+    "date": "2026-09-13",
+    "ctl": 51,
+    "atl": 76
   },
-  "targetRaceCtl": 42,
+  "targetRaceCtl": 53,
   "weeks": [
     {
       "week": 1,
-      "start": "2026-07-13",
-      "block": "Consolidate",
-      "runKm": 44,
-      "weekendDplus": 1400,
-      "plannedDailyLoad": {
-        "mon": 0,
-        "tue": 35,
-        "wed": 0,
-        "thu": 55,
-        "fri": 20,
-        "sat": 90,
-        "sun": 60
-      }
-    },
-    {
-      "week": 2,
-      "start": "2026-07-20",
-      "block": "Consolidate",
-      "runKm": 48,
-      "weekendDplus": 1100,
-      "plannedDailyLoad": {
-        "mon": 25,
-        "tue": 40,
-        "wed": 15,
-        "thu": 65,
-        "fri": 20,
-        "sat": 20,
-        "sun": 95
-      }
-    },
-    {
-      "week": 3,
-      "start": "2026-07-27",
-      "block": "Build (down week - illness/ITB)",
-      "runKm": 45,
-      "weekendDplus": 2200,
-      "plannedDailyLoad": {
-        "mon": 25,
-        "tue": 76,
-        "wed": 0,
-        "thu": 0,
-        "fri": 15,
-        "sat": 60,
-        "sun": 120
-      }
-    },
-    {
-      "week": 4,
-      "start": "2026-08-03",
+      "start": "2026-09-14",
       "block": "Recovery",
-      "runKm": 38,
-      "weekendDplus": 850,
+      "runKm": 8,
+      "weekendDplus": 0,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 0,
         "wed": 35,
+        "thu": 0,
+        "fri": 35,
+        "sat": 30,
+        "sun": 0
+      }
+    },
+    {
+      "week": 2,
+      "start": "2026-09-21",
+      "block": "Rebuild",
+      "runKm": 38,
+      "weekendDplus": 0,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 55,
+        "wed": 55,
         "thu": 45,
-        "fri": 15,
-        "sat": 70,
-        "sun": 10
+        "fri": 35,
+        "sat": 95,
+        "sun": 30
+      }
+    },
+    {
+      "week": 3,
+      "start": "2026-09-28",
+      "block": "Build",
+      "runKm": 46,
+      "weekendDplus": 0,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 65,
+        "wed": 60,
+        "thu": 50,
+        "fri": 35,
+        "sat": 120,
+        "sun": 100
+      }
+    },
+    {
+      "week": 4,
+      "start": "2026-10-05",
+      "block": "Build",
+      "runKm": 52,
+      "weekendDplus": 400,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 75,
+        "wed": 65,
+        "thu": 55,
+        "fri": 35,
+        "sat": 140,
+        "sun": 110
       }
     },
     {
       "week": 5,
-      "start": "2026-08-10",
-      "block": "Build",
-      "runKm": 67,
-      "weekendDplus": 950,
+      "start": "2026-10-12",
+      "block": "Recovery",
+      "runKm": 34,
+      "weekendDplus": 0,
       "plannedDailyLoad": {
-        "mon": 20,
-        "tue": 55,
-        "wed": 0,
-        "thu": 65,
-        "fri": 75,
-        "sat": 0,
-        "sun": 175
+        "mon": 0,
+        "tue": 50,
+        "wed": 55,
+        "thu": 40,
+        "fri": 25,
+        "sat": 90,
+        "sun": 50
       }
     },
     {
       "week": 6,
-      "start": "2026-08-17",
-      "block": "Peak (Alps, weather-compressed)",
-      "runKm": 48,
-      "weekendDplus": 2444,
+      "start": "2026-10-19",
+      "block": "Specific",
+      "runKm": 56,
+      "weekendDplus": 700,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 21,
-        "wed": 152,
-        "thu": 8,
-        "fri": 25,
-        "sat": 289,
-        "sun": 25
+        "tue": 80,
+        "wed": 70,
+        "thu": 60,
+        "fri": 35,
+        "sat": 155,
+        "sun": 100
       }
     },
     {
       "week": 7,
-      "start": "2026-08-24",
-      "block": "ITB managed return (physio-cleared)",
-      "runKm": 42,
-      "weekendDplus": 50,
+      "start": "2026-10-26",
+      "block": "Specific",
+      "runKm": 54,
+      "weekendDplus": 700,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 60,
-        "wed": 0,
-        "thu": 80,
-        "fri": 30,
-        "sat": 55,
-        "sun": 95
+        "tue": 80,
+        "wed": 70,
+        "thu": 55,
+        "fri": 35,
+        "sat": 150,
+        "sun": 100
       }
     },
     {
       "week": 8,
-      "start": "2026-08-31",
-      "block": "Peak specific (Ferrante/Albani) + taper start",
-      "runKm": 46,
-      "weekendDplus": 2370,
-      "plannedDailyLoad": {
-        "mon": 30,
-        "tue": 65,
-        "wed": 35,
-        "thu": 60,
-        "fri": 0,
-        "sat": 235,
-        "sun": 55
-      }
-    },
-    {
-      "week": 9,
-      "start": "2026-09-07",
+      "start": "2026-11-02",
       "block": "Race",
-      "runKm": 51,
-      "weekendDplus": 2350,
+      "runKm": 32,
+      "weekendDplus": 914,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 35,
-        "wed": 0,
+        "tue": 45,
+        "wed": 35,
         "thu": 25,
         "fri": 10,
-        "sat": 300,
+        "sat": 200,
         "sun": 0
       }
     }

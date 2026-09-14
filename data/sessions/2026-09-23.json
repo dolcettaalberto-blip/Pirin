@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-23",
+  "type": "easy",
+  "title": "Bike sweet spot 3x10min",
+  "terrain": "indoor trainer",
+  "estimatedLoad": 55,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "12m",
+      "target": "Z1-Z2, 120-140bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "10m",
+          "target": "Z3, 150-160bpm, cadence 88-92rpm"
+        },
+        {
+          "kind": "recover",
+          "duration": "5m",
+          "target": "Z1, easy spin"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "8m",
+      "target": "Z1"
+    }
+  ],
+  "coachNotes": "EXECUTION: 3x10min at 150-160bpm, 5min easy between. Seated throughout.\nGYM: none.\nFUEL: one bottle, water.\nSTOP RULE: none, this is the low-risk session.\nWHY: aerobic load with zero impact cost. This is the lever that gets CTL up without feeding the ITB.",
+  "icuWorkoutText": "- 12m 120-140bpm\n\n3x\n- 10m 150-160bpm\n- 5m Z1\n\n- 8m Z1"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-16",
+  "type": "recovery",
+  "title": "Easy spin (drain)",
+  "terrain": "indoor trainer",
+  "estimatedLoad": 35,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1, 110-125bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1-Z2, 125-140bpm, cadence 90rpm"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, under 120bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: flat 45min, no efforts, conversational throughout.\nGYM: none.\nFUEL: water only.\nSTOP RULE: any knee niggle, stop and report.\nWHY: drains post-race ATL faster than full rest without adding impact.",
+  "icuWorkoutText": "- 10m 110-125bpm\n- 30m 125-140bpm\n- 5m Z1"
+}

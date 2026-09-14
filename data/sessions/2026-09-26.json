@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-26",
+  "type": "long",
+  "title": "Long 16km with fast finish",
+  "terrain": "rolling, keep descents gentle",
+  "estimatedLoad": 95,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1, 128-140bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "1h05m",
+      "target": "Z2, 145-155bpm, cadence 174+"
+    },
+    {
+      "kind": "work",
+      "duration": "18m",
+      "target": "Z3, 160-166bpm, last 3km"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "7m",
+      "target": "Z1"
+    }
+  ],
+  "coachNotes": "EXECUTION: 16km. First 13km at 145-155bpm, last 3km lifted to 160-166bpm. Do not start the lift early.\nGYM: none.\nFUEL: test Tailwind here. One 500ml flask, 2 scoops, sipped from 30min. First run on the new mix.\nSTOP RULE: abandon the fast finish if cadence drops below 170.\nWHY: durability plus the first controlled rehearsal of finishing hard on tired legs, which is exactly what VWT's last 5km demands.",
+  "icuWorkoutText": "- 10m 128-140bpm\n- 1h5m 145-155bpm\n- 18m 160-166bpm\n- 7m Z1"
+}

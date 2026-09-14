@@ -686,5 +686,21 @@
     "affects": [
       "2026-09-12"
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "change": "Tracker repointed from Pirin Extreme to Valtellina Wine Trail (Half), 2026-11-07, 21.7km / 914m D+. plan.json and current-plan.json both rewritten: new baseline 2026-09-13 (CTL 51, ATL 76, the post-Pirin state), targetRaceCtl 53, 8 weeks from 2026-09-14. Week 1 is post-race recovery (two 45min drain spins Wed/Fri, 30min run Saturday), then rebuild, two build weeks, a down week, two specific weeks and race week. Projected start-line CTL 52.8, peak 56.6 on 1 Nov, max weekly ramp +3.4. Session files written for weeks 1 and 2; weeks 3-8 carry load targets only until the threshold test settles the bands. Old Pirin state recoverable at git tag pirin-final.",
+    "reason": "Goal is a sub-2h solo race, which is a threshold event, not a durability event: 21.7km with 914m D+ is a flat-equivalent 1h53 half at roughly 5:20/km. Alberto's engine is proven (164bpm avg for 5h22 at Pirin) but he has done almost no threshold work in 2026, so the block is built around one threshold session and one long run with a fast finish, with the indoor bike carrying aerobic load at zero impact cost. Downhill-specific work is opportunistic (mountain access is unreliable this season), so the guaranteed eccentric stimulus is a twice-weekly gym circuit plus 180spm cadence strides, targeting the descent cadence that fell to 168 at Pirin. Target 53 not 55: from CTL 45 on 21 Sep, a start-line 55 would need roughly 530-550 load weeks, a ramp that breaks the guardrail for no gain on a 2h race. Bands prescribed off LTHR 175 / HRmax 190 per 2026 data, not the stale 180 on the intervals.icu profile.",
+    "affects": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ]
   }
 ]

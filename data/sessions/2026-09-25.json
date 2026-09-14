@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-25",
+  "type": "recovery",
+  "title": "Eccentric gym + easy spin",
+  "terrain": "gym + trainer",
+  "estimatedLoad": 35,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "gym: eccentric strength circuit"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1, 120-135bpm easy spin"
+    }
+  ],
+  "coachNotes": "EXECUTION: box step-downs 4x10/leg 4s lowering; single-leg decline squat 3x8/leg; Copenhagen plank 3x30s/side; single-leg calf raise 3x15. Then 30min easy spin.\nGYM: this IS the gym session.\nFUEL: protein within an hour.\nSTOP RULE: stop the step-downs at any lateral knee pain, not soreness.\nWHY: this replaces downhill running as the guaranteed weekly eccentric stimulus. Mountain descents are a bonus, not the plan.",
+  "icuWorkoutText": "- 30m Z1\n- 30m 120-135bpm"
+}

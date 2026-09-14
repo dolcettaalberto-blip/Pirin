@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-19",
+  "type": "easy",
+  "title": "First run back",
+  "terrain": "flat, soft surface if possible",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1-Z2, 130-142bpm, cadence 172+"
+    }
+  ],
+  "coachNotes": "EXECUTION: 30min flat, no descent, cadence 172+ from the first step.\nGYM: none.\nFUEL: none needed.\nSTOP RULE: any lateral knee signal, walk home, no heroics.\nWHY: first impact load since a 429-load race day. Cadence habit starts now, not in October.",
+  "icuWorkoutText": "- 30m 130-142bpm"
+}

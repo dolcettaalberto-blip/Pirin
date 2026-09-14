@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-18",
+  "type": "recovery",
+  "title": "Easy spin (drain)",
+  "terrain": "indoor trainer",
+  "estimatedLoad": 35,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1, 110-125bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1-Z2, 125-140bpm, cadence 90rpm"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, under 120bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: same as Wednesday, 45min flat, no efforts.\nGYM: reintroduce Copenhagen planks 2x20s each side only.\nFUEL: water only.\nSTOP RULE: HRV still below 45 on Friday means skip and rest.\nWHY: second drain session before the block opens Monday.",
+  "icuWorkoutText": "- 10m 110-125bpm\n- 30m 125-140bpm\n- 5m Z1"
+}
