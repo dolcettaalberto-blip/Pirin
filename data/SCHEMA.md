@@ -1,6 +1,20 @@
 # Data schemas & update workflow
 
-This directory is the **plan data source** for Pirin Tracker. It is edited by a
+**Rolling blocks (from 12 Sep 2026).** This app is no longer a single-race
+tracker: it carries one training block at a time and is repointed at the next
+race when the current one is done. Repointing means rewriting `race`,
+`baseline`, `targetRaceCtl` and `weeks` in **both** `plan.json` and
+`current-plan.json` in one commit, moving the finished block's session files to
+`data/archive/`, and tagging the old state (`git tag <race>-final`) so it stays
+recoverable. `changelog.json` is never truncated: entries dated on or before the
+current `baseline.date` belong to archived blocks and are exempt from the
+plan-window check. `tests/ctl.test.ts` hard-codes the first 14 days and the
+race-day CTL band, so it must be retargeted in the same commit.
+
+Current block: **Valtellina Wine Trail (Half)**, 2026-11-07, 21.7km / 914m D+.
+Previous block: Pirin Extreme, 2026-09-12 (tag `pirin-final`).
+
+This directory is the **plan data source** for the tracker. It is edited by a
 Claude coaching project (via Cowork sessions), not by a human. Everything in this
 file is written for that editor: follow it exactly, because **all files are
 zod-validated at build time** (`npm test` runs the same validation) and a

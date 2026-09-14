@@ -118,6 +118,10 @@ export function validateState(state: RepoState): string[] {
   } else {
     for (const entry of changelog.data) {
       for (const d of entry.affects) {
+        // Rolling blocks: entries predating the current block's baseline belong
+        // to an archived block and are history, not a plan error. Only dates
+        // inside the current block are held to the window.
+        if (d <= plan.baseline.date) continue;
         if (d < firstStart || d > lastEnd) push(`changelog entry ${entry.date}: affected date ${d} is outside the plan window`);
       }
     }

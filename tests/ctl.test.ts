@@ -11,17 +11,17 @@ describe("CTL formula", () => {
   });
 
   it("matches the hand-computed simulation for the first 14 days of the plan", () => {
-    // Daily loads Jul 15 -> Jul 28 read off plan.json by hand (Mon-start weeks,
-    // weekday-keyed loads): W1 wed..sun = 0,55,20,90,60; W2 mon..sun =
-    // 25,40,0,60,20,95,65; W3 mon..tue = 25,45.
-    const handLoads = [0, 55, 20, 90, 60, 25, 40, 0, 60, 20, 95, 65, 25, 45];
-    // Recurrence from CTL=27 on 2026-07-14, computed independently of lib/:
+    // Daily loads Sep 14 -> Sep 27 read off plan.json by hand (Mon-start weeks,
+    // weekday-keyed loads): W1 mon..sun = 0,0,35,0,35,30,0; W2 mon..sun =
+    // 0,55,55,45,35,95,30.
+    const handLoads = [0, 0, 35, 0, 35, 30, 0, 0, 55, 55, 45, 35, 95, 30];
+    // Recurrence from CTL=51 on 2026-09-13, computed independently of lib/:
     const handCtl = [
-      26.357143, 27.039116, 26.871518, 28.374577, 29.127563, 29.029288, 29.290495,
-      28.593102, 29.340886, 29.118484, 30.687091, 31.504065, 31.349207, 31.674225,
+      49.785714, 48.600340, 48.276523, 47.127082, 46.838341, 46.437429, 45.331776,
+      44.252448, 44.508342, 44.758143, 44.763902, 44.531428, 45.733060, 45.358464,
     ];
 
-    const simulated = simulateCtl(27, handLoads);
+    const simulated = simulateCtl(51, handLoads);
     simulated.forEach((v, i) => expect(v).toBeCloseTo(handCtl[i], 5));
 
     // And the full pipeline (plan.json -> expandDailyLoads -> plannedCtlSeries)
@@ -29,20 +29,20 @@ describe("CTL formula", () => {
     const plan = loadOriginalPlan();
     const expanded = expandDailyLoads(plan).slice(0, 14);
     expect(expanded.map((d) => d.load)).toEqual(handLoads);
-    expect(expanded[0].date).toBe("2026-07-15");
-    expect(expanded[13].date).toBe("2026-07-28");
+    expect(expanded[0].date).toBe("2026-09-14");
+    expect(expanded[13].date).toBe("2026-09-27");
 
     const series = plannedCtlSeries(plan);
-    expect(series[0]).toEqual({ date: "2026-07-14", ctl: 27 });
+    expect(series[0]).toEqual({ date: "2026-09-13", ctl: 51 });
     series.slice(1, 15).forEach((p, i) => expect(p.ctl).toBeCloseTo(handCtl[i], 5));
   });
 
-  it("lands race-day CTL inside the 40-44 target band with the placeholder plan", () => {
+  it("lands race-day CTL inside the 51-55 target band with the placeholder plan", () => {
     const plan = loadOriginalPlan();
     const series = plannedCtlSeries(plan);
     const race = series.at(-1)!;
     expect(race.date).toBe(plan.race.date);
-    expect(race.ctl).toBeGreaterThanOrEqual(40);
-    expect(race.ctl).toBeLessThanOrEqual(44);
+    expect(race.ctl).toBeGreaterThanOrEqual(51);
+    expect(race.ctl).toBeLessThanOrEqual(55);
   });
 });

@@ -99,6 +99,8 @@ describe("data files", () => {
     const last = addDays(plan.weeks.at(-1)!.start, 6);
     for (const entry of changelog) {
       for (const date of entry.affects) {
+        // Archived blocks (dates at or before the current baseline) are history.
+        if (date <= plan.baseline.date) continue;
         expect(date >= first && date <= last, `${date} outside plan window`).toBe(true);
       }
     }
