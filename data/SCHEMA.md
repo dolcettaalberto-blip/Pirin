@@ -226,11 +226,16 @@ Rules:
 ### How `data/briefing.json` gets written day to day
 
 A GitHub Actions workflow (`.github/workflows/morning-briefing.yml`, script in
-`.github/scripts/morning-briefing.mjs`) runs daily at 06:00 Europe/Rome (04:00 UTC —
-revisit after the late-Oct DST change). It pulls live intervals.icu data, reads
-`current-plan.json` / today's session / the changelog, asks the Claude API for a
-narrative briefing under the same protocol this project's coaching sessions use, and
-commits `data/briefing.json` directly with the Actions-provided token. This runs
-entirely on GitHub's infrastructure — no Cowork session or local machine involved.
-Needs two repo secrets: `ANTHROPIC_API_KEY` and `ICU_API_KEY` (`ICU_ATHLETE_ID`
-optional, defaults to i434859 in the script).
+`.github/scripts/morning-briefing.mjs`) is fired on demand — by the "Generate
+briefing" / "Regenerate briefing" button on the Today tab (which POSTs
+`/api/briefing/trigger`, a thin wrapper around `dispatchWorkflow()` in
+`lib/github.ts`), or manually from the repo's Actions tab. No schedule is set; add a
+`schedule:` trigger to the workflow if daily automatic runs are wanted later. Once
+fired, it pulls live intervals.icu data, reads `current-plan.json` / today's session /
+the changelog, asks the Claude API for a narrative briefing under the same protocol
+this project's coaching sessions use, and commits `data/briefing.json` directly with
+the Actions-provided token. This runs entirely on GitHub's infrastructure — no Cowork
+session or local machine involved. Needs three repo secrets: `ANTHROPIC_API_KEY` and
+`ICU_API_KEY` (set already), plus the site's own `GITHUB_TOKEN` (Railway env var,
+already used by `update_plan`) needing an added **Actions: write** permission for the
+trigger button to be able to dispatch the workflow.

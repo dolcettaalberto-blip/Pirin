@@ -1,10 +1,9 @@
 name: Morning briefing
 
+# On-demand only, for now — fired by the "Generate briefing" button on the
+# Today tab (POST /api/briefing/trigger) or manually from the Actions tab.
+# Add a `schedule:` trigger back here if you want it to also run automatically.
 on:
-  schedule:
-    # 04:00 UTC = 06:00 Europe/Rome (CEST). After the late-Oct DST change this
-    # becomes 05:00 CET — nudge the hour below if you want it back at 6am.
-    - cron: "0 4 * * *"
   workflow_dispatch: {}
 
 permissions:

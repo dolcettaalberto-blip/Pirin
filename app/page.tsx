@@ -1,3 +1,4 @@
+import { GenerateBriefingButton } from "@/components/generate-briefing-button";
 import { MorningBriefingCard } from "@/components/morning-briefing-card";
 import { ReadinessCard } from "@/components/readiness-card";
 import { SessionCard } from "@/components/session-card";
@@ -56,7 +57,17 @@ export default async function TodayPage() {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start">
         <div className="contents md:block md:space-y-4">
-          {todaysBriefing && <MorningBriefingCard briefing={todaysBriefing} />}
+          <section className="rounded-2xl bg-surface border border-[var(--hairline)] p-4">
+            {todaysBriefing ? (
+              <MorningBriefingCard briefing={todaysBriefing} />
+            ) : (
+              <div>
+                <h2 className="text-[11px] uppercase tracking-wide text-muted font-semibold">Coach's note</h2>
+                <p className="text-[13px] text-ink-2 leading-snug mt-1">No briefing yet today.</p>
+              </div>
+            )}
+            <GenerateBriefingButton hasToday={Boolean(todaysBriefing)} />
+          </section>
           <ReadinessCard
             readiness={readiness}
             hrv={todayEntry?.hrv ?? null}

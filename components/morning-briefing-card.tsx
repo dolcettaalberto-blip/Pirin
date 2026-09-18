@@ -1,8 +1,9 @@
 import type { Briefing } from "@/lib/schemas";
 
+/** Content-only — the caller (Today page) supplies the card's <section> wrapper, since it's shared with the Generate/Regenerate button. */
 export function MorningBriefingCard({ briefing }: { briefing: Briefing }) {
   return (
-    <section className="rounded-2xl bg-surface border border-[var(--hairline)] p-4">
+    <div>
       <h2 className="text-[11px] uppercase tracking-wide text-muted font-semibold">Coach's note</h2>
       <p className="font-semibold leading-tight mt-1">{briefing.headline}</p>
       <p className="text-[13px] text-ink-2 leading-snug mt-1">{briefing.summary}</p>
@@ -20,6 +21,6 @@ export function MorningBriefingCard({ briefing }: { briefing: Briefing }) {
           Suggested: {briefing.suggestedChange} — confirm before this changes the plan.
         </p>
       )}
-    </section>
+    </div>
   );
 }

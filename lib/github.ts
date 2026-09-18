@@ -77,6 +77,32 @@ export async function commitFiles(args: {
 }
 
 /** Read a JSON file from the branch HEAD (not the container's deploy snapshot). */
+/**
+ * Fire a GitHub Actions workflow_dispatch event — used by the "Generate briefing"
+ * button so a briefing can be requested on demand instead of only on a schedule.
+ * Requires the configured token to have Actions: write (in addition to Contents
+ * and Workflows) on the repo.
+ */
+export async function dispatchWorkflow(workflowFile: string, ref = "main"): Promise<void> {
+  const cfg = config();
+  if (!cfg) throw new Error("GitHub writes are not configured (set GITHUB_TOKEN and GITHUB_REPO)");
+  // workflow_dispatch returns 204 No Content — gh<T>() assumes a JSON body, so this calls fetch directly.
+  const res = await fetch(`${API}/repos/${cfg.repo}/actions/workflows/${workflowFile}/dispatches`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${cfg.token}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ ref }),
+    cache: "no-store",
+  });
+  if (!res.ok) {
+    throw new Error(`GitHub POST /actions/workflows/${workflowFile}/dispatches -> ${res.status} ${await res.text()}`);
+  }
+}
+
 export async function getRepoJson<T>(path: string): Promise<T> {
   const cfg = config();
   if (!cfg) throw new Error("GitHub reads are not configured (set GITHUB_TOKEN and GITHUB_REPO)");
