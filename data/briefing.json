@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T16:44:47.037Z",
+  "headline": "AMBER — hold the drain spin, no upgrades today",
+  "summary": "HRV dropped to 44 from 65 yesterday, a 21-point overnight fall, with RHR up a point and ramp rate still climbing (+5.4). The stop rule for this exact session was HRV below 45 on Friday means skip and rest — that's where you are. Today's prescribed easy spin was already the lowest-risk option on the calendar; the call now is whether to run it as written or take the full rest option the plan named.",
+  "flags": [
+    "Sleep was fine (6h33) and RHR barely moved, so this reads as a real HRV dip rather than a poor-sleep AMBER — worth noting since the mechanical rule usually pairs low HRV with bad sleep and elevated RHR, and neither of those show up here.",
+    "You're 6 days out from Pirin's 2179m descent day; this kind of single-day HRV swing this soon after an ultra is exactly the connective-tissue-lag pattern flagged on 16 Sep, not necessarily a new problem."
+  ],
+  "suggestedChange": "Per the stop rule already written into today's session notes, propose skipping the drain spin entirely and taking a full rest day instead of running it at reduced intensity — confirm with Alberto before altering today's file."
+}
