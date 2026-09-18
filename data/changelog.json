@@ -702,5 +702,14 @@
       "2026-09-26",
       "2026-09-27"
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "change": "No load or structure change to Wk1. Fri 18 Sep session note updated: Copenhagen planks already self-initiated Wed 16 Sep, continue 2x20s/side Friday as planned.",
+    "reason": "Athlete reports zero pain, feels strong, and wants to start the block now rather than extend recovery - already true: Wk1's two drain-spin + one-flat-run structure (12 Sep entry) is precisely 'starting now.' Wellness confirms it: HRV 65 today, best reading in 3+ weeks against a ~53 28-day baseline, RHR 49 normal, TSB -9.6 and rising cleanly from -36.8 on race day. Strong signal, but 4 days post-ultra with a 2179m eccentric-loaded closing descent sits inside the 7-10 day window where connective tissue recovery lags subjective readiness, and ITB is the documented failure mode here. Held the line on Tue 22 Sep's threshold session as the first quality day rather than pulling it forward; today's data confirms the recovery trajectory is clean, it doesn't change that date.",
+    "affects": [
+      "2026-09-18",
+      "2026-09-19"
+    ]
   }
 ]
