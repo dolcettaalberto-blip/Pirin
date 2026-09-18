@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { ChangelogSchema, PlanSchema, SessionSchema, type Changelog, type Plan, type Session } from "./schemas";
+import { BriefingSchema, ChangelogSchema, PlanSchema, SessionSchema, type Briefing, type Changelog, type Plan, type Session } from "./schemas";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -37,4 +37,11 @@ export function listSessionDates(): string[] {
     .filter((f) => f.endsWith(".json"))
     .map((f) => f.replace(/\.json$/, ""))
     .sort();
+}
+
+/** Today's coach briefing, if one has been posted. Returns null if the file doesn't exist yet. */
+export function loadBriefing(): Briefing | null {
+  const file = path.join(DATA_DIR, "briefing.json");
+  if (!fs.existsSync(file)) return null;
+  return BriefingSchema.parse(JSON.parse(fs.readFileSync(file, "utf8")));
 }

@@ -27,6 +27,7 @@ You have a **connector to my training data**. Use its tools directly:
 - `get_plan()` — the living plan, the frozen original, an index of every session, and
   the full changelog. Read this before proposing changes.
 - `get_session(date)` — one session in full.
+- `post_briefing(date, headline, summary, flags?, suggestedChange?)` — write today's coach narrative to the Today tab. Never edits the plan itself; a `suggestedChange` is a proposal, confirm any real change separately via `update_plan`.
 
 If the connector is unavailable, fall back to fetching
 https://pirin-production.up.railway.app/api/digest — but prefer the tools.

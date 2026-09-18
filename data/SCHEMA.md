@@ -198,3 +198,27 @@ Amber readiness on 2026-07-22 → cut Thursday's session:
    update `icuWorkoutText` to `- 15m Z1-Z2\n\n4x\n- 2m Z4\n- 1m Z1\n\n- 10m Z1`.
 3. `changelog.json`: append the entry shown above.
 4. Commit with a message like `coach: cut Wk2 Thu tempo to 4 reps (amber HRV)` and push.
+
+## `data/briefing.json` — daily coach narrative (added for the morning-briefing automation)
+
+Single object, not an array. Overwritten daily — holds only the latest briefing, not a history
+(the changelog remains the durable decision log; this is ephemeral daily commentary). Written by
+the `post_briefing` MCP tool, never edited by hand.
+
+```json
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T04:32:10.000Z",
+  "headline": "AMBER — cut tempo to 4 reps",
+  "summary": "HRV down 12 from yesterday, RHR +3 over baseline. Sleep was fine. Amber per protocol — not a stop, but no descent intensification today.",
+  "flags": ["Second amber morning this week — watch for the grey-zone drift pattern."],
+  "suggestedChange": "Cut today's 5x2m tempo to 4x2m, same incline."
+}
+```
+
+Rules:
+- `date`, `headline`, `summary` are required; `flags` defaults to `[]`, `suggestedChange` defaults to `null`.
+- The Today page only renders the card when `briefing.date` equals today's date — a stale file from
+  a missed run simply disappears rather than showing yesterday's call.
+- `suggestedChange` is **informational only**. This tool never writes to `current-plan.json` or a
+  session file — that still requires a separate `update_plan` call, which the athlete confirms.

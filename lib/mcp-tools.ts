@@ -5,7 +5,7 @@ import { addDays, todayIso } from "./dates";
 import { commitFiles, getRepoJson, githubConfigured } from "./github";
 import { getActivities, getWellness, icuConfigured } from "./icu";
 import { applyUpdate, validateState, type PlanUpdate, type RepoState } from "./plan-validate";
-import type { Changelog, Plan, Session } from "./schemas";
+import { BriefingSchema, type Changelog, type Plan, type Session } from "./schemas";
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -139,6 +139,34 @@ export const TOOLS: ToolDef[] = [
       required: ["changelog"],
     },
   },
+  {
+    name: "post_briefing",
+    title: "Post the morning briefing",
+    description:
+      "Write today's coach narrative to Pirin Tracker's Today tab: a one-line readiness headline, a short " +
+      "summary, any nuanced flags (grey-zone drift, altitude HR override, ITB caution, load-model discrepancy, " +
+      "etc.), and an optional suggested plan change for the athlete to confirm. This tool NEVER edits the plan " +
+      "or session files itself — a suggestedChange is a proposal the athlete must approve separately via " +
+      "update_plan. One commit; data/briefing.json holds only the latest briefing (overwrites the prior day's).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        date: DATE,
+        headline: { type: "string", description: "One line, e.g. 'AMBER — cut tempo to 4 reps'" },
+        summary: { type: "string", description: "2-4 sentences, coach narrative grounded in the actual data pulled" },
+        flags: {
+          type: "array",
+          items: { type: "string" },
+          description: "Nuanced considerations noticed beyond the mechanical readiness rule (grey-zone drift, altitude context, etc.)",
+        },
+        suggestedChange: {
+          type: "string",
+          description: "A plan change to propose, if any — informational only, athlete confirms separately",
+        },
+      },
+      required: ["date", "headline", "summary"],
+    },
+  },
 ];
 
 function text(s: string) {
@@ -233,6 +261,9 @@ export async function callTool(name: string, args: Record<string, unknown>) {
     case "update_plan":
       return updatePlan(args as unknown as PlanUpdate);
 
+    case "post_briefing":
+      return postBriefing(args as { date?: unknown; headline?: unknown; summary?: unknown; flags?: unknown; suggestedChange?: unknown });
+
     default:
       return fail(`Unknown tool: ${name}`);
   }
@@ -324,6 +355,51 @@ async function updatePlan(update: PlanUpdate & { dryRun?: boolean }) {
     );
   } catch (e) {
     return fail(`Validation passed but the commit failed: ${e instanceof Error ? e.message : String(e)}`);
+  }
+}
+
+async function postBriefing(args: {
+  date?: unknown;
+  headline?: unknown;
+  summary?: unknown;
+  flags?: unknown;
+  suggestedChange?: unknown;
+}) {
+  if (!githubConfigured())
+    return fail(
+      "Writing to Pirin Tracker is not configured. Set GITHUB_TOKEN (fine-grained, Contents: read+write on the " +
+        "Pirin repo) and GITHUB_REPO (owner/name) in the Railway service variables."
+    );
+
+  const candidate = {
+    date: args.date,
+    generatedAt: new Date().toISOString(),
+    headline: args.headline,
+    summary: args.summary,
+    flags: Array.isArray(args.flags) ? args.flags : [],
+    suggestedChange: typeof args.suggestedChange === "string" ? args.suggestedChange : null,
+  };
+  const parsed = BriefingSchema.safeParse(candidate);
+  if (!parsed.success) {
+    return fail(
+      `Briefing rejected \u2014 nothing was committed.\n\n${parsed.error.issues
+        .map((i) => `- ${i.path.join(".")}: ${i.message}`)
+        .join("\n")}`
+    );
+  }
+
+  try {
+    const commit = await commitFiles({
+      changes: [{ path: "data/briefing.json", content: JSON.stringify(parsed.data, null, 2) + "\n" }],
+      message: `coach: morning briefing for ${parsed.data.date} \u2014 ${parsed.data.headline}`,
+    });
+    return text(
+      [`Committed data/briefing.json: ${commit.url}`, `Railway redeploys automatically \u2014 live in about two minutes.`].join(
+        "\n"
+      )
+    );
+  } catch (e) {
+    return fail(`Commit failed: ${e instanceof Error ? e.message : String(e)}`);
   }
 }
 

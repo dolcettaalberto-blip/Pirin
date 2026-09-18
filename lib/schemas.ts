@@ -64,6 +64,11 @@ export const SessionStepSchema: z.ZodType<SessionStep> = z.lazy(() =>
   ])
 );
 
+export const ItbSchema = z.object({
+  descentM: z.number().min(0).optional(), // planned/actual eccentric descent for this session, metres
+  kneeSignal: z.enum(["green", "amber", "red"]).optional(), // coach-logged symptom flag from check-in
+});
+
 export const SessionSchema = z.object({
   date: isoDate,
   type: z.enum(["recovery", "easy", "quality", "long", "race"]),
@@ -73,6 +78,7 @@ export const SessionSchema = z.object({
   steps: z.array(SessionStepSchema).min(1),
   coachNotes: z.string().optional(),
   icuWorkoutText: z.string().min(1),
+  itb: ItbSchema.optional(),
 });
 
 export const ChangelogSchema = z.array(
@@ -88,3 +94,14 @@ export type Plan = z.infer<typeof PlanSchema>;
 export type PlanWeek = z.infer<typeof PlanWeekSchema>;
 export type Session = z.infer<typeof SessionSchema>;
 export type Changelog = z.infer<typeof ChangelogSchema>;
+
+export const BriefingSchema = z.object({
+  date: isoDate,
+  generatedAt: z.string(), // ISO datetime the briefing was generated
+  headline: z.string().min(1), // one-line verdict, e.g. "AMBER — cut tempo to 4 reps"
+  summary: z.string().min(1), // 2-4 sentence coach narrative
+  flags: z.array(z.string()).default([]), // nuanced considerations noticed (grey-zone drift, altitude override, ITB caution, etc.)
+  suggestedChange: z.string().nullable().default(null), // a plan change to propose — informational only, never applied by this schema
+});
+export type Briefing = z.infer<typeof BriefingSchema>;
+export type Itb = z.infer<typeof ItbSchema>;

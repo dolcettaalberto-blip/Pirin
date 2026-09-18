@@ -1,7 +1,8 @@
+import { MorningBriefingCard } from "@/components/morning-briefing-card";
 import { ReadinessCard } from "@/components/readiness-card";
 import { SessionCard } from "@/components/session-card";
 import { StatusStrip } from "@/components/status-strip";
-import { loadCurrentPlan, loadSession } from "@/lib/data";
+import { loadBriefing, loadCurrentPlan, loadSession } from "@/lib/data";
 import { addDays, formatShort, todayIso } from "@/lib/dates";
 import { getWellness, icuConfigured, type Wellness } from "@/lib/icu";
 import { plannedLoadFor, weekFor } from "@/lib/plan-utils";
@@ -17,6 +18,8 @@ export default async function TodayPage() {
   const today = todayIso();
   const plan = loadCurrentPlan();
   const session = loadSession(today);
+  const briefing = loadBriefing();
+  const todaysBriefing = briefing?.date === today ? briefing : null;
   const week = weekFor(plan, today);
   const plannedLoad = plannedLoadFor(plan, today);
 
@@ -53,6 +56,7 @@ export default async function TodayPage() {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start">
         <div className="contents md:block md:space-y-4">
+          {todaysBriefing && <MorningBriefingCard briefing={todaysBriefing} />}
           <ReadinessCard
             readiness={readiness}
             hrv={todayEntry?.hrv ?? null}
