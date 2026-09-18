@@ -222,3 +222,15 @@ Rules:
   a missed run simply disappears rather than showing yesterday's call.
 - `suggestedChange` is **informational only**. This tool never writes to `current-plan.json` or a
   session file — that still requires a separate `update_plan` call, which the athlete confirms.
+
+### How `data/briefing.json` gets written day to day
+
+A GitHub Actions workflow (`.github/workflows/morning-briefing.yml`, script in
+`.github/scripts/morning-briefing.mjs`) runs daily at 06:00 Europe/Rome (04:00 UTC —
+revisit after the late-Oct DST change). It pulls live intervals.icu data, reads
+`current-plan.json` / today's session / the changelog, asks the Claude API for a
+narrative briefing under the same protocol this project's coaching sessions use, and
+commits `data/briefing.json` directly with the Actions-provided token. This runs
+entirely on GitHub's infrastructure — no Cowork session or local machine involved.
+Needs two repo secrets: `ANTHROPIC_API_KEY` and `ICU_API_KEY` (`ICU_ATHLETE_ID`
+optional, defaults to i434859 in the script).
