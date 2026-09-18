@@ -106,7 +106,8 @@ Write today's briefing.`;
     },
     body: JSON.stringify({
       model: "claude-sonnet-5",
-      max_tokens: 700,
+      max_tokens: 1000,
+      thinking: { type: "disabled" },
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: userPrompt }],
     }),
@@ -114,6 +115,11 @@ Write today's briefing.`;
   if (!res.ok) throw new Error(`Anthropic API -> ${res.status} ${await res.text()}`);
   const data = await res.json();
   const raw = (data.content ?? []).map((b) => (b.type === "text" ? b.text : "")).join("");
+  if (!raw) {
+    throw new Error(
+      `Claude returned no text content (stop_reason: ${data.stop_reason}). Full response:\n${JSON.stringify(data)}`
+    );
+  }
 
   let parsed;
   try {
