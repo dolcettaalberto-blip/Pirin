@@ -711,5 +711,55 @@
       "2026-09-18",
       "2026-09-19"
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "change": "Sat 19 Sep session retitled 'First run back' -> 'Easy run' (load 30 unchanged), HR cap 142 made explicit. Tue 22 Sep threshold gate changed from single-day HRV under 45 to 3-day HRV mean under 48, any single reading under 40, or sleep under 6h (cut to 2 reps). No load or plan-week changes.",
+    "reason": "Wk1 actual load 142 vs 100 planned: the Wed and Fri drain spins were run instead (154-155bpm avg vs Z1 target) and both rest days got bike sessions, so today is the third run of the week. HRV swung 42-65 in six days (44 on Fri right after 65 and 65), so a single-reading gate at 45 fires on noise; the 3-day mean against the 52.9 baseline is the cleaner signal, with a hard floor at 40. Recovery otherwise clean: TSB +0.9, RHR 47, sleep 6h30-6h50, no knee signal.",
+    "affects": [
+      "2026-09-19",
+      "2026-09-22"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "change": "Wk3-Wk8 rebuilt to project a 55 start-line CTL (was 52.8). Weekly load Wk3 430->455, Wk4 480->505, Wk5 310->340, Wk6 500->525, Wk7 490->515, race week Tue-Thu +5 each (taper kept). Extra load sits on the bike and the mid-week sessions; long-run days move +5 to +15. weekendDplus ladder 0/400/0/700/700 -> 250/400/250/600/700. targetRaceCtl field left at 53 (immutable); projection is now 55.1 with peak 58.8 on 1 Nov, max weekly ramp +3.9.",
+    "reason": "Athlete asked to build to 55. 53 needed no ramp pressure (max +3.4/wk vs cap 6), so 55 is reachable inside the guardrails with about +25 load per week. Weekend D+ jumps over 20% are deliberate: the old ladder had two zero-D+ weeks (Wk3, Wk5) that made every later step read as a spike. Peak 700m is 77% of race D+ and far under the 2000m single-day cap, and 2179m (12 Sep) and 1863m (5 Sep) descents were absorbed with a clean knee. Wk3-4 descent stays gentle (single session D- 450m max), Wk6-7 up to 600-700m, always on a rested day after the threshold session, never the day after.",
+    "affects": [
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06"
+    ]
   }
 ]

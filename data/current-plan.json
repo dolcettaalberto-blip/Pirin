@@ -49,15 +49,15 @@
       "start": "2026-09-28",
       "block": "Build",
       "runKm": 46,
-      "weekendDplus": 0,
+      "weekendDplus": 250,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 65,
-        "wed": 60,
-        "thu": 50,
+        "tue": 70,
+        "wed": 65,
+        "thu": 55,
         "fri": 35,
-        "sat": 120,
-        "sun": 100
+        "sat": 125,
+        "sun": 105
       }
     },
     {
@@ -68,12 +68,12 @@
       "weekendDplus": 400,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 75,
-        "wed": 65,
-        "thu": 55,
+        "tue": 80,
+        "wed": 70,
+        "thu": 60,
         "fri": 35,
-        "sat": 140,
-        "sun": 110
+        "sat": 145,
+        "sun": 115
       }
     },
     {
@@ -81,15 +81,15 @@
       "start": "2026-10-12",
       "block": "Recovery",
       "runKm": 34,
-      "weekendDplus": 0,
+      "weekendDplus": 250,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 50,
-        "wed": 55,
-        "thu": 40,
-        "fri": 25,
-        "sat": 90,
-        "sun": 50
+        "tue": 55,
+        "wed": 60,
+        "thu": 45,
+        "fri": 30,
+        "sat": 95,
+        "sun": 55
       }
     },
     {
@@ -97,15 +97,15 @@
       "start": "2026-10-19",
       "block": "Specific",
       "runKm": 56,
-      "weekendDplus": 700,
+      "weekendDplus": 600,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 80,
-        "wed": 70,
-        "thu": 60,
+        "tue": 85,
+        "wed": 75,
+        "thu": 65,
         "fri": 35,
-        "sat": 155,
-        "sun": 100
+        "sat": 160,
+        "sun": 105
       }
     },
     {
@@ -116,12 +116,12 @@
       "weekendDplus": 700,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 80,
-        "wed": 70,
-        "thu": 55,
+        "tue": 85,
+        "wed": 75,
+        "thu": 60,
         "fri": 35,
-        "sat": 150,
-        "sun": 100
+        "sat": 155,
+        "sun": 105
       }
     },
     {
@@ -132,9 +132,9 @@
       "weekendDplus": 914,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 45,
-        "wed": 35,
-        "thu": 25,
+        "tue": 50,
+        "wed": 40,
+        "thu": 30,
         "fri": 10,
         "sat": 200,
         "sun": 0
