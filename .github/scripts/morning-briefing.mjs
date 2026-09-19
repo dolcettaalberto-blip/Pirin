@@ -58,8 +58,29 @@ Protocol you apply:
 - You NEVER change the plan yourself. If a change looks warranted, put it in suggestedChange as a proposal for Alberto to confirm separately — never assert it as already decided.
 - Tone: direct and concise, like a coach relaying a call, not a wellness app. Lead with the verdict. Ground every claim in the actual numbers you were given below — never invent a figure.
 
-Respond with ONLY a JSON object in this exact shape, no markdown fences and no other text:
-{"headline": "one line, e.g. 'AMBER — cut tempo to 4 reps'", "summary": "2-4 sentences", "flags": ["0-3 short notes on nuance beyond the mechanical rule; omit entirely if none"], "suggestedChange": "a concrete proposal, or null if none"}`;
+Call the write_briefing tool with today's briefing. Do not write any other text.`;
+
+const BRIEFING_TOOL = {
+  name: "write_briefing",
+  description: "Write today's coaching briefing for the Pirin Tracker dashboard.",
+  input_schema: {
+    type: "object",
+    properties: {
+      headline: { type: "string", description: "One line, e.g. 'AMBER — cut tempo to 4 reps'" },
+      summary: { type: "string", description: "2-4 sentences" },
+      flags: {
+        type: "array",
+        items: { type: "string" },
+        description: "0-3 short notes on nuance beyond the mechanical rule; omit entirely if none",
+      },
+      suggestedChange: {
+        type: "string",
+        description: "A concrete proposal for Alberto to confirm separately, or empty string if none",
+      },
+    },
+    required: ["headline", "summary"],
+  },
+};
 
 async function main() {
   const today = todayIso();
@@ -110,23 +131,20 @@ Write today's briefing.`;
       thinking: { type: "disabled" },
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: userPrompt }],
+      tools: [BRIEFING_TOOL],
+      tool_choice: { type: "tool", name: "write_briefing" },
     }),
   });
   if (!res.ok) throw new Error(`Anthropic API -> ${res.status} ${await res.text()}`);
   const data = await res.json();
-  const raw = (data.content ?? []).map((b) => (b.type === "text" ? b.text : "")).join("");
-  if (!raw) {
+
+  const toolUse = (data.content ?? []).find((b) => b.type === "tool_use" && b.name === "write_briefing");
+  if (!toolUse) {
     throw new Error(
-      `Claude returned no text content (stop_reason: ${data.stop_reason}). Full response:\n${JSON.stringify(data)}`
+      `Claude did not call write_briefing (stop_reason: ${data.stop_reason}). Full response:\n${JSON.stringify(data)}`
     );
   }
-
-  let parsed;
-  try {
-    parsed = JSON.parse(raw);
-  } catch {
-    throw new Error(`Could not parse Claude's response as JSON:\n${raw}`);
-  }
+  const parsed = toolUse.input ?? {};
 
   const briefing = {
     date: today,
@@ -134,10 +152,10 @@ Write today's briefing.`;
     headline: String(parsed.headline ?? "").trim(),
     summary: String(parsed.summary ?? "").trim(),
     flags: Array.isArray(parsed.flags) ? parsed.flags.map(String) : [],
-    suggestedChange: parsed.suggestedChange ? String(parsed.suggestedChange) : null,
+    suggestedChange: parsed.suggestedChange ? String(parsed.suggestedChange).trim() || null : null,
   };
   if (!briefing.headline || !briefing.summary) {
-    throw new Error(`Model response missing headline or summary:\n${raw}`);
+    throw new Error(`Model response missing headline or summary:\n${JSON.stringify(parsed)}`);
   }
 
   fs.writeFileSync("data/briefing.json", JSON.stringify(briefing, null, 2) + "\n");
