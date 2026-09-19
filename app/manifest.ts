@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Pirin Tracker",
     short_name: "Pirin",
-    description: "Training dashboard for Pirin Extreme 2026",
+    description: "Rolling trail-race training dashboard",
     start_url: "/",
     display: "standalone",
     background_color: "#0d0d0d",

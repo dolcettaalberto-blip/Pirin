@@ -38,21 +38,22 @@ directory against the schemas and cross-checks (session filename matches its
 
 ## The race is not training (important)
 
-`race.date` (**2026-09-12**, Saturday — verified against the official schedule)
-is excluded from the CTL simulation entirely. Whatever `plannedDailyLoad` that
-day carries, and whatever the session file says, it never enters the
-`CTL_t = CTL_{t-1} + (load − CTL_{t-1})/42` recurrence. The trajectory chart's
-final point is the **start-line CTL**: the fitness carried into race morning.
+`race.date` — whatever the current block's `plan.json` sets it to; check the file
+or `get_plan()`, don't assume — is excluded from the CTL simulation entirely.
+Whatever `plannedDailyLoad` that day carries, and whatever the session file says,
+it never enters the `CTL_t = CTL_{t-1} + (load − CTL_{t-1})/42` recurrence. The
+trajectory chart's final point is the **start-line CTL**: the fitness carried
+into race morning.
 
-Why: the race's load (~360) would add roughly +7 CTL on the last day, so the
-chart would end on a spike that describes the race rather than readiness for it.
-For the same reason the race week is skipped by the CTL-ramp warning and the
-weekend-D+ jump flag — its numbers are the race course, not a training
-progression.
+Why: race-day load is typically large enough to add several CTL points on the
+last day, so the chart would end on a spike that describes the race rather than
+readiness for it. For the same reason race week is skipped by the CTL-ramp
+warning and the weekend-D+ jump flag — its numbers are the race course, not a
+training progression.
 
-So you may set the race day's load and session honestly (load 360, `type:
-"race"`, the real course profile) without distorting the projection. Do that
-rather than zeroing it.
+So you may set the race day's load and session honestly (the real load estimate,
+`type: "race"`, the real course profile) without distorting the projection. Do
+that rather than zeroing it.
 
 **`race` is the one field in frozen `plan.json` you may correct.** It describes a
 real event, not a plan decision, so if the date or distance turns out to be
@@ -62,16 +63,19 @@ x-axis. Never touch anything else in `plan.json`.
 
 ## Week/date convention (important)
 
-**Weeks run Monday → Sunday.** Week 1 starts 2026-07-13, a Monday, and every
-`start` is 7 days after the previous one. A week covers `[start, start+6]`.
-Race day (2026-09-13) is the final Sunday of week 9.
+**Weeks run Monday → Sunday.** Week 1's `start` is a Monday, and every subsequent
+`start` is 7 days after the previous one. A week covers `[start, start+6]`. Race
+day falls somewhere in the final week — check `plan.json` for exactly where; it
+moves with every repoint.
 
 `plannedDailyLoad` keys (`mon`…`sun`) are the calendar weekdays of that week in
 order: the load for a given date is `plannedDailyLoad[weekdayOf(date)]` for the
-week containing that date. Two special days: week 1's `mon` (2026-07-13) is `0`
-because the plan's CTL baseline is dated 2026-07-14 (simulation starts the day
-after); and race day (week 9 `sun`) has planned load `0` — the race itself is
-not counted as training load in the CTL projection.
+week containing that date. Two special days, general to every block: the weekday
+matching `baseline.date` should carry `0` if that date falls inside week 1 (the
+simulation starts the day *after* the baseline, so it isn't double-counted); and
+whichever day is race day should carry planned load `0` in `plannedDailyLoad` —
+the race's own load lives in its session file instead and is excluded from the
+CTL projection (see above), not zeroed there.
 
 ## `plan.json` and `current-plan.json`
 
@@ -79,21 +83,23 @@ Identical schema. `plan.json` is frozen; `current-plan.json` is the living plan.
 
 ```json
 {
-  "race": { "name": "Pirin Extreme", "date": "2026-09-13", "distanceKm": 38, "dPlus": 3300 },
-  "baseline": { "date": "2026-07-14", "ctl": 27, "atl": 39 },
-  "targetRaceCtl": 42,
+  "race": { "name": "Valtellina Wine Trail (Half)", "date": "2026-11-07", "distanceKm": 21.7, "dPlus": 914 },
+  "baseline": { "date": "2026-09-13", "ctl": 51, "atl": 76 },
+  "targetRaceCtl": 53,
   "weeks": [
     {
       "week": 1,                       // 1-based, sequential
-      "start": "2026-07-13",           // ISO date, always a Monday
-      "block": "Consolidate",          // free text: Consolidate | Build | Recovery | Peak | Taper | Race
-      "runKm": 44,                     // planned weekly running volume
-      "weekendDplus": 1400,            // planned Sat+Sun vertical gain, metres
-      "plannedDailyLoad": { "mon": 0, "tue": 35, "wed": 0, "thu": 55, "fri": 20, "sat": 90, "sun": 60 }
+      "start": "2026-09-14",           // ISO date, always a Monday
+      "block": "Recovery",             // free text: Consolidate | Build | Recovery | Peak | Taper | Race
+      "runKm": 8,                      // planned weekly running volume
+      "weekendDplus": 0,               // planned Sat+Sun vertical gain, metres
+      "plannedDailyLoad": { "mon": 0, "tue": 0, "wed": 35, "thu": 0, "fri": 35, "sat": 30, "sun": 0 }
     }
   ]
 }
 ```
+(This mirrors the live current block — re-check `current-plan.json` for the real values, this is
+just shaped like it.)
 
 Rules:
 - All 7 weekday keys required, integers ≥ 0. `0` = rest day.

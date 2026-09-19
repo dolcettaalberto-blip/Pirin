@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pirin Tracker",
-  description: "Training dashboard for Pirin Extreme 2026",
+  description: "Rolling trail-race training dashboard",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,

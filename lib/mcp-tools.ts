@@ -49,7 +49,7 @@ export const TOOLS: ToolDef[] = [
     title: "Get training digest",
     description:
       "A ready-made analysis digest: current CTL/ATL/TSB, projected start-line CTL vs target, wellness " +
-      "table, planned-vs-actual load per day, weekly vertical against the ITB descent-ramp rule, upcoming " +
+      "table, planned-vs-actual load per day, weekly vertical against the descent-ramp rule, upcoming " +
       "sessions and recent coach decisions. Start here for a progress review.",
     inputSchema: {
       type: "object",

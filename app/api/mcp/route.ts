@@ -45,7 +45,7 @@ async function handle(req: JsonRpcRequest) {
         capabilities: { tools: { listChanged: false } },
         serverInfo: SERVER_INFO,
         instructions:
-          "Training data and plan control for Pirin Extreme. Read intervals.icu wellness and activities " +
+          "Training data and plan control for ongoing trail-race training blocks (current race: see get_plan()). Read intervals.icu wellness and activities " +
           "directly, get a ready-made progress digest, and push plan changes back to the Pirin Tracker repo " +
           "with update_plan (validated, one commit, auto-deploys).",
       });

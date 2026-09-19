@@ -62,7 +62,7 @@ export function SyncReview() {
   }
 
   const digestUrl = `${origin}/api/digest`;
-  const shortPrompt = `Fetch ${digestUrl} — that is a live digest of my intervals.icu wellness and activity data plus my Pirin Extreme plan state. Review my progress: readiness trend, adherence, descent/ITB load, race-day CTL trajectory, and what to change in the next 7 days. If you adjust the plan, edit data/current-plan.json and the affected data/sessions/*.json, append to data/changelog.json, then commit and push.`;
+  const shortPrompt = `Fetch ${digestUrl} — that is a live digest of my intervals.icu wellness and activity data plus my current training-block plan state. Review my progress: readiness trend, adherence, descent load, race-day CTL trajectory, and what to change in the next 7 days. If you adjust the plan, edit data/current-plan.json and the affected data/sessions/*.json, append to data/changelog.json, then commit and push.`;
 
   return (
     <section className="rounded-2xl bg-surface border border-[var(--hairline)] p-4 space-y-3">
@@ -112,7 +112,7 @@ export function SyncReview() {
         <summary className="cursor-pointer">What gets sent?</summary>
         <p className="mt-1.5 leading-snug text-ink-2">
           Wellness table (HRV, RHR, sleep, CTL/ATL) and every recorded activity for the last 21 days,
-          planned-vs-actual load per day, weekly vertical against the ITB ramp rule, the CTL
+          planned-vs-actual load per day, weekly vertical against the descent-ramp rule, the CTL
           projection to race day, your next 10 sessions, and recent coach decisions.
         </p>
         <p className="mt-1.5 leading-snug">

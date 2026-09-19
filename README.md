@@ -1,6 +1,6 @@
 # Pirin Tracker
 
-Mobile-first training dashboard for **Pirin Extreme 2026** (13 Sep, 38 km / 3300 m D+).
+Mobile-first training dashboard for trail-race training blocks — currently **Valtellina Wine Trail (Half)**, 7 Nov 2026 (21.7 km / 914 m D+). Repoints to the next race when a block finishes (see `data/SCHEMA.md`).
 Single view of: today's readiness + session, the current week, and CTL trajectory vs plan.
 
 - **Live fitness data:** intervals.icu API (wellness + activities), fetched server-side only, cached 1 h.
@@ -89,6 +89,7 @@ Amber triggers override green thresholds (they're deviations from personal basel
 
 ## CTL model
 
-`CTL_t = CTL_{t-1} + (load_t − CTL_{t-1}) / 42`, simulated from the baseline (CTL 27 on 2026-07-14).
-Grey dashed = frozen `plan.json`; solid = intervals.icu actuals; dotted = projection from today's
-actual CTL over `current-plan.json` remaining loads at 100% compliance. Target band: CTL 40–44 on race day.
+`CTL_t = CTL_{t-1} + (load_t − CTL_{t-1}) / 42`, simulated from the current block's baseline
+(`data/current-plan.json` → `baseline`). Grey dashed = frozen `plan.json`; solid = intervals.icu
+actuals; dotted = projection from today's actual CTL over `current-plan.json` remaining loads at
+100% compliance. Target band: the block's `targetRaceCtl`, shown on the Trajectory tab.
