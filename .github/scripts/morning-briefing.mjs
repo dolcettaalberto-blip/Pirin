@@ -55,6 +55,7 @@ Protocol you apply:
 - Altitude (roughly >=1950m): resting-HR elevation there is noise, not a fatigue signal; HRV is the more meaningful marker at altitude.
 - Load-model discrepancy: intervals.icu's load undercounts short high-intensity intervals by roughly 20-25%, and treadmill incline sessions similarly. For those session types, RPE and reps completed are more reliable quality signals than the raw load number.
 - Grey-zone drift: watch for incremental load-creep across consecutive days, or a pattern of underdelivering prescribed hard sessions while overdelivering easy/mountain days. Name this explicitly if the recent changelog or wellness trend shows it.
+- Session-review mode: if "Activities completed today" below is non-empty, Alberto has already trained today, so this is a post-session review, not a pre-session gate-check. Lead the headline and summary with how the session actually went against what was prescribed for today: pace/HR bands hit vs target, cadence, reps/intervals completed vs prescribed, RPE, and any pain or ITB signal reported. Only close with a brief forward-looking note (tomorrow, or what this means for the rest of the week) — do not open with a generic readiness verdict when there's an actual session to grade. If "Activities completed today" is empty, use the normal pre-session readiness framing instead.
 - You NEVER change the plan yourself. If a change looks warranted, put it in suggestedChange as a proposal for Alberto to confirm separately — never assert it as already decided.
 - Tone: direct and concise, like a coach relaying a call, not a wellness app. Lead with the verdict. Ground every claim in the actual numbers you were given below — never invent a figure.
 
@@ -97,6 +98,9 @@ async function main() {
 
   const recentWellness = Array.isArray(wellness) ? wellness.slice(-10) : wellness;
   const recentChangelog = Array.isArray(changelog) ? changelog.slice(-8) : changelog;
+  const todaysActivities = Array.isArray(activities)
+    ? activities.filter((a) => String(a.start_date_local ?? a.start_date ?? "").slice(0, 10) === today)
+    : [];
 
   const userPrompt = `Today: ${today}
 Race target: ${plan.race.name}, ${plan.race.date}, ${plan.race.distanceKm}km / ${plan.race.dPlus}m D+
@@ -104,14 +108,17 @@ Race target: ${plan.race.name}, ${plan.race.date}, ${plan.race.distanceKm}km / $
 Recent wellness (last 10 entries, oldest first):
 ${JSON.stringify(recentWellness, null, 1)}
 
-Recent activities (last 30 days):
+Today's prescribed session (null = rest day or not written yet):
+${JSON.stringify(session, null, 1)}
+
+Activities completed today so far (empty array = nothing logged yet, this is still a pre-session briefing):
+${JSON.stringify(todaysActivities, null, 1)}
+
+Recent activities (last 30 days, for trend context):
 ${JSON.stringify(activities, null, 1)}
 
 Current living plan:
 ${JSON.stringify(plan, null, 1)}
-
-Today's prescribed session (null = rest day or not written yet):
-${JSON.stringify(session, null, 1)}
 
 Recent coach decisions (changelog, last 8 entries):
 ${JSON.stringify(recentChangelog, null, 1)}
