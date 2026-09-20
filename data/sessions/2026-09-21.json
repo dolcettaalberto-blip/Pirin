@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-21",
+  "type": "recovery",
+  "title": "Indoor bike Z1 spin",
+  "terrain": "indoor trainer, flat",
+  "estimatedLoad": 15,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1, 115-130bpm, cadence 85-95rpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 30min steady on the trainer, HR 115-130, cap 132, cadence 85-95, light gear. Watch load target: icu 15, Garmin ~15-25.\nGYM: none.\nFUEL: none needed.\nSTOP RULE: HR above 132 for more than 2min, drop resistance. Do not extend past 30min.\nWHY: aerobic top-up the day before the first threshold session (Tue 3x8min). It must not cost you Tuesday, so it stays truly easy.",
+  "icuWorkoutText": "- 30m 115-130bpm"
+}

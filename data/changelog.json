@@ -761,5 +761,13 @@
       "2026-11-05",
       "2026-11-06"
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "change": "Wk2 Mon added: 30min indoor bike Z1, planned load 0 -> 15",
+    "reason": "Athlete added an easy aerobic session for Monday 21 Sep; bike keeps run stress at zero. Week 2 load 315 -> 330, ramp still well under the 6/wk cap.",
+    "affects": [
+      "2026-09-21"
+    ]
   }
 ]
