@@ -1,11 +1,8 @@
 {
-  "date": "2026-09-19",
-  "generatedAt": "2026-09-19T09:12:32.470Z",
-  "headline": "Session done — clean easy run, HR cap held",
-  "summary": "30min prescribed at 130-142bpm actually landed at 141 avg / 154 max over 32min — a touch hot relative to cap but RPE 2, feel 1, no knee signal, cadence ~81 spm. Physio (13min) done same morning. This is the third quality-adjacent run of the week after Wed/Fri drain spins averaged 154-155bpm, so today's HR running slightly above Z1 continues that pattern rather than being an isolated blip. Nothing here changes Tuesday's threshold gate — HRV this morning was 52 (3-day mean still needs checking against the 48 floor before that session).",
-  "flags": [
-    "Grey-zone drift: this week's actual intensity distribution keeps running hotter than prescribed (Wed 154bpm, Fri 154bpm, today 141 avg against a 142 cap) — worth flagging as a pattern before it becomes the default",
-    "No lateral knee signal reported, ITB stop-rule not triggered"
-  ],
-  "suggestedChange": "Consider tightening the coaching note on true Z1 days — cap enforcement seems to be drifting upward across the week; maybe an explicit walk-break instruction if HR approaches 142 rather than just a target band."
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T06:56:19.211Z",
+  "headline": "GREEN — rest day, but watch the week-1 pattern before tomorrow's threshold gate",
+  "summary": "Wellness is clean: HRV 55 (above the ~53 baseline), RHR 47, sleep 6h40, TSB has climbed from -36.8 on race day to comfortably positive. Today shows zero planned load, which is correct — nothing scheduled, no activities logged. The number worth flagging before tomorrow: Tuesday 22 Sep is the first threshold session of the block, gated on a 3-day HRV mean under 48 or any single reading under 40. Current 3-day mean (44, 52, 55) is ~50.3, comfortably clear, and sleep has been 6h40+ each of the last two nights, so the gate should open green tomorrow.</summary>\n<parameter name=\"flags\">[\"Week 1 was planned at load 100 but came in at 142 — both rest days got bike sessions and Wed/Fri drain spins ran 154-155bpm avg instead of Z1. Worth naming explicitly since this is the exact grey-zone pattern (easy days overdelivering) the protocol asks to watch, even though wellness has absorbed it fine so far.\", \"Yesterday's 'first run back' was a genuine easy effort (RPE 2, feel 1, HR 141 avg, all zone 1-2) — no red flags carrying into today.\"]",
+  "flags": [],
+  "suggestedChange": "None needed today — just confirm tomorrow's threshold go/no-go using the 3-day HRV mean gate once tomorrow's reading is in, and consider a quiet word about dialing the 'easy' days back closer to Z1 given the week-1 overrun."
 }
