@@ -1,31 +1,31 @@
 {
   "date": "2026-09-26",
   "type": "long",
-  "title": "Long 16km with fast finish",
-  "terrain": "rolling, keep descents gentle",
-  "estimatedLoad": 95,
+  "title": "Presolana mountain long run",
+  "terrain": "mountain trail, ~600m D+, power-hike steep climbs, controlled descents",
+  "estimatedLoad": 100,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "10m",
+      "duration": "15m",
       "target": "Z1, 128-140bpm"
     },
     {
       "kind": "work",
-      "duration": "1h05m",
-      "target": "Z2, 145-155bpm, cadence 174+"
+      "duration": "1h10m",
+      "target": "Z2, 145-155bpm, power-hike steep climbs, cadence 174+ on flats"
     },
     {
       "kind": "work",
       "duration": "18m",
-      "target": "Z3, 160-166bpm, last 3km"
+      "target": "Z3, 160-166bpm, final sustained climb"
     },
     {
       "kind": "cooldown",
-      "duration": "7m",
-      "target": "Z1"
+      "duration": "12m",
+      "target": "Z1, 128-140bpm, easy descent"
     }
   ],
-  "coachNotes": "EXECUTION: 16km. First 13km at 145-155bpm, last 3km lifted to 160-166bpm. Do not start the lift early.\nGYM: none.\nFUEL: test Tailwind here. One 500ml flask, 2 scoops, sipped from 30min. First run on the new mix.\nSTOP RULE: abandon the fast finish if cadence drops below 170.\nWHY: durability plus the first controlled rehearsal of finishing hard on tired legs, which is exactly what VWT's last 5km demands.",
-  "icuWorkoutText": "- 10m 128-140bpm\n- 1h5m 145-155bpm\n- 18m 160-166bpm\n- 7m Z1"
+  "coachNotes": "EXECUTION: ~2h, about 600m D+ (550-650). Hike anything steep to stay under 155bpm. Last sustained climb (~18min) at 160-166bpm, then descend easy. Descents controlled, cadence 170+.\nGYM: none.\nFUEL: 2 flasks Tailwind (500ml, 2 scoops each), one per hour from min 20, plus 1 Carbo Gel at ~1h30. First run on the new mix, treat it as the gut rehearsal.\nSTOP RULE: skip the Z3 climb if Friday or Saturday HRV is amber. Above 2,000m HR reads unreliably, go by RPE 4 on climbs. Walk down if cadence falls under 165 or the quads are shot.\nWHY: first real vertical since Pirin, and climbing at tempo on tired legs is what VWT's 914m D+ demands. Replaces the flat fast-finish run.",
+  "icuWorkoutText": "- 15m 128-140bpm\n- 1h10m 145-155bpm\n- 18m 160-166bpm\n- 12m 128-140bpm"
 }

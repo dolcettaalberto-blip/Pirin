@@ -769,5 +769,34 @@
     "affects": [
       "2026-09-21"
     ]
+  },
+  {
+    "date": "2026-09-21",
+    "change": "Wk4 (5-11 Oct) and Wk5 (12-18 Oct) swapped: Wk4 is now Recovery (load 340, 34km, 250m weekend D+), Wk5 is now Build (load 505, 52km, 400m weekend D+)",
+    "reason": "Podgorica trip 5-7 Oct with a return after midnight on Thu 8 Oct makes Wk4 the natural down week; Wk5 is a clean week for the heavy build. Weekend D+ Wk4->Wk5 (250 -> 400) is a deliberate jump above 20%, same ladder as agreed on 19 Sep (400m is under half of race D+). Weekly CTL ramp stays under 4 (max +3.8 in Wk5), start-line CTL projection 55.6.",
+    "affects": [
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "change": "Wk2 Sat 26 Sep: 16km flat long run with fast finish replaced by a ~2h Presolana mountain long run (~600m D+), load 95 -> 100; Fri 25 eccentric gym volume cut (step-downs 4x10 -> 2x8, decline squat 3x8 -> 2x8); Sun 27 recovery jog kept flat, D+ 50m max. Wk2 weekendDplus 0 -> 650, runKm 38 -> 35",
+    "reason": "Athlete is in Presolana this weekend and wants at least one long mountain run. The weekend D+ jump from 0 is deliberate: 2179m (12 Sep) and 1863m (5 Sep) descents were absorbed with a clean knee, the run sits 4 days after the Tue threshold session and 14 days after Pirin, and Wk3 drops back to 250m. Eccentric gym trimmed so Saturday's descents are the week's eccentric load rather than stacked on top. Wk2 load 330 -> 335, ramp still well under the 6/wk cap.",
+    "affects": [
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ]
   }
 ]

@@ -2,7 +2,7 @@
   "date": "2026-09-27",
   "type": "recovery",
   "title": "Recovery jog",
-  "terrain": "flat",
+  "terrain": "flat, D+ 50m max",
   "estimatedLoad": 30,
   "steps": [
     {
@@ -11,6 +11,6 @@
       "target": "Z1, 128-140bpm, cadence 172+"
     }
   ],
-  "coachNotes": "EXECUTION: 35min genuinely easy. If it is not conversational, walk.\nGYM: Copenhagen 2x30s/side only.\nFUEL: none.\nSTOP RULE: swap for a 30min spin if the knee is talking after Saturday.\nWHY: flush, not fitness.",
+  "coachNotes": "EXECUTION: 35min genuinely easy, flat, D+ 50m max. If it is not conversational, walk.\nGYM: Copenhagen 2x30s/side only.\nFUEL: none.\nSTOP RULE: swap for a 30min spin if the quads or knee are sore after Saturday.\nWHY: flush, not fitness.",
   "icuWorkoutText": "- 35m 128-140bpm"
 }
