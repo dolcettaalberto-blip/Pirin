@@ -1,8 +1,11 @@
 {
-  "date": "2026-09-20",
-  "generatedAt": "2026-09-20T06:56:19.211Z",
-  "headline": "GREEN — rest day, but watch the week-1 pattern before tomorrow's threshold gate",
-  "summary": "Wellness is clean: HRV 55 (above the ~53 baseline), RHR 47, sleep 6h40, TSB has climbed from -36.8 on race day to comfortably positive. Today shows zero planned load, which is correct — nothing scheduled, no activities logged. The number worth flagging before tomorrow: Tuesday 22 Sep is the first threshold session of the block, gated on a 3-day HRV mean under 48 or any single reading under 40. Current 3-day mean (44, 52, 55) is ~50.3, comfortably clear, and sleep has been 6h40+ each of the last two nights, so the gate should open green tomorrow.</summary>\n<parameter name=\"flags\">[\"Week 1 was planned at load 100 but came in at 142 — both rest days got bike sessions and Wed/Fri drain spins ran 154-155bpm avg instead of Z1. Worth naming explicitly since this is the exact grey-zone pattern (easy days overdelivering) the protocol asks to watch, even though wellness has absorbed it fine so far.\", \"Yesterday's 'first run back' was a genuine easy effort (RPE 2, feel 1, HR 141 avg, all zone 1-2) — no red flags carrying into today.\"]",
-  "flags": [],
-  "suggestedChange": "None needed today — just confirm tomorrow's threshold go/no-go using the 3-day HRV mean gate once tomorrow's reading is in, and consider a quiet word about dialing the 'easy' days back closer to Z1 given the week-1 overrun."
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T08:25:45.838Z",
+  "headline": "Session in the bank — easy spin held exactly where it needed to",
+  "summary": "Solid execution: 30min prescribed, 37m52s logged, HR averaged 110 (well inside the 115-130 target band, max only 135), RPE 2/10, feel 3. Load landed at 19 vs the 15 estimate — trivial overage, nothing to read into. This was exactly what a pre-threshold top-up should look like: no fatigue cost banked. HRV this morning was 67, the best reading of the block, RHR 47, sleep 7h04 — you're walking into tomorrow's 3x8min threshold session (the Tue gate) with a genuinely clean readiness picture, not just a rested one.",
+  "flags": [
+    "Cadence wasn't logged on this trainer file (no cadence stream), so can't confirm the 85-95rpm target was hit — worth glancing at the Garmin screen next time if that matters to you.",
+    "3-day HRV mean (67, 55, 52 = ~58) is comfortably above the 48 threshold gate and no single reading is near the 40 floor — Tuesday's threshold session is a clean go on current data."
+  ],
+  "suggestedChange": null
 }
