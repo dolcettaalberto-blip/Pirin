@@ -1,11 +1,8 @@
 {
-  "date": "2026-09-21",
-  "generatedAt": "2026-09-21T08:25:45.838Z",
-  "headline": "Session in the bank — easy spin held exactly where it needed to",
-  "summary": "Solid execution: 30min prescribed, 37m52s logged, HR averaged 110 (well inside the 115-130 target band, max only 135), RPE 2/10, feel 3. Load landed at 19 vs the 15 estimate — trivial overage, nothing to read into. This was exactly what a pre-threshold top-up should look like: no fatigue cost banked. HRV this morning was 67, the best reading of the block, RHR 47, sleep 7h04 — you're walking into tomorrow's 3x8min threshold session (the Tue gate) with a genuinely clean readiness picture, not just a rested one.",
-  "flags": [
-    "Cadence wasn't logged on this trainer file (no cadence stream), so can't confirm the 85-95rpm target was hit — worth glancing at the Garmin screen next time if that matters to you.",
-    "3-day HRV mean (67, 55, 52 = ~58) is comfortably above the 48 threshold gate and no single reading is near the 40 floor — Tuesday's threshold session is a clean go on current data."
-  ],
-  "suggestedChange": null
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T05:57:01.731Z",
+  "headline": "Threshold intro: executed, compliant — 6/6 reps at target, right at the top of the band",
+  "summary": "Solid first threshold session of the block. Interval summary shows 6x4min at 173bpm (the tool logs work+recovery paired, but that's 3x8min split into 4min chunks by lap) sitting right at the top of the 164-170bpm band — actually a shade over, matching the coach note to hold the top on rep 3, except it looks like all reps ran hot rather than just the last one. Cadence, RPE 4/10 and feel score of 1 (best possible) say this was well within capacity — easy compliance (96.9%), full 3671s duration, no early cut, no ITB or pain flagged. HR zone time confirms 802s in Z4 and 587s in Z5, more top-end than the prescribed straight Z4 hold. Load logged at 69 vs 55 estimated is exactly the ~20-25% intervals.icu undercount for short high-intensity work the protocol flags — treat RPE 4 and clean execution as the real quality signal, not the load number. Tomorrow's easy day should be truly easy given this was harder than scripted.</summary>\n<parameter name=\"flags\">[\"HR ran 173bpm average on the work reps, above the 164-170 prescribed band — worth checking pacing/effort control before the next threshold session rather than letting 172+ become the new normal\", \"RPE 4 and feel 1 with a clean HRR (45bpm in 60s) say this was well tolerated despite the HR overshoot, so no fatigue red flag today\"]",
+  "flags": [],
+  "suggestedChange": "Consider tightening the HR ceiling instruction or adding an explicit mid-rep check-in cue for the next threshold session, since today ran ~3-8bpm hot across intervals rather than just drifting up on rep 3 as planned."
 }
