@@ -1,8 +1,11 @@
 {
-  "date": "2026-09-22",
-  "generatedAt": "2026-09-22T05:57:01.731Z",
-  "headline": "Threshold intro: executed, compliant — 6/6 reps at target, right at the top of the band",
-  "summary": "Solid first threshold session of the block. Interval summary shows 6x4min at 173bpm (the tool logs work+recovery paired, but that's 3x8min split into 4min chunks by lap) sitting right at the top of the 164-170bpm band — actually a shade over, matching the coach note to hold the top on rep 3, except it looks like all reps ran hot rather than just the last one. Cadence, RPE 4/10 and feel score of 1 (best possible) say this was well within capacity — easy compliance (96.9%), full 3671s duration, no early cut, no ITB or pain flagged. HR zone time confirms 802s in Z4 and 587s in Z5, more top-end than the prescribed straight Z4 hold. Load logged at 69 vs 55 estimated is exactly the ~20-25% intervals.icu undercount for short high-intensity work the protocol flags — treat RPE 4 and clean execution as the real quality signal, not the load number. Tomorrow's easy day should be truly easy given this was harder than scripted.</summary>\n<parameter name=\"flags\">[\"HR ran 173bpm average on the work reps, above the 164-170 prescribed band — worth checking pacing/effort control before the next threshold session rather than letting 172+ become the new normal\", \"RPE 4 and feel 1 with a clean HRR (45bpm in 60s) say this was well tolerated despite the HR overshoot, so no fatigue red flag today\"]",
-  "flags": [],
-  "suggestedChange": "Consider tightening the HR ceiling instruction or adding an explicit mid-rep check-in cue for the next threshold session, since today ran ~3-8bpm hot across intervals rather than just drifting up on rep 3 as planned."
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T05:18:08.216Z",
+  "headline": "Session done — sweet spot bike executed clean, exactly as prescribed",
+  "summary": "Indoor ride delivered 3x10min at 155bpm avg (target 150-160), landing right in the middle of the prescribed band with clean HRR (23bpm recovery in 60s) and RPE 4/feel 1 — an easy, well-tolerated session. Load logged at 58 vs the 55 estimate, essentially a match; note this is HR-based load (HRSS) on a bike day, so it's already a reasonably honest number, not one of the undercounted interval types. Zero impact cost, zero ITB relevance — exactly the low-risk aerobic lever this was designed to be.",
+  "flags": [
+    "HRV this morning spiked to 79, well above the recent 42-67 range — likely rebound/noise after a hard rebuild week rather than a new baseline; don't overreact to it tomorrow.",
+    "Tuesday's threshold run (i189067278) was strong: 6x4min at 173bpm, RPE 4, feel 1, compliance 97% — that's the key quality session for the week and it landed well."
+  ],
+  "suggestedChange": "None needed — session executed to plan. Worth just double-checking tomorrow's prescription lines up with the Wk2 Saturday mountain long run (Presolana, ~600m D+) given today's very high HRV reading — if it holds tomorrow morning too, that's a green light, not just noise."
 }
