@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-04",
+  "type": "long",
+  "title": "Easy long run, back-to-back day 2",
+  "terrain": "flat to rolling, ~70m D+ max",
+  "estimatedLoad": 100,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1, 128-140bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "1h40m",
+      "target": "Z1-Z2, 135-148bpm, easy and steady"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1, 128-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: ~2h total, deliberately easy pace even if HR drifts on tired legs, this is about time on feet the day after a long mountain effort, not intensity.\nGYM: none.\nFUEL: 2 flasks Tailwind, same mix as Saturday.\nSTOP RULE: cut to 90min flat if the legs are trashed or any knee signal shows up.\nWHY: day 2 of the back-to-back, the tired-leg-running adaptation that late-race VWT terrain demands.",
+  "icuWorkoutText": "- 10m 128-140bpm\n- 1h40m 135-148bpm\n- 10m 128-140bpm"
+}

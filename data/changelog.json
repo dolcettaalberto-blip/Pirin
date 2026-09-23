@@ -798,5 +798,18 @@
       "2026-09-26",
       "2026-09-27"
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "change": "Wk3 (28 Sep-4 Oct) redesigned around real availability: Tue quality moved to 80min window (load 70->80), Wed cut to a 25-load travel shakeout (was 65, Bucharest travel day), Thu/Fri reshaped into two Bucharest running days (70/50, up from 55/35, flat terrain so Thu gets a tempo finish instead of vert), Sat nudged 125->130, Sun trimmed 105->100. Weekly total load unchanged at 455, runKm 46 and weekendDplus 250 unchanged.",
+    "reason": "Alberto confirmed next week's real windows: Tue 80-90min, Wed easy/travel, Thu+Fri both viable long mornings in Bucharest (flat, no vert), Sat+Sun free at home. Redistributed the same weekly load rather than adding to it since this is already a Build-block jump over Wk2 (335->455); today's readiness (HRV 79, TSB +0.8, RHR 47) is strong but not a reason to stack a 4th consecutive hard day on top of an already-aggressive week.",
+    "affects": [
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04"
+    ]
   }
 ]

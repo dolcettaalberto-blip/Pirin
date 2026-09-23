@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-30",
+  "type": "easy",
+  "title": "Travel day shakeout",
+  "terrain": "hotel treadmill or easy road, Bucharest travel",
+  "estimatedLoad": 25,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z1, 128-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 30min genuinely easy, wherever travel allows (treadmill, hotel loop, or bike spin if no run option). GYM: none. FUEL: none. STOP RULE: skip entirely if the travel day runs long, this is a flush not a session that matters. WHY: Bucharest travel day, keep legs moving without adding load ahead of Thu/Fri.",
+  "icuWorkoutText": "- 30m 128-140bpm"
+}

@@ -52,12 +52,12 @@
       "weekendDplus": 250,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 70,
-        "wed": 65,
-        "thu": 55,
-        "fri": 35,
-        "sat": 125,
-        "sun": 105
+        "tue": 80,
+        "wed": 25,
+        "thu": 70,
+        "fri": 50,
+        "sat": 130,
+        "sun": 100
       }
     },
     {

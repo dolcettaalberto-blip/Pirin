@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-29",
+  "type": "quality",
+  "title": "Threshold progression 4x10min",
+  "terrain": "road/treadmill, flat",
+  "estimatedLoad": 80,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 128-148bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "10m",
+          "target": "Z4, 166-174bpm"
+        },
+        {
+          "kind": "recover",
+          "duration": "3m",
+          "target": "Z1, 128-140bpm jog"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1, 128-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 4x10min at 166-174bpm, 3min easy jog between reps, even pace across all 4.\nGYM: none.\nFUEL: water only, under 90min.\nSTOP RULE: cut to 3 reps if HR drifts >8bpm above target at the same pace, or RPE hits 8+/10 early.\nWHY: progression from last week's 3x8min intro; this is the Build block's main intensity carrier and the tempo engine VWT's flat sections need.",
+  "icuWorkoutText": "- 15m 128-148bpm\n\n4x\n- 10m 166-174bpm\n- 3m 128-140bpm\n\n- 10m 128-140bpm"
+}

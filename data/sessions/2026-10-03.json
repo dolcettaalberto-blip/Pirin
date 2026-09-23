@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-03",
+  "type": "long",
+  "title": "Mountain long run, back-to-back day 1",
+  "terrain": "mountain trail, ~180m D+, power-hike steep climbs, controlled descents",
+  "estimatedLoad": 130,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1, 128-140bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "1h30m",
+      "target": "Z2, 145-155bpm, power-hike climbs, cadence 174+ on flats"
+    },
+    {
+      "kind": "work",
+      "duration": "20m",
+      "target": "Z3, 160-166bpm, sustained climb"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "15m",
+      "target": "Z1, 128-140bpm, easy descent"
+    }
+  ],
+  "coachNotes": "EXECUTION: ~2h20, about 180m D+. Hike anything steep to stay under 155bpm, last 20min sustained climb at 160-166bpm, then easy descent.\nGYM: none.\nFUEL: 2 flasks Tailwind (500ml, 2 scoops each), one per hour from min 20, plus 1 Carbo Gel at ~1h30.\nSTOP RULE: skip the Z3 climb if Friday or Saturday-morning HRV is amber. Walk down if cadence falls under 165 or the quads are shot.\nWHY: day 1 of a back-to-back long-run weekend, the specific stimulus for finishing strong on tired legs at VWT.",
+  "icuWorkoutText": "- 15m 128-140bpm\n- 1h30m 145-155bpm\n- 20m 160-166bpm\n- 15m 128-140bpm"
+}

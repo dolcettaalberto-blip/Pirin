@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-02",
+  "type": "easy",
+  "title": "Bucharest easy + strides",
+  "terrain": "flat city running",
+  "estimatedLoad": 50,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "45m",
+      "target": "Z1-Z2, 138-148bpm, cadence 174+"
+    },
+    {
+      "kind": "repeat",
+      "count": 6,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "fast, cadence 180+, relaxed"
+        },
+        {
+          "kind": "recover",
+          "duration": "60s",
+          "target": "walk"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "8m",
+      "target": "Z1"
+    }
+  ],
+  "coachNotes": "EXECUTION: 45min easy-moderate, then 6x20s strides at 180+ spm with 60s walk. Deliberately the lighter of the two Bucharest days.\nGYM: none.\nFUEL: none.\nSTOP RULE: none, low-risk session by design.\nWHY: protects the legs for Saturday/Sunday's back-to-back long block while keeping cadence sharp.",
+  "icuWorkoutText": "- 45m 138-148bpm\n\n6x\n- 20s Z5\n- 1m Z1\n\n- 8m Z1"
+}
