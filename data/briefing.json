@@ -1,8 +1,11 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-23T09:00:00.000Z",
-  "headline": "Sweet spot bike: executed, compliant \u2014 load 58 vs 55 planned, RPE 4, clean recovery",
-  "summary": "Indoor bike sweet spot done as scripted: interval log shows two clear ~10min reps around 155bpm (the third blends into a 15min/148bpm lap, likely a lap-marker miss rather than a missed rep \u2014 avg HR across the whole 54min session was 144bpm, consistent with 3x10min work + easy spin between). Load landed at 58 vs 55 estimated, essentially exact for a steady aerobic session (no icu undercount here, that only shows up on short high-intensity work). RPE 4, feel 1 (best possible), HRR 23bpm in 60s off a 166bpm peak \u2014 no fatigue signal at all. This morning's wellness is the standout: HRV 79, well above the 42-67 range of the last two weeks, RHR 47 (normal), sleep score 80. TSB sits at +0.8, basically neutral after nine days climbing out of the -17 post-Pirin hole. Zero-impact aerobic load landed exactly as intended, no adjustment needed to the rest of this week (Thu easy+strides, Fri gym+spin, Sat Presolana long run, Sun recovery jog) \u2014 today's HRV spike is a green light to hold Saturday's Z3 climb finish as planned rather than needing to cut it.",
-  "flags": [],
-  "suggestedChange": "None for this week. Wk3 (28 Sep-4 Oct) has been redesigned around confirmed availability (Tue 80min quality, Wed Bucharest-travel easy day, Thu/Fri Bucharest long runs, Sat/Sun back-to-back at home) \u2014 pushed to the tracker today."
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T08:58:46.759Z",
+  "headline": "Session done — easy 8km + strides landed clean, compliance 95%",
+  "summary": "Prescribed was 45min Z2 (138-148bpm) plus 6x20s strides at 180+ spm. Actual: average HR 150bpm, running a bit hot of the Z2 ceiling, but RPE only 4 and feel 2 — an easy effort by feel despite the drift. Cadence averaged 84 (168 spm), still short of the 180+ target for the strides block itself, though the interval summary shows the structure was hit (6x20s hard reps at 158bpm, 6x60s walk recoveries at 160bpm — recoveries ran warmer than walking should, likely rolling into the next rep). No pain or ITB signal logged. Compliance 95.5%, so this counted as a full session.",
+  "flags": [
+    "Cadence work is the whole point of this session (168 spm at Pirin under fatigue is the target problem) — average cadence here still reads low-160s/170s territory rather than a clean 180+, worth checking the lap-by-lap stride data rather than the session average, which is diluted by the 45min steady portion.",
+    "HR sat ~150 for a Z2-capped session (138-148) — mild, and RPE/feel say it wasn't a strain, but worth watching if this becomes a pattern rather than a one-off."
+  ],
+  "suggestedChange": "None needed off today's data alone — if Wed/Fri sessions this week show the same cadence shortfall on strides specifically (not just session-average), consider flagging it to Alberto as a technique issue rather than a fitness one."
 }
