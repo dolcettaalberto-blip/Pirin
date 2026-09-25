@@ -1,9 +1,9 @@
 {
   "date": "2026-09-26",
   "type": "long",
-  "title": "Presolana mountain long run",
-  "terrain": "mountain trail, ~600m D+, power-hike steep climbs, controlled descents",
-  "estimatedLoad": 100,
+  "title": "Presolana mountain long run, 2 tempo climbs",
+  "terrain": "mountain trail, ~850m D+, power-hike steep climbs, controlled descents",
+  "estimatedLoad": 130,
   "steps": [
     {
       "kind": "warmup",
@@ -12,20 +12,35 @@
     },
     {
       "kind": "work",
-      "duration": "1h10m",
+      "duration": "50m",
       "target": "Z2, 145-155bpm, power-hike steep climbs, cadence 174+ on flats"
     },
     {
       "kind": "work",
-      "duration": "18m",
-      "target": "Z3, 160-166bpm, final sustained climb"
+      "duration": "12m",
+      "target": "Z3, 160-166bpm, sustained climb #1"
+    },
+    {
+      "kind": "recover",
+      "duration": "15m",
+      "target": "Z1-Z2, 135-150bpm, easy descent / rolling"
+    },
+    {
+      "kind": "work",
+      "duration": "12m",
+      "target": "Z3, 160-166bpm, sustained climb #2"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z2, 145-155bpm"
     },
     {
       "kind": "cooldown",
-      "duration": "12m",
+      "duration": "16m",
       "target": "Z1, 128-140bpm, easy descent"
     }
   ],
-  "coachNotes": "EXECUTION: ~2h, about 600m D+ (550-650). Hike anything steep to stay under 155bpm. Last sustained climb (~18min) at 160-166bpm, then descend easy. Descents controlled, cadence 170+.\nGYM: none.\nFUEL: 2 flasks Tailwind (500ml, 2 scoops each), one per hour from min 20, plus 1 Carbo Gel at ~1h30. First run on the new mix, treat it as the gut rehearsal.\nSTOP RULE: skip the Z3 climb if Friday or Saturday HRV is amber. Above 2,000m HR reads unreliably, go by RPE 4 on climbs. Walk down if cadence falls under 165 or the quads are shot.\nWHY: first real vertical since Pirin, and climbing at tempo on tired legs is what VWT's 914m D+ demands. Replaces the flat fast-finish run.",
-  "icuWorkoutText": "- 15m 128-140bpm\n- 1h10m 145-155bpm\n- 18m 160-166bpm\n- 12m 128-140bpm"
+  "coachNotes": "EXECUTION: 2h30, ~850m D+ (800-900). Hike anything steep to stay under 155bpm outside the two tempo climbs. Climbs #1 and #2 at 160-166bpm, 12min each on separate climbs, easy descent between. Descents controlled, cadence 170+. icu load 130, Garmin ~160-190.\nGYM: none.\nFUEL: 3 flasks Tailwind (500ml, 2 scoops each), one per ~45min from min 20, plus 1 Carbo Gel at ~1h45. Gut rehearsal of the new mix.\nSTOP RULE: HRV under 55 or RHR over 51 Saturday morning, run the original 2h/600m version with one 18min climb. Above 2,000m HR is unreliable, climb at RPE 4. Walk down if cadence drops under 165 or quads are shot.\nWHY: HRV 77-79 for three days and TSB ~0 = under-stimulated. Upgraded from 100 to push the week out of the grey zone.",
+  "icuWorkoutText": "- 15m 128-140bpm\n- 50m 145-155bpm\n- 12m 160-166bpm\n- 15m 135-150bpm\n- 12m 160-166bpm\n- 30m 145-155bpm\n- 16m 128-140bpm"
 }

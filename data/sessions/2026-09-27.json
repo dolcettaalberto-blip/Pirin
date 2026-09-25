@@ -1,16 +1,16 @@
 {
   "date": "2026-09-27",
-  "type": "recovery",
-  "title": "Recovery jog",
-  "terrain": "flat, D+ 50m max",
-  "estimatedLoad": 30,
+  "type": "easy",
+  "title": "Aerobic run",
+  "terrain": "flat to rolling, D+ under 150m",
+  "estimatedLoad": 55,
   "steps": [
     {
       "kind": "work",
-      "duration": "35m",
-      "target": "Z1, 128-140bpm, cadence 172+"
+      "duration": "60m",
+      "target": "Z1-Z2, 135-145bpm, cadence 172+"
     }
   ],
-  "coachNotes": "EXECUTION: 35min genuinely easy, flat, D+ 50m max. If it is not conversational, walk.\nGYM: Copenhagen 2x30s/side only.\nFUEL: none.\nSTOP RULE: swap for a 30min spin if the quads or knee are sore after Saturday.\nWHY: flush, not fitness.",
-  "icuWorkoutText": "- 35m 128-140bpm"
+  "coachNotes": "EXECUTION: 60min steady aerobic at 135-145bpm, flat to rolling, D+ under 150m. icu load 55, Garmin ~65-80.\nGYM: Copenhagen 2x30s/side only.\nFUEL: none (water if warm).\nSTOP RULE: quads or knee sore after Saturday, swap for a 75min spin at 120-135bpm.\nWHY: back-to-back aerobic volume on tired legs, the Wk3 weekend pattern in small.",
+  "icuWorkoutText": "- 60m 135-145bpm"
 }

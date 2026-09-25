@@ -32,16 +32,16 @@
       "week": 2,
       "start": "2026-09-21",
       "block": "Rebuild",
-      "runKm": 35,
-      "weekendDplus": 650,
+      "runKm": 45,
+      "weekendDplus": 950,
       "plannedDailyLoad": {
         "mon": 15,
         "tue": 55,
         "wed": 55,
         "thu": 45,
         "fri": 35,
-        "sat": 100,
-        "sun": 30
+        "sat": 130,
+        "sun": 55
       }
     },
     {

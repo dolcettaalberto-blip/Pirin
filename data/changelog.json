@@ -811,5 +811,14 @@
       "2026-10-03",
       "2026-10-04"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "change": "Wk2 weekend bumped: Sat Presolana long run 100 -> 130 (2h -> 2h30, ~600 -> ~850m D+, 1x18m -> 2x12m at 160-166bpm), Sun recovery jog 30 -> 55 (35m -> 60m aerobic at 135-145bpm). Wk2 total ~365 -> ~420, runKm 35 -> 45, weekendDplus 650 -> 950.",
+    "reason": "intervals.icu showed Form in the grey zone (TSB -0.1 on 24 Sep) with CTL flat at 46-47 for 10 days, while HRV ran 77-79 for three days vs a 42-67 two-week range. Mon-Thu already over plan (200 vs 170) with RPE 4 and clean recovery. Weekend D+ jump >20% justified by readiness and by the ITB question being closed after Pirin. Projected Sunday CTL 49.2 / TSB -9.5; Wk3 ramp +2.6, under the 6 cap. Guard: HRV <55 or RHR >51 Saturday reverts to the original session.",
+    "affects": [
+      "2026-09-26",
+      "2026-09-27"
+    ]
   }
 ]
