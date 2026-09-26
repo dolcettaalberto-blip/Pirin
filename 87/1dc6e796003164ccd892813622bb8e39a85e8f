@@ -1,0 +1,19 @@
+data/briefing.json
+  s_b8075318eed227::t_e0736ee675c29b 3-5,7-10,12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "871dc6e796003164ccd892813622bb8e39a85e8f",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
