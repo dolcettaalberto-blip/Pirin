@@ -1,12 +1,13 @@
 {
   "date": "2026-09-26",
-  "generatedAt": "2026-09-26T15:32:21.000Z",
-  "headline": "Presolana long run done, volume on target, climbs ran 3bpm hot and 60% long",
-  "summary": "16.9km, 847m D+, 2h15 moving, avg 151bpm. D+ and duration hit the 130 prescription. The two tempo climbs ran 19min at 168bpm (Visolo) and 22min at 168bpm (Presolana > Cassinelli) against 12min at 160-166: roughly 40min above LTHR instead of 24min at it. The flat middle (km 7-9) sat at 160-162bpm, outside the 155 cap, so the grey-zone drift pattern showed up again. Descent cadence 166-170spm, at the floor of the 170+ target. Add the 4h Cassinelli hike (1h55 moving, 319m D+). Real load is likely 160-180 icu vs 130 planned; the week lands deeper than TSB -9.5.",
+  "generatedAt": "2026-09-26T15:32:44.000Z",
+  "headline": "Presolana long run done: icu 137 vs 130, climbs ran 3bpm hot and 60% long",
+  "summary": "16.9km, 847m D+, 2h15 moving, avg 151bpm, icu load 137 vs 130 planned, RPE 6. Morning HRV 64, RHR 46, so the full version was correct. The two tempo climbs ran 19min at 168bpm (Visolo) and 22min at 168bpm (Presolana > Cassinelli) against 12min at 160-166: ~40min at or above LTHR instead of 24min. The flat middle (km 7-9) sat at 160-162bpm, outside the 155 cap: the grey-zone drift pattern again. Descent cadence 166-170spm, at the floor of the 170+ target. HRR 32bpm in 60s, no knee signal. Add the Cassinelli hike (1h55 moving, 319m D+) on top.",
   "flags": [
-    "Climbs over-cooked: cap them at the prescribed minutes next time, the extra 7-10min above 166 buys fatigue, not fitness at this stage.",
-    "Flat running between climbs drifted to 160+: that is the recurring grey-zone habit, hold 145-155 between efforts.",
-    "Descent cadence 166-170spm: push 172-175 on the next mountain day."
+    "Climbs over-cooked: stop at the prescribed minutes, the extra 7-10min above 166 buys fatigue, not fitness.",
+    "Flat running between climbs drifted to 160+: hold 145-155 between efforts.",
+    "Descent cadence 166-170spm: aim 172-175 on the next mountain day.",
+    "Tailwind gut rehearsal: log tolerance in one line."
   ],
-  "suggestedChange": "No change to Sunday load (55). Run it strictly 135-145bpm, flat, no pick-ups; swap to 75min spin at 120-135bpm if quads are sore or HRV is below 60. Wk3 stands as planned."
+  "suggestedChange": "No change to Sunday (55). Run strictly 135-145bpm, flat, no pick-ups; swap to 75min spin at 120-135bpm if quads are sore or HRV under 60. Wk3 stands."
 }
