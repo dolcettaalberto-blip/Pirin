@@ -1,11 +1,12 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T06:13:53.924Z",
-  "headline": "Session done — eccentric circuit + spin both landed light, exactly as scripted",
-  "summary": "Both pieces are logged and match the prescription: Strength block was 20min at an average HR of 81bpm (max 113) — genuinely light, no sign of grinding through the step-downs — and the spin was 20min Z1-ish at 132bpm avg, RPE 2/feel 2. No pain flagged, no interval markers suggesting anyone pushed past the eccentric-habit intent. This was deliberately kept easy so Saturday's mountain long run carries this week's real eccentric/descent load — mission accomplished, quads should be fresh for that.",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T15:32:21.000Z",
+  "headline": "Presolana long run done, volume on target, climbs ran 3bpm hot and 60% long",
+  "summary": "16.9km, 847m D+, 2h15 moving, avg 151bpm. D+ and duration hit the 130 prescription. The two tempo climbs ran 19min at 168bpm (Visolo) and 22min at 168bpm (Presolana > Cassinelli) against 12min at 160-166: roughly 40min above LTHR instead of 24min at it. The flat middle (km 7-9) sat at 160-162bpm, outside the 155 cap, so the grey-zone drift pattern showed up again. Descent cadence 166-170spm, at the floor of the 170+ target. Add the 4h Cassinelli hike (1h55 moving, 319m D+). Real load is likely 160-180 icu vs 130 planned; the week lands deeper than TSB -9.5.",
   "flags": [
-    "HRV 78 this morning off two days in the high 70s: green light for the upgraded Saturday.",
-    "No descent cap applies: the ITB question closed after Pirin. Descend controlled at 170+ cadence and back off only if a lateral knee signal appears."
+    "Climbs over-cooked: cap them at the prescribed minutes next time, the extra 7-10min above 166 buys fatigue, not fitness at this stage.",
+    "Flat running between climbs drifted to 160+: that is the recurring grey-zone habit, hold 145-155 between efforts.",
+    "Descent cadence 166-170spm: push 172-175 on the next mountain day."
   ],
-  "suggestedChange": "Applied 25 Sep: Sat 100 -> 130 (2h30, ~850m D+, 2x12m at 160-166bpm), Sun 30 -> 55 (60m at 135-145bpm). Week goes from grey zone to TSB ~-9.5 on Sunday, CTL ~49.2 into Wk3. Saturday guard: HRV <55 or RHR >51, run the original 2h version."
+  "suggestedChange": "No change to Sunday load (55). Run it strictly 135-145bpm, flat, no pick-ups; swap to 75min spin at 120-135bpm if quads are sore or HRV is below 60. Wk3 stands as planned."
 }
