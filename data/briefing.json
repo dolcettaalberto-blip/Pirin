@@ -1,13 +1,8 @@
 {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T15:32:44.000Z",
-  "headline": "Presolana long run done: icu 137 vs 130, climbs ran 3bpm hot and 60% long",
-  "summary": "16.9km, 847m D+, 2h15 moving, avg 151bpm, icu load 137 vs 130 planned, RPE 6. Morning HRV 64, RHR 46, so the full version was correct. The two tempo climbs ran 19min at 168bpm (Visolo) and 22min at 168bpm (Presolana > Cassinelli) against 12min at 160-166: ~40min at or above LTHR instead of 24min. The flat middle (km 7-9) sat at 160-162bpm, outside the 155 cap: the grey-zone drift pattern again. Descent cadence 166-170spm, at the floor of the 170+ target. HRR 32bpm in 60s, no knee signal. Add the Cassinelli hike (1h55 moving, 319m D+) on top.",
-  "flags": [
-    "Climbs over-cooked: stop at the prescribed minutes, the extra 7-10min above 166 buys fatigue, not fitness.",
-    "Flat running between climbs drifted to 160+: hold 145-155 between efforts.",
-    "Descent cadence 166-170spm: aim 172-175 on the next mountain day.",
-    "Tailwind gut rehearsal: log tolerance in one line."
-  ],
-  "suggestedChange": "No change to Sunday (55). Run strictly 135-145bpm, flat, no pick-ups; swap to 75min spin at 120-135bpm if quads are sore or HRV under 60. Wk3 stands."
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T17:45:56.407Z",
+  "headline": "Sunday recovery jog: undershot on time and effort, and that's fine",
+  "summary": "Prescribed was 60min steady at 135-145bpm; actual was 55min moving (3026s) at 113bpm average, well below target band — this landed as a genuine shakeout, not the planned aerobic dose. RPE 3, feel great (1/5), zero pain flagged, cadence data not captured. Given yesterday's Presolana long run (137 load, 853m D+, 8118s) plus Saturday's 5h3m hike stacked on top, the lighter-than-prescribed HR is the legs (and good sense) talking, not a missed session — compliance on paper looks low but the intent (easy volume on tired legs after the Wk2 weekend pattern) was served. RHR ticked to 51 this morning (vs 45-47 all week) and HRV settled to 55 after a 64-79 run — first signs of the weekend load registering, worth watching into Tuesday's Wk3 threshold day.</summary>\n<parameter name=\"flags\">[\"RHR 51 today is the highest reading in 10 days; combined with HRV back to 55 from a 77-79 high, this looks like normal accumulated fatigue from the Sat hike+run double, not a red flag yet — recheck Monday before green-lighting Tuesday's 80min quality session.\", \"This week's weekend pattern (Sat hike 41 load + Sat trail run 137 load + Sun easy 23 load) is the third day in a row of running/hiking volume; watch that Monday (Wk3 start) isn't quietly loaded on top without a real rest day.\"]",
+  "flags": [],
+  "suggestedChange": "Confirm with Alberto whether Monday of Wk3 (currently 0 load, rest day) stays untouched given three consecutive load days just completed — no change needed if so, just flagging for explicit sign-off given the grey-zone pattern."
 }
