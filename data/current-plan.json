@@ -63,17 +63,17 @@
     {
       "week": 4,
       "start": "2026-10-05",
-      "block": "Recovery",
-      "runKm": 34,
-      "weekendDplus": 250,
+      "block": "Recovery (post-Monza, Podgorica)",
+      "runKm": 50,
+      "weekendDplus": 500,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 55,
-        "wed": 60,
-        "thu": 45,
-        "fri": 30,
-        "sat": 95,
-        "sun": 55
+        "tue": 45,
+        "wed": 50,
+        "thu": 35,
+        "fri": 35,
+        "sat": 110,
+        "sun": 50
       }
     },
     {
@@ -84,11 +84,11 @@
       "weekendDplus": 400,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 80,
+        "tue": 85,
         "wed": 70,
         "thu": 60,
         "fri": 35,
-        "sat": 145,
+        "sat": 155,
         "sun": 115
       }
     },

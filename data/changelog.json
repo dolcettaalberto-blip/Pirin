@@ -833,5 +833,18 @@
       "2026-10-03",
       "2026-10-04"
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "change": "Wk4 built (5-11 Oct, Podgorica + post-Monza recovery). Tue quality 55 -> easy 50min 45; Wed 60 -> aerobic + strides 50; Thu 45 -> spin 35 (late return); Fri 30 -> 35 easy + hill strides; Sat 95 -> mountain long 2h15 ~450m D+ 110; Sun 55 -> 50. Wk4 340 -> 325, runKm 34 -> 50, weekendDplus 250 -> 500. Saved load moved to Wk5: Tue 80 -> 85, Sat 145 -> 155 (Wk5 505 -> 520).",
+    "reason": "Agreed with Alberto: no quality in the week after Monza HM (race on Sun 4 Oct carries the intensity), load shifted to Wk5 build. Weekend D+ jump vs Wk3 (0, a road race week) justified: Wk2 carried 950m D+ clean, ITB closed, and VWT needs descent volume. Thu kept as spin after the post-midnight return from Podgorica.",
+    "affects": [
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11"
+    ]
   }
 ]

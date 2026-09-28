@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "type": "easy",
+  "title": "Aerobic run, tired legs",
+  "terrain": "flat to rolling, D+ under 100m",
+  "estimatedLoad": 50,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "60m",
+      "target": "Z1-Z2, 135-145bpm, cadence 172+"
+    }
+  ],
+  "coachNotes": "EXECUTION: 60min at 135-145bpm, cadence 172+.\nGYM: Copenhagen 2x30s/side.\nFUEL: water.\nSTOP RULE: quads sore, swap for 75min spin at 120-135bpm.\nWHY: back-to-back aerobic on day 2; hold the cap, no drift.",
+  "icuWorkoutText": "- 60m 135-145bpm"
+}

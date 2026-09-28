@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-06",
+  "type": "easy",
+  "title": "Podgorica recovery run",
+  "terrain": "flat or Gorica park loop",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z1-Z2, 135-145bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 50min at 135-145bpm, no pick-ups.\nGYM: none.\nFUEL: none.\nSTOP RULE: HRV under 60 or calves/quads still sore from Monza, swap for 45min hotel bike at 120-135bpm.\nWHY: day 2 after the half, flush only; quality moved out of this week.",
+  "icuWorkoutText": "- 50m 135-145bpm"
+}

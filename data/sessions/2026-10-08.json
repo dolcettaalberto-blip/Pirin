@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "type": "recovery",
+  "title": "Spin after late return",
+  "terrain": "indoor bike",
+  "estimatedLoad": 35,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z1-Z2, 120-135bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 50min indoor spin at 120-135bpm, cadence 85-95rpm.\nGYM: none.\nFUEL: none.\nSTOP RULE: under 6h sleep after the late flight, cut to 30min or skip.\nWHY: back after midnight; aerobic time with zero impact.",
+  "icuWorkoutText": "- 50m 120-135bpm"
+}

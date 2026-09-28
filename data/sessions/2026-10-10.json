@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "type": "long",
+  "title": "Mountain long run, 2h15 / ~450m D+",
+  "terrain": "mountain trail (Presolana or Lecco pre-alps), ~450m D+, run the descents",
+  "estimatedLoad": 110,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 130-145bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "1h30m",
+      "target": "Z2, 145-155bpm, hike anything steep"
+    },
+    {
+      "kind": "work",
+      "duration": "15m",
+      "target": "Z3-Z4, 160-166bpm, sustained climb"
+    },
+    {
+      "kind": "cooldown",
+      "duration": "15m",
+      "target": "Z1-Z2, descent at 172+ spm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 2h15, ~450m D+. Z2 145-155 bulk, one 15min climb at 160-166 (stop at 15min), descend at 172+ spm.\nGYM: none.\nFUEL: 1 flask Tailwind (500ml, 2 scoops) from min 20, 1 Carbo Gel at 1h30.\nSTOP RULE: HRV under 60 or RHR over 51, drop the climb and cut to 1h45.\nWHY: restores the mountain stimulus lost to Monza; descents trained for VWT's last 8km.",
+  "icuWorkoutText": "- 15m 130-145bpm\n- 1h30m 145-155bpm\n- 15m 160-166bpm\n- 15m 130-145bpm"
+}
