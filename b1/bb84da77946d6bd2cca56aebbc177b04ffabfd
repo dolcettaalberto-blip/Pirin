@@ -1,0 +1,25 @@
+data/SCHEMA.md
+  s_b8075318eed227::t_a15d35ba5897a8 167-170
+lib/icu.ts
+  s_b8075318eed227::t_bc73c66d8db1d1 2,72-79,103
+lib/workout.ts
+  s_b8075318eed227::t_d347215f4e8e34 59-72
+tests/workout.test.ts
+  s_b8075318eed227::t_69d01679c30119 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b1bb84da77946d6bd2cca56aebbc177b04ffabfd",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
