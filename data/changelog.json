@@ -820,5 +820,18 @@
       "2026-09-26",
       "2026-09-27"
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "change": "Wk3 rebuilt around Monza Half Marathon (Sun 4 Oct, training race, no taper). Tue 4x10m threshold -> 3x12m at HM pace + 4x1m (80 -> 85). Wed 25 -> 30. Thu 85min steady + tempo -> 70min aerobic (70 -> 65). Fri 50 -> 40. Sat mountain long 130 -> 25min shakeout 30. Sun easy long 100 -> Monza HM + warm-up/cool-down 170. Planned week 455 -> 420 (+25 unplanned Mon spin = 445). runKm 46 -> 70, weekendDplus 250 -> 0.",
+    "reason": "Alberto entered Monza HM (flat, 21.1km) as a training race, wants to do well without unloading. HRV 77 / RHR 48 / TSB -4 on 28 Sep, CTL 48. Race replaces the back-to-back long weekend; HM at ~170bpm carries more stimulus than the planned 2h easy run. Pace basis: 3x8m at 4:12-4:30/km, 169-178bpm on 22 Sep. Weekend D+ drop is a road race, not a load cut. Sun 27 Sep was underdelivered (icu 23 vs 55).",
+    "affects": [
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04"
+    ]
   }
 ]

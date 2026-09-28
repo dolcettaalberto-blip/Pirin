@@ -1,9 +1,9 @@
 {
   "date": "2026-09-29",
   "type": "quality",
-  "title": "Threshold progression 4x10min",
-  "terrain": "road/treadmill, flat",
-  "estimatedLoad": 80,
+  "title": "HM pace rehearsal 3x12min + 4x1min",
+  "terrain": "road, flat",
+  "estimatedLoad": 85,
   "steps": [
     {
       "kind": "warmup",
@@ -12,17 +12,33 @@
     },
     {
       "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "12m",
+          "target": "Z4, 166-172bpm, 4:35-4:40/km"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "Z1, 128-140bpm jog"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
       "count": 4,
       "steps": [
         {
           "kind": "work",
-          "duration": "10m",
-          "target": "Z4, 166-174bpm"
+          "duration": "1m",
+          "target": "Z5, 4:05-4:10/km"
         },
         {
           "kind": "recover",
-          "duration": "3m",
-          "target": "Z1, 128-140bpm jog"
+          "duration": "1m",
+          "target": "Z1, jog"
         }
       ]
     },
@@ -32,6 +48,6 @@
       "target": "Z1, 128-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 4x10min at 166-174bpm, 3min easy jog between reps, even pace across all 4.\nGYM: none.\nFUEL: water only, under 90min.\nSTOP RULE: cut to 3 reps if HR drifts >8bpm above target at the same pace, or RPE hits 8+/10 early.\nWHY: progression from last week's 3x8min intro; this is the Build block's main intensity carrier and the tempo engine VWT's flat sections need.",
-  "icuWorkoutText": "- 15m 128-148bpm\n\n4x\n- 10m 166-174bpm\n- 3m 128-140bpm\n\n- 10m 128-140bpm"
+  "coachNotes": "EXECUTION: 3x12min at 4:35-4:40/km (Sunday's race pace), HR 166-172, 2min jog. Then 4x1min at 4:05-4:10/km, 1min jog.\nGYM: none.\nFUEL: water only.\nSTOP RULE: if 4:40/km needs HR >174 by rep 2, Sunday's pace becomes 4:45-4:50; skip the 1min reps.\nWHY: locks Sunday's pace by feel and tests it; replaces 4x10 threshold at similar load.",
+  "icuWorkoutText": "- 15m 128-148bpm\n\n3x\n- 12m 166-172bpm\n- 2m 128-140bpm\n\n4x\n- 1m 176-184bpm\n- 1m 128-140bpm\n\n- 10m 128-140bpm"
 }

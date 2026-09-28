@@ -1,9 +1,9 @@
 {
   "date": "2026-10-01",
   "type": "long",
-  "title": "Bucharest long steady + tempo finish",
-  "terrain": "flat city running, no vert available",
-  "estimatedLoad": 70,
+  "title": "Bucharest aerobic 70min",
+  "terrain": "flat city running",
+  "estimatedLoad": 65,
   "steps": [
     {
       "kind": "warmup",
@@ -13,19 +13,14 @@
     {
       "kind": "work",
       "duration": "55m",
-      "target": "Z2, 145-155bpm"
-    },
-    {
-      "kind": "work",
-      "duration": "12m",
-      "target": "Z3, 160-166bpm, tempo finish"
+      "target": "Z2, 140-150bpm"
     },
     {
       "kind": "cooldown",
-      "duration": "8m",
+      "duration": "5m",
       "target": "Z1, 128-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: ~85min total, flat Bucharest terrain. Steady Z2 for the bulk, then a 12min tempo finish at 160-166bpm since there's no vert here to load the climbing muscles.\nGYM: none.\nFUEL: Tailwind flask if available, else water + one gel at 45min.\nSTOP RULE: skip the tempo finish if HRV reads amber that morning, extend Z2 instead.\nWHY: no mountains in Bucharest, so this becomes the week's volume carrier with a tempo kicker in place of vert.",
-  "icuWorkoutText": "- 10m 128-140bpm\n- 55m 145-155bpm\n- 12m 160-166bpm\n- 8m 128-140bpm"
+  "coachNotes": "EXECUTION: 70min steady, 140-150bpm, no tempo finish.\nGYM: Copenhagen 2x30s/side.\nFUEL: water.\nSTOP RULE: HRV amber, cut to 50min.\nWHY: volume carrier of the week; tempo finish dropped, Sunday is the intensity.",
+  "icuWorkoutText": "- 10m 128-140bpm\n- 55m 140-150bpm\n- 5m 128-140bpm"
 }

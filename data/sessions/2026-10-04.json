@@ -1,26 +1,36 @@
 {
   "date": "2026-10-04",
-  "type": "long",
-  "title": "Easy long run, back-to-back day 2",
-  "terrain": "flat to rolling, ~70m D+ max",
-  "estimatedLoad": 100,
+  "type": "race",
+  "title": "Monza Half Marathon (training race)",
+  "terrain": "Autodromo di Monza, flat road circuit, 21.1km",
+  "estimatedLoad": 170,
   "steps": [
     {
       "kind": "warmup",
-      "duration": "10m",
-      "target": "Z1, 128-140bpm"
+      "duration": "20m",
+      "target": "Z1-Z2, 130-150bpm, 3 strides at the end"
     },
     {
       "kind": "work",
-      "duration": "1h40m",
-      "target": "Z1-Z2, 135-148bpm, easy and steady"
+      "duration": "24m",
+      "target": "Z3-Z4, 160-168bpm, 4:45/km, km 0-5"
+    },
+    {
+      "kind": "work",
+      "duration": "1h",
+      "target": "Z4, 168-172bpm, 4:38-4:40/km, km 5-18"
+    },
+    {
+      "kind": "work",
+      "duration": "15m",
+      "target": "Z4-Z5, 172-182bpm, km 18-21, open up"
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
-      "target": "Z1, 128-140bpm"
+      "duration": "20m",
+      "target": "Z1, 128-140bpm jog"
     }
   ],
-  "coachNotes": "EXECUTION: ~2h total, deliberately easy pace even if HR drifts on tired legs, this is about time on feet the day after a long mountain effort, not intensity.\nGYM: none.\nFUEL: 2 flasks Tailwind, same mix as Saturday.\nSTOP RULE: cut to 90min flat if the legs are trashed or any knee signal shows up.\nWHY: day 2 of the back-to-back, the tired-leg-running adaptation that late-race VWT terrain demands.",
-  "icuWorkoutText": "- 10m 128-140bpm\n- 1h40m 135-148bpm\n- 10m 128-140bpm"
+  "coachNotes": "EXECUTION: km 0-5 at 4:45 (HR under 168), km 5-18 at 4:38-4:40 (cap 172), km 18+ open up. Target 1:37-1:40.\nGYM: none.\nFUEL: 1 Carbo Gel 10min before start, 1 at km 10-11, water at every station.\nSTOP RULE: HR over 175 before km 15, back off to 4:50 and run it as a tempo.\nWHY: race counts as the week's long + threshold session; 20min cooldown jog makes it ~2h30 on feet.",
+  "icuWorkoutText": "- 20m 130-150bpm\n- 24m 160-168bpm\n- 1h 168-172bpm\n- 15m 172-182bpm\n- 20m 128-140bpm"
 }
