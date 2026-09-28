@@ -56,3 +56,17 @@ export function formatDuration(seconds: number): string {
   const m = Math.round((seconds % 3600) / 60);
   return h > 0 ? `${h}h${m.toString().padStart(2, "0")}` : `${m}m`;
 }
+
+const pct = (bpm: number, lthr: number) => Math.round((bpm / lthr) * 1000) / 10;
+
+/**
+ * intervals.icu's workout parser ignores absolute bpm ("128-148bpm" yields a step
+ * with no target, so Garmin shows no HR range). Session files keep bpm for
+ * readability; at send time we rewrite them as %LTHR against the athlete's Run
+ * LTHR, which intervals.icu converts back to absolute bpm on the Garmin export.
+ */
+export function bpmToLthrText(text: string, lthr: number): string {
+  return text
+    .replace(/(\d{2,3})\s*-\s*(\d{2,3})\s*bpm\b/gi, (_, lo, hi) => `${pct(+lo, lthr)}-${pct(+hi, lthr)}% LTHR`)
+    .replace(/(\d{2,3})\s*bpm\b/gi, (_, v) => `${pct(+v, lthr)}% LTHR`);
+}

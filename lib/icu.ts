@@ -1,4 +1,5 @@
 import "server-only";
+import { bpmToLthrText } from "./workout";
 
 const BASE = "https://intervals.icu/api/v1";
 
@@ -68,6 +69,14 @@ export async function getActivities(oldest: string, newest: string, fresh = fals
   return icuGet<Activity[]>(`/activities?oldest=${oldest}&newest=${newest}`, fresh);
 }
 
+/** Fallback if sport settings can't be read (revised 12 Sep 2026). */
+const DEFAULT_RUN_LTHR = 175;
+
+async function runLthr(): Promise<number> {
+  const s = await icuGet<{ types: string[]; lthr: number | null }[]>("/sport-settings", true);
+  return s?.find((x) => x.types.includes("Run"))?.lthr ?? DEFAULT_RUN_LTHR;
+}
+
 /**
  * The app's single write operation: create a WORKOUT calendar event on
  * intervals.icu (which syncs to Garmin Connect as a structured workout).
@@ -91,7 +100,7 @@ export async function createWorkoutEvent(args: {
       type: "Run",
       start_date_local: `${args.date}T00:00:00`,
       name: args.name,
-      description: args.description,
+      description: bpmToLthrText(args.description, await runLthr()),
     }),
     cache: "no-store",
   });

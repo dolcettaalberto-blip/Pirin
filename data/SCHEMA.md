@@ -164,7 +164,10 @@ breaks otherwise):**
 - Nested repeats are not supported. Multiple separate repeat blocks in one
   workout are fine (each needs its own blank-line padding).
 - Durations: `15m`, `20s`, `1h2m30s`. Targets: **absolute heart rate in bpm**
-  (e.g. `158-169bpm`) — always bpm, never `% LTHR`. LTHR is 175, HRmax 190 (revised 12 Sep 2026 from 2026 race data; the intervals.icu profile still shows a stale 180).
+  (e.g. `158-169bpm`) — always bpm, never `% LTHR`. LTHR is 175, HRmax 190 (revised 12 Sep 2026; intervals.icu Run profile now matches).
+  intervals.icu does not parse absolute bpm, so "Send to watch" rewrites bpm to
+  `% LTHR` against the live Run LTHR (`bpmToLthrText` in `lib/workout.ts`); Garmin
+  then receives the absolute HR range. Keep writing bpm here.
 
 **`coachNotes` style (required):** short and front-loaded. One line each for
 `EXECUTION`, `GYM`, `FUEL`, `STOP RULE`, and at most one `WHY` line. Concrete
