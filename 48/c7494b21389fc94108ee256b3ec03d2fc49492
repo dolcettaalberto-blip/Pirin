@@ -1,0 +1,35 @@
+data/briefing.json
+  s_b8075318eed227::t_2c2b141fe4cced 2-5,7-9,11
+data/changelog.json
+  s_b8075318eed227::t_5bfe264b7b5f09 823-835,837
+data/current-plan.json
+  s_b8075318eed227::t_e6288626cd269e 50-52,55-60,144
+data/sessions/2026-09-29.json
+  s_b8075318eed227::t_01fe093649613d 4-6,15,19-20,24,29-44,51-53
+data/sessions/2026-09-30.json
+  s_b8075318eed227::t_33c74261c6469f 5-6,10,14-16
+data/sessions/2026-10-01.json
+  s_b8075318eed227::t_834e709015729f 4-6,16,20,24-26
+data/sessions/2026-10-02.json
+  s_b8075318eed227::t_a7636fce9eb818 6,10-11,20,24,31-32,35-37
+data/sessions/2026-10-03.json
+  s_b8075318eed227::t_8c46f6bb0610f9 3-6,10-11,14-27,31-32,35-37
+data/sessions/2026-10-04.json
+  s_b8075318eed227::t_70835defadd2c2 3-6,10-11,15-26,30-31,34-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "48c7494b21389fc94108ee256b3ec03d2fc49492",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
