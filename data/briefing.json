@@ -1,12 +1,13 @@
 {
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T09:00:00.000Z",
-  "headline": "GREEN: Wk3 rebuilt around Monza HM Sunday, target 1:37-1:40",
-  "summary": "HRV 77 (back from 55 Sunday), RHR 48, sleep 6.6h, CTL 48.1, ATL 52.1, TSB -4. Sunday was underdelivered: 50min trail at 113bpm, icu 23 vs 55 planned; today's 33min spin (icu 25) covers the gap. Week rebuilt: Tue HM-pace rehearsal 3x12min, Thu 70min aerobic, Fri/Sat sharpen, Sun Monza HM as a training race. Weekend mountain back-to-back moves to Wk5.",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T09:30:00.000Z",
+  "headline": "GREEN: HM rehearsal done, icu 87 vs 85. Sunday pace 4:40-4:45, rep 1 was too hot",
+  "summary": "HRV 63 (down from 77, 7-day avg 70), RHR 44, sleep 6.3h. Post-session CTL 52.9, ATL 78.8, TSB -26. Reps: 4:23 / 4:34 / 4:41 per km at the same HR 168-169, max 176. Stop rule passed (rep 2 at 4:34 for 169bpm). The fade is pacing, not fitness: rep 1 went 15s/km under target and paid for it by rep 3. 1min reps ran 3:30-3:40/km vs 4:05-4:10 prescribed, max 188. Rest of Wk3 unchanged, week load 447 vs 455 planned.",
   "flags": [
-    "Tuesday decides race pace: if 4:40/km costs over 174bpm by rep 2, race at 4:45-4:50.",
-    "Race kit locked: road shoes already tested over 15km, no new gels.",
-    "Monday 5 Oct stays rest; Wk4 Tue session gated on HRV after the race."
+    "Sunday: km 1-5 no faster than 4:42/km, then 4:38-4:42 while HR stays under 174. Open up only after km 16. Projected 1:38-1:40.",
+    "Rep 1 overcooked is the Pirin start pattern (cramps km 12). Same fix: bank nothing in the first 20 minutes.",
+    "Thu aerobic: if Thu HRV is 70+, extend to 80min (load 75, +10). If under 60, cut to 50min.",
+    "Wed travel shakeout: keep it 30min Z1-Z2, no strides."
   ],
   "suggestedChange": null
 }
