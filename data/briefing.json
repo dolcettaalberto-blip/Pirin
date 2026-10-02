@@ -1,11 +1,8 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-10-01T06:07:33.204Z",
-  "headline": "Session done — aerobic carrier hit, clean and on-plan",
-  "summary": "70min prescribed, 67.8min logged (4065s moving) at 149bpm average — right in the 140-150bpm Z2 target band, no drift into tempo. Load landed at 66 vs 65 estimated, essentially a dead-on match, and RPE was low (3/10, feel 2). Cadence 82spm, clean flat Bucharest terrain, no pain or ITB signal reported. This was exactly what the plan asked for: a volume carrier with the legs left fresh for Sunday's intensity.",
-  "flags": [
-    "Three days post-Monza HM (29 Sep) ATL is still elevated (51.4) against CTL 48.3, ramp rate +1.4 — normal absorption curve, nothing to react to.",
-    "Today's low RPE and tight HR control suggest good recovery from Monza; no reason to adjust Sunday's intensity session."
-  ],
-  "suggestedChange": null
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T06:05:42.373Z",
+  "headline": "Easy + strides done as prescribed — solid shakeout before the move to Podgorica",
+  "summary": "35min easy ran at 149bpm avg (target 138-148, so a touch hot but trivial) plus the 6x20s strides block, 43 min total, RPE 4/feel 3. HR drifted into the 150s/160s zone briefly during strides as expected — no ITB or pain flagged. This was pure sharpening volume two days before travel, and it did its job without adding fatigue: load logged 43 against plan's 40, basically exact. One thing to note for context, not action — today's wellness reading (HRV 54, down from 63-66 the prior three days, RHR 50 vs the recent 44-46 floor, sleep only 5h50) would have been AMBER on a pre-session gate-check, but the prescribed session was deliberately light, so it was a non-issue in practice.</summary>\n<parameter name=\"flags\">[\"HRV/RHR dip plus short sleep (5h50) is worth watching into the Podgorica travel days (Wk4 Tue-Wed) — if the dip persists tomorrow, treat it as a genuine amber rather than noise.\", \"No ITB or knee signal reported on today's flat run — consistent with the clean descent history noted in the changelog.\"]",
+  "flags": [],
+  "suggestedChange": "If HRV is still depressed and sleep still short tomorrow morning, consider softening Tue's easy 45-load session in Podgorica rather than holding it as written — confirm with Alberto before changing anything."
 }
