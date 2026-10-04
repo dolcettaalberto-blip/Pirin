@@ -1,11 +1,16 @@
 {
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T12:49:01.975Z",
-  "headline": "Monza HM delivered — 1:36:32 at target effort, job done",
-  "summary": "Strong execution: 21.18km in ~1:36:32 (moving time), average HR 167, well inside the 1:37-1:40 target window and under the 172 cap. The 21x4:34@166bpm interval pattern shows pacing was dead-on for the prescribed 4:38-4:40/km Z4 block, and HR stayed controlled rather than drifting into the 175 stop-rule territory — HRR of 13bpm post-effort and feel of 1/RPE 8 both point to a near-maximal but well-managed race rather than a blowup. No pain or ITB signal logged. The 41m cooldown jog afterward (122bpm avg) ticks the box for the ~2h30 on-feet target and compliance landed at 78%, fine for a training race with warm-up/cooldown built in. This counts as this week's long run + threshold session exactly as designed — nothing more is owed on the quality side for a few days.",
+  "generatedAt": "2026-10-04T16:30:00.000Z",
+  "headline": "AMBER: Monza 1:36:30 (4:34/km, negative split). Left knee pain on the post-race jog, Tue run gated on a knee test",
+  "summary": "Race: 21.18km in 1:36:30, avg HR 167, icu 136 (plan 170, icu undercounts sustained threshold). Km 0-5 at 4:36-4:46 (HR 151-162), km 5-16 at 4:33-4:39 (HR 162-169), km 17-21 at 4:11-4:32 (HR 172-187). 3:30 under the 1:40 ceiling, pacing exactly as prescribed. Post-race jog: 5.7km, 43min moving inside 99min elapsed, with a 50min stop at km 2.5. The last 30min ran at 7:30-8:30/km and 153-159 spm (race: 166-169 spm), cold after the stop on fatigued quads. That slow, low-cadence shuffle is the classic trigger for both lateral ITB and patellofemoral pain. New side: the Aug flare was right knee. Wellness: HRV 55 (7-day avg 62, down from 70), RHR 49, sleep 5.7h. CTL 49.8, ATL 59.5, TSB -10.",
   "flags": [
-    "icu training load (136+27=163) undercounts a near-threshold half marathon effort by the usual 20-25% for sustained high-intensity work — treat the RPE 8/feel 1 and the clean HR execution as the real signal, not the load number.",
-    "Sleep last night was short (5h44m, score 73) and this morning's HRV sits at 55 vs a 63-78 recent range with RHR 49 — watch recovery over the next 48h given the race stress stacking on that."
+    "Knee test tonight and Tue morning: locate it (lateral, 2-3cm above the joint line = ITB; around or under the kneecap = patellofemoral), 10 single-leg squats left, 2 flights of stairs down, Noble compression. Any pain = Tue becomes 50min bike 120-135bpm.",
+    "Mon rest: walk 30min, foam roll lateral thigh and quads 10min. No running to test it.",
+    "If pain appears during Tue's run: stop and walk back. No running through it, that is how March started.",
+    "Race HR says LTHR is likely ~170, not 165 (moderate confidence). Zones are understating; re-check LTHR after Wk4. VWT 2h00 target looks conservative, revisit in Wk5.",
+    "HRV 54-57 four mornings running with Bucharest travel: Wk4 recovery is in the right place.",
+    "Push opportunity (+10%): if knee clean Tue-Thu and HRV back over 62, Sat long goes 2h15 to 2h30 (load 110 to 120).",
+    "Wk3 actual 359 vs 455 planned: Wed and Sat shakeouts skipped, no impact on fitness."
   ],
-  "suggestedChange": "Consider trimming or converting Tue's prescribed Wk4 session to pure easy/shakeout given today's race depth and the short sleep — confirm with Alberto before locking Tuesday's load."
+  "suggestedChange": "Tue/Wed stop rules now carry the left-knee gate (pushed). Sat long +15min to 2h30 / load 120 only if the knee is clean Tue-Thu; confirm Thu evening."
 }

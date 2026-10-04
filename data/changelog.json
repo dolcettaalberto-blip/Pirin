@@ -846,5 +846,14 @@
       "2026-10-10",
       "2026-10-11"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "change": "Wk4 Tue 6 Oct and Wed 7 Oct stop rules: added left-knee gate (single-leg squat + stairs test, bike swap, stop-and-walk if pain during run) and cadence 170+ cue on Tue. Loads unchanged (Tue 45, Wed 50).",
+    "reason": "Monza HM 1:36:30 clean, but left knee pain in the last 30min of the post-race jog (7:30-8:30/km, 153-159 spm, after a 50min stop). New side vs Aug right ITB flare. HRV 55, 7-day avg 62. Gate before adding any load; Sat +15min (110 to 120) offered only if Tue-Thu knee-clean.",
+    "affects": [
+      "2026-10-06",
+      "2026-10-07"
+    ]
   }
 ]
