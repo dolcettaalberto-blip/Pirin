@@ -1,8 +1,11 @@
 {
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T04:48:15.474Z",
-  "headline": "Monza HM not logged yet — race-day pre-session check",
-  "summary": "No activity data yet for today's Monza training race, so this is still a pre-session gate-check, not a review. Wellness is thin this morning: no HRV reading, RHR 49 (above your recent 44-47 norm), ATL dropped sharply over the last two days (51.4 → 43.6 → 37.8) reflecting the taper-like rest after Tue/Thu sessions. That ATL crash plus a missing HRV reading means readiness can't be cleanly scored GREEN — treat it as AMBER by default until you check HRV/sleep on your watch before heading out. Legs should be fresh: last two days were zero load, and the easy Bucharest runs this week (RPE 3-4, HR in target bands) all went clean.</summary>\n<parameter name=\"flags\">[\"HRV missing today — don't default to GREEN on RHR alone, check the watch before rolling out\", \"RHR 49 is +2-5 over this week's 44-47 range; not disqualifying alone but worth noting pre-race\", \"This is a training race: stick to the stop rule (HR >175 before km15 → back off to tempo) regardless of how good the taper-rest feels\"]",
-  "flags": [],
-  "suggestedChange": "\">\""
+  "generatedAt": "2026-10-04T09:11:44.729Z",
+  "headline": "Monza HM done — solid execution, mission accomplished",
+  "summary": "Finished in ~1:36:32 (21.18km, 5792s moving), inside the 1:37-1:40 target. Average HR 167 across the whole race — right in the prescribed 168-172 Z4 band for the main 1h block, and he never breached the 175 stop-rule threshold until the final push to 189 max in the last strides. Cadence 83.5, RPE 8, feel \"1\" (great) — this was a quality controlled hard effort, not a blowup. Compliance reads 78% because intervals.icu's load model undercounts a steady-state race effort like this against the interval-style target structure, but the HR-band and pace execution were clean; treat RPE 8 / feel 1 / finish time as the real quality signal here, not the compliance number.",
+  "flags": [
+    "ATL jumped 43.6 -> 55.9 overnight on this one session (load 136) — expect legs heavy tomorrow, which is exactly why Wk4 is the recovery week.",
+    "Sleep last night was short (5h44m) and sleep score dipped to 73 going into the race — worth watching the next couple of nights but not a red flag given the result."
+  ],
+  "suggestedChange": "None needed — Wk4 recovery plan (Tue easy 45, build back toward the Podgorica weekend) already accounts for today's race load. No change to propose."
 }
