@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-02T06:05:42.373Z",
-  "headline": "Easy + strides done as prescribed — solid shakeout before the move to Podgorica",
-  "summary": "35min easy ran at 149bpm avg (target 138-148, so a touch hot but trivial) plus the 6x20s strides block, 43 min total, RPE 4/feel 3. HR drifted into the 150s/160s zone briefly during strides as expected — no ITB or pain flagged. This was pure sharpening volume two days before travel, and it did its job without adding fatigue: load logged 43 against plan's 40, basically exact. One thing to note for context, not action — today's wellness reading (HRV 54, down from 63-66 the prior three days, RHR 50 vs the recent 44-46 floor, sleep only 5h50) would have been AMBER on a pre-session gate-check, but the prescribed session was deliberately light, so it was a non-issue in practice.</summary>\n<parameter name=\"flags\">[\"HRV/RHR dip plus short sleep (5h50) is worth watching into the Podgorica travel days (Wk4 Tue-Wed) — if the dip persists tomorrow, treat it as a genuine amber rather than noise.\", \"No ITB or knee signal reported on today's flat run — consistent with the clean descent history noted in the changelog.\"]",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T04:48:15.474Z",
+  "headline": "Monza HM not logged yet — race-day pre-session check",
+  "summary": "No activity data yet for today's Monza training race, so this is still a pre-session gate-check, not a review. Wellness is thin this morning: no HRV reading, RHR 49 (above your recent 44-47 norm), ATL dropped sharply over the last two days (51.4 → 43.6 → 37.8) reflecting the taper-like rest after Tue/Thu sessions. That ATL crash plus a missing HRV reading means readiness can't be cleanly scored GREEN — treat it as AMBER by default until you check HRV/sleep on your watch before heading out. Legs should be fresh: last two days were zero load, and the easy Bucharest runs this week (RPE 3-4, HR in target bands) all went clean.</summary>\n<parameter name=\"flags\">[\"HRV missing today — don't default to GREEN on RHR alone, check the watch before rolling out\", \"RHR 49 is +2-5 over this week's 44-47 range; not disqualifying alone but worth noting pre-race\", \"This is a training race: stick to the stop rule (HR >175 before km15 → back off to tempo) regardless of how good the taper-rest feels\"]",
   "flags": [],
-  "suggestedChange": "If HRV is still depressed and sleep still short tomorrow morning, consider softening Tue's easy 45-load session in Podgorica rather than holding it as written — confirm with Alberto before changing anything."
+  "suggestedChange": "\">\""
 }
