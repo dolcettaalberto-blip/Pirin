@@ -1,16 +1,14 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T16:30:00.000Z",
-  "headline": "AMBER: Monza 1:36:30 (4:34/km, negative split). Left knee pain on the post-race jog, Tue run gated on a knee test",
-  "summary": "Race: 21.18km in 1:36:30, avg HR 167, icu 136 (plan 170, icu undercounts sustained threshold). Km 0-5 at 4:36-4:46 (HR 151-162), km 5-16 at 4:33-4:39 (HR 162-169), km 17-21 at 4:11-4:32 (HR 172-187). 3:30 under the 1:40 ceiling, pacing exactly as prescribed. Post-race jog: 5.7km, 43min moving inside 99min elapsed, with a 50min stop at km 2.5. The last 30min ran at 7:30-8:30/km and 153-159 spm (race: 166-169 spm), cold after the stop on fatigued quads. That slow, low-cadence shuffle is the classic trigger for both lateral ITB and patellofemoral pain. New side: the Aug flare was right knee. Wellness: HRV 55 (7-day avg 62, down from 70), RHR 49, sleep 5.7h. CTL 49.8, ATL 59.5, TSB -10.",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T15:00:00.000Z",
+  "headline": "AMBER: HRV 42 / RHR 51 day after Monza. Knee clear, quads and glutes sore. Rest today, Tue likely bike",
+  "summary": "HRV 42 (7-day avg 57, 65-77 a week ago), RHR 51 (baseline 46), sleep 6.8h score 76. CTL 48.6, ATL 51.6, TSB -3. No illness signs. Likely cause: race plus a full day outside after it with little water, on 5.7h sleep. Left knee pain gone overnight, consistent with irritation from the slow low-cadence jog. Soreness is quads and glutes only, normal for a fast flat HM, peaks on day 2. Flight to Podgorica lands 22:45 tonight, so Tue sleep will be short.",
   "flags": [
-    "Knee test tonight and Tue morning: locate it (lateral, 2-3cm above the joint line = ITB; around or under the kneecap = patellofemoral), 10 single-leg squats left, 2 flights of stairs down, Noble compression. Any pain = Tue becomes 50min bike 120-135bpm.",
-    "Mon rest: walk 30min, foam roll lateral thigh and quads 10min. No running to test it.",
-    "If pain appears during Tue's run: stop and walk back. No running through it, that is how March started.",
-    "Race HR says LTHR is likely ~170, not 165 (moderate confidence). Zones are understating; re-check LTHR after Wk4. VWT 2h00 target looks conservative, revisit in Wk5.",
-    "HRV 54-57 four mornings running with Bucharest travel: Wk4 recovery is in the right place.",
-    "Push opportunity (+10%): if knee clean Tue-Thu and HRV back over 62, Sat long goes 2h15 to 2h30 (load 110 to 120).",
-    "Wk3 actual 359 vs 455 planned: Wed and Sat shakeouts skipped, no impact on fitness."
+    "Today: rest. 2.5-3L water by bedtime plus electrolytes (1 tab or salted food), carb-heavy dinner before the flight, no alcohol on the plane.",
+    "Tue gate: knee test (10 single-leg squats left + stairs down) AND HRV. HRV under 60 or quads still sore = 50min hotel bike 120-135bpm, cadence 85-95. Expect the bike.",
+    "Wed: run 50min + strides only if HRV over 55 and soreness is down to stiffness. Quads/glutes only, so strides stay in if legs feel loose after 20min.",
+    "Sat +10% (2h15 to 2h30, load 110 to 120) now needs HRV over 62 by Thu, not just a clean knee.",
+    "Pattern to watch: HRV dips after every travel day this block (Bucharest 54-57, now 42). Hydration on travel days is a cheap fix."
   ],
-  "suggestedChange": "Tue/Wed stop rules now carry the left-knee gate (pushed). Sat long +15min to 2h30 / load 120 only if the knee is clean Tue-Thu; confirm Thu evening."
+  "suggestedChange": null
 }
