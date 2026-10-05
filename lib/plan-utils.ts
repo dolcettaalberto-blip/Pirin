@@ -77,39 +77,41 @@ function isRaceWeek(plan: Plan, week: PlanWeek): boolean {
   return plan.race.date >= week.start && plan.race.date <= addDays(week.start, 6);
 }
 
-/** Weeks (among those ending after `fromDate`) whose simulated CTL ramp exceeds 6/wk. */
-export function rampWarnings(plan: Plan, series: CtlPoint[], fromDate: string): RampWarning[] {
-  const byDate = new Map(series.map((p) => [p.date, p.ctl]));
-  const warnings: RampWarning[] = [];
-  for (const week of plan.weeks) {
-    const weekEnd = addDays(week.start, 6);
-    if (weekEnd <= fromDate || isRaceWeek(plan, week)) continue;
-    const startCtl = byDate.get(addDays(week.start, -1));
-    const endCtl = byDate.get(weekEnd) ?? byDate.get(plan.race.date);
-    if (startCtl === undefined || endCtl === undefined) continue;
-    const ramp = endCtl - startCtl;
-    if (ramp > 6) warnings.push({ week: week.week, start: week.start, ramp });
-  }
-  return warnings;
+function isRecoveryWeek(week: PlanWeek | undefined): boolean {
+  return week != null && /recovery/i.test(week.block);
 }
 
-export type DplusFlag = { week: number; start: string; jumpPct: number };
-
 /**
- * Weeks where planned weekend D+ jumps >20% over the prior week. The race week
- * is skipped — its vertical is the race course, not a training progression.
+ * Weeks (among those ending after `fromDate`) whose simulated CTL ramp exceeds 6/wk.
+ *
+ * This is the only load guardrail: it is on effort (CTL), not on vertical. It is
+ * bent for recovery weeks: the week straight after a recovery week is measured from
+ * the CTL before the recovery week started, so rebounding to pre-recovery fitness
+ * is not flagged as a ramp. `history` (actual CTL points) lets that baseline sit in
+ * the past; without it the check falls back to the plain week-over-week ramp.
  */
-export function weekendDplusFlags(plan: Plan): DplusFlag[] {
-  const flags: DplusFlag[] = [];
-  for (let i = 1; i < plan.weeks.length; i++) {
-    if (isRaceWeek(plan, plan.weeks[i])) continue;
-    const prev = plan.weeks[i - 1].weekendDplus;
-    const cur = plan.weeks[i].weekendDplus;
-    if (prev > 0 && cur > prev * 1.2) {
-      flags.push({ week: plan.weeks[i].week, start: plan.weeks[i].start, jumpPct: (cur / prev - 1) * 100 });
-    }
-  }
-  return flags;
+export function rampWarnings(
+  plan: Plan,
+  series: CtlPoint[],
+  fromDate: string,
+  history: CtlPoint[] = []
+): RampWarning[] {
+  const byDate = new Map([...history, ...series].map((p) => [p.date, p.ctl]));
+  const warnings: RampWarning[] = [];
+  plan.weeks.forEach((week, i) => {
+    const weekEnd = addDays(week.start, 6);
+    if (weekEnd <= fromDate || isRaceWeek(plan, week)) return;
+    const prev = plan.weeks[i - 1];
+    const plainStart = byDate.get(addDays(week.start, -1));
+    const startCtl = isRecoveryWeek(prev)
+      ? byDate.get(addDays(prev.start, -1)) ?? plainStart
+      : plainStart;
+    const endCtl = byDate.get(weekEnd) ?? byDate.get(plan.race.date);
+    if (startCtl === undefined || endCtl === undefined) return;
+    const ramp = endCtl - startCtl;
+    if (ramp > 6) warnings.push({ week: week.week, start: week.start, ramp });
+  });
+  return warnings;
 }
 
 /** The plan week containing `date`, if any. */

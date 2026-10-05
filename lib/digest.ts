@@ -170,8 +170,8 @@ export async function buildDigest(options: DigestOptions = {}): Promise<string> 
   );
   push();
 
-  // ---- Descent load (the injury axis) -------------------------------------
-  push("## Weekly vertical (descent-ramp watch)");
+  // ---- Vertical (informational) -------------------------------------------
+  push("## Weekly vertical (informational, no D+ rule: the guardrail is CTL ramp only)");
   push();
   push("| week | block | planned weekendDplus | actual D+ (all activities) | actual load | planned load |");
   push("|---|---|---|---|---|---|");
@@ -245,7 +245,7 @@ export function reviewPrompt(digest: string, digestUrl: string): string {
     "",
     "1. **Readiness trend** — HRV/RHR/sleep over the window. Anything I should act on?",
     "2. **Adherence** — where actual load diverged from planned, and whether that matters.",
-    "3. **Descent load** — is the vertical ramp sane for this block?",
+    "3. **Vertical** — is the climbing and descending specific enough for the race? (No D+ ramp rule; knee signals decide.)",
     "4. **Trajectory** — am I on track for the race-day CTL target? If not, what changes?",
     "5. **The next 7 days** — concrete adjustments, if any.",
     "",

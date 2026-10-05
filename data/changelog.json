@@ -855,5 +855,20 @@
       "2026-10-06",
       "2026-10-07"
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "change": "Rules: weekend-D+ 20% jump flag removed; the only load guardrail is CTL ramp <= 6/wk, bent for the week after a recovery week (measured from pre-recovery CTL). Vertical raised: Wk4 500 -> 600 (Sat 450 -> 600m), Wk5 400 -> 1200, Wk6 600 -> 1300, Wk7 700 -> 1000. Wk5 built around Barcelona DH QC Summit (MXP 16:45 Mon 12 Oct, BCN 16:45 Wed 14 Oct): Mon 0 -> 30 spin, Tue 85 -> 90 Montjuic 6x4min hills, Wed 70 -> 60 aerobic + strides, Thu 60 -> 65 aerobic + step-downs, Fri 35, Sat 155 -> 160 2h30 / 900m, Sun 115 -> 105 1h40 / 300m. Wk5 520 -> 545, runKm 52 -> 75.",
+    "reason": "Alberto: the plan was too shy on vertical for a well-trained athlete 3 weeks after Pirin (2179m in one day; Wk2 carried 950m clean). VWT is 914m D+, yet every remaining week was below it because the D+ rule re-anchored on Monza's 0m week. Asked to drop the D+ rule and keep only the effort rule. Wk5 +5% over prior plan (pushing, per standing +10% bias). Knee gate kept on descents after the 4 Oct left-knee signal.",
+    "affects": [
+      "2026-10-10",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18"
+    ]
   }
 ]

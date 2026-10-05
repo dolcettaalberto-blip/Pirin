@@ -112,7 +112,7 @@ export function SyncReview() {
         <summary className="cursor-pointer">What gets sent?</summary>
         <p className="mt-1.5 leading-snug text-ink-2">
           Wellness table (HRV, RHR, sleep, CTL/ATL) and every recorded activity for the last 21 days,
-          planned-vs-actual load per day, weekly vertical against the descent-ramp rule, the CTL
+          planned-vs-actual load per day, weekly vertical, the CTL
           projection to race day, your next 10 sessions, and recent coach decisions.
         </p>
         <p className="mt-1.5 leading-snug">

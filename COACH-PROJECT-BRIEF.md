@@ -90,10 +90,11 @@ JSON fails the deploy), `git commit`, `git push`.
 - CTL model: `CTL_t = CTL_{t-1} + (load_t − CTL_{t-1}) / 42`, from the current
   block's `baseline` in `current-plan.json`. Target race-day band: the block's
   `targetRaceCtl`.
-- Keep weekly CTL ramp **≤ 6/wk**. The site warns above that.
-- The site flags weekend D+ jumps **> 20%** week-on-week — a heads-up, not a hard
-  ITB cap. Justify a deliberate jump in the changelog entry; there's no fixed
-  descent ceiling to honour beyond that now that the ITB question is closed.
+- Keep weekly CTL ramp **≤ 6/wk**. The site warns above that. This is the only
+  load guardrail (effort, not vertical). Bent for recovery weeks: the week after a
+  recovery week is measured from the CTL before the recovery week started.
+- No D+ rule (removed 2026-10-05 at Alberto's request): plan vertical to the race,
+  not to last week. Knee signals on descents decide, not a percentage.
 - Readiness protocol the site uses: GREEN = HRV ≥ 48 AND RHR ≤ 50 AND sleep > 6h;
   AMBER = HRV low-40s, overnight HRV drop > 10, RHR ≥ baseline+4, or sleep < 5.5h;
   RED = HRV < 40 with elevated RHR and poor sleep. Amber triggers override green.

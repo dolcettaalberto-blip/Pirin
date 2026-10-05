@@ -49,7 +49,7 @@ export const TOOLS: ToolDef[] = [
     title: "Get training digest",
     description:
       "A ready-made analysis digest: current CTL/ATL/TSB, projected start-line CTL vs target, wellness " +
-      "table, planned-vs-actual load per day, weekly vertical against the descent-ramp rule, upcoming " +
+      "table, planned-vs-actual load per day, weekly vertical (informational), upcoming " +
       "sessions and recent coach decisions. Start here for a progress review.",
     inputSchema: {
       type: "object",
@@ -236,7 +236,7 @@ export async function callTool(name: string, args: Record<string, unknown>) {
             conventions: {
               weeks: "Monday -> Sunday; plannedDailyLoad keys are calendar weekdays of that week",
               raceExcluded:
-                "Race day is excluded from the CTL simulation, the ramp warning and the D+ flag; it may carry an honest load",
+                "Race day is excluded from the CTL simulation, the ramp warning; it may carry an honest load",
               frozen: "plan.json is the frozen reference; only its `race` block may be corrected, in both files together",
               estimatedLoad: "a session's estimatedLoad must equal that date's plannedDailyLoad",
             },

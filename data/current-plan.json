@@ -65,7 +65,7 @@
       "start": "2026-10-05",
       "block": "Recovery (post-Monza, Podgorica)",
       "runKm": 50,
-      "weekendDplus": 500,
+      "weekendDplus": 600,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 45,
@@ -79,17 +79,17 @@
     {
       "week": 5,
       "start": "2026-10-12",
-      "block": "Build",
-      "runKm": 52,
-      "weekendDplus": 400,
+      "block": "Build (Barcelona summit Mon-Wed)",
+      "runKm": 75,
+      "weekendDplus": 1200,
       "plannedDailyLoad": {
-        "mon": 0,
-        "tue": 85,
-        "wed": 70,
-        "thu": 60,
+        "mon": 30,
+        "tue": 90,
+        "wed": 60,
+        "thu": 65,
         "fri": 35,
-        "sat": 155,
-        "sun": 115
+        "sat": 160,
+        "sun": 105
       }
     },
     {
@@ -97,7 +97,7 @@
       "start": "2026-10-19",
       "block": "Specific",
       "runKm": 56,
-      "weekendDplus": 600,
+      "weekendDplus": 1300,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 85,
@@ -113,7 +113,7 @@
       "start": "2026-10-26",
       "block": "Specific",
       "runKm": 54,
-      "weekendDplus": 700,
+      "weekendDplus": 1000,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 85,

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-12",
+  "type": "recovery",
+  "title": "Spin before the Barcelona flight",
+  "terrain": "indoor bike, home",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "40m",
+      "target": "Z1-Z2, 120-135bpm, cadence 85-95rpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 40min spin at 120-135bpm, cadence 85-95rpm. Morning, before leaving for MXP (flight 16:45).\nGYM: none.\nFUEL: none. 1L water before the flight, 500ml on board.\nGARMIN: ~35-45.\nSTOP RULE: quads still sore from Saturday's descents, cut to 25min.\nWHY: flushes Sunday's legs at zero impact; Tue is the week's quality.",
+  "icuWorkoutText": "- 40m 120-135bpm"
+}

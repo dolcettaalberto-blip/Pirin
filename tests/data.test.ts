@@ -6,7 +6,7 @@ import {
   plannedCtlSeries,
   plannedLoadFor,
   raceDayCtl,
-  weekendDplusFlags,
+  rampWarnings,
 } from "@/lib/plan-utils";
 
 // Build-time data validation: `npm run build` runs this suite, so malformed
@@ -67,12 +67,20 @@ describe("data files", () => {
     );
   });
 
-  it("the race week is not flagged as a training ramp", () => {
+  it("the week after a recovery week is measured from pre-recovery CTL", () => {
     const current = loadCurrentPlan();
-    const raceWeek = current.weeks.find(
-      (w) => w.start <= current.race.date && current.race.date <= addDays(w.start, 6)
-    )!;
-    expect(weekendDplusFlags(current).some((f) => f.week === raceWeek.week)).toBe(false);
+    const i = current.weeks.findIndex((w, k) => k > 0 && /recovery/i.test(current.weeks[k - 1].block));
+    if (i < 1) return;
+    const rec = current.weeks[i - 1];
+    const next = current.weeks[i];
+    const pt = (date: string, ctl: number) => ({ date, ctl });
+    // Recovery week drops CTL 50 -> 46; next week rebounds to 53 (+7 plain, +3 vs pre-recovery).
+    const series = [
+      pt(addDays(rec.start, -1), 50),
+      pt(addDays(next.start, -1), 46),
+      pt(addDays(next.start, 6), 53),
+    ];
+    expect(rampWarnings(current, series, addDays(rec.start, -1)).some((w) => w.week === next.week)).toBe(false);
   });
 
   it("every session file parses, matches its filename, and matches the current plan's load", () => {

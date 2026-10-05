@@ -8,7 +8,6 @@ import {
   projectedCtlSeries,
   raceDayCtl,
   rampWarnings,
-  weekendDplusFlags,
 } from "@/lib/plan-utils";
 
 export const dynamic = "force-dynamic";
@@ -47,7 +46,7 @@ export default async function TrajectoryPage() {
 
   const projectedRaceCtl = raceDayCtl(projSeries, raceDate);
   const delta = projectedRaceCtl != null ? projectedRaceCtl - original.targetRaceCtl : null;
-  const warnings = rampWarnings(current, projSeries, today);
+  const warnings = rampWarnings(current, projSeries, today, actual);
 
   // Weekend (Sat+Sun) D+ per week: planned from the plan, actual from activities.
   const dplusActualByWeek = new Map<number, number>();
@@ -64,7 +63,6 @@ export default async function TrajectoryPage() {
     planned: w.weekendDplus,
     actual: dplusActualByWeek.has(w.week) ? Math.round(dplusActualByWeek.get(w.week)!) : null,
   }));
-  const dplusFlags = weekendDplusFlags(current);
 
   return (
     <div className="space-y-4">
@@ -98,17 +96,6 @@ export default async function TrajectoryPage() {
           {warnings.map((w) => (
             <p key={w.week} className="text-[13px] text-ink-2">
               Week {w.week} (from {formatShort(w.start)}): +{w.ramp.toFixed(1)}/wk
-            </p>
-          ))}
-        </section>
-      )}
-
-      {dplusFlags.length > 0 && (
-        <section className="rounded-2xl border border-[var(--warn)]/40 bg-surface px-4 py-3 space-y-1">
-          <p className="text-[13px] font-semibold text-warn">⚠ Weekend D+ jump &gt; 20%</p>
-          {dplusFlags.map((f) => (
-            <p key={f.week} className="text-[13px] text-ink-2">
-              Week {f.week} (from {formatShort(f.start)}): +{Math.round(f.jumpPct)}% vs prior week
             </p>
           ))}
         </section>

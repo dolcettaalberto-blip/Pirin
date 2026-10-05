@@ -48,8 +48,7 @@ into race morning.
 Why: race-day load is typically large enough to add several CTL points on the
 last day, so the chart would end on a spike that describes the race rather than
 readiness for it. For the same reason race week is skipped by the CTL-ramp
-warning and the weekend-D+ jump flag — its numbers are the race course, not a
-training progression.
+warning — its numbers are the race course, not a training progression.
 
 So you may set the race day's load and session honestly (the real load estimate,
 `type: "race"`, the real course profile) without distorting the projection. Do
@@ -107,7 +106,10 @@ Rules:
   they must stay identical to `plan.json` (the tests check this).
 - CTL simulation used by the site: `CTL_t = CTL_{t-1} + (load_t − CTL_{t-1}) / 42`,
   starting from `baseline.ctl` on `baseline.date` (the baseline date itself is
-  not simulated). Keep weekly CTL ramp ≤ 6/wk or the site shows a warning.
+  not simulated). Keep weekly CTL ramp ≤ 6/wk or the site shows a warning. This is the only load
+  guardrail (effort, not vertical): `weekendDplus` has no ramp rule. Bent for recovery
+  weeks: the week after a block whose name contains "Recovery" is measured from the CTL
+  before that recovery week started.
 
 ## `sessions/YYYY-MM-DD.json`
 
