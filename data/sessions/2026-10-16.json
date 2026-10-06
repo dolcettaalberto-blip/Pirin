@@ -8,7 +8,7 @@
     {
       "kind": "work",
       "duration": "35m",
-      "target": "Z1-Z2, 135-145bpm"
+      "target": "Z1-Z2, 138-150bpm"
     },
     {
       "kind": "repeat",
@@ -29,9 +29,9 @@
     {
       "kind": "cooldown",
       "duration": "5m",
-      "target": "Z1, 128-140bpm"
+      "target": "Z1, 130-141bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 35min easy at 135-145bpm, then 6x20s strong uphill, walk down. 5min easy.\nGYM: none.\nFUEL: none.\nGARMIN: ~45-55.\nSTOP RULE: none.\nWHY: primes the climbing muscles for Saturday without fatigue.",
-  "icuWorkoutText": "- 35m 135-145bpm\n\n6x\n- 20s 165-180bpm\n- 1m 110-130bpm\n\n- 5m 128-140bpm"
+  "coachNotes": "EXECUTION: 35min easy at 138-150bpm, then 6x20s strong uphill, walk down. 5min easy.\nGYM: none.\nFUEL: none.\nGARMIN: ~45-55.\nSTOP RULE: none.\nWHY: primes the climbing muscles for Saturday without fatigue.",
+  "icuWorkoutText": "- 35m 138-150bpm\n\n6x\n- 20s 165-180bpm\n- 1m 110-130bpm\n\n- 5m 130-141bpm"
 }

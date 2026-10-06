@@ -17,7 +17,7 @@
         {
           "kind": "work",
           "duration": "4m",
-          "target": "Z4, 165-172bpm uphill, cadence 175+"
+          "target": "Z3-Z4, 165-172bpm uphill, cadence 175+"
         },
         {
           "kind": "recover",
@@ -29,9 +29,9 @@
     {
       "kind": "cooldown",
       "duration": "15m",
-      "target": "Z1, 128-140bpm"
+      "target": "Z1, 130-141bpm"
     }
   ],
   "coachNotes": "EXECUTION: 20min easy to Montjuic. 6x4min uphill at 165-172bpm, cadence 175+, short steps, jog back down 3min. 15min easy home. Start by 06:45 to finish before the summit (~1h20 total, ~300m D+).\nFALLBACK: hotel treadmill, 6x4min at 8% incline, 10-11km/h, 3min flat jog at 8km/h.\nGYM: none.\nFUEL: water; breakfast after.\nGARMIN: ~280-340 (intervals run ~3.5-4x icu).\nSTOP RULE: HRV under 55 or under 6h sleep after the flight, cut to 4 reps. HR over 175 on rep 1, cap the rest at 168.\nWHY: VWT climbs are short and steep; threshold on a hill builds the climbing engine without a flat-road pounding.",
-  "icuWorkoutText": "- 20m 130-150bpm\n\n6x\n- 4m 165-172bpm\n- 3m 120-140bpm\n\n- 15m 128-140bpm"
+  "icuWorkoutText": "- 20m 130-150bpm\n\n6x\n- 4m 165-172bpm\n- 3m 120-140bpm\n\n- 15m 130-141bpm"
 }

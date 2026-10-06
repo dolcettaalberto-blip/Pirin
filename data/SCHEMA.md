@@ -167,6 +167,9 @@ breaks otherwise):**
   workout are fine (each needs its own blank-line padding).
 - Durations: `15m`, `20s`, `1h2m30s`. Targets: **absolute heart rate in bpm**
   (e.g. `158-169bpm`) — always bpm, never `% LTHR`. LTHR is 175, HRmax 190 (revised 12 Sep 2026; intervals.icu Run profile now matches).
+  Zones (same on Garmin and intervals.icu since 6 Oct 2026, 5 zones): Run Z1 <=141, Z2 142-155,
+  Z3 156-166, Z4 167-178, Z5 179-190. Bike (LTHR 165, HRmax 182): Z1 <=133, Z2 134-147, Z3 148-157,
+  Z4 158-168, Z5 169-182. The `Zx` label in `target` must match these bpm ranges.
   intervals.icu does not parse absolute bpm, so "Send to watch" rewrites bpm to
   `% LTHR` against the live Run LTHR (`bpmToLthrText` in `lib/workout.ts`); Garmin
   then receives the absolute HR range. Keep writing bpm here.

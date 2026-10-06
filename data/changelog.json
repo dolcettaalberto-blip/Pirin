@@ -870,5 +870,22 @@
       "2026-10-17",
       "2026-10-18"
     ]
+  },
+  {
+    "date": "2026-10-06",
+    "change": "HR zones unified across Garmin, intervals.icu and the plan. icu Run zones 7 Friel -> 5 Garmin: Z1 <=141, Z2 142-155, Z3 156-166, Z4 167-178, Z5 179-190 (LTHR 175, HRmax 190 unchanged). icu Ride zones -> Z1 <=133, Z2 134-147, Z3 148-157, Z4 158-168, Z5 169-182 (LTHR 165, HRmax 182 unchanged). Plan targets: easy 135-145 -> 138-150 (Z1-Z2), aerobic 140-150 -> 142-152 (Z2), Z1 cooldowns 128-140 -> 130-141, Wed 7 Oct 138-148 -> 138-150; labels fixed (Sat 10 Oct climb 160-166 = Z3, Tue 13 Oct reps 165-172 = Z3-Z4); bpm added to Sat 10 / Sat 17 descent steps. Loads unchanged.",
+    "reason": "Garmin (5 zones from LTHR ~175) and icu (7 Friel zones) disagreed: plan 'Z2 138-148' was icu Z1, plan 'Z4 165-172' straddled icu Z3/Z4. Plan already followed Garmin, so icu was aligned to the watch. Monza HM (4 Oct: best 60min 171, best 20min 178.5, max 189) puts LTHR at 172-175, not enough to move it mid-block since that would shift every HRSS load. Easy band lifted to 150 because easy runs land at 135-150 avg and Z2 tops at 155 (standing +10% bias). Past icu activities keep their old zone snapshot.",
+    "affects": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18"
+    ]
   }
 ]

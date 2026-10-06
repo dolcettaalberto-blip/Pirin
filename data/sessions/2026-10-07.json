@@ -8,7 +8,7 @@
     {
       "kind": "work",
       "duration": "50m",
-      "target": "Z2, 138-148bpm"
+      "target": "Z1-Z2, 138-150bpm"
     },
     {
       "kind": "repeat",
@@ -29,9 +29,9 @@
     {
       "kind": "cooldown",
       "duration": "5m",
-      "target": "Z1, 128-140bpm"
+      "target": "Z1, 130-141bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 50min at 138-148bpm, then 6x20s strides at 180+ spm, 1min walk.\nGYM: Copenhagen 2x30s/side, single-leg squat 2x8/side.\nFUEL: none.\nSTOP RULE: run only if Tue was knee-clean; otherwise 50min bike 120-135bpm and single-leg squat only if pain-free. Skip strides if legs still heavy or any knee signal.\nWHY: restore turnover after the race without adding fatigue.",
-  "icuWorkoutText": "- 50m 138-148bpm\n\n6x\n- 20s 170-185bpm\n- 1m 110-130bpm\n\n- 5m 128-140bpm"
+  "coachNotes": "EXECUTION: 50min at 138-150bpm, then 6x20s strides at 180+ spm, 1min walk.\nGYM: Copenhagen 2x30s/side, single-leg squat 2x8/side.\nFUEL: none.\nSTOP RULE: run only if Tue was knee-clean; otherwise 50min bike 120-135bpm and single-leg squat only if pain-free. Skip strides if legs still heavy or any knee signal.\nWHY: restore turnover after the race without adding fatigue.",
+  "icuWorkoutText": "- 50m 138-150bpm\n\n6x\n- 20s 170-185bpm\n- 1m 110-130bpm\n\n- 5m 130-141bpm"
 }

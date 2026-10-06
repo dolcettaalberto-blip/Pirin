@@ -8,9 +8,9 @@
     {
       "kind": "work",
       "duration": "60m",
-      "target": "Z1-Z2, 135-145bpm, cadence 172+"
+      "target": "Z1-Z2, 138-150bpm, cadence 172+"
     }
   ],
-  "coachNotes": "EXECUTION: 60min at 135-145bpm, cadence 172+.\nGYM: Copenhagen 2x30s/side.\nFUEL: water.\nSTOP RULE: quads sore, swap for 75min spin at 120-135bpm.\nWHY: back-to-back aerobic on day 2; hold the cap, no drift.",
-  "icuWorkoutText": "- 60m 135-145bpm"
+  "coachNotes": "EXECUTION: 60min at 138-150bpm, cadence 172+.\nGYM: Copenhagen 2x30s/side.\nFUEL: water.\nSTOP RULE: quads sore, swap for 75min spin at 120-135bpm.\nWHY: back-to-back aerobic on day 2; hold the cap, no drift.",
+  "icuWorkoutText": "- 60m 138-150bpm"
 }
