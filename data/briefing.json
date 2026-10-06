@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-05",
-  "generatedAt": "2026-10-05T15:00:00.000Z",
-  "headline": "AMBER: HRV 42 / RHR 51 day after Monza. Knee clear, quads and glutes sore. Rest today, Tue likely bike",
-  "summary": "HRV 42 (7-day avg 57, 65-77 a week ago), RHR 51 (baseline 46), sleep 6.8h score 76. CTL 48.6, ATL 51.6, TSB -3. No illness signs. Likely cause: race plus a full day outside after it with little water, on 5.7h sleep. Left knee pain gone overnight, consistent with irritation from the slow low-cadence jog. Soreness is quads and glutes only, normal for a fast flat HM, peaks on day 2. Flight to Podgorica lands 22:45 tonight, so Tue sleep will be short.",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T04:50:00.000Z",
+  "headline": "GREEN: HRV 67 (from 42), RHR 49, TSB +3. Run, not bike, if the knee test is clean. Take 55min, not 50",
+  "summary": "HRV 67 (42 yesterday, 7-day avg 59), RHR 49 (baseline 46, still +3), sleep 6.4h score 81 despite the 22:45 landing. CTL 47.5, ATL 44.7, TSB +3. Rebound came a day earlier than expected: the Monday dip was dehydration plus travel, not race damage. RHR +3 says recovery is not complete, so the cap stays at 145bpm and no strides today. The bike swap planned yesterday is off unless the knee test or quads say otherwise.",
   "flags": [
-    "Today: rest. 2.5-3L water by bedtime plus electrolytes (1 tab or salted food), carb-heavy dinner before the flight, no alcohol on the plane.",
-    "Tue gate: knee test (10 single-leg squats left + stairs down) AND HRV. HRV under 60 or quads still sore = 50min hotel bike 120-135bpm, cadence 85-95. Expect the bike.",
-    "Wed: run 50min + strides only if HRV over 55 and soreness is down to stiffness. Quads/glutes only, so strides stay in if legs feel loose after 20min.",
-    "Sat 10 Oct: 2h15 with ~600m D+ (up from 450m); the +15min to 2h30 still needs HRV over 62 by Thu.",
-    "Pattern to watch: HRV dips after every travel day this block (Bucharest 54-57, now 42). Hydration on travel days is a cheap fix.",
-    "Wk5 built around Barcelona (Mon-Wed): Tue Montjuic 6x4min hills, Sat 2h30 / 900m, Sun 1h40 / 300m. Week 545, weekend D+ 1200. D+ rule removed, CTL ramp is the only guardrail."
+    "Today: knee test first (10 single-leg squats left + 2 flights down). Clean = run 55min at 135-145bpm, cadence 170+. Pain or quads still sore on stairs = 50min hotel bike 120-135bpm.",
+    "Pushing +10%: 50 to 55min, ~50 load vs 45 planned. Recovery week, so no more than that. The real upside is Saturday.",
+    "Wed: 50min + 6x20s strides stays as planned. HRV over 60 and knee clean Tue-Wed = strides at full turnover, not cautious.",
+    "Sat 10 Oct: 2h30 / ~650m D+ unlocked if HRV over 62 on Thu (late return) or Fri. Today's 67 points that way.",
+    "CTL 47.5 vs 55 planning number with 3 build weeks left (Wk5 545, Wk6 525, Wk7 515). The recovery-week dip is planned; Wk5 has to land in full, no trimming in Barcelona.",
+    "Travel pattern holds: HRV dips after every flight day, rebounds in 24-36h when you drink. Same 2.5L rule for the Thu late return."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Today 50 to 55min at the same 135-145bpm cap if knee test clean (load ~50 vs 45)."
 }
