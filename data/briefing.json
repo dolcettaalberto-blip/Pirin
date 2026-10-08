@@ -1,14 +1,8 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T09:30:00.000Z",
-  "headline": "RUN DONE: 52min, 9.1km at 5:42/km, HR 135 avg. Cap held, cadence 162 missed the 170 target",
-  "summary": "Podgorica run: 52:11, 9.14km, 5:42/km (GAP 5:32), 85m D+, HR 135 avg, 98% in Z1, RPE 3, feel 2. icu load 35 vs 45 planned / ~50 suggested; the gap is the icu undercount at 132-139bpm plus 52min instead of 55, not missing work. Two signals: cadence flat at 161-163 spm all run (target 170+, no back-half build), and HR drifted 132 to 138 while pace slowed 5:27 to 5:37 (about 6% decoupling, partly the 85m of rolls). With RHR still +3, Monza is not fully out yet. Recovery week, no load chasing today.",
-  "flags": [
-    "Cadence is the miss: 162 spm across all six segments. Wed: first 10min at 168-170 on purpose, shorter stride, same HR cap. Strides at 180+ spm are the reset.",
-    "Max HR 158 at min 12.6 at normal pace: strap/wrist artifact, ignore. 139s above 145bpm total.",
-    "Wed gate: HRV 60+ and RHR 48 or lower = run 55min + 6x20s strides at full turnover (+5min vs plan, recovers today's 3min). RHR 50+ or HRV under 55 = keep 50min, drop strides.",
-    "Sat 10 Oct 2h30 / ~650m D+ unlock unchanged: HRV over 62 on Thu or Fri. Late Thu return, 2.5L rule.",
-    "CTL 48.3, TSB -1. Recovery-week dip is on plan; Wk5 (545) has to land in full."
-  ],
-  "suggestedChange": "Wed 7 Oct: 50 to 55min before strides if HRV 60+ and RHR 48 or lower; first 10min at 168-170 spm."
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T18:07:37.562Z",
+  "headline": "AMBER — cut to 30min spin, zero impact",
+  "summary": "Sleep was only 5h26m (score 55) after the late Podgorica return, and that trips the stop-rule written into today's session. HRV sits at 56 (still mid-range, not alarming) and RHR 48 is close to baseline, so this isn't a red flag on autonomic grounds — it's purely the sleep-duration trigger. Today's prescribed 50min Z1-Z2 spin should be cut to 30min per the coachNotes STOP RULE, or skipped if Alberto's feeling the travel more than the numbers suggest.</summary>\n<parameter name=\"flags\">[\"Yesterday's easy run (7 Oct) came in well: HR 147 avg, RPE 5, no pain flagged — knee gate continues to look clean two sessions post-Monza.\", \"ATL has been dropping fast since Monza HM (59.5 -> 44.0 over 4 days) with two zero-load days this week; fine for recovery-week intent but worth confirming Tue/Wed quality isn't quietly slipping given the pattern of underdelivered Thu/Fri sessions in Wk4.\"]",
+  "flags": [],
+  "suggestedChange": "Cut today's spin to 30min as the coachNotes stop-rule specifies given sub-5.5h sleep; leave Tue/Wed Wk4 sessions as planned unless tomorrow's sleep also comes in short."
 }
