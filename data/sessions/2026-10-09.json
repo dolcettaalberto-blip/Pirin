@@ -1,13 +1,13 @@
 {
   "date": "2026-10-09",
   "type": "easy",
-  "title": "Easy + hill strides",
+  "title": "Easy + hill strides (+10min, Thu skip)",
   "terrain": "flat with one short hill (6-8%)",
-  "estimatedLoad": 35,
+  "estimatedLoad": 45,
   "steps": [
     {
       "kind": "work",
-      "duration": "35m",
+      "duration": "45m",
       "target": "Z1-Z2, 138-150bpm"
     },
     {
@@ -32,6 +32,6 @@
       "target": "Z1, 130-141bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 35min easy, then 6x20s strong uphill, walk down.\nGYM: none.\nFUEL: none.\nSTOP RULE: none.\nWHY: primes climbing muscles for Saturday's mountain run.",
-  "icuWorkoutText": "- 35m 138-150bpm\n\n6x\n- 20s 165-180bpm\n- 1m 110-130bpm\n\n- 5m 130-141bpm"
+  "coachNotes": "EXECUTION: 45min easy at 138-150bpm, then 6x20s strong uphill at 180+ spm, walk down, 5min cooldown.\nGYM: none.\nFUEL: none.\nSTOP RULE: HRV under 55 or sleep under 6h again, keep 35min and drop strides.\nWHY: +10min recovers part of Thu's skipped spin without touching Saturday's legs.",
+  "icuWorkoutText": "- 45m 138-150bpm\n\n6x\n- 20s 165-180bpm\n- 1m 110-130bpm\n\n- 5m 130-141bpm"
 }

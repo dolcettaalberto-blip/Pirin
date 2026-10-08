@@ -887,5 +887,15 @@
       "2026-10-17",
       "2026-10-18"
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "change": "Thu 8 Oct spin (35) skipped. Fri 9 Oct easy 35 -> 45 (35 -> 45min before strides). Sun 11 Oct 50 -> 75 (60min run + 30min spin). Sat 10 Oct unchanged at 110.",
+    "reason": "Skip was correct: 5.4h sleep after late return, HRV 56 (76 Wed), Thu stop rule was sleep under 6h. Missed load goes to Fri (+10, no intensity) and Sun (+25, bike) instead of stacking 70 on Friday, which would compromise Saturday's mountain run, the key session of the week. Week actual-to-date 95 vs 130 planned; with these changes the week lands at ~325, on the original target. CTL 47.4, TSB +3.",
+    "affects": [
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-11"
+    ]
   }
 ]

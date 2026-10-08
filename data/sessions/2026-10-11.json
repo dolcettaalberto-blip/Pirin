@@ -1,16 +1,21 @@
 {
   "date": "2026-10-11",
   "type": "easy",
-  "title": "Aerobic run, tired legs",
-  "terrain": "flat to rolling, D+ under 100m",
-  "estimatedLoad": 50,
+  "title": "Aerobic run + spin (Thu skip recovered)",
+  "terrain": "flat to rolling, D+ under 100m, then indoor bike",
+  "estimatedLoad": 75,
   "steps": [
     {
       "kind": "work",
       "duration": "60m",
       "target": "Z1-Z2, 138-150bpm, cadence 172+"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "bike Z1-Z2, 120-135bpm, 85-95rpm"
     }
   ],
-  "coachNotes": "EXECUTION: 60min at 138-150bpm, cadence 172+.\nGYM: Copenhagen 2x30s/side.\nFUEL: water.\nSTOP RULE: quads sore, swap for 75min spin at 120-135bpm.\nWHY: back-to-back aerobic on day 2; hold the cap, no drift.",
-  "icuWorkoutText": "- 60m 138-150bpm"
+  "coachNotes": "EXECUTION: 60min run at 138-150bpm, cadence 172+, then 30min spin at 120-135bpm within 2h.\nGYM: Copenhagen 2x30s/side.\nFUEL: water; 500ml Tailwind on the bike if Sat ran over 2h15.\nSTOP RULE: quads sore, replace the run with 75min spin at 120-135bpm (total 105min bike).\nWHY: the 30min spin carries Thu's missed 35 load at zero impact on day 2 of the back-to-back.",
+  "icuWorkoutText": "- 60m 138-150bpm\n- 30m 120-135bpm"
 }
