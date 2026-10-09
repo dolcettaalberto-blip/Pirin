@@ -1,12 +1,11 @@
 {
   "date": "2026-10-09",
-  "generatedAt": "2026-10-08T21:00:00.000Z",
-  "headline": "THU SKIPPED (5.4h sleep, HRV 56). Fri +10min easy, Sun +30min spin. Saturday protected",
-  "summary": "Thursday's spin was skipped after the late return: 5.4h sleep, HRV 56 (from 76), RHR 48. Correct call under the stop rule. Week to date 95 vs 130 planned. The missed 35 is recovered as +10 today (45min easy before strides) and +25 Sunday (30min spin after the run), so the week still lands at ~325. Not stacked on today: Saturday's 2h15 / 600m D+ is the session that matters.",
+  "generatedAt": "2026-10-09T14:59:35.910Z",
+  "headline": "Easy run delivered as prescribed — strides and HR both on target",
+  "summary": "Solid execution: 65min easy (prescribed 45+10min make-up) at avg HR 153, mostly Z2/low-Z3, with the 6x20s uphill strides clearly visible in the interval splits (short high-HR spikes to 162-166 off walk recoveries). RPE 5, feel \"good\" — a bit firmer than a pure recovery jog but well within the easy-day intent, and no pain or knee signal reported. Sleep was excellent last night (7.3h, score 90) and this morning's HRV (68) and RHR (47) both rebounded cleanly from yesterday's low point, so the session landed on a genuinely recovered body.",
   "flags": [
-    "Today gate: HRV under 55 or sleep under 6h again = 35min, no strides.",
-    "Sat 2h30 / 650m unlock is off (Thu HRV 56): only if Fri HRV is over 62. Sat stop rule HRV under 60 = drop the climb, 1h45.",
-    "CTL 47.4, TSB +3. Wk5 (545) has to land in full; arrive Monday fresh, not chasing."
+    "icu load reads 68 for this session but treat RPE 5 / feel 1 (good) as the more reliable quality signal given the short-interval undercount noted in the protocol",
+    "Week is still running light vs plan after Thu's skip (95 planned-to-date before today); tomorrow's mountain long run on Sat is the key session — protect it"
   ],
-  "suggestedChange": null
+  "suggestedChange": "None needed today — confirm Saturday's mountain long run (plan: load 110, ~450-600m D+) stays as scheduled given this morning's clean readiness and good overnight recovery."
 }
