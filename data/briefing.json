@@ -1,11 +1,8 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T14:59:35.910Z",
-  "headline": "Easy run delivered as prescribed — strides and HR both on target",
-  "summary": "Solid execution: 65min easy (prescribed 45+10min make-up) at avg HR 153, mostly Z2/low-Z3, with the 6x20s uphill strides clearly visible in the interval splits (short high-HR spikes to 162-166 off walk recoveries). RPE 5, feel \"good\" — a bit firmer than a pure recovery jog but well within the easy-day intent, and no pain or knee signal reported. Sleep was excellent last night (7.3h, score 90) and this morning's HRV (68) and RHR (47) both rebounded cleanly from yesterday's low point, so the session landed on a genuinely recovered body.",
-  "flags": [
-    "icu load reads 68 for this session but treat RPE 5 / feel 1 (good) as the more reliable quality signal given the short-interval undercount noted in the protocol",
-    "Week is still running light vs plan after Thu's skip (95 planned-to-date before today); tomorrow's mountain long run on Sat is the key session — protect it"
-  ],
-  "suggestedChange": "None needed today — confirm Saturday's mountain long run (plan: load 110, ~450-600m D+) stays as scheduled given this morning's clean readiness and good overnight recovery."
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T08:42:15.104Z",
+  "headline": "Mountain long run done — 816m D+ delivered, no knee issue, RPE ran hot",
+  "summary": "Solid execution: 2h26 out, 816m D+ (vs ~600m prescribed), avg HR 149 sitting right in the Z2 145-155 target band, and the interval summary shows a real sustained climb block around 153-157bpm plus a finishing push near 160. No knee pain reported — descents were run as planned. The catch is RPE 8 / feel \"1\" (bad) against a session that was meant to be aerobic bulk with one controlled 15min climb; that combined with 816m vs the ~600m called for suggests the climb and/or descent pace ran harder than intended, not just the terrain being steeper than mapped. icu load logged at 137, but per the known load-model gap this likely undercounts a high-intensity trail session by ~20-25%, so treat RPE 8 as the real signal, not the 137.</summary>\n<parameter name=\"flags\">[\"RPE 8 / feel 1 on a session designed as Z2 bulk + single capped climb is a mismatch worth asking Alberto about directly — was the climb cut at 15min as instructed, or extended?\", \"816m D+ delivered vs 600m planned is a meaningful overshoot for a week that's supposed to be building toward Wk5's bigger vert block, not spending it early\", \"ATL jumped to 59.2 and ramp rate hit +2.95 today alone — worth watching the next 2-3 days for how it recovers before Barcelona travel Monday\"]",
+  "flags": [],
+  "suggestedChange": "Consider an easier Sunday (11 Oct) than currently planned — swap any remaining intensity for pure Z1-Z2 given today's RPE/feel mismatch, and confirm with Alberto whether the climb duration was followed before adjusting anything in Wk5."
 }
