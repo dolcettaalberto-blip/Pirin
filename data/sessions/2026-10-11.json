@@ -1,21 +1,16 @@
 {
   "date": "2026-10-11",
   "type": "easy",
-  "title": "Aerobic run + spin (Thu skip recovered)",
-  "terrain": "flat to rolling, D+ under 100m, then indoor bike",
-  "estimatedLoad": 75,
+  "title": "Aerobic trail run (spin moved to Mon)",
+  "terrain": "rolling trail, Presolana, 250m D+",
+  "estimatedLoad": 40,
   "steps": [
     {
       "kind": "work",
       "duration": "60m",
       "target": "Z1-Z2, 138-150bpm, cadence 172+"
-    },
-    {
-      "kind": "work",
-      "duration": "30m",
-      "target": "bike Z1-Z2, 120-135bpm, 85-95rpm"
     }
   ],
-  "coachNotes": "EXECUTION: 60min run at 138-150bpm, cadence 172+, then 30min spin at 120-135bpm within 2h.\nGYM: Copenhagen 2x30s/side.\nFUEL: water; 500ml Tailwind on the bike if Sat ran over 2h15.\nSTOP RULE: quads sore, replace the run with 75min spin at 120-135bpm (total 105min bike).\nWHY: the 30min spin carries Thu's missed 35 load at zero impact on day 2 of the back-to-back.",
-  "icuWorkoutText": "- 60m 138-150bpm\n- 30m 120-135bpm"
+  "coachNotes": "DONE: 52min, 8km, 250m D+, 138bpm avg, RPE 3, icu load 38.\nGYM: Copenhagen 2x30s/side.\nFUEL: normal dinner, 500ml water extra.\nSTOP RULE: n/a, spin skipped tonight and moved to Mon morning.\nWHY: HRV 52 and RHR 51 after Saturday's 137 load; rest tonight, the 30 goes to Mon at zero impact.",
+  "icuWorkoutText": "- 60m 138-150bpm"
 }

@@ -897,5 +897,14 @@
       "2026-10-09",
       "2026-10-11"
     ]
+  },
+  {
+    "date": "2026-10-11",
+    "change": "Sun 11 Oct 75 -> 40 (30min spin skipped, run done at 38). Mon 12 Oct 30 -> 60 (spin 40 -> 75min). Wk5 545 -> 575.",
+    "reason": "Athlete call: skip tonight's spin, recover it Monday morning. HRV 52 (76 Sat), RHR 51 (+3) after Sat 2h21 / 816m D+ at load 137 vs 110 planned. Wk4 lands at 349 vs 360. Mon stays Z1-Z2 bike so Tue quality (90) is not compromised; gate HRV under 50 or RHR 53+ drops the extra 30. CTL 50.0, TSB -8.",
+    "affects": [
+      "2026-10-11",
+      "2026-10-12"
+    ]
   }
 ]

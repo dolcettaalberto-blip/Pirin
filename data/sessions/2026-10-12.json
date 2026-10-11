@@ -1,16 +1,16 @@
 {
   "date": "2026-10-12",
   "type": "recovery",
-  "title": "Spin before the Barcelona flight",
+  "title": "Long spin before the Barcelona flight (+Sun spin)",
   "terrain": "indoor bike, home",
-  "estimatedLoad": 30,
+  "estimatedLoad": 60,
   "steps": [
     {
       "kind": "work",
-      "duration": "40m",
+      "duration": "75m",
       "target": "Z1-Z2, 120-135bpm, cadence 85-95rpm"
     }
   ],
-  "coachNotes": "EXECUTION: 40min spin at 120-135bpm, cadence 85-95rpm. Morning, before leaving for MXP (flight 16:45).\nGYM: none.\nFUEL: none. 1L water before the flight, 500ml on board.\nGARMIN: ~35-45.\nSTOP RULE: quads still sore from Saturday's descents, cut to 25min.\nWHY: flushes Sunday's legs at zero impact; Tue is the week's quality.",
-  "icuWorkoutText": "- 40m 120-135bpm"
+  "coachNotes": "EXECUTION: 75min spin at 120-135bpm, cadence 85-95rpm. Done by 12:30, before leaving for MXP (16:45).\nGYM: none.\nFUEL: 500ml Tailwind on the bike. 1L water before the flight, 500ml on board.\nGARMIN: ~70-90.\nSTOP RULE: HRV under 50 or RHR 53+ on waking = 40min only, the extra 30 is dropped, not moved.\nWHY: carries Sunday's skipped 30 load at zero impact; Tue quality (90) stays untouched.",
+  "icuWorkoutText": "- 75m 120-135bpm"
 }

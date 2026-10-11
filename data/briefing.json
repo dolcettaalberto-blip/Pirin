@@ -1,11 +1,12 @@
 {
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T06:59:32.193Z",
-  "headline": "Session done — aerobic run on target, spin still owed",
-  "summary": "Solid execution: 60min easy at 138bpm avg (max 164, well inside the 138-150 Z1-Z2 band), 250m D+ on rolling terrain as prescribed, RPE 3/feel 3, no pain flagged. Cadence came in at 83spm (steps/min ~166) — close enough to the 172+ cue, not worth chasing further on a recovery-flavored day. Only the run half of today's two-part session is logged so far; the 30min bike (120-135bpm) is still outstanding to pick up Thursday's carried-over load within the 2h window. This is the fourth week-4/5 transition day where the Sun load (38 logged vs 75 planned) is tracking under plan pre-bike — nothing alarming given yesterday's big Sat/Sun double (Presolana long run 137 load + evening hike), but worth confirming the spin actually happens today to avoid the week quietly underdelivering again, echoing the Thu-8-Oct skip pattern.",
+  "generatedAt": "2026-10-11T11:15:00.000Z",
+  "headline": "Spin moved to Mon AM (40 -> 75min). Run done, HRV 52 dip after Saturday",
+  "summary": "Run done: 52min, 8km, 250m D+, 138bpm avg, RPE 3, icu load 38. Tonight's 30min spin moves to Monday morning (40 -> 75min, load 30 -> 60). HRV 52 (76 Sat) and RHR 51 (+3) after Saturday's 2h21 / 816m D+ at load 137 (110 planned), so resting tonight beats stacking. Week 4 lands at 349 vs 360 planned.",
   "flags": [
-    "Cadence 83spm/166 is under the 172+ target but this was an easy aerobic day, not a form-focus session — no action needed",
-    "Watch for the same under-delivery pattern as last Thursday: confirm the 30min spin gets done today, not pushed further down the week"
+    "Mon gate: HRV under 50 or RHR 53+ on waking = 40min only, the extra 30 is dropped.",
+    "Wk5 now 575 (from 545). CTL 50.0, TSB -8.",
+    "Tue quality (90) is the week's priority; Monday stays Z1-Z2, no intensity."
   ],
-  "suggestedChange": "If the spin doesn't happen within the 2h window today, consider explicitly logging it as skipped-and-reassigned (like 8 Oct) rather than letting it silently vanish from the week total — flag to Alberto for a yes/no."
+  "suggestedChange": null
 }
