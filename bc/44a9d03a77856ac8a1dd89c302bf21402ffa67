@@ -1,0 +1,41 @@
+data/briefing.json
+  s_b8075318eed227::t_fa47fdfd256095 7-9
+data/changelog.json
+  s_b8075318eed227::t_9455c3d3efc9d7 917-933
+data/current-plan.json
+  s_b8075318eed227::t_70988326fbeeae 82,90,98-100,102-107
+data/sessions/2026-10-16.json
+  s_b8075318eed227::t_fd03486ad50556 4-6,10-11,19-20,25,35-36
+data/sessions/2026-10-17.json
+  s_b8075318eed227::t_1454f98f00d3e1 5,29
+data/sessions/2026-10-18.json
+  s_b8075318eed227::t_111a0f1bba5108 5
+data/sessions/2026-10-19.json
+  s_b8075318eed227::t_ea34af8ee9fa81 1-32
+data/sessions/2026-10-20.json
+  s_b8075318eed227::t_923ffb0d6f391e 1-16
+data/sessions/2026-10-21.json
+  s_b8075318eed227::t_d01d09c68ab3e2 1-37
+data/sessions/2026-10-23.json
+  s_b8075318eed227::t_55dc19e18bc814 1-16
+data/sessions/2026-10-24.json
+  s_b8075318eed227::t_2f7870cc3328d5 1-37
+data/sessions/2026-10-25.json
+  s_b8075318eed227::t_b23d0b8edd0a67 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "bc44a9d03a77856ac8a1dd89c302bf21402ffa67",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
