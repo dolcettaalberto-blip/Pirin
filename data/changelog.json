@@ -914,5 +914,22 @@
     "affects": [
       "2026-10-12"
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "change": "Wk5: Fri 16 Oct 35 -> 50 (Colli Berici, 45min rolling + 6x30s hill strides); Sat 17 / Sun 18 terrain moved to Colli Berici, loads unchanged. Wk5 546 -> 561. Wk6 rebuilt for travel: Mon 0 -> 55, Tue 85 -> 30 (optional shakeout), Wed 75 -> 95 (3x12min threshold, Bucharest), Thu 65 -> 0 (Chisinau day trip), Fri 35 -> 45, Sat 160 -> 175 (2h40, 2 race-effort climb/descent blocks), Sun 105 unchanged. Wk6 525 -> 505, runKm 56 -> 72, weekend D+ 1300 -> 1350.",
+    "reason": "Athlete in Brendola Thu evening to Sun (hilly, Fri morning free). Wk6 calendar: BGY 21:45 Mon landing ~01:00 Bucharest, Thu 04:00 to Chisinau and back at 22:45, weekend location open. Load moved to Monday (only normal night) and Wednesday (morning free before 10:00); Tue and Thu protected for sleep. Standing +10% bias applied: travel-adjusted base was ~460, set at 505. Athlete links recent HRV dips to late bedtimes and dinner type, so evening rules added to notes.",
+    "affects": [
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25"
+    ]
   }
 ]

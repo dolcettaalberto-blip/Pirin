@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-20",
+  "type": "recovery",
+  "title": "Bucharest shakeout (optional on short sleep)",
+  "terrain": "Bucharest, flat park loop or hotel treadmill",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "35m",
+      "target": "Z1-Z2, 130-148bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 07:50-08:25, 35min at 130-148bpm. Done before the 09:00 Vlad call.\nGYM: none.\nFUEL: 1L water on waking, protein breakfast.\nGARMIN: ~30-40.\nSTOP RULE: in bed after 02:00 or under 5h30 sleep = skip, nothing moves.\nWHY: landing ~01:00 means a short night; this exists only to loosen legs for Wednesday's threshold.",
+  "icuWorkoutText": "- 35m 130-148bpm"
+}

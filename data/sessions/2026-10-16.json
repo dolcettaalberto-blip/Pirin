@@ -1,14 +1,14 @@
 {
   "date": "2026-10-16",
   "type": "easy",
-  "title": "Easy + hill strides",
-  "terrain": "Milan, any short hill or ramp",
-  "estimatedLoad": 35,
+  "title": "Colli Berici easy + hill strides",
+  "terrain": "Brendola, Colli Berici, rolling road or trail, ~150m D+",
+  "estimatedLoad": 50,
   "steps": [
     {
       "kind": "work",
-      "duration": "35m",
-      "target": "Z1-Z2, 138-150bpm"
+      "duration": "45m",
+      "target": "Z1-Z2, 138-152bpm, rolling, hike nothing"
     },
     {
       "kind": "repeat",
@@ -16,13 +16,13 @@
       "steps": [
         {
           "kind": "work",
-          "duration": "20s",
-          "target": "strong uphill"
+          "duration": "30s",
+          "target": "Z4-Z5, 170-182bpm, strong uphill, 180+ spm"
         },
         {
           "kind": "recover",
           "duration": "1m",
-          "target": "walk down"
+          "target": "walk"
         }
       ]
     },
@@ -32,6 +32,6 @@
       "target": "Z1, 130-141bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 35min easy at 138-150bpm, then 6x20s strong uphill, walk down. 5min easy.\nGYM: none.\nFUEL: none.\nGARMIN: ~45-55.\nSTOP RULE: none.\nWHY: primes the climbing muscles for Saturday without fatigue.",
-  "icuWorkoutText": "- 35m 138-150bpm\n\n6x\n- 20s 165-180bpm\n- 1m 110-130bpm\n\n- 5m 130-141bpm"
+  "coachNotes": "EXECUTION: 45min rolling at 138-152bpm, ~150m D+. Then 6x30s strong uphill, 180+ spm, walk down 1min. 5min easy. Done by 08:45, before work.\nGYM: none.\nFUEL: water. Dinner by 20:30, lights out 23:00 (Sat is the key day).\nGARMIN: ~60-75.\nSTOP RULE: HRV under 55 or sleep under 6h = 35min easy, no strides.\nWHY: +15 vs the old 35 recovers part of Monday's dropped load on the one day that cannot hurt Saturday.",
+  "icuWorkoutText": "- 45m 138-152bpm\n\n6x\n- 30s 170-182bpm\n- 1m 110-130bpm\n\n- 5m 130-141bpm"
 }

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-19",
+  "type": "easy",
+  "title": "Aerobic + strides before the Bucharest flight",
+  "terrain": "Milan, flat",
+  "estimatedLoad": 55,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "55m",
+      "target": "Z2, 142-152bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 6,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z4-Z5, 170-182bpm, strides 180+ spm"
+        },
+        {
+          "kind": "recover",
+          "duration": "40s",
+          "target": "Z1, 110-130bpm, walk/jog"
+        }
+      ]
+    }
+  ],
+  "coachNotes": "EXECUTION: 06:45 start. 55min at 142-152bpm, then 6x20s strides, 40s easy. Done by 07:50 for the 08:00 call.\nGYM: none.\nFUEL: water. Light dinner before BGY (21:45 flight), no alcohol.\nGARMIN: ~65-80.\nSTOP RULE: HRV under 50 = 40min easy, no strides.\nWHY: the week's only normal night is Sunday, so Monday carries load instead of the usual rest.",
+  "icuWorkoutText": "- 55m 142-152bpm\n\n6x\n- 20s 170-182bpm\n- 40s 110-130bpm\n"
+}

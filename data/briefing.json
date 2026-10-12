@@ -4,9 +4,9 @@
   "headline": "HRV 42: gate triggered, spin done at 37min, no extra 30 today",
   "summary": "Spin done: 37min, 135bpm avg, RPE 2, icu load 31 (60 planned). HRV 42 (52 Sun, 76 Sat), RHR 48, sleep 5.8h. Gate was HRV under 50 = 40min only, so the extra 30 is dropped, not moved. RHR is normal, so this is sleep and travel, not fatigue. Wk5 575 -> 546. CTL 50.4, TSB -9.",
   "flags": [
-    "Tue gate stands: HRV under 55 or sleep under 6h = 4 reps, not 6.",
-    "If Tue HRV is 60+, run all 6 reps and add a 7th if rep 6 is under 170bpm.",
-    "Lost 29 load is not chased midweek; Sat 160 stays the week's anchor."
+    "Wk5 Thu-Sun moved to Brendola: Fri 35 -> 50, Sat/Sun on Colli Berici, loads unchanged.",
+    "Wk6 built around travel: 505 load, threshold Wed in Bucharest, Thu rest (04:00 flight).",
+    "Tue gate stands: HRV under 55 or sleep under 6h = 4 reps, not 6."
   ],
   "suggestedChange": null
 }

@@ -79,7 +79,7 @@
     {
       "week": 5,
       "start": "2026-10-12",
-      "block": "Build (Barcelona summit Mon-Wed)",
+      "block": "Build (Barcelona Mon-Wed, Brendola Thu-Sun)",
       "runKm": 75,
       "weekendDplus": 1200,
       "plannedDailyLoad": {
@@ -87,7 +87,7 @@
         "tue": 90,
         "wed": 60,
         "thu": 65,
-        "fri": 35,
+        "fri": 50,
         "sat": 160,
         "sun": 105
       }
@@ -95,16 +95,16 @@
     {
       "week": 6,
       "start": "2026-10-19",
-      "block": "Specific",
-      "runKm": 56,
-      "weekendDplus": 1300,
+      "block": "Specific (Bucharest/Chisinau travel)",
+      "runKm": 72,
+      "weekendDplus": 1350,
       "plannedDailyLoad": {
-        "mon": 0,
-        "tue": 85,
-        "wed": 75,
-        "thu": 65,
-        "fri": 35,
-        "sat": 160,
+        "mon": 55,
+        "tue": 30,
+        "wed": 95,
+        "thu": 0,
+        "fri": 45,
+        "sat": 175,
         "sun": 105
       }
     },

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "type": "easy",
+  "title": "Easy aerobic after the Chisinau day",
+  "terrain": "Milan, flat",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z1-Z2, 138-150bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 07:50-08:40, 50min at 138-150bpm. Done before the 09:00 block.\nGYM: none.\nFUEL: water. Dinner by 20:30, carb-forward, no alcohol (Sat long run).\nGARMIN: ~45-60.\nSTOP RULE: under 6h sleep or HRV under 50 = 30min only.\nWHY: Thursday is a 04:00-to-midnight travel day with zero load; this restarts the legs for the weekend.",
+  "icuWorkoutText": "- 50m 138-150bpm"
+}

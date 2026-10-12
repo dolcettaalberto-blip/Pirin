@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "type": "easy",
+  "title": "Rolling aerobic, tired legs",
+  "terrain": "rolling trail or hills, ~350m D+",
+  "estimatedLoad": 105,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h40m",
+      "target": "Z2, 142-152bpm, run the climbs easy"
+    }
+  ],
+  "coachNotes": "EXECUTION: 1h40 at 142-152bpm, ~350m D+. Run the climbs at easy effort, no surges.\nGYM: none.\nFUEL: 1 flask Tailwind (500ml, 2 scoops), 1 gel at 1h00.\nGARMIN: ~110-130.\nSTOP RULE: HRV under 50 = 1h10.\nWHY: back-to-back on tired legs is the durability VWT's last 6km needs.",
+  "icuWorkoutText": "- 1h40m 142-152bpm"
+}

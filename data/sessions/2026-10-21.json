@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "type": "quality",
+  "title": "Threshold 3x12min, VWT race effort",
+  "terrain": "Bucharest, Herastrau (King Michael I) park loop, flat; fallback hotel treadmill 5%",
+  "estimatedLoad": 95,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "20m",
+      "target": "Z1-Z2, 130-150bpm, last 3min build to 155"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "12m",
+          "target": "Z3-Z4, 163-170bpm, 172+ spm"
+        },
+        {
+          "kind": "recover",
+          "duration": "3m",
+          "target": "Z1, 120-140bpm, jog"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "12m",
+      "target": "Z1, 130-141bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 06:30 start. 20min easy, 3x12min at 163-170bpm, 3min jog between, 12min easy. ~1h20, done by 07:50.\nFALLBACK: hotel treadmill, 3x12min at 5% incline, pace to the same HR, 3min flat jog.\nGYM: none.\nFUEL: 300ml Tailwind during, breakfast after. Bed by 22:30 (04:00 airport Thu).\nGARMIN: ~300-360.\nSTOP RULE: HRV under 50 or under 5h30 sleep = 2x12min. HR over 172 in rep 1 = cap the rest at 166.\nWHY: VWT sub-2h is ~2h at 163-170bpm; 36min continuous-ish at race HR is the specific stimulus Bucharest's flat allows.",
+  "icuWorkoutText": "- 20m 130-150bpm\n\n3x\n- 12m 163-170bpm\n- 3m 120-140bpm\n\n- 12m 130-141bpm"
+}
