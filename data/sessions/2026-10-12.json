@@ -1,16 +1,16 @@
 {
   "date": "2026-10-12",
   "type": "recovery",
-  "title": "Long spin before the Barcelona flight (+Sun spin)",
+  "title": "Spin cut to 37min (HRV gate)",
   "terrain": "indoor bike, home",
-  "estimatedLoad": 60,
+  "estimatedLoad": 31,
   "steps": [
     {
       "kind": "work",
-      "duration": "75m",
+      "duration": "37m",
       "target": "Z1-Z2, 120-135bpm, cadence 85-95rpm"
     }
   ],
-  "coachNotes": "EXECUTION: 75min spin at 120-135bpm, cadence 85-95rpm. Done by 12:30, before leaving for MXP (16:45).\nGYM: none.\nFUEL: 500ml Tailwind on the bike. 1L water before the flight, 500ml on board.\nGARMIN: ~70-90.\nSTOP RULE: HRV under 50 or RHR 53+ on waking = 40min only, the extra 30 is dropped, not moved.\nWHY: carries Sunday's skipped 30 load at zero impact; Tue quality (90) stays untouched.",
-  "icuWorkoutText": "- 75m 120-135bpm"
+  "coachNotes": "DONE: 37min spin, 135bpm avg, max 148, RPE 2, icu load 31.\nREST OF DAY: no extra spin. Walk at MXP and BCN is enough.\nFUEL: 1L water before the flight, 500ml on board, carb-heavy dinner, no alcohol.\nSLEEP: lights out by 23:00, 7h+ is the target for Tue.\nWHY: HRV 42 (52 Sun, 76 Sat), sleep 5.8h. Gate was HRV under 50 = 40min only, extra 30 dropped. RHR 48 is normal, so this reads as sleep and travel stress, not deep fatigue. 30min more at load ~25 adds nothing to VWT fitness and puts Tue 6x4min at risk.",
+  "icuWorkoutText": "- 37m 120-135bpm"
 }

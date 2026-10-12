@@ -83,7 +83,7 @@
       "runKm": 75,
       "weekendDplus": 1200,
       "plannedDailyLoad": {
-        "mon": 60,
+        "mon": 31,
         "tue": 90,
         "wed": 60,
         "thu": 65,

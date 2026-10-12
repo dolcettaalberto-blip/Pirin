@@ -906,5 +906,13 @@
       "2026-10-11",
       "2026-10-12"
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "change": "Mon 12 Oct 60 -> 31 (spin 75 -> 37min, extra 30 dropped). Wk5 575 -> 546.",
+    "reason": "Pre-agreed gate triggered: HRV 42 (under 50), sleep 5.8h. Athlete asked about adding 30min back later; declined because RHR 48 points to sleep/travel stress, the extra load (~25) has no fitness value, and Tue 6x4min (90) is the week's priority. CTL 50.4, TSB -9.",
+    "affects": [
+      "2026-10-12"
+    ]
   }
 ]
