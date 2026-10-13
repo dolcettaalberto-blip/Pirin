@@ -940,5 +940,14 @@
       "2026-10-13",
       "2026-10-14"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "change": "Sat 17 Oct: added Strava segment benchmark (Californication UP, July 7:39 @168bpm) inside the final race-effort climb. Load unchanged (160). Tue 13 note: fast finish attributed to time pressure.",
+    "reason": "Athlete asked for a repeatable fitness test on a segment he has run before, to read progress vs the 2h00 VWT target.",
+    "affects": [
+      "2026-10-13",
+      "2026-10-17"
+    ]
   }
 ]
