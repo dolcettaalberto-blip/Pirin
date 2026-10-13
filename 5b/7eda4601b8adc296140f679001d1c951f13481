@@ -1,0 +1,25 @@
+data/changelog.json
+  s_b8075318eed227::t_059050ff8a305f 934-942
+data/current-plan.json
+  s_b8075318eed227::t_7a56e2a7e7beda 87-88
+data/sessions/2026-10-13.json
+  s_b8075318eed227::t_0d0caf73593f35 4,6,11,14-16,19,21,24-25
+data/sessions/2026-10-14.json
+  s_b8075318eed227::t_26a2a04021820e 4-6,10-11,14-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "5b7eda4601b8adc296140f679001d1c951f13481",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
