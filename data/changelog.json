@@ -931,5 +931,14 @@
       "2026-10-24",
       "2026-10-25"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "change": "Wk5: Tue 13 Oct 90 -> 115 (actual: 97min, 517m D+, 39min Z4-Z5, max 183, fast flat finish). Wed 14 Oct 60 -> 50 (50min Z2 138-148bpm flat, strides and Montjuic climb dropped). Wk5 561 -> 576.",
+    "reason": "HRV 44 (2nd day under 50) and 6.0h sleep triggered the 4-rep / 168bpm cap; athlete ran the full session plus an unplanned tempo finish. TSB -11, ATL 62. Wed eased to protect Sat 2h30 / 900m key session.",
+    "affects": [
+      "2026-10-13",
+      "2026-10-14"
+    ]
   }
 ]

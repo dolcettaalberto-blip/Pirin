@@ -1,37 +1,26 @@
 {
   "date": "2026-10-13",
   "type": "quality",
-  "title": "Montjuic hill repeats 6x4min",
+  "title": "Montjuic hill session (ran long, over cap)",
   "terrain": "Barcelona, Montjuic road/park climbs 5-8%; fallback hotel treadmill 8%",
-  "estimatedLoad": 90,
+  "estimatedLoad": 115,
   "steps": [
     {
       "kind": "warmup",
       "duration": "20m",
-      "target": "Z1-Z2, 130-150bpm, run to the base of Montjuic"
+      "target": "Z1-Z2, 130-150bpm"
     },
     {
-      "kind": "repeat",
-      "count": 6,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "4m",
-          "target": "Z3-Z4, 165-172bpm uphill, cadence 175+"
-        },
-        {
-          "kind": "recover",
-          "duration": "3m",
-          "target": "Z1, 120-140bpm jog down"
-        }
-      ]
+      "kind": "work",
+      "duration": "1h02m",
+      "target": "Montjuic climbs, HR peaks 179-183 (over band)"
     },
     {
-      "kind": "cooldown",
+      "kind": "work",
       "duration": "15m",
-      "target": "Z1, 130-141bpm"
+      "target": "fast flat finish 4:36-5:06/km, 158-177bpm (unplanned)"
     }
   ],
-  "coachNotes": "EXECUTION: 20min easy to Montjuic. 6x4min uphill at 165-172bpm, cadence 175+, short steps, jog back down 3min. 15min easy home. Start by 06:45 to finish before the summit (~1h20 total, ~300m D+).\nFALLBACK: hotel treadmill, 6x4min at 8% incline, 10-11km/h, 3min flat jog at 8km/h.\nGYM: none.\nFUEL: water; breakfast after.\nGARMIN: ~280-340 (intervals run ~3.5-4x icu).\nSTOP RULE: HRV under 55 or under 6h sleep after the flight, cut to 4 reps. HR over 175 on rep 1, cap the rest at 168.\nWHY: VWT climbs are short and steep; threshold on a hill builds the climbing engine without a flat-road pounding.",
-  "icuWorkoutText": "- 20m 130-150bpm\n\n6x\n- 4m 165-172bpm\n- 3m 120-140bpm\n\n- 15m 130-141bpm"
+  "coachNotes": "DONE: 97min, 16.0km, 517m D+, avg 156bpm, max 183, RPE 7, icu load 115 vs 90 planned (+28%). 39min in Z4-Z5, 12.5min of it in Z5. Rep peaks 179-183bpm vs 165-172 band; last 4km fast and flat (4:36-5:06/km, up to 177bpm), not in the plan.\nVERDICT: overcooked on an amber day. HRV 44 (2nd day under 50, baseline ~60), sleep 6.0h: the stop rule said 4 reps and a 168 cap. You did the full set plus a tempo finish. The fitness is there (sub-5 km on tired legs at the end),, but an amber-day quality session turned into a race.\nREST OF DAY: walk only, no gym. 1L water + salt before the summit, carb-heavy lunch, no alcohol at the summit dinner, lights out 23:00.\nKNOCK-ON: Wed cut to 50min Z2 at 138-148bpm, no strides (load 60 -> 50). Thu/Fri/Sat unchanged; Sat 2h30 stays the key session and is protected by Wed.\nWHY: TSB -11 and ATL 62 with HRV suppressed 2 days. Week is still +15 on plan (576 vs 561), so nothing is lost by easing Wed.",
+  "icuWorkoutText": "- 20m 130-150bpm\n- 62m 150-172bpm\n- 15m 150-177bpm"
 }

@@ -1,32 +1,16 @@
 {
   "date": "2026-10-14",
   "type": "easy",
-  "title": "Barcelona aerobic + Montjuic climb",
-  "terrain": "Barcelona, seafront + one Montjuic climb, ~150m D+",
-  "estimatedLoad": 60,
+  "title": "Barcelona easy aerobic, no strides",
+  "terrain": "Barcelona seafront, flat; skip the Montjuic climb",
+  "estimatedLoad": 50,
   "steps": [
     {
       "kind": "work",
-      "duration": "55m",
-      "target": "Z2, 142-152bpm, one steady Montjuic climb in Z2"
-    },
-    {
-      "kind": "repeat",
-      "count": 6,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "20s",
-          "target": "strides, 180+ spm"
-        },
-        {
-          "kind": "recover",
-          "duration": "1m",
-          "target": "walk"
-        }
-      ]
+      "duration": "50m",
+      "target": "Z2, 138-148bpm, flat"
     }
   ],
-  "coachNotes": "EXECUTION: 55min at 142-152bpm including one steady Montjuic climb kept in Z2 (hike if HR goes over 152). Finish with 6x20s strides at 180+ spm, 1min walk. Morning before the 16:45 flight from BCN.\nGYM: none.\nFUEL: water.\nGARMIN: ~60-80.\nSTOP RULE: under 6h sleep after the summit dinner, cut to 40min and skip the strides.\nWHY: aerobic volume on a travel day; strides keep turnover after Tuesday's hill reps.",
-  "icuWorkoutText": "- 55m 142-152bpm\n\n6x\n- 20s 170-185bpm\n- 1m 110-130bpm"
+  "coachNotes": "EXECUTION: 50min flat seafront at 138-148bpm, cadence 172+. No Montjuic, no strides. Morning before the 16:45 flight from BCN.\nGYM: none.\nFUEL: water.\nGARMIN: ~50-65.\nSTOP RULE: HRV under 45 or under 6h sleep after the summit dinner, 35min at 135-145bpm. HR drifting over 148 on flat ground, walk 1min and reset.\nWHY: Tuesday ran 115 vs 90 with 39min in Z4-Z5 on HRV 44. Wed absorbs it so Saturday's 2h30 / 900m starts on fresh legs.",
+  "icuWorkoutText": "- 50m 138-148bpm"
 }
