@@ -1,0 +1,23 @@
+data/changelog.json
+  s_b8075318eed227::t_e66ca1118b6bae 943-951
+data/sessions/2026-10-13.json
+  s_b8075318eed227::t_997f868cab9ce9 24
+data/sessions/2026-10-17.json
+  s_b8075318eed227::t_b29181b88fd046 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0069c2d958f0356517936cd76981b9c04fd5aeb8",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
