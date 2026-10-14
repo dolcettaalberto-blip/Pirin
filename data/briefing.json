@@ -1,12 +1,11 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T08:30:00.000Z",
-  "headline": "HRV 42: gate triggered, spin done at 37min, no extra 30 today",
-  "summary": "Spin done: 37min, 135bpm avg, RPE 2, icu load 31 (60 planned). HRV 42 (52 Sun, 76 Sat), RHR 48, sleep 5.8h. Gate was HRV under 50 = 40min only, so the extra 30 is dropped, not moved. RHR is normal, so this is sleep and travel, not fatigue. Wk5 575 -> 546. CTL 50.4, TSB -9.",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T12:07:01.220Z",
+  "headline": "Easy Wed executed clean — 44 load, HR capped as prescribed, legs ready for travel",
+  "summary": "Solid, disciplined easy day: 50min flat seafront, avg HR 143 sitting right in the 138-148bpm target, cadence 83 (~172-176spm), RPE 2/10, feel 2. No strides, no Montjuic — exactly as written. This absorbs Tuesday's heavy 115-load session (39min Z4-Z5) cleanly rather than stacking fatigue before the flight. HRV 50 and sleep 6h20 this morning were both above the stop-rule thresholds (45 / 6h), so no cap was needed.",
   "flags": [
-    "Wk5 Thu-Sun moved to Brendola: Fri 35 -> 50, Sat/Sun on Colli Berici, loads unchanged.",
-    "Wk6 built around travel: 505 load, threshold Wed in Bucharest, Thu rest (04:00 flight).",
-    "Tue gate stands: HRV under 55 or sleep under 6h = 4 reps, not 6."
+    "CTL ramp sits at +2.3/wk today (50.9 CTL, up from 47.4 baseline 8 Oct) — within the 6/wk guardrail but watch it climbing into Saturday's 2h30/900m key session.",
+    "HRV has been sub-50 four of the last five days (42, 52, 42, 44, 50) despite normal sleep — worth tracking through the BCN-MXP travel day rather than treating today's 50 as a full rebound."
   ],
   "suggestedChange": null
 }
