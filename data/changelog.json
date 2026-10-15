@@ -949,5 +949,13 @@
       "2026-10-13",
       "2026-10-17"
     ]
+  },
+  {
+    "date": "2026-10-15",
+    "change": "Sat 17 Oct 160 -> 175: 2h30/900m -> 2h45/~1050m (Z2 bulk 1h40 -> 1h55, one extra climb, benchmark moved to 2h10+). Wk5 576 -> 591, weekend D+ 1200 -> 1350. Thu 15 Oct logged 65/65 (63min, 152bpm, 4:46/km).",
+    "reason": "HRV 70 / RHR 45 on Thu (best of week after 42-50 Mon-Wed), Wk5 on target (255 vs 261 to date). Projected start-line CTL 56.6 already above 55, so the extra is spent on race-specific vertical, not CTL. Ramp Wk5 ~+5.3, under 6. Standing +10% bias: base call was hold at 160. Gated: HRV 60-64 reverts to 2h30.",
+    "affects": [
+      "2026-10-17"
+    ]
   }
 ]

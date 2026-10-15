@@ -1,11 +1,11 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T07:22:35.728Z",
-  "headline": "Session done — aerobic target held, but drifting warm on HR",
-  "summary": "65min prescribed at 142-152bpm, cadence 172+: you ran 63min moving at avg 152bpm (top of band, not mid-band) and avg cadence only 85spm (that's per-foot; 172+ spm total matches it, so cadence target was essentially met). RPE 4, feel 2/5 — a flat course run harder than it should for an aerobic day. HR sat above target for most of the main set (12x4:44 laps averaging 153bpm, i.e. Z2/Z3 border), not a blowup but consistently hot. No pain/ITB signal reported, gym block presumably completed as prescribed. Wellness this morning was fine pre-session (HRV 70, RHR 45, sleep ~6.1h) so there's no red flag explaining the elevated HR — just a session that ran a touch warm.",
+  "generatedAt": "2026-10-15T09:00:00.000Z",
+  "headline": "GREEN, done on target. Saturday upgraded to 2h45 / 1050m",
+  "summary": "65/65 load: 13.3km in 63min at 4:46/km, 152bpm avg (top of the 142-152 band, not a fatigue sign at that pace), RPE 4. HRV 70, RHR 45 is the best morning of the week after 42-50 Mon-Wed. Wk5 255 vs 261 planned to date. CTL 51.2, TSB -9. Projected start-line CTL 56.6 (target 55) with TSB +5 on 6 Nov.",
   "flags": [
-    "Ramp rate is now 3.81/wk, above the 6/wk hard ceiling isn't breached yet but is climbing fast off a string of 65-148 load days since the week-5 recovery dip — worth watching into Fri/Sat/Sun.",
-    "Three of the last four hard/quality days (Mon spin cut, Tue capped reps, today's warm easy run) have run slightly off-script on execution even as load numbers hit target — a drift pattern, not a crisis."
+    "Easy runs keep landing at the top of the HR band (Thu 152, Tue tempo finish unplanned). Fri: hold 138-152, run the climbs by HR not pace.",
+    "Sleep 5.8-6.3h all week. Brendola weekend is the chance to bank 7h+ before Bucharest/Chisinau."
   ],
-  "suggestedChange": "Consider nudging tomorrow or Friday's easy effort down a touch (e.g. 5bpm lower ceiling or walk breaks) to let HR settle back into true Z2 before Saturday's key 900m descent session — confirm with Alberto rather than auto-adjusting."
+  "suggestedChange": "Applied: Sat 160 -> 175 (one extra climb, gated on HRV 65+). Fri and Sun unchanged."
 }

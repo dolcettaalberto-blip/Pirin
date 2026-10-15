@@ -81,14 +81,14 @@
       "start": "2026-10-12",
       "block": "Build (Barcelona Mon-Wed, Brendola Thu-Sun)",
       "runKm": 75,
-      "weekendDplus": 1200,
+      "weekendDplus": 1350,
       "plannedDailyLoad": {
         "mon": 31,
         "tue": 115,
         "wed": 50,
         "thu": 65,
         "fri": 50,
-        "sat": 160,
+        "sat": 175,
         "sun": 105
       }
     },
