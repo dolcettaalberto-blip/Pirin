@@ -1,11 +1,11 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T09:31:37.564Z",
-  "headline": "Session done — easy run solid, strides underdelivered",
-  "summary": "45min rolling block landed right in the prescribed band (avg 145bpm within 138-152, 139m D+ on ~150m target terrain), RPE 4/feel 3 — exactly the intended easy stimulus. But the back end shows only one short hard effort (8m35s @162bpm) rather than the 6x30s Z4-Z5 strides at 170-182bpm with 180+ spm called for; cadence averaged just 78.7 spm for the whole run, well under the 180+ target for those reps. Load logged at 32 vs the 50 estimated, consistent with the strides being missed or diluted rather than a bad watch read. No pain or ITB signal reported — feel 3, HRR 34bpm is clean. This doesn't hurt tomorrow, but it's a second instance this week (after Mon/Wed's dropped sessions) of hard work being watered down while easy/moderate volume holds — worth naming before it becomes a pattern into Saturday's key 2h45 session.",
+  "generatedAt": "2026-10-16T10:16:03.000Z",
+  "headline": "GREEN: Sat 2h45 stays, Sun +15",
+  "summary": "HRV 64, RHR 46, sleep 7.2h (score 87), TSB -5.9, CTL 50.8. Run was time-boxed (start 08:12): 36 min vs 59 prescribed, load 32 vs 50. All 6 strides were run (186-200 spm, HR 176-181, walk recoveries); the earlier read of missed strides came from Garmin's single-leg cadence average and was wrong. Wk5 load 287 vs 311 planned to date, not a drift pattern (Tue ran 115 vs 90). Sat 175 stays the key day. Sun 105 to 120 (1h50, ~450m D+) recovers part of the gap, Wk5 CTL ramp ~5.3.",
   "flags": [
-    "Grey-zone drift watch: this is at least the third session this week where a prescribed hard element (strides, threshold cap) under-delivered while aerobic volume was held or exceeded — track whether Sat's key session gets full compliance.",
-    "Cadence 78.7 spm overall is low for a session with intended 180+ spm strides; if strides were attempted, they weren't logged as distinct high-cadence efforts in the data."
+    "HRV 64 sits in Saturday's 60-64 gate band. Saturday morning HRV decides: 65+ full 2h45; 60-64 drop the extra climb (2h30 / 900m); under 60 or RHR over 51 cap at 2h.",
+    "Tonight: dinner by 20:30, no alcohol, lights out 23:00."
   ],
-  "suggestedChange": "Consider flagging to Alberto directly whether the 6x30s hill strides were actually run — if skipped again, worth deciding whether to fold that stimulus into Saturday's climb or let it go this week given Saturday is the priority."
+  "suggestedChange": "Applied: Sun 18 Oct 105 -> 120 (1h50 at 142-152bpm, ~450m D+). Sat unchanged."
 }

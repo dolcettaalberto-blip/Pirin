@@ -957,5 +957,14 @@
     "affects": [
       "2026-10-17"
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "change": "Sun 18 Oct 105 -> 120: 1h40/~300m -> 1h50/~450m D+. Wk5 591 -> 606, weekend D+ 1350 -> 1500, runKm 75 -> 77. Fri 16 logged 32 vs 50 (36 min vs 59 prescribed, 6 strides run clean). Sat 17 unchanged at 175.",
+    "reason": "HRV 64 / RHR 46 / sleep 7.2h (score 87), TSB -5.9: green. Friday shortfall of 18 was time-boxing (start 08:12), not drift; strides confirmed in the stream (186-200 spm, HR 176-181). Standing +10% bias: base call was hold at 105. Projected Wk5 ramp ~5.3 (CTL 50.0 to ~55.3), under 6. Sunday gated on HRV and quads.",
+    "affects": [
+      "2026-10-16",
+      "2026-10-18"
+    ]
   }
 ]
