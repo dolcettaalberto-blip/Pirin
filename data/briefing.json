@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T09:00:00.000Z",
-  "headline": "GREEN, done on target. Saturday upgraded to 2h45 / 1050m",
-  "summary": "65/65 load: 13.3km in 63min at 4:46/km, 152bpm avg (top of the 142-152 band, not a fatigue sign at that pace), RPE 4. HRV 70, RHR 45 is the best morning of the week after 42-50 Mon-Wed. Wk5 255 vs 261 planned to date. CTL 51.2, TSB -9. Projected start-line CTL 56.6 (target 55) with TSB +5 on 6 Nov.",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T09:31:37.564Z",
+  "headline": "Session done — easy run solid, strides underdelivered",
+  "summary": "45min rolling block landed right in the prescribed band (avg 145bpm within 138-152, 139m D+ on ~150m target terrain), RPE 4/feel 3 — exactly the intended easy stimulus. But the back end shows only one short hard effort (8m35s @162bpm) rather than the 6x30s Z4-Z5 strides at 170-182bpm with 180+ spm called for; cadence averaged just 78.7 spm for the whole run, well under the 180+ target for those reps. Load logged at 32 vs the 50 estimated, consistent with the strides being missed or diluted rather than a bad watch read. No pain or ITB signal reported — feel 3, HRR 34bpm is clean. This doesn't hurt tomorrow, but it's a second instance this week (after Mon/Wed's dropped sessions) of hard work being watered down while easy/moderate volume holds — worth naming before it becomes a pattern into Saturday's key 2h45 session.",
   "flags": [
-    "Easy runs keep landing at the top of the HR band (Thu 152, Tue tempo finish unplanned). Fri: hold 138-152, run the climbs by HR not pace.",
-    "Sleep 5.8-6.3h all week. Brendola weekend is the chance to bank 7h+ before Bucharest/Chisinau."
+    "Grey-zone drift watch: this is at least the third session this week where a prescribed hard element (strides, threshold cap) under-delivered while aerobic volume was held or exceeded — track whether Sat's key session gets full compliance.",
+    "Cadence 78.7 spm overall is low for a session with intended 180+ spm strides; if strides were attempted, they weren't logged as distinct high-cadence efforts in the data."
   ],
-  "suggestedChange": "Applied: Sat 160 -> 175 (one extra climb, gated on HRV 65+). Fri and Sun unchanged."
+  "suggestedChange": "Consider flagging to Alberto directly whether the 6x30s hill strides were actually run — if skipped again, worth deciding whether to fold that stimulus into Saturday's climb or let it go this week given Saturday is the priority."
 }
