@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T10:16:03.000Z",
-  "headline": "GREEN: Sat 2h45 stays, Sun +15",
-  "summary": "HRV 64, RHR 46, sleep 7.2h (score 87), TSB -5.9, CTL 50.8. Run was time-boxed (start 08:12): 36 min vs 59 prescribed, load 32 vs 50. All 6 strides were run (186-200 spm, HR 176-181, walk recoveries); the earlier read of missed strides came from Garmin's single-leg cadence average and was wrong. Wk5 load 287 vs 311 planned to date, not a drift pattern (Tue ran 115 vs 90). Sat 175 stays the key day. Sun 105 to 120 (1h50, ~450m D+) recovers part of the gap, Wk5 CTL ramp ~5.3.",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T07:47:47.395Z",
+  "headline": "Session done — long mountain run delivered as prescribed, strong execution",
+  "summary": "Solid execution: 2h37 moving / 937m D+ against the 2h45 / ~1050m target, avg HR 145bpm sitting right in the prescribed 145-155 Z2 band for the bulk of the run, with a clear harder finishing block (last lap 7:40 at 163bpm matching the race-effort climb+descent intent). RPE 7, feel \"great\" (1) — this is the session the week was built around, and it landed almost exactly on plan. CTL jumped 50.8 → 52.8 (today's load 139, close to the 175 estimate once you account for intervals.icu's tendency to undercount steep climb/descent work) — the Berici vertical is translating into fitness gains right where you need it five weeks from VWT.",
   "flags": [
-    "HRV 64 sits in Saturday's 60-64 gate band. Saturday morning HRV decides: 65+ full 2h45; 60-64 drop the extra climb (2h30 / 900m); under 60 or RHR over 51 cap at 2h.",
-    "Tonight: dinner by 20:30, no alcohol, lights out 23:00."
+    "No knee/ITB complaints flagged in RPE/feel data — good, keep watching on tomorrow's descents if any soreness shows up overnight.",
+    "This week's ramp rate is now +2.6/wk off a high ATL (67.6) — fine against the <6 CTL guardrail, but Sunday's 120-load run (1h50/~450m) is the next load checkpoint; confirm HRV/RHR before adding anything on top."
   ],
-  "suggestedChange": "Applied: Sun 18 Oct 105 -> 120 (1h50 at 142-152bpm, ~450m D+). Sat unchanged."
+  "suggestedChange": "If Saturday's Strava benchmark segment (Californication UP) time/HR data comes through, worth pulling that split specifically to compare against the July 7:39@168bpm reference — it's the cleanest read on aerobic gain since then."
 }
