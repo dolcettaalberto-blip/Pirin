@@ -1,11 +1,12 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-18T11:27:58.114Z",
-  "headline": "Session banked, but it's roughly a third of what was prescribed",
-  "summary": "Prescribed was 1h50 Z2 (142-152bpm) rolling with ~450m D+. Actual: 53min TrailRun, 396m D+, avg HR 136bpm — comfortably in band and cadence/effort easy (RPE 4, feel 4) — but roughly half the time and D+ of the brief, plus a 42min e-bike spin tacked on before it. HRV 62 and RHR 51 this morning (RHR still elevated post-Brendola travel, which is noise at this point, not a worry) meant the stop-rule wasn't even triggered — this was a time-box or route-length call, not a physiology-gated cutback. No pain or ITB signal reported. Net effect: today lands around 57 load vs the 120 planned, continuing last week's pattern of trimming the easy/aerobic days short.",
+  "generatedAt": "2026-10-18T19:11:00.000Z",
+  "headline": "Sun 18 booked 62 vs 120: 1h24 run at 136bpm, below the 142-152 band. Wk5 closes 488 vs 606",
+  "summary": "Run 07:59 after a 28min e-bike spin: 1h24 moving, 12.3km, 425m D+, avg 136bpm vs 1h50 at 142-152 prescribed. Climbs held 148-151bpm, descents sat at 120-130, so the average fell out of band. Load 57 run + 5 bike = 62 vs 120 (52%). HRV 62, RHR 51, sleep 6h47: no stop rule triggered, so this is a time-box plus an HR-band miss, not a readiness call. No knee or pain signal. Wk5 closes 488 vs 606 (81%): CTL 53.1 (+3.1 vs +5.3 planned), ATL 66.9, TSB -13.8. The 55.4 projected start-line CTL assumes 100% delivery; at 85-90% it lands 52-53.",
   "flags": [
-    "This is the second week-5/6 session this block finishing meaningfully under prescribed duration (Fri 16 Oct was also 36min vs 59) — worth naming as a pattern rather than one-offs, since the stimulus for Sunday was explicitly 'back-to-back on tired legs' for VWT's second half.",
-    "CTL ramp still fine (53.1, well under the 6/wk cap), so no load alarm — but the shortfall banks less aerobic durability work than the plan intended heading into the Specific block."
+    "Easy days are the leak: Fri 16 32 vs 50, Sun 18 62 vs 120. Quality days overdeliver (Tue 13 115 vs 90). Sat 17 ran 2h34 / 937m (94% of time) but booked 139 vs 175: icu undercounts hiking-heavy trail, so long-day plan loads sit ~20% above what the same session books.",
+    "Californication UP benchmark was not captured: Strava logged only the flat Californication segment (5:53, 139bpm). Last two race-effort climbs ran 159bpm avg, max 173.",
+    "Sunday's pre-run e-bike (43min elapsed) pushed the run start to 07:59 and likely capped the run. Next back-to-back (Sun 25): trailhead by 07:30, no pre-ride."
   ],
-  "suggestedChange": "Consider either extending tomorrow's easy session slightly to recover some of today's missed volume, or just noting today as absorbed and moving on — but worth flagging explicitly to Alberto that sub-60min 'easy' days are recurring versus the written duration, independent of readiness gates."
+  "suggestedChange": "Wk6 505 -> 555 (+10%), pending confirmation: Mon 19 55->60 (same 55min, hold 146-152bpm, 8 strides), Wed 21 95->105 (3x14min), Fri 23 45->70 (+35min Z2 spin), Sun 25 105->115 (1h50), Mon 26 0->30 (Z2 spin). Lifts start-line CTL by 1.3 at any compliance level (56.8 at 100%, 54.5 at 90%), Wk6 ramp +4.3, under the 6 cap."
 }
