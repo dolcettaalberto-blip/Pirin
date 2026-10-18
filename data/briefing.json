@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T07:47:47.395Z",
-  "headline": "Session done — long mountain run delivered as prescribed, strong execution",
-  "summary": "Solid execution: 2h37 moving / 937m D+ against the 2h45 / ~1050m target, avg HR 145bpm sitting right in the prescribed 145-155 Z2 band for the bulk of the run, with a clear harder finishing block (last lap 7:40 at 163bpm matching the race-effort climb+descent intent). RPE 7, feel \"great\" (1) — this is the session the week was built around, and it landed almost exactly on plan. CTL jumped 50.8 → 52.8 (today's load 139, close to the 175 estimate once you account for intervals.icu's tendency to undercount steep climb/descent work) — the Berici vertical is translating into fitness gains right where you need it five weeks from VWT.",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T11:27:58.114Z",
+  "headline": "Session banked, but it's roughly a third of what was prescribed",
+  "summary": "Prescribed was 1h50 Z2 (142-152bpm) rolling with ~450m D+. Actual: 53min TrailRun, 396m D+, avg HR 136bpm — comfortably in band and cadence/effort easy (RPE 4, feel 4) — but roughly half the time and D+ of the brief, plus a 42min e-bike spin tacked on before it. HRV 62 and RHR 51 this morning (RHR still elevated post-Brendola travel, which is noise at this point, not a worry) meant the stop-rule wasn't even triggered — this was a time-box or route-length call, not a physiology-gated cutback. No pain or ITB signal reported. Net effect: today lands around 57 load vs the 120 planned, continuing last week's pattern of trimming the easy/aerobic days short.",
   "flags": [
-    "No knee/ITB complaints flagged in RPE/feel data — good, keep watching on tomorrow's descents if any soreness shows up overnight.",
-    "This week's ramp rate is now +2.6/wk off a high ATL (67.6) — fine against the <6 CTL guardrail, but Sunday's 120-load run (1h50/~450m) is the next load checkpoint; confirm HRV/RHR before adding anything on top."
+    "This is the second week-5/6 session this block finishing meaningfully under prescribed duration (Fri 16 Oct was also 36min vs 59) — worth naming as a pattern rather than one-offs, since the stimulus for Sunday was explicitly 'back-to-back on tired legs' for VWT's second half.",
+    "CTL ramp still fine (53.1, well under the 6/wk cap), so no load alarm — but the shortfall banks less aerobic durability work than the plan intended heading into the Specific block."
   ],
-  "suggestedChange": "If Saturday's Strava benchmark segment (Californication UP) time/HR data comes through, worth pulling that split specifically to compare against the July 7:39@168bpm reference — it's the cleanest read on aerobic gain since then."
+  "suggestedChange": "Consider either extending tomorrow's easy session slightly to recover some of today's missed volume, or just noting today as absorbed and moving on — but worth flagging explicitly to Alberto that sub-60min 'easy' days are recurring versus the written duration, independent of readiness gates."
 }
