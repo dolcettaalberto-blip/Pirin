@@ -2,15 +2,15 @@
   "date": "2026-10-25",
   "type": "easy",
   "title": "Rolling aerobic, tired legs",
-  "terrain": "rolling trail or hills, ~350m D+",
-  "estimatedLoad": 105,
+  "terrain": "rolling trail or hills, ~450m D+",
+  "estimatedLoad": 115,
   "steps": [
     {
       "kind": "work",
-      "duration": "1h40m",
-      "target": "Z2, 142-152bpm, run the climbs easy"
+      "duration": "1h50m",
+      "target": "Z2, 144-152bpm, run the climbs easy"
     }
   ],
-  "coachNotes": "EXECUTION: 1h40 at 142-152bpm, ~350m D+. Run the climbs at easy effort, no surges.\nGYM: none.\nFUEL: 1 flask Tailwind (500ml, 2 scoops), 1 gel at 1h00.\nGARMIN: ~110-130.\nSTOP RULE: HRV under 50 = 1h10.\nWHY: back-to-back on tired legs is the durability VWT's last 6km needs.",
-  "icuWorkoutText": "- 1h40m 142-152bpm"
+  "coachNotes": "EXECUTION: trailhead by 07:30, no pre-ride. 1h50 at 144-152bpm, ~450m D+. Run the climbs at easy effort, no surges; cadence 172+ on the descents.\nGYM: none.\nFUEL: 1 flask Tailwind (500ml, 2 scoops), 1 gel at 1h00.\nGARMIN: ~120-140.\nSTOP RULE: HRV under 50 = 1h10. Quads wrecked after Sat = 1h20 flat at the same HR.\nWHY: Sun 18 booked 52% of plan (1h24 at 136bpm after a pre-ride); the VWT back-half stimulus needs the full 1h50 in band (+10 vs old plan).",
+  "icuWorkoutText": "- 1h50m 144-152bpm"
 }

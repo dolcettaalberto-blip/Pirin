@@ -3,16 +3,16 @@
   "type": "easy",
   "title": "Aerobic + strides before the Bucharest flight",
   "terrain": "Milan, flat",
-  "estimatedLoad": 55,
+  "estimatedLoad": 60,
   "steps": [
     {
       "kind": "work",
       "duration": "55m",
-      "target": "Z2, 142-152bpm"
+      "target": "Z2, 146-152bpm, hold the band"
     },
     {
       "kind": "repeat",
-      "count": 6,
+      "count": 8,
       "steps": [
         {
           "kind": "work",
@@ -27,6 +27,6 @@
       ]
     }
   ],
-  "coachNotes": "EXECUTION: 06:45 start. 55min at 142-152bpm, then 6x20s strides, 40s easy. Done by 07:50 for the 08:00 call.\nGYM: none.\nFUEL: water. Light dinner before BGY (21:45 flight), no alcohol.\nGARMIN: ~65-80.\nSTOP RULE: HRV under 50 = 40min easy, no strides.\nWHY: the week's only normal night is Sunday, so Monday carries load instead of the usual rest.",
-  "icuWorkoutText": "- 55m 142-152bpm\n\n6x\n- 20s 170-182bpm\n- 40s 110-130bpm\n"
+  "coachNotes": "EXECUTION: 06:40 start. 55min at 146-152bpm (hold the band, Sun ran 136), then 8x20s strides, 40s easy. Done 07:45 for the 08:00 call.\nGYM: none.\nFUEL: water. Light dinner before BGY (21:45 flight), no alcohol.\nGARMIN: ~70-90.\nSTOP RULE: HRV under 50 = 40min easy, no strides.\nWHY: Sun 18 ran 136bpm vs 142-152 and booked 62 vs 120; same minutes at 146-152 books ~58, strides add the rest (+5 vs old plan).",
+  "icuWorkoutText": "- 55m 146-152bpm\n\n8x\n- 20s 170-182bpm\n- 40s 110-130bpm\n"
 }

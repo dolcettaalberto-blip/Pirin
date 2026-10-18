@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26",
+  "type": "recovery",
+  "title": "Z2 spin, no leg impact",
+  "terrain": "indoor bike",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "37m",
+      "target": "Z2 bike, 134-147bpm, cadence 85-95"
+    }
+  ],
+  "coachNotes": "EXECUTION: 37min indoor at 134-147bpm bike, cadence 85-95, any time of day.\nGYM: none.\nFUEL: water.\nGARMIN: ~25-35.\nSTOP RULE: HRV under 50 or sore legs after Sun = 25min.\nWHY: peak-week load without run impact; Tue 27 (85) is the quality day, keep this Z2 only.",
+  "icuWorkoutText": "- 37m 134-147bpm"
+}
