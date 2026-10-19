@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T19:11:00.000Z",
-  "headline": "Sun 18 booked 62 vs 120: 1h24 run at 136bpm, below the 142-152 band. Wk5 closes 488 vs 606",
-  "summary": "Run 07:59 after a 28min e-bike spin: 1h24 moving, 12.3km, 425m D+, avg 136bpm vs 1h50 at 142-152 prescribed. Climbs held 148-151bpm, descents sat at 120-130, so the average fell out of band. Load 57 run + 5 bike = 62 vs 120 (52%). HRV 62, RHR 51, sleep 6h47: no stop rule triggered, so this is a time-box plus an HR-band miss, not a readiness call. No knee or pain signal. Wk5 closes 488 vs 606 (81%): CTL 53.1 (+3.1 vs +5.3 planned), ATL 66.9, TSB -13.8. The 55.4 projected start-line CTL assumes 100% delivery; at 85-90% it lands 52-53.",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T13:40:08.617Z",
+  "headline": "Session done — band held, strides clean, booked ~68 vs 60 planned",
+  "summary": "Milan 62min easy + 8x20s strides, exactly as written. Average HR 155bpm — above the 146-152 target band (note: Sun 18 ran only 136bpm for comparison, so today's effort was clearly on the higher side of Z2, not under), with the interval summary showing most of the steady work around 149-155bpm and one segment up at 166. Cadence 84, RPE 5/feel 2 — a bit harder than an easy pre-travel shakeout should feel. Strides got in (8x20s, HR climbing into 166+ territory, consistent with 170-182 target zone intent). Load booked 68 vs 60 estimated, in line with the known 20-25% undercount tendency for strides-type sessions, so no red flag there — but combined with RPE 5 this wasn't the \"light and easy\" session the notes called for before a 21:45 flight.",
   "flags": [
-    "Easy days are the leak: Fri 16 32 vs 50, Sun 18 62 vs 120. Quality days overdeliver (Tue 13 115 vs 90). Sat 17 ran 2h34 / 937m (94% of time) but booked 139 vs 175: icu undercounts hiking-heavy trail, so long-day plan loads sit ~20% above what the same session books.",
-    "Californication UP benchmark was not captured: Strava logged only the flat Californication segment (5:53, 139bpm). Last two race-effort climbs ran 159bpm avg, max 173.",
-    "Sunday's pre-run e-bike (43min elapsed) pushed the run start to 07:59 and likely capped the run. Next back-to-back (Sun 25): trailhead by 07:30, no pre-ride."
+    "HR ran ~5-10bpm above the 146-152 band most of the main set — worth checking if that was pacing, heat, or incomplete warm-up before relying on this as a clean Z2 reference.",
+    "No knee/ITB signal reported — flat Milan course, non-issue today.",
+    "Wk6 is already running a pattern of easy days overshooting intended intensity while weekend quality has been the priority; watch that this doesn't compound into Wednesday's 3x14min session fatigue."
   ],
-  "suggestedChange": "Applied: Wk6 505 -> 555 (+10%), Wk7 515 -> 545. Mon 19 60 (hold 146-152bpm, 8 strides), Wed 21 105 (3x14min), Fri 23 70 (+35min Z2 spin), Sun 25 115 (1h50), Mon 26 30 (Z2 spin). Start-line CTL +1.3 at any compliance (56.8 / 54.5 / 53.3 at 100 / 90 / 85%), Wk6 ramp +4.3, under the 6 cap."
+  "suggestedChange": "None required — flag the HR drift to Alberto for awareness, but no plan change needed given travel day tomorrow and built-in recovery from the bike spin."
 }
