@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T13:40:08.617Z",
-  "headline": "Session done — band held, strides clean, booked ~68 vs 60 planned",
-  "summary": "Milan 62min easy + 8x20s strides, exactly as written. Average HR 155bpm — above the 146-152 target band (note: Sun 18 ran only 136bpm for comparison, so today's effort was clearly on the higher side of Z2, not under), with the interval summary showing most of the steady work around 149-155bpm and one segment up at 166. Cadence 84, RPE 5/feel 2 — a bit harder than an easy pre-travel shakeout should feel. Strides got in (8x20s, HR climbing into 166+ territory, consistent with 170-182 target zone intent). Load booked 68 vs 60 estimated, in line with the known 20-25% undercount tendency for strides-type sessions, so no red flag there — but combined with RPE 5 this wasn't the \"light and easy\" session the notes called for before a 21:45 flight.",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T05:47:53.697Z",
+  "headline": "Threshold session nailed — 3x14min delivered at target HR, compliance 105%",
+  "summary": "Strong execution: all three 14min reps held 163-170bpm (165-169bpm per interval_summary), cadence 172+ spm target roughly met (avg 85rpm cadence reading is per-foot so ~170spm), max HR 173 stayed under the 172bpm rep-1 safety cap. Full 1h32 done, load booked at 90 (vs 105 estimated — expected, since intervals.icu undercounts short high-intensity work by 20-25%; RPE 5/feel 2 and clean HR bands are the real signal here, not the load number). No pain flagged, no ITB signal. This was the best-executed quality session of the week after Sunday's easy run undershot (21 vs prescribed) and Monday's travel-day Bucharest run was solid but easy.",
   "flags": [
-    "HR ran ~5-10bpm above the 146-152 band most of the main set — worth checking if that was pacing, heat, or incomplete warm-up before relying on this as a clean Z2 reference.",
-    "No knee/ITB signal reported — flat Milan course, non-issue today.",
-    "Wk6 is already running a pattern of easy days overshooting intended intensity while weekend quality has been the priority; watch that this doesn't compound into Wednesday's 3x14min session fatigue."
+    "Wellness this morning was excellent (HRV 72, RHR 45, sleep 6h18) — no gating was needed, and none was applied.",
+    "Watch the grey-zone pattern: this week's easy/shakeout days (Sun 21, prior Sun 18) have been underdelivered while quality sessions keep overdelivering — today's session continues that trend, which is fine for fitness but worth naming before it becomes habitual under-recovery.",
+    "04:00 airport Thursday — protect sleep the next two nights per plan notes."
   ],
-  "suggestedChange": "None required — flag the HR drift to Alberto for awareness, but no plan change needed given travel day tomorrow and built-in recovery from the bike spin."
+  "suggestedChange": "None needed today — session matched prescription. Alberto may want to confirm whether the recurring pattern (easy days light, hard days full-or-over) should shift some load from quality into the shakeout days for Wk7, to bank more consistent CTL ramp."
 }
