@@ -1,16 +1,37 @@
 {
   "date": "2026-10-25",
-  "type": "easy",
-  "title": "Rolling aerobic, tired legs",
-  "terrain": "rolling trail or hills, ~450m D+",
-  "estimatedLoad": 115,
+  "type": "long",
+  "title": "Long run 2h45 / ~1050m D+, 2 race-effort climbs",
+  "terrain": "Framura coastal trails, ~1050m D+, two climbs of 15min+ and their descents",
+  "estimatedLoad": 185,
   "steps": [
     {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 130-145bpm"
+    },
+    {
       "kind": "work",
-      "duration": "1h50m",
-      "target": "Z2, 144-152bpm, run the climbs easy"
+      "duration": "1h40m",
+      "target": "Z2, 145-155bpm, hike anything over 15%"
+    },
+    {
+      "kind": "repeat",
+      "count": 2,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "15m",
+          "target": "Z3-Z4, 160-168bpm, climb at race effort"
+        },
+        {
+          "kind": "work",
+          "duration": "10m",
+          "target": "Z2-Z3, 140-160bpm, descent at race effort, 172+ spm"
+        }
+      ]
     }
   ],
-  "coachNotes": "EXECUTION: trailhead by 07:30, no pre-ride. 1h50 at 144-152bpm, ~450m D+. Run the climbs at easy effort, no surges; cadence 172+ on the descents.\nGYM: none.\nFUEL: 1 flask Tailwind (500ml, 2 scoops), 1 gel at 1h00.\nGARMIN: ~120-140.\nSTOP RULE: HRV under 50 = 1h10. Quads wrecked after Sat = 1h20 flat at the same HR.\nWHY: Sun 18 booked 52% of plan (1h24 at 136bpm after a pre-ride); the VWT back-half stimulus needs the full 1h50 in band (+10 vs old plan).",
-  "icuWorkoutText": "- 1h50m 144-152bpm"
+  "coachNotes": "EXECUTION: 2h45, ~1050m D+. 15min easy, 1h40 at 145-155bpm (hike over 15%), then 2x(15min climb at 160-168bpm + 10min descent at race effort, 172+ spm).\nGYM: none.\nFUEL: 2 flasks Tailwind (500ml, 2 scoops) from min 20, Carbo Gels at 1h15 and 2h00 (~75g/h). Same breakfast and kit as race day.\nGARMIN: ~250-290.\nSTOP RULE: HRV under 55 or RHR 52+ = 1 race-effort block, cap 2h15. Knee signal on descents or wet stone: walk them.\nWHY: Sat long run moved here after 3 short nights; fresh legs, same race-effort stimulus (+10 vs old 175). Back-to-back comes in Wk7 (Sat 31 / Sun 1).",
+  "icuWorkoutText": "- 15m 130-145bpm\n- 1h40m 145-155bpm\n\n2x\n- 15m 160-168bpm\n- 10m 140-160bpm\n"
 }

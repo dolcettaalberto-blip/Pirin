@@ -978,5 +978,16 @@
       "2026-10-25",
       "2026-10-26"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "change": "Fri 23 70 -> 30 (30min run, spin dropped). Sat 24 175 -> 40 (45min easy flat run, Framura). Sun 25 115 -> 185 (long run 2h45/~1050m D+ with 2 race-effort climbs, Sat session moved here, +10 on 175). Mon 26 30 -> 0 (Belgrade day trip). Wk7 Wed 75 -> 100, Thu 60 -> 85 (evening Z2 spins at home, sessions to be built Mon). Wk6 555 -> 450, Wk7 545 -> 565.",
+    "reason": "Sleep 5h00 (4h36 Tue and Thu), HRV 59 / RHR 50 fine, TSB +2: sleep debt, not load, is the limiter, so the key long run moves to a rested Sunday. Fri run came in at 155bpm avg vs 138-148 band. Weekend in Framura (run only, no bike), Mon 26 flight 09:25 Belgrade back 21:20. Standing +10% bias: Wk7 base 515 -> 565 via the two home spins (Tue-Fri at home). Start-line CTL stays ~54-55.",
+    "affects": [
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26"
+    ]
   }
 ]

@@ -1,37 +1,16 @@
 {
   "date": "2026-10-24",
-  "type": "long",
-  "title": "Long run 2h40 / ~1000m D+, 2 race-effort climbs",
-  "terrain": "Mountain or hills: Presolana or Lecco pre-alps first choice, Colli Berici repeats second; ~1000m D+, two climbs of 15min+ and their descents",
-  "estimatedLoad": 175,
+  "type": "easy",
+  "title": "Easy flat run, Framura (sleep-in day)",
+  "terrain": "Framura, flattest option (coastal path), no climbs",
+  "estimatedLoad": 40,
   "steps": [
     {
-      "kind": "warmup",
-      "duration": "15m",
-      "target": "Z1-Z2, 130-145bpm"
-    },
-    {
       "kind": "work",
-      "duration": "1h35m",
-      "target": "Z2, 145-155bpm, hike anything over 15%"
-    },
-    {
-      "kind": "repeat",
-      "count": 2,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "15m",
-          "target": "Z3-Z4, 160-168bpm, climb at race effort"
-        },
-        {
-          "kind": "work",
-          "duration": "10m",
-          "target": "Z2-Z3, 140-160bpm, descent at race effort, 172+ spm"
-        }
-      ]
+      "duration": "45m",
+      "target": "Z1-Z2, 138-148bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 2h40, ~1000m D+. 15min easy, 1h35 at 145-155bpm (hike over 15%). Then 2x(15min climb at 160-168bpm + 10min descent at race effort, 172+ spm).\nGYM: none.\nFUEL: 2 flasks Tailwind (500ml, 2 scoops) from min 20, Carbo Gels at 1h15 and 2h00 (~75g/h). Full race-day rehearsal: same breakfast, same kit.\nGARMIN: ~230-270.\nSTOP RULE: HRV under 55 or RHR 52+ = 1 race-effort block, cap at 2h15. Knee signal on descents: walk them.\nWHY: last big long run is Wk7; this one rehearses VWT's back half, race effort on tired legs, both up and down.",
-  "icuWorkoutText": "- 15m 130-145bpm\n- 1h35m 145-155bpm\n\n2x\n- 15m 160-168bpm\n- 10m 140-160bpm\n"
+  "coachNotes": "EXECUTION: 45min at 138-148bpm, flat, start after a natural wake-up (8h in bed). No spin possible, run only.\nGYM: none.\nFUEL: water. Carb-forward dinner, bed by 22:00, no alcohol (Sun long run).\nGARMIN: ~30-40.\nSTOP RULE: under 6h sleep or HRV under 50 = 30min only.\nWHY: sleep debt is the limiter, not HRV (59); this banks load without costing Sunday's legs (-135 vs old Sat 175).",
+  "icuWorkoutText": "- 45m 138-148bpm"
 }

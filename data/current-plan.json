@@ -96,16 +96,16 @@
       "week": 6,
       "start": "2026-10-19",
       "block": "Specific (Bucharest/Chisinau travel)",
-      "runKm": 75,
-      "weekendDplus": 1450,
+      "runKm": 72,
+      "weekendDplus": 1100,
       "plannedDailyLoad": {
         "mon": 60,
         "tue": 30,
         "wed": 105,
         "thu": 0,
-        "fri": 70,
-        "sat": 175,
-        "sun": 115
+        "fri": 30,
+        "sat": 40,
+        "sun": 185
       }
     },
     {
@@ -115,10 +115,10 @@
       "runKm": 54,
       "weekendDplus": 1000,
       "plannedDailyLoad": {
-        "mon": 30,
+        "mon": 0,
         "tue": 85,
-        "wed": 75,
-        "thu": 60,
+        "wed": 100,
+        "thu": 85,
         "fri": 35,
         "sat": 155,
         "sun": 105

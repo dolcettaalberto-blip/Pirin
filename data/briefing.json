@@ -1,12 +1,11 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T05:47:53.697Z",
-  "headline": "Threshold session nailed — 3x14min delivered at target HR, compliance 105%",
-  "summary": "Strong execution: all three 14min reps held 163-170bpm (165-169bpm per interval_summary), cadence 172+ spm target roughly met (avg 85rpm cadence reading is per-foot so ~170spm), max HR 173 stayed under the 172bpm rep-1 safety cap. Full 1h32 done, load booked at 90 (vs 105 estimated — expected, since intervals.icu undercounts short high-intensity work by 20-25%; RPE 5/feel 2 and clean HR bands are the real signal here, not the load number). No pain flagged, no ITB signal. This was the best-executed quality session of the week after Sunday's easy run undershot (21 vs prescribed) and Monday's travel-day Bucharest run was solid but easy.",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T18:00:00.000Z",
+  "headline": "AMBER (sleep) - 30min run done, long run moved to Sunday",
+  "summary": "HRV 59 and RHR 50 are normal, sleep is the problem: 5h00 today after 4h36 on Tue and Thu. Friday run: 30min, 6.4km, 155bpm avg, 169 max, top of Z2 and above the 138-148 band; hold the band tomorrow. Spin dropped. Sat is a 45min flat run after a natural wake-up, Sun is the 2h45 / ~1050m D+ long run in Framura (gate: HRV 55+, RHR 52 or lower). Mon is the Belgrade day trip, rest.",
   "flags": [
-    "Wellness this morning was excellent (HRV 72, RHR 45, sleep 6h18) — no gating was needed, and none was applied.",
-    "Watch the grey-zone pattern: this week's easy/shakeout days (Sun 21, prior Sun 18) have been underdelivered while quality sessions keep overdelivering — today's session continues that trend, which is fine for fitness but worth naming before it becomes habitual under-recovery.",
-    "04:00 airport Thursday — protect sleep the next two nights per plan notes."
+    "Third sub-5h30 night in four days: bed by 22:00 tonight and tomorrow.",
+    "Wk6 lands ~450 vs 555 planned; Wk7 raised to 565 (Wed/Thu spins) to hold start-line CTL ~54-55."
   ],
-  "suggestedChange": "None needed today — session matched prescription. Alberto may want to confirm whether the recurring pattern (easy days light, hard days full-or-over) should shift some load from quality into the shakeout days for Wk7, to bank more consistent CTL ramp."
+  "suggestedChange": null
 }

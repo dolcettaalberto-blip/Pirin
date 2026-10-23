@@ -1,21 +1,16 @@
 {
   "date": "2026-10-23",
   "type": "easy",
-  "title": "Easy aerobic + Z2 spin after the Chisinau day",
-  "terrain": "Milan, flat run; spin indoors",
-  "estimatedLoad": 70,
+  "title": "Easy 30min run, short-sleep day",
+  "terrain": "Milan, flat",
+  "estimatedLoad": 30,
   "steps": [
     {
       "kind": "work",
-      "duration": "50m",
-      "target": "Z1-Z2, 138-150bpm"
-    },
-    {
-      "kind": "work",
-      "duration": "35m",
-      "target": "Z2 bike, 134-147bpm, indoor spin, evening, easy legs"
+      "duration": "30m",
+      "target": "Z1-Z2, 138-148bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 07:50-08:40 run, 50min at 138-150bpm, done before the 09:00 block. Evening spin 18:30-19:05, 35min at 134-147bpm bike, cadence 85-95.\nGYM: none.\nFUEL: water. Dinner by 20:30, carb-forward, no alcohol (Sat long run). Bed by 22:30.\nGARMIN: run ~45-60, spin ~25-35.\nSTOP RULE: under 6h sleep or HRV under 50 = run 30min only, no spin.\nWATCH: run only is sent to the watch; spin is a free ride.\nWHY: Thursday is a 04:00-to-midnight travel day with zero load; spin adds ~25 load at no leg impact (+25 vs old plan).",
-  "icuWorkoutText": "- 50m 138-150bpm"
+  "coachNotes": "EXECUTION: 30min at 138-148bpm, flat, no spin.\nGYM: none.\nFUEL: water. Dinner by 20:30, carb-forward, no alcohol. Bed by 22:00.\nGARMIN: ~25-30.\nSTOP RULE: done. Ran 155bpm avg (top of Z2, band was 138-148); hold the band Sat.\nWHY: sleep 5h00 after 4h36 Thu; spin dropped, long run moved Sat to Sun so it is run fresh.",
+  "icuWorkoutText": "- 30m 138-148bpm"
 }
