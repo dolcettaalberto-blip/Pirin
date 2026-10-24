@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T18:00:00.000Z",
-  "headline": "AMBER (sleep) - 30min run done, long run moved to Sunday",
-  "summary": "HRV 59 and RHR 50 are normal, sleep is the problem: 5h00 today after 4h36 on Tue and Thu. Friday run: 30min, 6.4km, 155bpm avg, 169 max, top of Z2 and above the 138-148 band; hold the band tomorrow. Spin dropped. Sat is a 45min flat run after a natural wake-up, Sun is the 2h45 / ~1050m D+ long run in Framura (gate: HRV 55+, RHR 52 or lower). Mon is the Belgrade day trip, rest.",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T19:34:18.840Z",
+  "headline": "Session done — easy flat run landed almost exactly on script",
+  "summary": "Prescribed was 45min flat Z1-Z2 at 138-148bpm; you ran 50min (3000s moving) at 151bpm average, cadence 82.6, RPE 4/feel 2 — a touch hot on HR but close enough to call it an easy aerobic day, not a quality breach. Load logged at 51 vs 40 estimated, which is in line with the usual HR-based load slightly overshooting an easy-day target rather than any red flag. Sleep last night was excellent (7.45h, score 90) and HRV is back up to 67, so the sleep-debt problem from the last few days looks resolved. No knee or pain flags in the data. Tomorrow's the long run (Sun 25, 2h45/~1050m D+ with two race-effort climbs) — today's session shouldn't have cost you anything for that, and the overnight rebound supports going into it fresh.",
   "flags": [
-    "Third sub-5h30 night in four days: bed by 22:00 tonight and tomorrow.",
-    "Wk6 lands ~450 vs 555 planned; Wk7 raised to 565 (Wed/Thu spins) to hold start-line CTL ~54-55."
+    "Avg HR 151 is above the 138-148 easy band — minor, likely just the Levanto coastal path terrain (262m gain) rather than a pacing problem, but worth a one-line reminder before Sunday's key session.",
+    "ATL/CTL ramp is still negative/flat this week (-1.0 today) after Thursday's shortened Friday session — fine given the long run is the real test tomorrow."
   ],
-  "suggestedChange": null
+  "suggestedChange": "No plan change needed today — flag for Alberto to simply confirm Sunday's long run proceeds as scheduled given tonight's strong recovery numbers (HRV 67, sleep 7.45h)."
 }
