@@ -989,5 +989,18 @@
       "2026-10-25",
       "2026-10-26"
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "change": "Wk7 565 -> 585, sessions built: Tue 27 85 -> 105 (2x4x4min uphill 167-172bpm), Wed 28 100 -> 115 (72min Z2 + 50min spin), Thu 29 85 -> 95 (2x20min at 160-166bpm + 30min spin), Fri 30 35 -> 45, Sat 31 155 -> 160 (2h15/1000m, 3 race-effort climbs), Sun 1 105 -> 65 (70min Z2 spin). runKm 54 -> 68.",
+    "reason": "Sun 25 long run 166 vs 185 but 77min Z3-Z4 vs ~30 planned (drift), HRV 56 / RHR 50, CTL 54.5, TSB -13.4. Wk6 429 vs 450 (95%). Load moved from Sun 1 (6 days out) to Tue-Thu so race-morning TSB lands ~+4 with start-line CTL ~55.4. Standing +10% bias: base call was 530.",
+    "affects": [
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ]
   }
 ]

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-27",
+  "type": "quality",
+  "title": "Uphill VO2/threshold: 2 series x 4x4min",
+  "terrain": "Treadmill 8% (or Monte Stella climb, jog down as recovery)",
+  "estimatedLoad": 105,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 135-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "4m",
+          "target": "Z4, 167-172bpm, 8% incline"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "Z1, 120-140bpm, walk/jog"
+        }
+      ]
+    },
+    {
+      "kind": "recover",
+      "duration": "4m",
+      "target": "Z1, 120-140bpm",
+      "note": "between series"
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "4m",
+          "target": "Z4, 167-172bpm, 8% incline"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "Z1, 120-140bpm, walk/jog"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1-Z2, 130-145bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 15m easy, 2 series x 4x4min at 167-172bpm on 8% (2min walk/jog), 4min between series, 10m easy. 1h17 total.\nGYM: 15min single-leg squat 3x8 + calf raises 3x15.\nFUEL: 500ml with 1 scoop Tailwind during.\nGARMIN: ~200-240.\nSTOP RULE: HRV under 55 or RHR 52+ = 2 series x 3 reps. HR over 175 on rep 1 = cut incline to 6%.\nWHY: last VO2-side stimulus, 11 days out; uphill power for the 914m.",
+  "icuWorkoutText": "- 15m 135-150bpm\n\n4x\n- 4m 167-172bpm\n- 2m 120-140bpm\n\n- 4m 120-140bpm\n\n4x\n- 4m 167-172bpm\n- 2m 120-140bpm\n\n- 10m 130-145bpm\n"
+}

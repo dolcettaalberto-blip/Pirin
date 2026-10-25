@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "type": "long",
+  "title": "Last long run 2h15 / ~1000m D+, 3 race-effort climbs",
+  "terrain": "Hilly trail, ~1000m D+, climbs of 12min+ with runnable descents",
+  "estimatedLoad": 160,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "20m",
+      "target": "Z1-Z2, 135-150bpm"
+    },
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z2, 145-155bpm, hike anything over 15%"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "12m",
+          "target": "Z3-Z4, 162-170bpm, climb at race effort"
+        },
+        {
+          "kind": "work",
+          "duration": "8m",
+          "target": "Z2-Z3, 140-160bpm, descent at race effort, 172+ spm"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "5m",
+      "target": "Z1, 125-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 20m easy, 50min at 145-155bpm (cap 155 on climbs, hike), then 3x(12min climb at 162-170bpm + 8min descent at race effort, 172+ spm), 5m easy.\nGYM: none.\nFUEL: full race rehearsal: race breakfast, Tailwind from min 20, gels at 1h00 and 1h45 (~75g/h), race shoes and vest.\nGARMIN: ~230-260.\nSTOP RULE: HRV under 55 or RHR 52+ = 2 climbs, cap 1h50.\nWHY: last long stimulus 7 days out. Sun 25 drifted (77min in Z3-Z4 vs ~30 planned): Z2 cap is the point.",
+  "icuWorkoutText": "- 20m 135-150bpm\n- 50m 145-155bpm\n\n3x\n- 12m 162-170bpm\n- 8m 140-160bpm\n\n- 5m 125-140bpm\n"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-01",
+  "type": "recovery",
+  "title": "Indoor spin 70min Z2",
+  "terrain": "Indoor bike",
+  "estimatedLoad": 65,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h10m",
+      "target": "Z2, 134-147bpm (bike zones), cadence 90+"
+    }
+  ],
+  "coachNotes": "EXECUTION: 70min spin at 134-147bpm, cadence 90+. No surges.\nGYM: 10min mobility.\nFUEL: normal.\nGARMIN: ~70.\nSTOP RULE: quads sore after Sat = 45min.\nWHY: keeps aerobic load with no impact, legs start the taper fresh.",
+  "icuWorkoutText": "- 1h10m 134-147bpm\n"
+}

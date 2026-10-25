@@ -111,17 +111,17 @@
     {
       "week": 7,
       "start": "2026-10-26",
-      "block": "Specific",
-      "runKm": 54,
+      "block": "Specific (last load week)",
+      "runKm": 68,
       "weekendDplus": 1000,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 85,
-        "wed": 100,
-        "thu": 85,
-        "fri": 35,
-        "sat": 155,
-        "sun": 105
+        "tue": 105,
+        "wed": 115,
+        "thu": 95,
+        "fri": 45,
+        "sat": 160,
+        "sun": 65
       }
     },
     {

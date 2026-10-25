@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-29",
+  "type": "quality",
+  "title": "Race-pace tempo 2x20min, PM spin 30min",
+  "terrain": "Flat or rolling",
+  "estimatedLoad": 95,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 135-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 2,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20m",
+          "target": "Z3, 160-166bpm, VWT race effort"
+        },
+        {
+          "kind": "recover",
+          "duration": "4m",
+          "target": "Z1, 120-140bpm, jog"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1-Z2, 130-145bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 15m easy, 2x20min at 160-166bpm (4min jog), 10m easy. Cadence 170+. PM spin 30min at 134-147bpm.\nGYM: none.\nFUEL: 1 gel before rep 2 (race rehearsal).\nGARMIN: run ~130, spin ~30.\nSTOP RULE: HR drifts over 168 in rep 2 = hold pace, finish at 15min.\nWHY: 40min at race HR, up from 3x14 on Wed 21.",
+  "icuWorkoutText": "- 15m 135-150bpm\n\n2x\n- 20m 160-166bpm\n- 4m 120-140bpm\n\n- 10m 130-145bpm\n"
+}

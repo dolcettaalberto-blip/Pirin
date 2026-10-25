@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "type": "easy",
+  "title": "Easy 50min + 6 strides",
+  "terrain": "Flat",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "38m",
+      "target": "Z1-Z2, 138-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 6,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z5, strides"
+        },
+        {
+          "kind": "recover",
+          "duration": "1m",
+          "target": "Z1, walk/jog"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "4m",
+      "target": "Z1, 120-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 38min at 138-150bpm, 6x20s strides (1min jog), 4min easy.\nGYM: none.\nFUEL: carb up dinner for Saturday.\nGARMIN: ~50.\nSTOP RULE: legs heavy after Thu = drop strides.\nWHY: fresh legs for the last long run.",
+  "icuWorkoutText": "- 38m 138-150bpm\n\n6x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 4m 120-140bpm\n"
+}

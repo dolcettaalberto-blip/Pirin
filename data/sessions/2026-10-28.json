@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-28",
+  "type": "easy",
+  "title": "Easy run 72min + strides, PM spin 50min Z2",
+  "terrain": "Flat, Parco Nord / Sempione",
+  "estimatedLoad": 115,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h",
+      "target": "Z2, 142-152bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 6,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z5, strides, fast relaxed"
+        },
+        {
+          "kind": "recover",
+          "duration": "1m40s",
+          "target": "Z1, 120-140bpm"
+        }
+      ]
+    }
+  ],
+  "coachNotes": "EXECUTION: AM 60min at 142-152bpm, then 6x20s strides (1m40 jog). PM indoor spin 50min at 134-147bpm, cadence 90+.\nGYM: none.\nFUEL: normal.\nGARMIN: run ~80, spin ~55.\nSTOP RULE: run HR over 155 on flat = slow down, not push. Poor sleep (<6h) = drop the spin.\nWHY: aerobic volume with zero impact cost from the spin.",
+  "icuWorkoutText": "- 60m 142-152bpm\n\n6x\n- 20s 175-185bpm\n- 1m40s 120-140bpm\n"
+}
