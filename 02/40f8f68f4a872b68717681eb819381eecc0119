@@ -1,0 +1,35 @@
+data/briefing.json
+  s_3af0f5f0bcd9c1::t_8c0e1e03dd567d 3-5,7-8,10
+data/changelog.json
+  s_3af0f5f0bcd9c1::t_ec2ee5c5e5ca4f 992-1004
+data/current-plan.json
+  s_3af0f5f0bcd9c1::t_3021e05fb88910 114-115,119-124
+data/sessions/2026-10-27.json
+  s_3af0f5f0bcd9c1::t_3d07ae723630cf 1-59
+data/sessions/2026-10-28.json
+  s_3af0f5f0bcd9c1::t_a975687c57132d 1-32
+data/sessions/2026-10-29.json
+  s_3af0f5f0bcd9c1::t_526744ff469d87 1-37
+data/sessions/2026-10-30.json
+  s_3af0f5f0bcd9c1::t_8ee92099525e64 1-37
+data/sessions/2026-10-31.json
+  s_3af0f5f0bcd9c1::t_d45f39d920febd 1-42
+data/sessions/2026-11-01.json
+  s_3af0f5f0bcd9c1::t_fea63092a9642f 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0240f8f68f4a872b68717681eb819381eecc0119",
+  "prompts": {},
+  "sessions": {
+    "s_3af0f5f0bcd9c1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5aa9d79b-a9de-4a01-912a-9e48f0543a01",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
