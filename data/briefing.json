@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T19:34:18.840Z",
-  "headline": "Session done — easy flat run landed almost exactly on script",
-  "summary": "Prescribed was 45min flat Z1-Z2 at 138-148bpm; you ran 50min (3000s moving) at 151bpm average, cadence 82.6, RPE 4/feel 2 — a touch hot on HR but close enough to call it an easy aerobic day, not a quality breach. Load logged at 51 vs 40 estimated, which is in line with the usual HR-based load slightly overshooting an easy-day target rather than any red flag. Sleep last night was excellent (7.45h, score 90) and HRV is back up to 67, so the sleep-debt problem from the last few days looks resolved. No knee or pain flags in the data. Tomorrow's the long run (Sun 25, 2h45/~1050m D+ with two race-effort climbs) — today's session shouldn't have cost you anything for that, and the overnight rebound supports going into it fresh.",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T09:13:35.271Z",
+  "headline": "Long run delivered in full — 2h49, 1058m D+, both race-effort blocks executed",
+  "summary": "Session went essentially to plan: 2h49 moving, 1058m D+ vs the prescribed ~1050m, average HR 149 sitting right in the Z2-Z3 window for the bulk of the run, and the interval log shows the 2x(climb+descent) structure intact — two blocks around 160bpm with a hard finishing push to 177 max. RPE 8 / feel \"2\" is a legitimately tough but appropriate cost for a 1050m vert long run with race-effort work baked in, especially stacked on short sleep this week. No pain or knee signal flagged in the data, so no walk-the-descents trigger today. Cadence sat ~84spm overall; can't isolate the descent-specific 172+ spm target from the summary, worth a quick gut-check with Alberto on how the descents actually felt underfoot. Load posted as 166 in intervals.icu against an estimated 185 — within normal variance for a HR-based long run with sustained climbing, not the short-interval undercount pattern.",
   "flags": [
-    "Avg HR 151 is above the 138-148 easy band — minor, likely just the Levanto coastal path terrain (262m gain) rather than a pacing problem, but worth a one-line reminder before Sunday's key session.",
-    "ATL/CTL ramp is still negative/flat this week (-1.0 today) after Thursday's shortened Friday session — fine given the long run is the real test tomorrow."
+    "CTL jumped 51.8 -> 54.5 in one day (ramp rate still only +1.4/wk trailing, so no guardrail breach, but this was a big single-day hit — worth watching cumulative ramp into Wk7's loaded Tue-Thu).",
+    "This is the second week running where easy/shakeout days (Fri 30 vs 70 planned, Sat 51 solid but short) are coming in light while the long run and quality sessions over-deliver — same grey-zone pattern flagged on Oct 18 and Oct 23. Not a problem today but worth naming before Wk7's back-to-back weekend."
   ],
-  "suggestedChange": "No plan change needed today — flag for Alberto to simply confirm Sunday's long run proceeds as scheduled given tonight's strong recovery numbers (HRV 67, sleep 7.45h)."
+  "suggestedChange": "Confirm with Alberto whether descent form (172+ spm target) actually held on the two race-effort descents — if cadence lagged, worth a short cue/drill before Wk7's back-to-back (Sat31/Sun1) rather than assuming it's locked in from today's session."
 }
