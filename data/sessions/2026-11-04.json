@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-04",
+  "type": "easy",
+  "title": "Easy 45min + 4 strides (Sofia)",
+  "terrain": "Flat",
+  "estimatedLoad": 40,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "38m",
+      "target": "Z2, 142-152bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z5, 175-185bpm strides"
+        },
+        {
+          "kind": "recover",
+          "duration": "1m",
+          "target": "Z1, 120-140bpm"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "2m",
+      "target": "Z1, 120-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 38min at 142-152bpm, 4x20s strides (1min jog), 2m easy. Alternative: hotel bike 55min at 134-147bpm.\nGYM: none.\nFUEL: normal.\nGARMIN: ~45.\nSTOP RULE: late QBR dinner, under 6h sleep = 30min only.\nWHY: maintenance, nothing to gain from more.",
+  "icuWorkoutText": "- 38m 142-152bpm\n\n4x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-05",
+  "type": "easy",
+  "title": "Easy 35min + 4 strides (travel day)",
+  "terrain": "Flat, wherever the day allows",
+  "estimatedLoad": 30,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "28m",
+      "target": "Z1-Z2, 138-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z5, 175-185bpm strides"
+        },
+        {
+          "kind": "recover",
+          "duration": "1m",
+          "target": "Z1, 120-140bpm"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "2m",
+      "target": "Z1, 120-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 28min at 138-150bpm, 4x20s strides, 2m easy. If flight is early: run in Milan in the evening, same session.\nGYM: none.\nFUEL: start carb loading: 7-8 g/kg Thu and Fri.\nGARMIN: ~35.\nSTOP RULE: travel fatigue = 20min easy, skip strides.\nWHY: legs moving after the flight, no load.",
+  "icuWorkoutText": "- 28m 138-150bpm\n\n4x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
+}

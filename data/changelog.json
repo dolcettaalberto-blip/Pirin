@@ -1002,5 +1002,20 @@
       "2026-10-31",
       "2026-11-01"
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "change": "Tue 27 logged 85 vs 105 (8/8 reps, treadmill undercount). Thu 29 95 -> 105 (PM spin 30 -> 45min). Sat 31 160 -> 170 (Z2 block 50 -> 60min, ~1050m D+). Sun 1 65 -> 70 (spin 75min). Wk7 585 -> 610, weekend D+ 1000 -> 1050. Wk8 race week built: Mon rest (Sofia travel), Tue 3 55 openers 3x6min, Wed 4 40, Thu 5 30, Fri 6 15 shakeout Tirano, race 180.",
+    "reason": "HRV 69 / RHR 48, CTL 54.0, ATL 62.3, TSB -8.3. Base plan projected start-line CTL 55.0 / TSB +4.3. Standing +10% bias applied at +6% (610 -> 645 remaining): projection CTL 55.8 / TSB +2.6. Full +10% (690) lands TSB 0.2, rejected for a 2h race. Adds go to long-run Z2 and spins, not intensity; recent delivery runs 85-95% of plan, so the add mostly offsets that.",
+    "affects": [
+      "2026-10-29",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07"
+    ]
   }
 ]

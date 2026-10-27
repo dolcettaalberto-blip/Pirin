@@ -112,31 +112,31 @@
       "week": 7,
       "start": "2026-10-26",
       "block": "Specific (last load week)",
-      "runKm": 68,
-      "weekendDplus": 1000,
+      "runKm": 70,
+      "weekendDplus": 1050,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 105,
         "wed": 115,
-        "thu": 95,
+        "thu": 105,
         "fri": 45,
-        "sat": 160,
-        "sun": 65
+        "sat": 170,
+        "sun": 70
       }
     },
     {
       "week": 8,
       "start": "2026-11-02",
-      "block": "Race",
-      "runKm": 32,
+      "block": "Race (Sofia Mon-Thu, Tirano Fri)",
+      "runKm": 50,
       "weekendDplus": 914,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 50,
+        "tue": 55,
         "wed": 40,
         "thu": 30,
-        "fri": 10,
-        "sat": 200,
+        "fri": 15,
+        "sat": 180,
         "sun": 0
       }
     }

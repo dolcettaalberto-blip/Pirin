@@ -1,9 +1,9 @@
 {
   "date": "2026-10-31",
   "type": "long",
-  "title": "Last long run 2h15 / ~1000m D+, 3 race-effort climbs",
-  "terrain": "Hilly trail, ~1000m D+, climbs of 12min+ with runnable descents",
-  "estimatedLoad": 160,
+  "title": "Last long run 2h25 / ~1050m D+, 3 race-effort climbs",
+  "terrain": "Hilly trail, ~1050m D+, climbs of 12min+ with runnable descents",
+  "estimatedLoad": 170,
   "steps": [
     {
       "kind": "warmup",
@@ -12,7 +12,7 @@
     },
     {
       "kind": "work",
-      "duration": "50m",
+      "duration": "1h",
       "target": "Z2, 145-155bpm, hike anything over 15%"
     },
     {
@@ -37,6 +37,6 @@
       "target": "Z1, 125-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 20m easy, 50min at 145-155bpm (cap 155 on climbs, hike), then 3x(12min climb at 162-170bpm + 8min descent at race effort, 172+ spm), 5m easy.\nGYM: none.\nFUEL: full race rehearsal: race breakfast, Tailwind from min 20, gels at 1h00 and 1h45 (~75g/h), race shoes and vest.\nGARMIN: ~230-260.\nSTOP RULE: HRV under 55 or RHR 52+ = 2 climbs, cap 1h50.\nWHY: last long stimulus 7 days out. Sun 25 drifted (77min in Z3-Z4 vs ~30 planned): Z2 cap is the point.",
-  "icuWorkoutText": "- 20m 135-150bpm\n- 50m 145-155bpm\n\n3x\n- 12m 162-170bpm\n- 8m 140-160bpm\n\n- 5m 125-140bpm\n"
+  "coachNotes": "EXECUTION: 20m easy, 60min at 145-155bpm (HARD cap 155, hike climbs), then 3x(12min climb at 162-170bpm + 8min descent at race effort, 172+ spm), 5m easy.\nGYM: none.\nFUEL: full race rehearsal: race breakfast, Tailwind from min 20, gels at 1h00 and 1h45 (~75g/h), race shoes and vest.\nGARMIN: ~240-270.\nSTOP RULE: HRV under 55 or RHR 52+ = 2 climbs, cap 1h50.\nWHY: last long stimulus 7 days out. Sun 25 had 77min in Z3-Z4 vs ~30 planned: the Z2 cap is the session.",
+  "icuWorkoutText": "- 20m 135-150bpm\n- 1h 145-155bpm\n\n3x\n- 12m 162-170bpm\n- 8m 140-160bpm\n\n- 5m 125-140bpm"
 }

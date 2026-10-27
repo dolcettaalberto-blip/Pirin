@@ -1,11 +1,12 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T07:10:30.760Z",
-  "headline": "Session delivered in full — 8/8 reps at target HR, compliance 112%",
-  "summary": "Both series completed as prescribed: 8x4min at 8% incline, HR sitting right in the 167-172 band (avg 151 overall, max 175 — the stop-rule threshold of 175 was touched but not breached, and no \"cut to 6%\" trigger fired). RPE 7, feel 2/5 — a real but appropriate grind for the last VO2 stimulus 11 days out. Logged load is 85, but per the treadmill-incline discrepancy that's really closer to 105-110 of true stimulus, matching the prescribed 105 — reps-completed and RPE confirm the session hit as planned, not the raw number. No knee or pain flags reported.",
+  "generatedAt": "2026-10-27T10:00:00.000Z",
+  "headline": "GREEN: 8/8 reps done, Wk7 +25 load, race week built",
+  "summary": "Uphill 2x4x4min complete: 82min, HR 151 avg / 175 max, RPE 7. icu 85 vs 105 is the treadmill-incline undercount, not a shortfall. HRV 69 / RHR 48, CTL 54.0, TSB -8.3. Projection now CTL 55.8 / TSB +2.6 on race morning (target 55, TSB +2 to +5).",
   "flags": [
-    "Feel 2/5 on an RPE7 session worth watching — not a red flag alone, but combined with last week's underdelivered easy days/overdelivered quality pattern, keep an eye on accumulating fatigue into Thu's 2x20min.",
-    "HRV 69 / RHR 48 this morning was comfortably clear of the stop-rule gate (HRV<55 or RHR 52+), so full 2x4 was the correct call."
+    "Feel 2/5 on the last 4 sessions: watch Thu rep 2 HR drift.",
+    "Sleep 5.9h: Wed PM spin is the first thing to drop if Wed sleep is under 6h.",
+    "Sat 31: 60min hard cap 155bpm. Sun 25 drifted 77min into Z3-Z4."
   ],
-  "suggestedChange": "None needed — session matched plan. Just keep Wed's easy 72min Z2 genuinely easy to bank recovery before Thu's threshold work."
+  "suggestedChange": "Applied: Thu spin 45min, Sat long 2h25, Sun spin 75min. Race week Sofia/Tirano sessions published."
 }

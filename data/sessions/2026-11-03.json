@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-03",
+  "type": "quality",
+  "title": "Race openers 3x6min + strides (Sofia)",
+  "terrain": "Flat: Borisova gradina loop or hotel treadmill 1%",
+  "estimatedLoad": 55,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 135-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "6m",
+          "target": "Z3-Z4, 162-168bpm, race HR"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "Z1, 120-140bpm jog"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z5, 175-185bpm strides"
+        },
+        {
+          "kind": "recover",
+          "duration": "1m40s",
+          "target": "Z1, 120-140bpm"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "8m",
+      "target": "Z1-Z2, 130-145bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 15m easy, 3x6min at 162-168bpm (2min jog), 4x20s strides (1m40 jog), 8m easy. 55min total, early morning before QBR.\nGYM: none.\nFUEL: normal, hydrate (hotel air).\nGARMIN: ~85.\nSTOP RULE: sleep under 5h30 or HRV under 55 = 2x6min.\nWHY: keeps race HR familiar 4 days out without adding fatigue.",
+  "icuWorkoutText": "- 15m 135-150bpm\n\n3x\n- 6m 162-168bpm\n- 2m 120-140bpm\n\n4x\n- 20s 175-185bpm\n- 1m40s 120-140bpm\n\n- 8m 130-145bpm"
+}

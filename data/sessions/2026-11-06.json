@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-06",
+  "type": "recovery",
+  "title": "Shakeout 20min + 3 strides (Tirano)",
+  "terrain": "Flat, Adda cycle path",
+  "estimatedLoad": 15,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "16m",
+      "target": "Z1-Z2, 135-148bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "20s",
+          "target": "Z5, 175-185bpm strides"
+        },
+        {
+          "kind": "recover",
+          "duration": "1m",
+          "target": "Z1, 120-140bpm"
+        }
+      ]
+    }
+  ],
+  "coachNotes": "EXECUTION: 16min at 135-148bpm, 3x20s strides. Done.\nGYM: none.\nFUEL: carb load day, light low-fibre dinner by 20:00. Prep flasks: 2 scoops Tailwind each.\nGARMIN: ~15.\nSTOP RULE: none.\nWHY: kit check and legs awake. Race kit = Sat 31 Oct config, no changes.",
+  "icuWorkoutText": "- 16m 135-148bpm\n\n3x\n- 20s 175-185bpm\n- 1m 120-140bpm"
+}

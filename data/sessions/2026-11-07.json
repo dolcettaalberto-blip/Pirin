@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-07",
+  "type": "race",
+  "title": "Valtellina Wine Trail Half: 21.7km / 914m D+, target sub-2h00",
+  "terrain": "Chiuro to Sondrio, vineyard terraces, start 10:00",
+  "estimatedLoad": 180,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "10m",
+      "target": "Z1-Z2, 130-150bpm jog + 3 strides, finish 15min before gun"
+    },
+    {
+      "kind": "work",
+      "duration": "20m",
+      "target": "Z3, 155-165bpm, settle, do not race the start"
+    },
+    {
+      "kind": "work",
+      "duration": "1h10m",
+      "target": "Z3-Z4, 163-172bpm on climbs, relaxed fast descents"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z4, 168-178bpm, open up"
+    }
+  ],
+  "coachNotes": "EXECUTION: first 20min cap 165bpm (Pirin cramps came from the start). Climbs 163-172bpm, hike over 15% grade. Descents 172+ spm, quick feet. From ~1h30 open to 175+.\nFUEL: breakfast 07:00 (100-120g carb). 1 gel 10min before start. 500ml flask Tailwind (50g) + gels at 40min and 80min = ~70g/h. Water at every aid.\nGARMIN: ~300+.\nSTOP RULE: knee or calf signal = drop to hike-run, finish.\nWHY: sub-2h00 needs ~5:30/km average; the time is won in the last 40min, not the first 20.",
+  "icuWorkoutText": "- 10m 130-150bpm\n- 20m 155-165bpm\n- 1h10m 163-172bpm\n- 30m 168-178bpm"
+}
