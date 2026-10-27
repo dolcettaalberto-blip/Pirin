@@ -1,12 +1,12 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T11:00:00.000Z",
-  "headline": "GREEN: 8/8 reps flat outdoors, feel good; Monday becomes the last race-specific session",
-  "summary": "2x4x4min done outdoors on flat (gym closed): 82min, 16.4km, HR 151 avg / 175 max, RPE 7, feel Good. Load 85 vs 105 is a real -20 with no uphill, so Mon 2 in Presolana carries the climbing: 3x10min at 163-170bpm. HRV 69 / RHR 48, CTL 54.0. Race-morning projection CTL 56.3 / TSB +1.6.",
+  "generatedAt": "2026-10-27T09:59:30.565Z",
+  "headline": "Tue done: 85 vs 105, outdoor flat, no uphill. Plan already adjusted, no edits today",
+  "summary": "Verdict: solid session, but not the one prescribed. You logged 82min, 16.4km, 116m D+, avg HR 151, max 175, RPE 7, feel 2 (Good). The gym was closed, so this was outdoor flat, not 8% incline. Load 85 vs 105 is a real -20 shortfall and you got no uphill stimulus. The treadmill undercount doesn't apply here. Max 175 means the reps reached the 167-172 band. Cadence averaged 84 (~168 spm), under the 172+ asked for on race efforts. Readiness this morning: HRV 69 (up from 57), RHR 48 (down from 53), sleep 5.9h. That's fine on HRV and RHR, but sleep was just under the 6h green line. CTL 54.0, ATL 62.3, TSB -8.3. This morning's two plan updates already cover the shortfall: Mon 2 Nov now has 3x10min race-specific climbs at Presolana to replace the missed uphill, and the Sofia days are lighter. Projection: start-line CTL 56.3, race-morning TSB +1.6. Nothing more to change. Tomorrow (Wed 28) stays as planned: 60min at 142-152bpm plus 6 strides in the morning, and 50min spin at 134-147bpm in the evening.",
   "flags": [
-    "Sat 31: 60min hard cap 155bpm, Sun 25 drifted 77min into Z3-Z4.",
-    "Mon 2 is D-5: 3 climbs is the ceiling, no extra reps.",
-    "Sleep 5.9h: drop Wed PM spin first if Wed sleep is under 6h."
+    "Sleep 5.9h: tomorrow's rule applies. If tonight is under 6h, drop the Wed PM spin. Bed by 22:30.",
+    "Cadence ~168 spm on a quality day. Think quick feet on Thursday's 2x20min, 170+ spm.",
+    "Projected race-morning TSB +1.6 is just under the +2 to +5 target. Don't add extra reps anywhere this week."
   ],
-  "suggestedChange": "Applied: Sun 1 easy trail 50min, Mon 2 climbs 3x10min, Sofia days trimmed to 30/35/25."
+  "suggestedChange": null
 }
