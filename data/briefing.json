@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:00:00.000Z",
-  "headline": "Long run done, ran hot: 166 load, 77min Z3-Z4 vs ~30 planned",
-  "summary": "25.7km / 1058m in 2h46, avg 149bpm, RPE 8. Climbs from km 7 sat at 159-165bpm, so the Z2 bulk became tempo. Final two steep descents at 176-184 spm, cadence target met. Race read: effort-equivalent pace puts VWT at 2h00-2h08 (moderate confidence). HRV 56 / RHR 50 / TSB -13.4: eat well, bed by 22:30, Mon is rest (Belgrade).",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T07:10:30.760Z",
+  "headline": "Session delivered in full — 8/8 reps at target HR, compliance 112%",
+  "summary": "Both series completed as prescribed: 8x4min at 8% incline, HR sitting right in the 167-172 band (avg 151 overall, max 175 — the stop-rule threshold of 175 was touched but not breached, and no \"cut to 6%\" trigger fired). RPE 7, feel 2/5 — a real but appropriate grind for the last VO2 stimulus 11 days out. Logged load is 85, but per the treadmill-incline discrepancy that's really closer to 105-110 of true stimulus, matching the prescribed 105 — reps-completed and RPE confirm the session hit as planned, not the raw number. No knee or pain flags reported.",
   "flags": [
-    "Second long run in a row where climbs drift above the Z2 cap. Sat 31 has a hard 155bpm cap on the first 70min.",
-    "Wk7 rebuilt: 585 (+10% bias vs 530 base), load front-loaded Tue-Thu, Sun 1 now a spin."
+    "Feel 2/5 on an RPE7 session worth watching — not a red flag alone, but combined with last week's underdelivered easy days/overdelivered quality pattern, keep an eye on accumulating fatigue into Thu's 2x20min.",
+    "HRV 69 / RHR 48 this morning was comfortably clear of the stop-rule gate (HRV<55 or RHR 52+), so full 2x4 was the correct call."
   ],
-  "suggestedChange": null
+  "suggestedChange": "None needed — session matched plan. Just keep Wed's easy 72min Z2 genuinely easy to bank recovery before Thu's threshold work."
 }
