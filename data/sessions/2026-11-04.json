@@ -1,14 +1,30 @@
 {
   "date": "2026-11-04",
-  "type": "easy",
-  "title": "Easy 45min + 4 strides (Sofia)",
-  "terrain": "Flat",
-  "estimatedLoad": 40,
+  "type": "quality",
+  "title": "Openers 3x4min + strides (Sofia)",
+  "terrain": "Flat: Borisova gradina or hotel treadmill 1%",
+  "estimatedLoad": 35,
   "steps": [
     {
-      "kind": "work",
-      "duration": "38m",
-      "target": "Z2, 142-152bpm"
+      "kind": "warmup",
+      "duration": "12m",
+      "target": "Z1-Z2, 135-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "4m",
+          "target": "Z3-Z4, 162-168bpm, race HR"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "Z1, 120-140bpm jog"
+        }
+      ]
     },
     {
       "kind": "repeat",
@@ -28,10 +44,10 @@
     },
     {
       "kind": "cooldown",
-      "duration": "2m",
-      "target": "Z1, 120-140bpm"
+      "duration": "6m",
+      "target": "Z1-Z2, 130-145bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 38min at 142-152bpm, 4x20s strides (1min jog), 2m easy. Alternative: hotel bike 55min at 134-147bpm.\nGYM: none.\nFUEL: normal.\nGARMIN: ~45.\nSTOP RULE: late QBR dinner, under 6h sleep = 30min only.\nWHY: maintenance, nothing to gain from more.",
-  "icuWorkoutText": "- 38m 142-152bpm\n\n4x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
+  "coachNotes": "EXECUTION: 12m easy, 3x4min at 162-168bpm (2min jog), 4x20s strides (1min jog), 6m easy. ~42min.\nGYM: none.\nFUEL: normal.\nGARMIN: ~50.\nSTOP RULE: sleep under 5h30 or HRV under 55 = 2x4min.\nWHY: race HR stays familiar 3 days out, no fatigue cost.",
+  "icuWorkoutText": "- 12m 135-150bpm\n\n3x\n- 4m 162-168bpm\n- 2m 120-140bpm\n\n4x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 6m 130-145bpm"
 }

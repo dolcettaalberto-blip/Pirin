@@ -11,10 +11,15 @@ Edited by the coaching chat when circumstances change. Read by daily-coach.mjs.
 - Sleep debt (not load) is usually his limiter; HRV dips he attributes to late bedtime and dinner.
 
 ## Calendar
-- Sofia QBR: Mon 2 Nov (early flight) to Thu 5 Nov. Hotel runs, Borisova gradina park flat, or hotel treadmill/bike.
+- Presolana (mountain house): Sat 31 Oct to Mon 2 Nov included. Trail terrain, NO indoor bike: no spin sessions there.
+- Sofia QBR: Mon 2 Nov (evening flight) to Thu 5 Nov. Hotel runs, Borisova gradina park flat, or hotel treadmill/bike.
 - Tirano: Fri 6 to Sun 8 Nov.
 - Race: Valtellina Wine Trail Half, Sat 7 Nov 10:00, Chiuro to Sondrio, 21.7km / 914m D+, target sub-2h00.
 - Barcelona: Sun 8 Nov 21:25 flight to Thu 12 Nov.
+
+## Data reading
+- intervals.icu `feel` scale: 1 = Strong, 2 = Good, 3 = Normal, 4 = Poor, 5 = Weak. Low numbers are good.
+- Never assume a session was on a treadmill: check activity type, name/description and D+. The treadmill-incline undercount applies only when it was actually a treadmill. If the gym is closed he runs outdoors on flat.
 
 ## Fuel
 - Tailwind (2 scoops / 500ml = 50g carb) + Enervit Carbo Gel. ~70-80 g/h in races.

@@ -1,16 +1,16 @@
 {
   "date": "2026-11-01",
-  "type": "recovery",
-  "title": "Indoor spin 75min Z2",
-  "terrain": "Indoor bike",
-  "estimatedLoad": 70,
+  "type": "easy",
+  "title": "Easy trail 50min (Presolana)",
+  "terrain": "Valley or forest road, rolling, hike anything steep",
+  "estimatedLoad": 45,
   "steps": [
     {
       "kind": "work",
-      "duration": "1h15m",
-      "target": "Z2, 134-147bpm, cadence 90+"
+      "duration": "50m",
+      "target": "Z1-Z2, 138-150bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 75min spin at 134-147bpm, cadence 90+. No surges.\nGYM: 10min mobility.\nFUEL: normal.\nGARMIN: ~75.\nSTOP RULE: quads sore after Sat = 45min.\nWHY: aerobic load with no impact; taper starts Mon.",
-  "icuWorkoutText": "- 1h15m 134-147bpm"
+  "coachNotes": "EXECUTION: 50min at 138-150bpm on the flattest terrain available, hike the climbs.\nGYM: 10min mobility.\nFUEL: normal, refuel well for Monday.\nGARMIN: ~50.\nSTOP RULE: quads sore after Sat = 35min.\nWHY: flush Saturday, arrive fresh for Monday's climbs.",
+  "icuWorkoutText": "- 50m 138-150bpm"
 }

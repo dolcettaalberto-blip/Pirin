@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-02",
+  "type": "quality",
+  "title": "Race-specific climbs 3x10min (Presolana)",
+  "terrain": "Presolana, climb of 10min+ at 8-12% with runnable descent, ~600m D+",
+  "estimatedLoad": 85,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "20m",
+      "target": "Z1-Z2, 135-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "10m",
+          "target": "Z3-Z4, 163-170bpm, climb at race effort, hike over 15%"
+        },
+        {
+          "kind": "work",
+          "duration": "10m",
+          "target": "Z2-Z3, 140-160bpm, descent at race effort, 172+ spm"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1, 125-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 20m easy, 3x(10min climb at 163-170bpm + 10min descent at race effort, 172+ spm), 10m easy. ~1h30, ~600m D+. Morning, before the evening flight.\nGYM: none.\nFUEL: Tailwind 500ml + 1 gel at 45min (race kit check).\nGARMIN: ~130.\nSTOP RULE: HRV under 55, RHR 52+ or quads sore from Sat = 2 climbs, descents easy. No extra reps if it feels good.\nWHY: last race-pace stimulus on real terrain, replaces the uphill lost on Tue 27 (flat outdoor). D-5: this is the ceiling.",
+  "icuWorkoutText": "- 20m 135-150bpm\n\n3x\n- 10m 163-170bpm\n- 10m 140-160bpm\n\n- 10m 125-140bpm"
+}

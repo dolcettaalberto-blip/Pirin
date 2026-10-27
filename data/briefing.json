@@ -1,12 +1,12 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T08:11:00.290Z",
-  "headline": "Tuesday uphill session done: 8 of 8 reps, on target. Plan stays as already updated today",
-  "summary": "Done: 82min, 16.4km, load 85 against 105 prescribed, avg HR 151, max 175, RPE 7, feel 2. The load model undercounts treadmill incline intervals by 20-25%, so judge this on reps and RPE. 85 counts as roughly 105-110 of real work, and RPE 7 is right for 2 series of 4x4min uphill. Max HR 175 is the top of the cap with no overshoot, so the HR bands look respected. I don't have a per-rep breakdown, so I can't grade drift rep by rep. Readiness this morning: HRV 69 (up from 57), RHR 48 (back down from 53 on Monday), sleep 5.9h. That isn't amber (amber starts under 5.5h), but it's 0.1h short of green, so sleep is still the thing to watch. CTL 54.0, ATL 62.3, TSB -8.3. Today's earlier update already set the rest of Week 7 (610) and race week, aiming for a start-line CTL of about 55.8 and race-morning TSB of +2.6. Nothing in today's session changes that, so no edits. Tomorrow: run 60min at 142-152bpm plus 6 strides, then 50min PM spin at 134-147bpm. If tonight's sleep is under 6h, drop the spin.",
+  "generatedAt": "2026-10-27T11:00:00.000Z",
+  "headline": "GREEN: 8/8 reps flat outdoors, feel good; Monday becomes the last race-specific session",
+  "summary": "2x4x4min done outdoors on flat (gym closed): 82min, 16.4km, HR 151 avg / 175 max, RPE 7, feel Good. Load 85 vs 105 is a real -20 with no uphill, so Mon 2 in Presolana carries the climbing: 3x10min at 163-170bpm. HRV 69 / RHR 48, CTL 54.0. Race-morning projection CTL 56.3 / TSB +1.6.",
   "flags": [
-    "Easy-day drift: Fri 23 Oct averaged 155bpm against a 138-148 band. On Wed's 60min, 152bpm is a hard ceiling. If HR goes above 155 on the flat, slow down.",
-    "Sleep 5.9h. Two more short nights before Sat 31 would put the last long run behind the Wed and Thu spins: protect bedtime, not the bike.",
-    "Cadence 168 spm today. The Thu tempo asks for 170+, so set a cadence alert."
+    "Sat 31: 60min hard cap 155bpm, Sun 25 drifted 77min into Z3-Z4.",
+    "Mon 2 is D-5: 3 climbs is the ceiling, no extra reps.",
+    "Sleep 5.9h: drop Wed PM spin first if Wed sleep is under 6h."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Applied: Sun 1 easy trail 50min, Mon 2 climbs 3x10min, Sofia days trimmed to 30/35/25."
 }

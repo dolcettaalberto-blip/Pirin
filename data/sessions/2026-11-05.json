@@ -1,13 +1,13 @@
 {
   "date": "2026-11-05",
   "type": "easy",
-  "title": "Easy 35min + 4 strides (travel day)",
+  "title": "Easy 30min + 4 strides (travel day)",
   "terrain": "Flat, wherever the day allows",
-  "estimatedLoad": 30,
+  "estimatedLoad": 25,
   "steps": [
     {
       "kind": "work",
-      "duration": "28m",
+      "duration": "23m",
       "target": "Z1-Z2, 138-150bpm"
     },
     {
@@ -32,6 +32,6 @@
       "target": "Z1, 120-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 28min at 138-150bpm, 4x20s strides, 2m easy. If flight is early: run in Milan in the evening, same session.\nGYM: none.\nFUEL: start carb loading: 7-8 g/kg Thu and Fri.\nGARMIN: ~35.\nSTOP RULE: travel fatigue = 20min easy, skip strides.\nWHY: legs moving after the flight, no load.",
-  "icuWorkoutText": "- 28m 138-150bpm\n\n4x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
+  "coachNotes": "EXECUTION: 23min at 138-150bpm, 4x20s strides, 2m easy. Early flight = run in Milan in the evening.\nGYM: none.\nFUEL: start carb loading: 7-8 g/kg Thu and Fri.\nGARMIN: ~30.\nSTOP RULE: travel fatigue = 20min, skip strides.\nWHY: legs moving, no load.",
+  "icuWorkoutText": "- 23m 138-150bpm\n\n4x\n- 20s 175-185bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
 }

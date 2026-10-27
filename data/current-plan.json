@@ -111,9 +111,9 @@
     {
       "week": 7,
       "start": "2026-10-26",
-      "block": "Specific (last load week)",
-      "runKm": 70,
-      "weekendDplus": 1050,
+      "block": "Specific (last load week, Presolana Sat-Mon)",
+      "runKm": 78,
+      "weekendDplus": 1200,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 105,
@@ -121,20 +121,20 @@
         "thu": 105,
         "fri": 45,
         "sat": 170,
-        "sun": 70
+        "sun": 45
       }
     },
     {
       "week": 8,
       "start": "2026-11-02",
-      "block": "Race (Sofia Mon-Thu, Tirano Fri)",
-      "runKm": 50,
+      "block": "Race (Presolana Mon, Sofia Tue-Thu, Tirano Fri)",
+      "runKm": 58,
       "weekendDplus": 914,
       "plannedDailyLoad": {
-        "mon": 0,
-        "tue": 55,
-        "wed": 40,
-        "thu": 30,
+        "mon": 85,
+        "tue": 30,
+        "wed": 35,
+        "thu": 25,
         "fri": 15,
         "sat": 180,
         "sun": 0
