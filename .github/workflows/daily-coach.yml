@@ -1,0 +1,58 @@
+name: Daily coach
+
+# Runs every morning: reviews intervals.icu vs the plan, writes the Today-tab
+# briefing, and applies plan edits directly when warranted. Plan edits are only
+# committed if vitest passes; otherwise they are reverted and the briefing
+# carries a flag. Also runnable on demand from the Actions tab.
+on:
+  schedule:
+    - cron: "30 7 * * *"   # 08:30 Rome (CET), 09:30 in summer time
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-coach
+  cancel-in-progress: false
+
+jobs:
+  coach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Review and plan
+        id: coach
+        env:
+          ICU_API_KEY: ${{ secrets.ICU_API_KEY }}
+          ICU_ATHLETE_ID: ${{ secrets.ICU_ATHLETE_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node .github/scripts/daily-coach.mjs
+      - name: Validate plan edits
+        if: steps.coach.outputs.applied == 'true'
+        run: |
+          if ! npx vitest run; then
+            echo "Tests failed, reverting plan edits, keeping briefing."
+            git checkout -- data/current-plan.json data/changelog.json data/sessions
+            git clean -fd data/sessions
+            node -e "const f='data/briefing.json',b=require('./'+f);b.flags.push('Auto-edit reverted: schema tests failed');b.suggestedChange=null;require('fs').writeFileSync(f,JSON.stringify(b,null,2)+'\n')"
+          fi
+      - name: Commit and push
+        run: |
+          git add data/
+          if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
+          git config user.name "pirin-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --cached --quiet -- data/current-plan.json; then MSG="coach: daily briefing $(date -u +%F)"; else MSG="coach: daily auto-adjust $(date -u +%F)"; fi
+          git commit -m "$MSG"
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            if ! git rebase origin/main; then git rebase --abort; echo "Rebase conflict, a chat session edited the same files."; exit 1; fi
+          done
+          exit 1
