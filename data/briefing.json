@@ -1,12 +1,12 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T10:00:00.000Z",
-  "headline": "GREEN: 8/8 reps done, Wk7 +25 load, race week built",
-  "summary": "Uphill 2x4x4min complete: 82min, HR 151 avg / 175 max, RPE 7. icu 85 vs 105 is the treadmill-incline undercount, not a shortfall. HRV 69 / RHR 48, CTL 54.0, TSB -8.3. Projection now CTL 55.8 / TSB +2.6 on race morning (target 55, TSB +2 to +5).",
+  "generatedAt": "2026-10-27T08:11:00.290Z",
+  "headline": "Tuesday uphill session done: 8 of 8 reps, on target. Plan stays as already updated today",
+  "summary": "Done: 82min, 16.4km, load 85 against 105 prescribed, avg HR 151, max 175, RPE 7, feel 2. The load model undercounts treadmill incline intervals by 20-25%, so judge this on reps and RPE. 85 counts as roughly 105-110 of real work, and RPE 7 is right for 2 series of 4x4min uphill. Max HR 175 is the top of the cap with no overshoot, so the HR bands look respected. I don't have a per-rep breakdown, so I can't grade drift rep by rep. Readiness this morning: HRV 69 (up from 57), RHR 48 (back down from 53 on Monday), sleep 5.9h. That isn't amber (amber starts under 5.5h), but it's 0.1h short of green, so sleep is still the thing to watch. CTL 54.0, ATL 62.3, TSB -8.3. Today's earlier update already set the rest of Week 7 (610) and race week, aiming for a start-line CTL of about 55.8 and race-morning TSB of +2.6. Nothing in today's session changes that, so no edits. Tomorrow: run 60min at 142-152bpm plus 6 strides, then 50min PM spin at 134-147bpm. If tonight's sleep is under 6h, drop the spin.",
   "flags": [
-    "Feel 2/5 on the last 4 sessions: watch Thu rep 2 HR drift.",
-    "Sleep 5.9h: Wed PM spin is the first thing to drop if Wed sleep is under 6h.",
-    "Sat 31: 60min hard cap 155bpm. Sun 25 drifted 77min into Z3-Z4."
+    "Easy-day drift: Fri 23 Oct averaged 155bpm against a 138-148 band. On Wed's 60min, 152bpm is a hard ceiling. If HR goes above 155 on the flat, slow down.",
+    "Sleep 5.9h. Two more short nights before Sat 31 would put the last long run behind the Wed and Thu spins: protect bedtime, not the bike.",
+    "Cadence 168 spm today. The Thu tempo asks for 170+, so set a cadence alert."
   ],
-  "suggestedChange": "Applied: Thu spin 45min, Sat long 2h25, Sun spin 75min. Race week Sofia/Tirano sessions published."
+  "suggestedChange": null
 }
