@@ -99,12 +99,14 @@ Activities (28d): ${JSON.stringify(acts)}
 Plan weeks: ${JSON.stringify(plan.weeks)}
 Race: ${JSON.stringify(plan.race)}
 Sessions -7d to +14d: ${JSON.stringify(upcoming)}
-Changelog (last 8): ${JSON.stringify(changelog.slice(-8))}`;
+Changelog (last 8): ${JSON.stringify(changelog.slice(-8))}
+
+Respond only by calling the coach_day tool once.`;
 
   const r = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: { "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-    body: JSON.stringify({ model: MODEL, max_tokens: 12000, system: SYSTEM, messages: [{ role: "user", content: user }], tools: [TOOL], tool_choice: { type: "tool", name: "coach_day" } }),
+    body: JSON.stringify({ model: MODEL, max_tokens: 12000, system: SYSTEM, messages: [{ role: "user", content: user }], tools: [TOOL], tool_choice: { type: "auto" } }),
   });
   if (!r.ok) throw new Error(`Anthropic -> ${r.status} ${await r.text()}`);
   const out = (await r.json()).content.find((b) => b.type === "tool_use")?.input;
