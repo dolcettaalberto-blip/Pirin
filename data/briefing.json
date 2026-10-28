@@ -1,12 +1,12 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T14:17:08.313Z",
-  "headline": "Wed done: 105 of 115. Run came up short and felt poor, spin delivered. Thu stays as planned.",
-  "summary": "Readiness this morning was GREEN: HRV 60 (down 9 from 69, under the 10-point amber trigger), RHR 48, sleep 6.1h. Grade vs prescription: the AM run was 50 min / 9.9 km at 152 bpm avg against 72 min planned (60 min at 142-152 + 6x20s strides), so the run fell 22 min short. Load was 51 against ~60-80. Avg HR sat at the very top of the band. Max HR 183 fits strides, but I can't confirm the reps from this data. RPE 6 and feel 4 (Poor) on an easy run is the red note today. The PM spin was 50/50 min at 146 bpm avg, inside the 134-147 Z2 band (max 161), load 54, RPE 3, feel 3: done as written. Day total 105 vs 115. Week to date 190 vs 220 planned (Tue 85/105, Wed 105/115). CTL 55.2, ATL 68.0, TSB -12.8, so you're carrying the fatigue the last load week is meant to carry. No plan change: a -10 shortfall is small, and race-morning TSB was projected tight at +1.6, so it lands as a bit of freshness. Thu 29 (2x20 min at 160-166 + 45 min spin) is gated on tomorrow morning's numbers and its own stop rules.",
+  "generatedAt": "2026-10-28T14:40:35.000Z",
+  "headline": "Wed 105/115. No plan change, and no extra load: CTL 55.2 already at target 10 days out.",
+  "summary": "Readiness GREEN: HRV 60 (7-day avg 62), RHR 48, sleep 6.1h. AM run 50 of 72 min at 152bpm avg (top of the 142-152 band), RPE 6, feel 4: short and hot. PM spin 50/50 min at 146bpm, done as written. Week 190/220, CTL 55.2, ATL 68.0, TSB -12.8. Push-more check: no. The 55 CTL target is met; load added now arrives on 7 Nov as fatigue, not fitness, so the 10-point shortfall is free freshness. The remaining upside is execution quality: Thu 2x20min at 160-166bpm and Sat 3x12min climbs at 162-170bpm with full race fuelling.",
   "flags": [
-    "Easy volume under-delivered again: 50 of 72 min, avg 152 at the top of the 142-152 band. Same pattern as Fri 23 (155 avg) and Sun 25 (77 min in Z3-Z4).",
-    "Feel 4 (Poor) and RPE 6 on an easy run, the day after 8x4min. If tomorrow shows HRV under 55, a drop over 10, RHR 52+ or sleep under 5.5h, Thu goes amber: 2x15 min and spin 30 min.",
-    "Spin max 161 went into bike Z3 (148-157+). Keep spins under 147 on Thu."
+    "Easy runs drifting hot: 152 today, 154 Fri 23, Sun 25 in Z3-Z4. Thu warm-up and Fri easy stay under 150.",
+    "Sleep is the limiter, not load: 6.1h avg last 7 nights, 4 of 7 under 6.5h. Target 7h+ Thu-Fri ahead of Saturday's last long run.",
+    "Thu gate: HRV under 55, RHR 52+ or sleep under 5.5h = 2x15min and spin 30min. Spin cap 147bpm."
   ],
   "suggestedChange": null
 }
