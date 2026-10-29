@@ -4,10 +4,19 @@ name: Daily coach
 # briefing, and applies plan edits directly when warranted. Plan edits are only
 # committed if vitest passes; otherwise they are reverted and the briefing
 # carries a flag. Also runnable on demand from the Actions tab.
+# Primary trigger: launchd on Alberto's Mac dispatches this at 09:00 Rome
+# (com.alberto.pirin-coach). GitHub's own cron is a fallback only, because
+# scheduled runs here have been delayed by hours or dropped. The guard step
+# makes every run after the first one of the day a no-op unless force=true.
 on:
   schedule:
-    - cron: "30 7 * * *"   # 08:30 Rome (CET), 09:30 in summer time
-  workflow_dispatch: {}
+    - cron: "30 8 * * *"   # fallback, 09:30 Rome (CET), 10:30 in summer time
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even if the bot already ran today"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -21,12 +30,23 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 30
+      - name: Once-a-day guard
+        id: guard
+        run: |
+          if [ "${{ inputs.force }}" != "true" ] && TZ=Europe/Rome git log --since=midnight --author=pirin-tracker-bot --format=%h | grep -q .; then
+            echo "Bot already ran today (Rome), skipping."; echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-node@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           node-version: "22"
           cache: npm
-      - run: npm ci --no-audit --no-fund
+      - if: steps.guard.outputs.skip != 'true'
+        run: npm ci --no-audit --no-fund
       - name: Review and plan
+        if: steps.guard.outputs.skip != 'true'
         id: coach
         env:
           ICU_API_KEY: ${{ secrets.ICU_API_KEY }}
@@ -43,6 +63,7 @@ jobs:
             node -e "const f='data/briefing.json',b=require('./'+f);b.flags.push('Auto-edit reverted: schema tests failed');b.suggestedChange=null;require('fs').writeFileSync(f,JSON.stringify(b,null,2)+'\n')"
           fi
       - name: Commit and push
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git add data/
           if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
