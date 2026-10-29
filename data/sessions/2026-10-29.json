@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
   "type": "quality",
-  "title": "Race-pace tempo 2x20min, PM spin 45min",
+  "title": "Race-pace tempo 2x20min (PM spin skipped)",
   "terrain": "Flat or rolling",
-  "estimatedLoad": 105,
+  "estimatedLoad": 72,
   "steps": [
     {
       "kind": "warmup",
@@ -32,6 +32,6 @@
       "target": "Z1-Z2, 130-145bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 15m easy, 2x20min at 160-166bpm (4min jog), 10m easy. Cadence 170+. PM spin 45min at 134-147bpm, cadence 90+.\nGYM: none.\nFUEL: 1 gel before rep 2 (race rehearsal).\nGARMIN: run ~130, spin ~45.\nSTOP RULE: HR over 168 in rep 2 = hold pace, finish at 15min. Sleep under 6h = spin 30min.\nWHY: 40min at race HR; spin +15min is the +10% add, zero impact.",
+  "coachNotes": "DONE: R1 18.7min 4:27/km @163bpm, R2 18.0min 4:35/km @166 (168-169 from min 5, max 172). Cadence 172. Load 72, RPE 8.\nPM SPIN: skipped (athlete call, amber HRV 54 / RHR 51). Day 72/105.\nNOTE: ran through the 168 stop rule. Race day: 166 is a ceiling from km 10, not a target from the gun.",
   "icuWorkoutText": "- 15m 135-150bpm\n\n2x\n- 20m 160-166bpm\n- 4m 120-140bpm\n\n- 10m 130-145bpm"
 }

@@ -1,12 +1,11 @@
 {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T14:40:35.000Z",
-  "headline": "Wed 105/115. No plan change, and no extra load: CTL 55.2 already at target 10 days out.",
-  "summary": "Readiness GREEN: HRV 60 (7-day avg 62), RHR 48, sleep 6.1h. AM run 50 of 72 min at 152bpm avg (top of the 142-152 band), RPE 6, feel 4: short and hot. PM spin 50/50 min at 146bpm, done as written. Week 190/220, CTL 55.2, ATL 68.0, TSB -12.8. Push-more check: no. The 55 CTL target is met; load added now arrives on 7 Nov as fatigue, not fitness, so the 10-point shortfall is free freshness. The remaining upside is execution quality: Thu 2x20min at 160-166bpm and Sat 3x12min climbs at 162-170bpm with full race fuelling.",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T12:00:00.000Z",
+  "headline": "AMBER. Tempo done, PM spin skipped. Day 72/105, no make-up.",
+  "summary": "HRV 54 (11-day low, avg 63), RHR 51 (+3), sleep 6.4h, TSB -13 (CTL 55.5, ATL 68.5). Tempo: R1 4:27/km @163bpm, R2 4:35/km @166, 168-169 from min 5, max 172, cadence 172, RPE 8. 6% decoupling, ran through the 168 stop rule. Spin skipped: correct call, CTL already at the 55 target, the 33 load does nothing for 7 Nov. Week 262 Tue-Thu vs 325 plan.",
   "flags": [
-    "Easy runs drifting hot: 152 today, 154 Fri 23, Sun 25 in Z3-Z4. Thu warm-up and Fri easy stay under 150.",
-    "Sleep is the limiter, not load: 6.1h avg last 7 nights, 4 of 7 under 6.5h. Target 7h+ Thu-Fri ahead of Saturday's last long run.",
-    "Thu gate: HRV under 55, RHR 52+ or sleep under 5.5h = 2x15min and spin 30min. Spin cap 147bpm."
+    "Second HRV dip in 4 days (Sun 56, Thu 54): fatigue, not one bad dinner. Bed by 23:00 tonight and Fri.",
+    "Race pacing: 163-166bpm holds ~18min then drifts. 166 is a ceiling from km 10."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Fri 45 easy as planned, HR under 145. Sat Presolana: HRV >=60 full 170; <58 cut to 140 by dropping the last climb."
 }

@@ -1031,5 +1031,13 @@
       "2026-11-04",
       "2026-11-05"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "change": "Thu 29 Oct PM spin 45min removed; Thu load 105 -> 72 (run as done). Wk7 585 -> 552.",
+    "reason": "Amber readiness: HRV 54 (11-day low, avg 63), RHR 51 (+3), TSB -13. Tempo overshot run share (72 vs ~60) and rep 2 ran 168-169bpm. CTL 55.5 already at start-line target; lost 33 load costs no race fitness, buys freshness. Athlete call to skip, coach agrees.",
+    "affects": [
+      "2026-10-29"
+    ]
   }
 ]
