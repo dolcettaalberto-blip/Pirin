@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T10:20:24.514Z",
-  "headline": "AMBER: tempo done but ran hot, PM spin already dropped, no further plan changes",
-  "summary": "Today's tempo was done, but rep 2 ran above the band. Prescribed: 2x20min at 160-166bpm, cadence 170+. Rep 1 was in band: 18.7min at 4:27/km, 163bpm. Rep 2 ran over the ceiling: 18.0min at 4:35/km, 166 average, 168-169 from minute 5 and a max of 172. Both reps were short of 20min. Cadence was 172, which is on target. RPE 8, feel 2 (Good), load 72 for 65min / 13.1km. Running through the 168 stop rule is the same drift into Z3-Z4 we saw on Sun 25. Readiness this morning is AMBER because HRV is 54, under the 55 line. RHR is 51 and sleep was 6.4h. HRV dropped 6 overnight, which doesn't trigger amber on its own. CTL 55.5 has already reached the 55 start-line target, and ATL 68.5 puts TSB at about -13. Today's amber cut is already made: the PM spin is gone, so today counts as 72 instead of 105. No further plan changes. Fri 30 stays an easy 50min (45 load) with Sat's long run as planned. Freshness now matters more than adding load.",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T08:00:33.980Z",
+  "headline": "GREEN: easy 50min done on target, no plan changes. Saturday's long run stays as written",
+  "summary": "Today's run is graded and locked: 49min, 9.5km, load 47 vs 45 planned, RPE 4, feel 2 (Good). Average HR was 149, inside the 138-150 band, and that figure includes the strides. Max 184 fits 20s strides at 175-185, so the strides were done. Readiness is green. HRV is 70, up 16 from yesterday's 54. RHR is 50 and sleep was 6h30 (score 78). Yesterday's amber reading has cleared. CTL is 55.3 and ATL 65.7, so TSB is -10.4. CTL is already at the 55 start-line target. Week 7 so far: 309 load delivered of 337 planned, Tue to Fri. The gap comes from Thursday's spin, which was dropped on purpose. We are 8 days out, inside the 10-day window where freshness comes first. So there is no +10% push and no edits. Saturday's 170 long run in Presolana stays as written, and the readiness gate applies on the morning.",
   "flags": [
-    "Rep 2 sat at 168-169bpm against a 166 ceiling. On race day 166 is a cap until km 10, not where you start.",
-    "If HRV is still under 55 tomorrow: Fri becomes 35min at 138-150bpm with no strides. Sat 31 then uses its stop rule: 2 climbs, cap 1h50.",
-    "Sleep is the limiter. Bed by 22:00 tonight and Fri, early dinner with no alcohol before the Presolana long run."
+    "Saturday's long run: the first 80min are capped at 155bpm. On Sun 25 you spent 77min in Z3-Z4 against about 30 planned. Hiking anything over 15% is part of the session.",
+    "Saturday's gate: HRV under 55 or RHR 52+ = 2 climbs only, cap 1h50.",
+    "Tonight: carb-forward dinner, bed by 22:00. Sleep, not load, is still what limits you."
   ],
   "suggestedChange": null
 }
