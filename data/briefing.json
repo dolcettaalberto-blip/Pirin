@@ -1,12 +1,11 @@
 {
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-30T08:00:33.980Z",
-  "headline": "GREEN: easy 50min done on target, no plan changes. Saturday's long run stays as written",
-  "summary": "Today's run is graded and locked: 49min, 9.5km, load 47 vs 45 planned, RPE 4, feel 2 (Good). Average HR was 149, inside the 138-150 band, and that figure includes the strides. Max 184 fits 20s strides at 175-185, so the strides were done. Readiness is green. HRV is 70, up 16 from yesterday's 54. RHR is 50 and sleep was 6h30 (score 78). Yesterday's amber reading has cleared. CTL is 55.3 and ATL 65.7, so TSB is -10.4. CTL is already at the 55 start-line target. Week 7 so far: 309 load delivered of 337 planned, Tue to Fri. The gap comes from Thursday's spin, which was dropped on purpose. We are 8 days out, inside the 10-day window where freshness comes first. So there is no +10% push and no edits. Saturday's 170 long run in Presolana stays as written, and the readiness gate applies on the morning.",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T11:22:17.572Z",
+  "headline": "Last long run: climbs nailed, descent intensity ran hot — no pain flagged",
+  "summary": "Solid final long stimulus: 2h34 moving, 1006m D+, 18.7km, avg HR 149 right in the Z2-Z3 band, and feel was 5/Weak with RPE 7 — expected for the last big session 7 days out, and no knee or ITB flag in the data. The interval summary shows the structure held (9x ~8-9min efforts around 154-158bpm plus the 12-13min blocks), consistent with the prescribed 3x(12min climb/8min descent). Load posted at 151 vs the 170 estimate, but this is exactly the trail/vertical undercount pattern — treat RPE 7 and feel 5 as the more honest fatigue signal than the raw number. HRV this morning was 78 (highest of the block) and RHR 45, both excellent given you're at ~1365m average altitude where HRV is the metric that matters, not RHR. CTL ramp is now +5.8/wk (57.6), still under the 6 guardrail, but ATL has jumped to 77 and TSB is deeply negative — this was the last big load injection before taper. Tomorrow and the rest of race week need to actually be easy: the Z2 cap discipline that was the stated \"why\" for this session paid off, don't undo it by over-cooking Sofia travel days.",
   "flags": [
-    "Saturday's long run: the first 80min are capped at 155bpm. On Sun 25 you spent 77min in Z3-Z4 against about 30 planned. Hiking anything over 15% is part of the session.",
-    "Saturday's gate: HRV under 55 or RHR 52+ = 2 climbs only, cap 1h50.",
-    "Tonight: carb-forward dinner, bed by 22:00. Sleep, not load, is still what limits you."
+    "Feel 5/Weak + RPE 7 is a tired-legs signal, not a red flag — but it's a strong case for protecting the taper starting now.",
+    "No knee/ITB mention in session data; treat as clear unless Alberto reports otherwise."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Check in on how legs feel over the next 24-48h; if still heavy by Mon 2 Nov, consider trimming the planned 85-load climb session that day rather than protecting it as-is."
 }
