@@ -1,16 +1,16 @@
 {
   "date": "2026-11-01",
   "type": "easy",
-  "title": "Easy trail 50min (Presolana)",
-  "terrain": "Valley or forest road, rolling, hike anything steep",
-  "estimatedLoad": 45,
+  "title": "Easy trail 35min (Presolana, amber)",
+  "terrain": "Valley or forest road, flattest available, hike anything steep",
+  "estimatedLoad": 30,
   "steps": [
     {
       "kind": "work",
-      "duration": "50m",
-      "target": "Z1-Z2, 138-150bpm"
+      "duration": "35m",
+      "target": "Z1-Z2, 135-148bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 50min at 138-150bpm on the flattest terrain available, hike the climbs.\nGYM: 10min mobility.\nFUEL: normal, refuel well for Monday.\nGARMIN: ~50.\nSTOP RULE: quads sore after Sat = 35min.\nWHY: flush Saturday, arrive fresh for Monday's climbs.",
-  "icuWorkoutText": "- 50m 138-150bpm"
+  "coachNotes": "EXECUTION: 35min at 135-148bpm on the flattest terrain available, hike every climb, walk steep descents.\nGYM: 10min mobility (quads, calves, hips).\nFUEL: normal, refuel well for Monday.\nGARMIN: ~30.\nSTOP RULE: HR over 150 on flat or quads sore = walk, cap 25min.\nWHY: HRV 78 to 55 overnight (amber) and feel 5 after Sat: flush only.",
+  "icuWorkoutText": "- 35m 135-148bpm"
 }

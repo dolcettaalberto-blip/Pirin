@@ -1039,5 +1039,14 @@
     "affects": [
       "2026-10-29"
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "change": "Sun 1 Nov 45 -> 30 (50 -> 35min easy). Mon 2 Nov 85 -> 65 (3x10 -> 2x10min race-effort climbs, ~600 -> ~400m D+). Wk7 552 -> 537, Wk8 pre-race 190 -> 170.",
+    "reason": "Amber: HRV 55 vs 78 yesterday (drop of 23, over 10). RHR 50 and sleep 8.0h fine. Sat 31 long run 151 vs 170 (1006m D+, 152min, avg HR 149) but feel 5 (Weak), RPE 7. CTL 56.2 already above the 55 start-line target, TSB -10.6, 6 days out: freshness wins, so no +10% bias (race-week exception).",
+    "affects": [
+      "2026-11-01",
+      "2026-11-02"
+    ]
   }
 ]

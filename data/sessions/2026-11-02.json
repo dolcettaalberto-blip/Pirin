@@ -1,9 +1,9 @@
 {
   "date": "2026-11-02",
   "type": "quality",
-  "title": "Race-specific climbs 3x10min (Presolana)",
-  "terrain": "Presolana, climb of 10min+ at 8-12% with runnable descent, ~600m D+",
-  "estimatedLoad": 85,
+  "title": "Race-specific climbs 2x10min (Presolana)",
+  "terrain": "Presolana, climb of 10min+ at 8-12% with runnable descent, ~400m D+",
+  "estimatedLoad": 65,
   "steps": [
     {
       "kind": "warmup",
@@ -12,7 +12,7 @@
     },
     {
       "kind": "repeat",
-      "count": 3,
+      "count": 2,
       "steps": [
         {
           "kind": "work",
@@ -32,6 +32,6 @@
       "target": "Z1, 125-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 20m easy, 3x(10min climb at 163-170bpm + 10min descent at race effort, 172+ spm), 10m easy. ~1h30, ~600m D+. Morning, before the evening flight.\nGYM: none.\nFUEL: Tailwind 500ml + 1 gel at 45min (race kit check).\nGARMIN: ~130.\nSTOP RULE: HRV under 55, RHR 52+ or quads sore from Sat = 2 climbs, descents easy. No extra reps if it feels good.\nWHY: last race-pace stimulus on real terrain, replaces the uphill lost on Tue 27 (flat outdoor). D-5: this is the ceiling.",
-  "icuWorkoutText": "- 20m 135-150bpm\n\n3x\n- 10m 163-170bpm\n- 10m 140-160bpm\n\n- 10m 125-140bpm"
+  "coachNotes": "EXECUTION: 20m easy, 2x(10min climb at 163-170bpm + 10min descent at race effort, 172+ spm), 10m easy. ~1h10, ~400m D+. Morning, before the evening flight.\nGYM: none.\nFUEL: Tailwind 500ml + 1 gel at 40min (race kit check).\nGARMIN: ~65.\nSTOP RULE: HRV under 50 or RHR 52+ = 1 climb, descents easy. HR over 172 on a climb = hike. No 3rd rep.\nWHY: amber Sun 1 (HRV -23) and feel 5 Sat: keep the race-pace touch, drop the volume. D-5, CTL already 56.2.",
+  "icuWorkoutText": "- 20m 135-150bpm\n\n2x\n- 10m 163-170bpm\n- 10m 140-160bpm\n\n- 10m 125-140bpm"
 }

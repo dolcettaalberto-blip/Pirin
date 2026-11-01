@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-31T11:22:17.572Z",
-  "headline": "Last long run: climbs nailed, descent intensity ran hot — no pain flagged",
-  "summary": "Solid final long stimulus: 2h34 moving, 1006m D+, 18.7km, avg HR 149 right in the Z2-Z3 band, and feel was 5/Weak with RPE 7 — expected for the last big session 7 days out, and no knee or ITB flag in the data. The interval summary shows the structure held (9x ~8-9min efforts around 154-158bpm plus the 12-13min blocks), consistent with the prescribed 3x(12min climb/8min descent). Load posted at 151 vs the 170 estimate, but this is exactly the trail/vertical undercount pattern — treat RPE 7 and feel 5 as the more honest fatigue signal than the raw number. HRV this morning was 78 (highest of the block) and RHR 45, both excellent given you're at ~1365m average altitude where HRV is the metric that matters, not RHR. CTL ramp is now +5.8/wk (57.6), still under the 6 guardrail, but ATL has jumped to 77 and TSB is deeply negative — this was the last big load injection before taper. Tomorrow and the rest of race week need to actually be easy: the Z2 cap discipline that was the stated \"why\" for this session paid off, don't undo it by over-cooking Sofia travel days.",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T08:03:21.794Z",
+  "headline": "AMBER: HRV down 23 overnight. Today cut to 35min easy, Mon cut to 2 climbs",
+  "summary": "HRV is 55 (yesterday 78), so it dropped 23 overnight. The amber trigger is a drop of more than 10, and amber overrides green. RHR 50 and 8.0h sleep (score 76) are fine, so this is a reaction to Saturday's load, not illness. Saturday's Presolana long run: 18.7km, 152min, 1006m D+, load 151 vs 170 planned (89%), average HR 149, max 176, RPE 7, but feel 5 (Weak). D+ and duration were on plan. CTL is 56.2, already above the 55 start-line target, ATL 66.8, TSB -10.6. Six days before the race, freshness wins. Today is 35min easy instead of 50. Monday's race-specific session drops from 3 climbs to 2. Sofia days and the taper stay as they are.",
   "flags": [
-    "Feel 5/Weak + RPE 7 is a tired-legs signal, not a red flag — but it's a strong case for protecting the taper starting now.",
-    "No knee/ITB mention in session data; treat as clear unless Alberto reports otherwise."
+    "Feel 5 (Weak) after Sat 31 even though load was under plan (151/170): the legs took more than the numbers show. Walk the steep descents today.",
+    "CTL 56.2 is already above the 55 target. The rest of race week buys freshness, not fitness. No extra reps Monday even if it feels good."
   ],
-  "suggestedChange": "Check in on how legs feel over the next 24-48h; if still heavy by Mon 2 Nov, consider trimming the planned 85-load climb session that day rather than protecting it as-is."
+  "suggestedChange": "Sun 1 cut 50 to 35min easy (load 45 to 30); Mon 2 cut 3x10 to 2x10min climbs (load 85 to 65)."
 }

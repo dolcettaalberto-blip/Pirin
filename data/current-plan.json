@@ -121,7 +121,7 @@
         "thu": 72,
         "fri": 45,
         "sat": 170,
-        "sun": 45
+        "sun": 30
       }
     },
     {
@@ -131,7 +131,7 @@
       "runKm": 58,
       "weekendDplus": 914,
       "plannedDailyLoad": {
-        "mon": 85,
+        "mon": 65,
         "tue": 30,
         "wed": 35,
         "thu": 25,
