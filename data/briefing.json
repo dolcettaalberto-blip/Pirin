@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T08:03:21.794Z",
-  "headline": "AMBER: HRV down 23 overnight. Today cut to 35min easy, Mon cut to 2 climbs",
-  "summary": "HRV is 55 (yesterday 78), so it dropped 23 overnight. The amber trigger is a drop of more than 10, and amber overrides green. RHR 50 and 8.0h sleep (score 76) are fine, so this is a reaction to Saturday's load, not illness. Saturday's Presolana long run: 18.7km, 152min, 1006m D+, load 151 vs 170 planned (89%), average HR 149, max 176, RPE 7, but feel 5 (Weak). D+ and duration were on plan. CTL is 56.2, already above the 55 start-line target, ATL 66.8, TSB -10.6. Six days before the race, freshness wins. Today is 35min easy instead of 50. Monday's race-specific session drops from 3 climbs to 2. Sofia days and the taper stay as they are.",
-  "flags": [
-    "Feel 5 (Weak) after Sat 31 even though load was under plan (151/170): the legs took more than the numbers show. Walk the steep descents today.",
-    "CTL 56.2 is already above the 55 target. The rest of race week buys freshness, not fitness. No extra reps Monday even if it feels good."
-  ],
-  "suggestedChange": "Sun 1 cut 50 to 35min easy (load 45 to 30); Mon 2 cut 3x10 to 2x10min climbs (load 85 to 65)."
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T11:30:48.079Z",
+  "headline": "Session done — 2x10min climbs delivered clean, now shut it down and protect the taper",
+  "summary": "Solid execution: both climb reps landed in band (interval summary shows ~6-7min blocks at 157-159bpm, well inside the 163-170 ceiling with no overshoot), descents stayed controlled, and feel was 2/Good with RPE 5 — a clean, conservative delivery of a session that was already trimmed for amber readiness. Load logged at 70 (icu_training_load) against 65 planned, right on target once you account for the usual HR-based load accounting. No pain or ITB signal reported. This was the last quality touch before Valtellina — from here it's travel (Sofia Tue-Thu) and shakeout only, so the job now is just absorbing this and arriving fresh on the 7th.</summary>\n<parameter name=\"flags\">[\"CTL sits at 57.1, already above the 53 target race-CTL and this week's 55-56 start-line projections from recent changelog entries — there's no fitness to be gained in the next 5 days, only freshness to protect.\", \"ATL (69.7) and TSB still deeply negative; HRV today 56 is mid-pack vs the 54-78 swing of the last week — nothing alarming, but it argues for keeping Sofia travel days genuinely easy as planned rather than topping up load.\"]",
+  "flags": [],
+  "suggestedChange": "No change needed today — session was compliant. Worth confirming with Alberto that Tue-Thu Sofia loads (30/35/25) stay as prescribed or lighter, not bumped, given CTL is already past target and TSB needs to recover before race day."
 }
