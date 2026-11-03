@@ -1,12 +1,11 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T06:48:00.000Z",
-  "headline": "GREEN: run today as planned, 35min easy + 4 strides. No plan change this week.",
-  "summary": "HRV 67 (up from 55-56 on Sun/Mon), RHR 48 (back from 50), sleep 6h14 (score 75). CTL 55.7, ATL 60.5, TSB -4.7: Mon's 2x10min climbs (load 70, feel 2, RPE 5) absorbed cleanly. Projection with Tue 30 / Wed 35 / Thu 25 / Fri 15: race-morning CTL ~54, TSB ~+5. That is the right window for a 2h race. Execute: 28min at 138-150bpm, 4x20s strides at 175-185bpm with 1min jog, 2min easy. Garmin ~35.",
+  "generatedAt": "2026-11-03T08:22:45.523Z",
+  "headline": "Session done — easy spin delivered as a cautious swap, no strides logged",
+  "summary": "Prescribed was 28min Z1-Z2 run (138-150bpm) + 4x20s strides on flat/treadmill, but what's logged is 40min of Indoor Cycling at avg HR 137 (load 36 vs 30 planned), feel 2/Good, RPE 2. No strides, no run — this was swapped to the bike, likely a conservative read of yesterday's amber trend (HRV dropped from 78 to 55 on Nov 1, still soft at 56-67 the last two days) plus general fatigue management 4 days from the race. HR band was right in the Z1-Z2 target throughout, so as a leg-turnover/recovery session it did its job even though it wasn't the prescribed modality. ATL has dropped nicely from 77 (Oct 31) to 65.2 today while CTL holds at 56.6, basically on the Wk8 start-line target — freshness is building as intended. Tomorrow's shakeout and Friday's opener in Tirano are the last chances to get actual running strides in before Saturday's race, so that's worth flagging rather than letting two more easy days slip to the bike.",
   "flags": [
-    "No +10% bias this week: extra load now adds zero fitness by Saturday and costs TSB. Race-week exception stands.",
-    "Sleep is the limiter, not load: 6 of the last 7 nights under 6h40. Sofia QBR nights, lights out by 23:00 Tue and Wed.",
-    "Sat 31 Oct long run felt 5 (Weak) at RPE 7. HRV rebound to 67 says it was absorbed, but Wed openers stop at 2x4min if HRV under 55 or sleep under 5h30."
+    "No run strides done in 2 days now (swapped Oct-31 Z2 long run completed fine, but today's run-specific leg-speed work was skipped) — want legs feeling race-ready pace by Tirano.",
+    "HRV 67 / RHR 48 today is back to healthy range after yesterday's amber dip, so the bike swap wasn't strictly forced by readiness — worth checking if it was a deliberate taper choice or just logistics."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Confirm with Alberto whether Wed (tomorrow, 35min) should include the strides that were skipped today, to get at least one dose of race-pace leg turnover in before Saturday."
 }
