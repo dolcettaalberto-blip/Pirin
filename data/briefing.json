@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T08:22:45.523Z",
-  "headline": "Session done — easy spin delivered as a cautious swap, no strides logged",
-  "summary": "Prescribed was 28min Z1-Z2 run (138-150bpm) + 4x20s strides on flat/treadmill, but what's logged is 40min of Indoor Cycling at avg HR 137 (load 36 vs 30 planned), feel 2/Good, RPE 2. No strides, no run — this was swapped to the bike, likely a conservative read of yesterday's amber trend (HRV dropped from 78 to 55 on Nov 1, still soft at 56-67 the last two days) plus general fatigue management 4 days from the race. HR band was right in the Z1-Z2 target throughout, so as a leg-turnover/recovery session it did its job even though it wasn't the prescribed modality. ATL has dropped nicely from 77 (Oct 31) to 65.2 today while CTL holds at 56.6, basically on the Wk8 start-line target — freshness is building as intended. Tomorrow's shakeout and Friday's opener in Tirano are the last chances to get actual running strides in before Saturday's race, so that's worth flagging rather than letting two more easy days slip to the bike.",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T16:29:32.094Z",
+  "headline": "GREEN: Sofia openers logged, taper unchanged",
+  "summary": "Readiness green: HRV 62 (5 down from 67, under the 10 drop limit), RHR 49, sleep 7.0h. This morning's run: 8.5km in 51min, load 31 vs 35 planned, RPE 2, feel 2 (Good). Max HR 173 shows you reached race HR (162-168) at some point. The 127bpm average over 51min is low for 3x4min at 162-168 plus strides, though. From the summary alone I can't confirm you did all 3 reps at full length. You ran 9min longer than the ~42min prescribed and the load landed 4 short. That doesn't matter 3 days out. Tuesday was a 40min spin (load 36) instead of the 35min run (30): also fine. Fitness check: CTL 56.0, ATL 60.7, so form (TSB) is -4.7. Running Thu 25 and Fri 15 as planned projects race morning at about CTL 54.3 and TSB about +4.5. That's inside the +2 to +5 target and close to the 55 CTL target. The taper stays as written. Thu: 23min easy at 138-150bpm plus 4 strides in Milan, and start carb loading at 7-8 g/kg.",
   "flags": [
-    "No run strides done in 2 days now (swapped Oct-31 Z2 long run completed fine, but today's run-specific leg-speed work was skipped) — want legs feeling race-ready pace by Tirano.",
-    "HRV 67 / RHR 48 today is back to healthy range after yesterday's amber dip, so the bike swap wasn't strictly forced by readiness — worth checking if it was a deliberate taper choice or just logistics."
+    "Average cadence 81 (~162 spm) is below your usual 82-85 on flat. On Thu and Fri, run the strides with quick feet and aim for 172+ spm on race descents.",
+    "If the 3x4min weren't done in full, don't make them up. Thursday's strides are enough to keep race speed sharp."
   ],
-  "suggestedChange": "Confirm with Alberto whether Wed (tomorrow, 35min) should include the strides that were skipped today, to get at least one dose of race-pace leg turnover in before Saturday."
+  "suggestedChange": null
 }
