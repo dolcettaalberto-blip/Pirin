@@ -17,7 +17,7 @@
         {
           "kind": "work",
           "duration": "20s",
-          "target": "Z5, 175-185bpm strides"
+          "target": "Z5, 179-185bpm strides"
         },
         {
           "kind": "recover",
@@ -27,6 +27,6 @@
       ]
     }
   ],
-  "coachNotes": "EXECUTION: 16min at 135-148bpm, 3x20s strides. Done.\nGYM: none.\nFUEL: carb load day, light low-fibre dinner by 20:00. Prep flasks: 2 scoops Tailwind each.\nGARMIN: ~15.\nSTOP RULE: none.\nWHY: kit check and legs awake. Race kit = Sat 31 Oct config, no changes.",
-  "icuWorkoutText": "- 16m 135-148bpm\n\n3x\n- 20s 175-185bpm\n- 1m 120-140bpm"
+  "coachNotes": "EXECUTION: 16min at 135-148bpm, 3x20s strides (1min jog). Done.\nGYM: none.\nFUEL: carb load day, light low-fibre dinner by 20:00. Prep flasks: 2 scoops Tailwind each.\nGARMIN: ~15.\nSTOP RULE: RHR 52+ or sleep under 6h = 15min easy, no strides.\nWHY: kit check and legs awake. Thu amber (RHR 52, sleep 5.9h). Race kit = Sat 31 Oct config.",
+  "icuWorkoutText": "- 16m 135-148bpm\n\n3x\n- 20s 179-185bpm\n- 1m 120-140bpm\n"
 }

@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T16:29:32.094Z",
-  "headline": "GREEN: Sofia openers logged, taper unchanged",
-  "summary": "Readiness green: HRV 62 (5 down from 67, under the 10 drop limit), RHR 49, sleep 7.0h. This morning's run: 8.5km in 51min, load 31 vs 35 planned, RPE 2, feel 2 (Good). Max HR 173 shows you reached race HR (162-168) at some point. The 127bpm average over 51min is low for 3x4min at 162-168 plus strides, though. From the summary alone I can't confirm you did all 3 reps at full length. You ran 9min longer than the ~42min prescribed and the load landed 4 short. That doesn't matter 3 days out. Tuesday was a 40min spin (load 36) instead of the 35min run (30): also fine. Fitness check: CTL 56.0, ATL 60.7, so form (TSB) is -4.7. Running Thu 25 and Fri 15 as planned projects race morning at about CTL 54.3 and TSB about +4.5. That's inside the +2 to +5 target and close to the 55 CTL target. The taper stays as written. Thu: 23min easy at 138-150bpm plus 4 strides in Milan, and start carb loading at 7-8 g/kg.",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T16:40:49.469Z",
+  "headline": "AMBER (RHR 52, sleep 5.9h): today's run was short but fine. Race taper unchanged, Friday's strides now depend on how you wake up",
+  "summary": "Today you ran 19min / 3.5km, avg HR 138, max 161, RPE 1, feel 3 (Normal), load 14. The plan was 23min easy + 4x20s strides + 2min (~30min, load 25). Max HR 161 means the strides weren't run (target 175-185). The easy part sat right in the 138-150 band. In practice you used the travel-day stop rule (20min, no strides). That's acceptable today, nothing to make up. Cadence 80.6 (~161 spm) is fine for a jog. Readiness: HRV 63 (62 yesterday, no drop), but RHR 52 (49 yesterday) and sleep 5.9h (score 66). The RHR alone makes today amber. That fits the travel day and short night, not fatigue from training. Load: CTL 55.0, ATL 54.5, so form is already about +0.5. With Friday's 15 load, race morning should land around TSB +5 with CTL about 54, inside the +2 to +5 target. Wed openers delivered 31 vs 35. Week so far: 70 / 36 / 31 / 14. Taper stays as planned. The amber rule only adds a gate to Friday's shakeout. Tonight: sleep is the limiter. Early dinner and lights out early, carb loading 7-8 g/kg as planned.",
   "flags": [
-    "Average cadence 81 (~162 spm) is below your usual 82-85 on flat. On Thu and Fri, run the strides with quick feet and aim for 172+ spm on race descents.",
-    "If the 3x4min weren't done in full, don't make them up. Thursday's strides are enough to keep race speed sharp."
+    "RHR 52 is the first reading of 52+ since 26 Oct. If it is 52+ again Friday with sleep under 6h, run Friday's 15min with no strides.",
+    "Strides skipped today: don't add them Friday unless readiness is back to green.",
+    "Race day: 165 cap for the first 20min, 166 is a ceiling from km 10. On 29 Oct rep 2 went past the 168 stop rule."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Fri 6 shakeout kept at 15 load. Added an amber stop rule: RHR 52+ or sleep under 6h means 15min easy, no strides."
 }

@@ -1048,5 +1048,13 @@
       "2026-11-01",
       "2026-11-02"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "change": "Fri 6 Nov shakeout: load 15 unchanged. Stop rule 'none' -> 'RHR 52+ or sleep under 6h = 15min, no strides'. Strides labelled 179-185bpm to match Z5.",
+    "reason": "Thu 5 amber: RHR 52 (49 Wed), sleep 5.9h (score 66), HRV 63 stable. Thu logged 14 vs 25 (19min, max HR 161, strides skipped, RPE 1). CTL 55.0 / ATL 54.5. Race-morning TSB projects about +5 at CTL about 54, so the taper stays intact. Race-week exception applies, so no +10% bias. Base call was hold 15.",
+    "affects": [
+      "2026-11-06"
+    ]
   }
 ]
