@@ -1,12 +1,11 @@
 {
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T16:40:49.469Z",
-  "headline": "AMBER (RHR 52, sleep 5.9h): today's run was short but fine. Race taper unchanged, Friday's strides now depend on how you wake up",
-  "summary": "Today you ran 19min / 3.5km, avg HR 138, max 161, RPE 1, feel 3 (Normal), load 14. The plan was 23min easy + 4x20s strides + 2min (~30min, load 25). Max HR 161 means the strides weren't run (target 175-185). The easy part sat right in the 138-150 band. In practice you used the travel-day stop rule (20min, no strides). That's acceptable today, nothing to make up. Cadence 80.6 (~161 spm) is fine for a jog. Readiness: HRV 63 (62 yesterday, no drop), but RHR 52 (49 yesterday) and sleep 5.9h (score 66). The RHR alone makes today amber. That fits the travel day and short night, not fatigue from training. Load: CTL 55.0, ATL 54.5, so form is already about +0.5. With Friday's 15 load, race morning should land around TSB +5 with CTL about 54, inside the +2 to +5 target. Wed openers delivered 31 vs 35. Week so far: 70 / 36 / 31 / 14. Taper stays as planned. The amber rule only adds a gate to Friday's shakeout. Tonight: sleep is the limiter. Early dinner and lights out early, carb loading 7-8 g/kg as planned.",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T16:08:52.642Z",
+  "headline": "GREEN: run the 20min shakeout + 3 strides as planned, race tomorrow",
+  "summary": "Readiness is green. HRV is 73, up from 63 yesterday and the highest in 6 days. RHR is 46 and sleep was 6.5h (score 78). That clears all three thresholds, and the shakeout stop rule (RHR 52+ or sleep under 6h) isn't triggered, so keep the strides. Do 16min at 135-148bpm on the Adda path, then 3x20s at 179-185bpm with 1min jogs, and stop there. Race week so far: Mon 70 load vs 65 planned (10.5km, 401m D+). Tue was a 40min spin at 36 instead of the 30 run. Wed 31 vs 35. Thu 14 vs 25 (19min, strides skipped). Total is roughly on plan and the taper did its job. CTL has come down from 57.1 on Mon to 53.7 today, and ATL from 69.7 to 47.2, so you're at TSB +6.5 this morning. The rest of today is the carb load: a light, low-fibre dinner by 20:00, flasks prepped with 2 scoops of Tailwind each, and race kit as on Sat 31 Oct. Tomorrow, cap the first 20min at 165bpm.",
   "flags": [
-    "RHR 52 is the first reading of 52+ since 26 Oct. If it is 52+ again Friday with sleep under 6h, run Friday's 15min with no strides.",
-    "Strides skipped today: don't add them Friday unless readiness is back to green.",
-    "Race day: 165 cap for the first 20min, 166 is a ceiling from km 10. On 29 Oct rep 2 went past the 168 stop rule."
+    "Start-line CTL will be about 53-54, under the 55 target, and race-morning TSB will be above the +2 to +5 band. That's on the fresh side, and I'm leaving it alone on purpose: adding load the day before a race only costs you.",
+    "Wed openers averaged 127bpm over 51min, which is low for 3x4min at 162-168bpm. Tomorrow, make sure your climbs actually reach 163-172bpm instead of sitting under it."
   ],
-  "suggestedChange": "Fri 6 shakeout kept at 15 load. Added an amber stop rule: RHR 52+ or sleep under 6h means 15min easy, no strides."
+  "suggestedChange": null
 }
