@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T16:08:52.642Z",
-  "headline": "GREEN: run the 20min shakeout + 3 strides as planned, race tomorrow",
-  "summary": "Readiness is green. HRV is 73, up from 63 yesterday and the highest in 6 days. RHR is 46 and sleep was 6.5h (score 78). That clears all three thresholds, and the shakeout stop rule (RHR 52+ or sleep under 6h) isn't triggered, so keep the strides. Do 16min at 135-148bpm on the Adda path, then 3x20s at 179-185bpm with 1min jogs, and stop there. Race week so far: Mon 70 load vs 65 planned (10.5km, 401m D+). Tue was a 40min spin at 36 instead of the 30 run. Wed 31 vs 35. Thu 14 vs 25 (19min, strides skipped). Total is roughly on plan and the taper did its job. CTL has come down from 57.1 on Mon to 53.7 today, and ATL from 69.7 to 47.2, so you're at TSB +6.5 this morning. The rest of today is the carb load: a light, low-fibre dinner by 20:00, flasks prepped with 2 scoops of Tailwind each, and race kit as on Sat 31 Oct. Tomorrow, cap the first 20min at 165bpm.",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T06:40:02.711Z",
+  "headline": "GREEN — race day, taper landed clean. Execute the plan.",
+  "summary": "Readiness is GREEN: HRV 69 (well above the low-60s/70s range of the last week), RHR 46, sleep 8h05 and sleep score 90. CTL sits at 52.4, ATL has dropped to 40.9, so TSB is roughly +11.5 — you're fresh. The taper did its job despite the amber wobbles mid-week (low HRV, short sleep on the 4th-5th); today's numbers show full recovery. No pain or ITB signals logged recently. Race-day call: trust the plan as written — cap the first 20min at 165bpm, settle into 163-172bpm on the climbs, relaxed fast descents, and save the last 40min to open up to 175+.",
   "flags": [
-    "Start-line CTL will be about 53-54, under the 55 target, and race-morning TSB will be above the +2 to +5 band. That's on the fresh side, and I'm leaving it alone on purpose: adding load the day before a race only costs you.",
-    "Wed openers averaged 127bpm over 51min, which is low for 3x4min at 162-168bpm. Tomorrow, make sure your climbs actually reach 163-172bpm instead of sitting under it."
+    "Wellness entries are from a non-race location (steps near zero, resting metrics only) — treat HRV/RHR as this morning's baseline, not race-morning in Chiuro.",
+    "No activity logged yet for today; this is the pre-start gate-check, not a review.",
+    "Knee/ITB stop-rule still applies: any lateral or anterior pain on descents means walk it in, don't push through."
   ],
   "suggestedChange": null
 }
