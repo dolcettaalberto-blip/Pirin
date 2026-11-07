@@ -1,12 +1,8 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T06:40:02.711Z",
-  "headline": "GREEN — race day, taper landed clean. Execute the plan.",
-  "summary": "Readiness is GREEN: HRV 69 (well above the low-60s/70s range of the last week), RHR 46, sleep 8h05 and sleep score 90. CTL sits at 52.4, ATL has dropped to 40.9, so TSB is roughly +11.5 — you're fresh. The taper did its job despite the amber wobbles mid-week (low HRV, short sleep on the 4th-5th); today's numbers show full recovery. No pain or ITB signals logged recently. Race-day call: trust the plan as written — cap the first 20min at 165bpm, settle into 163-172bpm on the climbs, relaxed fast descents, and save the last 40min to open up to 175+.",
-  "flags": [
-    "Wellness entries are from a non-race location (steps near zero, resting metrics only) — treat HRV/RHR as this morning's baseline, not race-morning in Chiuro.",
-    "No activity logged yet for today; this is the pre-start gate-check, not a review.",
-    "Knee/ITB stop-rule still applies: any lateral or anterior pain on descents means walk it in, don't push through."
-  ],
-  "suggestedChange": null
+  "generatedAt": "2026-11-07T12:17:23.920Z",
+  "headline": "RACE DAY DONE — sub-2h00 missed, but a well-executed, honest effort",
+  "summary": "Finished in ~2h14 (8050s moving, 22.1km/825m D+) at an average HR of 172bpm — well above the prescribed 163-172bpm climb band and the 168-178bpm \"open up\" finish, meaning this was raced near threshold essentially throughout rather than paced per the plan's progression. The LTHR achievement (176bpm for 1h) and RPE 9 confirm this was a genuine hard effort, not a comfortable sub-2 cruise; feel was 3 (Normal), consistent with a tough but controlled day out. No pain or ITB signal reported, cadence held around 78-79spm. Sub-2h00 needed ~5:30/km average and the data suggest the climbs or terrain cost more than the 914m D+ pacing model assumed — the HR profile shows this was a solid, fully-committed trail half, just not quite the target split.</summary>\n<parameter name=\"flags\">[\"No knee/calf pain flagged — stop rule wasn't triggered, so no forced walk segments today.\", \"Average HR 172 vs a prescribed 163-172 climb ceiling suggests the whole race ran hot relative to plan, likely explaining the time miss more than fitness did.\"]",
+  "flags": [],
+  "suggestedChange": "Log a short debrief note on where time was lost (climbs vs descents vs flats) next time GPS/splits are available, to calibrate the next race's pacing targets — propose reviewing lap data with Alberto before the next key race."
 }
