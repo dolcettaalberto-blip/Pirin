@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T07:02:44.784Z",
-  "headline": "REST: race done. 2h14 on the Wine Trail Half, today stays a full rest day",
-  "summary": "Race graded: Chiuro to Sondrio, 22.1km, 825m D+ in 134min (about 6:04/km). Sub-2h00 missed by about 14min. Avg HR 172, max 187, load 212 vs 180 planned. RPE 9, feel 3 (Normal). Averaging 172bpm for 2h14 puts the whole race at the top of the 163-172 climb band, so you raced on effort and did not hold back. The gap to 2h00 was not pacing restraint. It looks more like the course, or the specific fitness for 900m D+ at that speed. Start line: CTL 53.7 / ATL 47.2 on Fri 6 (TSB +6.5). That was fresher than the +2 to +5 target and 1.3 under the CTL 55 target. Taper slightly over-rested. This morning: HRV 61 (69 yesterday, -8), RHR 51, sleep 7.2h (score 68). That is technically green, but it is the day after a 212-load race and the plan has rest. CTL 56.1, ATL 60.0. No running today. A 20-30min walk before the 21:25 Barcelona flight is fine. Eat and drink well, carbs plus protein at every meal.",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T19:02:18.152Z",
+  "headline": "GREEN: recovery jog done right. Block is over, no plan edits until the next race is set",
+  "summary": "Today's run is locked. There was nothing prescribed (Mon 9 Nov is a rest day, load 0). You logged 4.9 km in 29 min, average HR 136 (Z1, cap 141) and max 151. RPE 2, load 20. Intensity was correct for 2 days after the race. Feel was 4 (Poor), so your legs still feel the race even though the numbers say you are recovering. Readiness is GREEN: HRV 68 (61 yesterday), RHR 46 (51 yesterday) and 6.5h sleep (score 84). CTL 55.2, ATL 54.6, TSB about +0.6.\n\nRace review (Valtellina Wine Trail Half, Sat 7 Nov): 22.1 km / 825 m D+ in 134 min (2h14), so you missed sub-2h00 by about 14 min. Average pace was about 6:04/km against the 5:30/km plan. Average HR was 172 and max 187. That is the top of Z4 for 2h14, at RPE 9. You ran to your limit for the whole race, not just the last 30 min the plan held for opening up. Going into the race you were fresher than planned with a little less fitness: CTL 53.7 / TSB +6.5 the morning before, against a target of 55 / +2 to +5. Load was 212 against 180 estimated. Sleep the night before the race was 8.1h (score 90), so rest was not what held you back.\n\nThe current plan (Valtellina block) ends Sun 8 Nov, and nothing is scheduled after that. I am not adding sessions outside the plan window. The next block needs to be set up in the coaching chat. Until then, in Barcelona (to Thu 12): easy runs only, 30-40 min at 135-148 bpm, or rest. No strides or intensity until feel is back to 3 or better.",
   "flags": [
-    "Plan ends today (week 8). Nothing is scheduled from Mon 9 Nov: the next block needs repointing in the coaching chat before the daily coach can prescribe.",
-    "Until then: Mon 9-Wed 11 in Barcelona = rest or 20-30min Z1 walk/jog at or under 141bpm, only if RHR is back at or below 49 and nothing hurts. No intensity before Thu 12.",
-    "RHR 51 sits at the green limit and sleep score is 68 despite 7.2h. Expect another 1-2 days of suppressed readiness, especially after a late flight tonight.",
-    "Race HR 172 avg for 134min with 825m D+ (course spec 914m): worth reviewing the splits for climb vs descent time when you plan the next block."
+    "Average HR 172 for 2h14 is above the plan's 163-172 bpm climb band, and the plan capped the first 20 min at 165. Pull up the HR splits in the chat: did you go out too hard, or is 6:00/km your real ceiling on this course?",
+    "Feel 4 (Poor) today even though HRV and RHR are back to normal. Recovery runs stay Z1 until feel improves.",
+    "Start-line CTL 53.7 against the 55 target. Easy days were under-delivered across the block (for example Sun 18 Oct 52%, and Sun 25 Oct drifted into Z3-Z4). Fix this in the next block.",
+    "The plan ends 8 Nov. Repoint it to the next race (plan.json, current-plan.json, tests) before daily coaching resumes."
   ],
   "suggestedChange": null
 }
