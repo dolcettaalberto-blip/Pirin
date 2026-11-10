@@ -1,13 +1,12 @@
 {
-  "date": "2026-11-09",
-  "generatedAt": "2026-11-09T19:02:18.152Z",
-  "headline": "GREEN: recovery jog done right. Block is over, no plan edits until the next race is set",
-  "summary": "Today's run is locked. There was nothing prescribed (Mon 9 Nov is a rest day, load 0). You logged 4.9 km in 29 min, average HR 136 (Z1, cap 141) and max 151. RPE 2, load 20. Intensity was correct for 2 days after the race. Feel was 4 (Poor), so your legs still feel the race even though the numbers say you are recovering. Readiness is GREEN: HRV 68 (61 yesterday), RHR 46 (51 yesterday) and 6.5h sleep (score 84). CTL 55.2, ATL 54.6, TSB about +0.6.\n\nRace review (Valtellina Wine Trail Half, Sat 7 Nov): 22.1 km / 825 m D+ in 134 min (2h14), so you missed sub-2h00 by about 14 min. Average pace was about 6:04/km against the 5:30/km plan. Average HR was 172 and max 187. That is the top of Z4 for 2h14, at RPE 9. You ran to your limit for the whole race, not just the last 30 min the plan held for opening up. Going into the race you were fresher than planned with a little less fitness: CTL 53.7 / TSB +6.5 the morning before, against a target of 55 / +2 to +5. Load was 212 against 180 estimated. Sleep the night before the race was 8.1h (score 90), so rest was not what held you back.\n\nThe current plan (Valtellina block) ends Sun 8 Nov, and nothing is scheduled after that. I am not adding sessions outside the plan window. The next block needs to be set up in the coaching chat. Until then, in Barcelona (to Thu 12): easy runs only, 30-40 min at 135-148 bpm, or rest. No strides or intensity until feel is back to 3 or better.",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T07:00:36.719Z",
+  "headline": "Recovery week: optional 30min easy at 141bpm or lower, no intensity",
+  "summary": "Nothing logged yet today. Readiness is partly in: HRV 65 (68 yesterday, down 3), but RHR and sleep have not synced, so I can't confirm green. CTL 53.9, ATL 47.4, so TSB is about +6.5 and the race load is clearing. Race on Sat 7: 22.1km, 825m D+ on the watch, 2h14 at 172bpm average (max 187), RPE 9, feel 3 (Normal), load 212. That missed the sub-2h00 target by about 14min. Mon 9 in Barcelona: 4.9km in 29min at 136bpm average, which is properly easy (Z1), RPE 2, but feel 4 (Poor). The legs are still carrying the race. Today: either rest, or run 30min easy on the flat, capped at 141bpm (Z1), with no strides. If RHR comes in at 52 or higher, or sleep under 6h, rest. Same rule for Wed 11 and Thu 12 (Barcelona, travel back Thu). No spin needed this week. The aim is to recover, not add load.",
   "flags": [
-    "Average HR 172 for 2h14 is above the plan's 163-172 bpm climb band, and the plan capped the first 20 min at 165. Pull up the HR splits in the chat: did you go out too hard, or is 6:00/km your real ceiling on this course?",
-    "Feel 4 (Poor) today even though HRV and RHR are back to normal. Recovery runs stay Z1 until feel improves.",
-    "Start-line CTL 53.7 against the 55 target. Easy days were under-delivered across the block (for example Sun 18 Oct 52%, and Sun 25 Oct drifted into Z3-Z4). Fix this in the next block.",
-    "The plan ends 8 Nov. Repoint it to the next race (plan.json, current-plan.json, tests) before daily coaching resumes."
+    "The plan ends at week 8 (Sun 8 Nov). There are no sessions or planned loads after the race, so no daily edits can be made until the next block is set up in the coaching chat (pick the next race, update plan.json and current-plan.json, archive this block's sessions).",
+    "Mon run feel 4 (Poor) 2 days after an RPE 9 race: keep this week easy even if HRV looks fine.",
+    "Race review for the chat: 2h14 against a 2h00 target, with 172bpm average for 134min. Check whether the opening 20min stayed under the 165bpm cap."
   ],
   "suggestedChange": null
 }
