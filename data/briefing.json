@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T07:00:36.719Z",
-  "headline": "Recovery week: optional 30min easy at 141bpm or lower, no intensity",
-  "summary": "Nothing logged yet today. Readiness is partly in: HRV 65 (68 yesterday, down 3), but RHR and sleep have not synced, so I can't confirm green. CTL 53.9, ATL 47.4, so TSB is about +6.5 and the race load is clearing. Race on Sat 7: 22.1km, 825m D+ on the watch, 2h14 at 172bpm average (max 187), RPE 9, feel 3 (Normal), load 212. That missed the sub-2h00 target by about 14min. Mon 9 in Barcelona: 4.9km in 29min at 136bpm average, which is properly easy (Z1), RPE 2, but feel 4 (Poor). The legs are still carrying the race. Today: either rest, or run 30min easy on the flat, capped at 141bpm (Z1), with no strides. If RHR comes in at 52 or higher, or sleep under 6h, rest. Same rule for Wed 11 and Thu 12 (Barcelona, travel back Thu). No spin needed this week. The aim is to recover, not add load.",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T07:00:38.894Z",
+  "headline": "AMBER: rest today as planned, no run",
+  "summary": "Readiness is amber. HRV is 48, down 17 from 65 yesterday and the lowest in 28 days. Sleep was 5.3h (score 63) and RHR is 51, at the green ceiling. It isn't red, because RHR is under 53. Today is a planned rest day (load 0), so the amber cut changes nothing: take the day off. An easy walk is fine, but no running and no spin. Recent days: the Valtellina Half on Sat 7 was 22.1km / 825m D+ in 134min at avg HR 172 (max 187), load 212, RPE 9, feel 3. That missed the sub-2h00 target by about 14 minutes. The two recovery runs since then held Z1: Mon 9 was 29min at 136bpm (feel 4, Poor) and Tue 10 was 42min at 136bpm, load 30 (feel 3). That's well controlled, with no drift into Z3. CTL is 53.3, ATL 44.5, so TSB is about +9: you're fresh on load. Today's dip looks like sleep, not fatigue, which fits your usual pattern. Tonight: in bed early, light dinner. The 21:25 Sun flight and the Barcelona days are the likely cause.",
   "flags": [
-    "The plan ends at week 8 (Sun 8 Nov). There are no sessions or planned loads after the race, so no daily edits can be made until the next block is set up in the coaching chat (pick the next race, update plan.json and current-plan.json, archive this block's sessions).",
-    "Mon run feel 4 (Poor) 2 days after an RPE 9 race: keep this week easy even if HRV looks fine.",
-    "Race review for the chat: 2h14 against a 2h00 target, with 172bpm average for 134min. Check whether the opening 20min stayed under the 165bpm cap."
+    "HRV 48 is the 28-day low (previous low 50 on 14 Oct), with sleep 5.3h. Sleep debt is the limiter, as usual.",
+    "No sessions are planned past race week (week 8 ended Sun 8 Nov). The plan needs repointing at the next block in the coaching chat before structured training restarts.",
+    "Mon 9 feel 4 (Poor) two days after the race. If tomorrow's HRV is back at 55+ with sleep over 6h, easy running at 135-145bpm can resume."
   ],
   "suggestedChange": null
 }
