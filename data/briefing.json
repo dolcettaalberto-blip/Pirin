@@ -1,12 +1,8 @@
 {
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T07:00:38.894Z",
-  "headline": "AMBER: rest today as planned, no run",
-  "summary": "Readiness is amber. HRV is 48, down 17 from 65 yesterday and the lowest in 28 days. Sleep was 5.3h (score 63) and RHR is 51, at the green ceiling. It isn't red, because RHR is under 53. Today is a planned rest day (load 0), so the amber cut changes nothing: take the day off. An easy walk is fine, but no running and no spin. Recent days: the Valtellina Half on Sat 7 was 22.1km / 825m D+ in 134min at avg HR 172 (max 187), load 212, RPE 9, feel 3. That missed the sub-2h00 target by about 14 minutes. The two recovery runs since then held Z1: Mon 9 was 29min at 136bpm (feel 4, Poor) and Tue 10 was 42min at 136bpm, load 30 (feel 3). That's well controlled, with no drift into Z3. CTL is 53.3, ATL 44.5, so TSB is about +9: you're fresh on load. Today's dip looks like sleep, not fatigue, which fits your usual pattern. Tonight: in bed early, light dinner. The 21:25 Sun flight and the Barcelona days are the likely cause.",
-  "flags": [
-    "HRV 48 is the 28-day low (previous low 50 on 14 Oct), with sleep 5.3h. Sleep debt is the limiter, as usual.",
-    "No sessions are planned past race week (week 8 ended Sun 8 Nov). The plan needs repointing at the next block in the coaching chat before structured training restarts.",
-    "Mon 9 feel 4 (Poor) two days after the race. If tomorrow's HRV is back at 55+ with sleep over 6h, easy running at 135-145bpm can resume."
-  ],
-  "suggestedChange": null
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T07:59:27.416Z",
+  "headline": "AMBER — race done, now pure recovery; no session today",
+  "summary": "Valtellina Wine Trail is in the books (Nov 7, finished strong per the Chiuro file — 8:08 moving, 825m D+, feel 3/RPE 9). Since then you've logged two travel days of easy running plus a big Barcelona trail outing on the 11th (24.9km, 572m D+, RPE 7, feel 4/Poor) that pushed ATL up sharply. Today's wellness confirms you're still digesting that load: HRV 44 (down from 48 yesterday and well off the 10-day average of ~62), RHR 50 (above your typical 46-48), sleep only 5.8h. That's a clean AMBER — low-40s HRV plus short sleep, even though you've logged zero steps so far today (no activity yet). There's no prescribed session logged for today, so this is a true rest/recovery call, not a hard day to defend.</summary>\n<parameter name=\"flags\">[\"Post-race week: CTL (55.3) still above the 53 target-race-CTL used for Valtellina, so there's no fitness urgency to chase right now — this is about absorbing the Nov 11 trail effort cleanly.\", \"The Nov 11 session's load (138) likely undercounts true cost somewhat given it mixed intervals and sustained climbing — treat the RPE 7 / feel 4 as the more honest signal than the raw TSS.\"]",
+  "flags": [],
+  "suggestedChange": "If anything is on the calendar for today, suggest downgrading to full rest or a very short shakeout (20-30min flat, HR capped well below Z2 top) and revisiting tomorrow once HRV/RHR trend back toward baseline."
 }
