@@ -1,8 +1,12 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T07:59:27.416Z",
-  "headline": "AMBER — race done, now pure recovery; no session today",
-  "summary": "Valtellina Wine Trail is in the books (Nov 7, finished strong per the Chiuro file — 8:08 moving, 825m D+, feel 3/RPE 9). Since then you've logged two travel days of easy running plus a big Barcelona trail outing on the 11th (24.9km, 572m D+, RPE 7, feel 4/Poor) that pushed ATL up sharply. Today's wellness confirms you're still digesting that load: HRV 44 (down from 48 yesterday and well off the 10-day average of ~62), RHR 50 (above your typical 46-48), sleep only 5.8h. That's a clean AMBER — low-40s HRV plus short sleep, even though you've logged zero steps so far today (no activity yet). There's no prescribed session logged for today, so this is a true rest/recovery call, not a hard day to defend.</summary>\n<parameter name=\"flags\">[\"Post-race week: CTL (55.3) still above the 53 target-race-CTL used for Valtellina, so there's no fitness urgency to chase right now — this is about absorbing the Nov 11 trail effort cleanly.\", \"The Nov 11 session's load (138) likely undercounts true cost somewhat given it mixed intervals and sustained climbing — treat the RPE 7 / feel 4 as the more honest signal than the raw TSS.\"]",
-  "flags": [],
-  "suggestedChange": "If anything is on the calendar for today, suggest downgrading to full rest or a very short shakeout (20-30min flat, HR capped well below Z2 top) and revisiting tomorrow once HRV/RHR trend back toward baseline."
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T16:41:26.346Z",
+  "headline": "GREEN: easy aerobic day only, no plan edits (Valtellina block is finished)",
+  "summary": "Readiness is GREEN. HRV is 68, up from 44 yesterday and 48 on Wed. RHR is 46 and you slept 6.9h (score 80). CTL is 54.0 and ATL 47.3, so you're fresh (TSB about +7). Nothing is planned today because the Valtellina block ended with the race on 7 Nov. Suggested: 40-45min easy, capped at 148bpm (Z1-Z2), or a 45min Z2 spin at 134-147bpm if a bike is available. No intensity until the next block is built.\n\nRace review (7 Nov): 22.1km, 825m D+ in 134min at avg HR 172 (max 187), RPE 9, feel 3 (Normal). That is about 2h14, so 14min outside the sub-2h00 target. The HR shows a full effort, so the gap was fitness and course, not pacing.\n\nPost-race week: two easy Barcelona runs (Mon 29min at 136bpm, Tue 42min at 136bpm) were well judged. Wed 11 was 24.9km, 572m D+, 138min, load 138, avg HR 149, max 182, RPE 7, feel 4 (Poor). That is a near-race-sized long run 4 days after a race. It was followed by two amber mornings: HRV 48 then 44, sleep 5.3h then 5.8h. Thursday rest was the right call, and today's numbers say you have absorbed it.",
+  "flags": [
+    "Wed 11 long run (load 138, max HR 182, feel Poor) came only 4 days after the race and was followed by HRV 48 then 44. That is the long-day-runs-hot pattern again.",
+    "Plan has no weeks after 8 Nov: the next race block needs repointing in a coaching chat before I can write sessions.",
+    "Sleep was under 6h on 11 and 12 Nov. Sleep is still the main limiter."
+  ],
+  "suggestedChange": null
 }
