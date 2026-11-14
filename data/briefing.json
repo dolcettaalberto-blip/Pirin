@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T16:41:26.346Z",
-  "headline": "GREEN: easy aerobic day only, no plan edits (Valtellina block is finished)",
-  "summary": "Readiness is GREEN. HRV is 68, up from 44 yesterday and 48 on Wed. RHR is 46 and you slept 6.9h (score 80). CTL is 54.0 and ATL 47.3, so you're fresh (TSB about +7). Nothing is planned today because the Valtellina block ended with the race on 7 Nov. Suggested: 40-45min easy, capped at 148bpm (Z1-Z2), or a 45min Z2 spin at 134-147bpm if a bike is available. No intensity until the next block is built.\n\nRace review (7 Nov): 22.1km, 825m D+ in 134min at avg HR 172 (max 187), RPE 9, feel 3 (Normal). That is about 2h14, so 14min outside the sub-2h00 target. The HR shows a full effort, so the gap was fitness and course, not pacing.\n\nPost-race week: two easy Barcelona runs (Mon 29min at 136bpm, Tue 42min at 136bpm) were well judged. Wed 11 was 24.9km, 572m D+, 138min, load 138, avg HR 149, max 182, RPE 7, feel 4 (Poor). That is a near-race-sized long run 4 days after a race. It was followed by two amber mornings: HRV 48 then 44, sleep 5.3h then 5.8h. Thursday rest was the right call, and today's numbers say you have absorbed it.",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T07:03:38.868Z",
+  "headline": "AMBER: easy or rest today, and the plan needs a new race block",
+  "summary": "Today is amber, so keep it easy or take the day off. Your HRV is 48, down 20 from 68 yesterday. That is below the 55 floor and more than a 10-point overnight drop. Your resting HR of 49 and 7.5h of sleep are both fine, so this is not red. The plan has nothing scheduled after the Valtellina block, so today is open. If you train, do 30-40min easy at 142-155bpm (Z2) or lower. Run it flat, with no strides. If you have a bike, a 30-40min spin at 134-147bpm also works. Don't add volume to make up for the last two days. Your fitness (CTL) is 52.7, your fatigue (ATL) is 41.0 and your form (TSB) is +11.7. You are fresh on load, so the low HRV is about recovery, not training volume. Looking back: you ran the race in 2h14 (134min) for 22.1km and 825m of climbing, at an average HR of 172 and RPE 9. That missed the sub-2h00 target. On Wed 11 Nov you ran 24.9km in 2h18 at an average HR of 149, for a load of 138. That was on a morning with HRV 48 and 5.3h of sleep, and you rated the feel 4 (Poor). The next morning your HRV was 44.",
   "flags": [
-    "Wed 11 long run (load 138, max HR 182, feel Poor) came only 4 days after the race and was followed by HRV 48 then 44. That is the long-day-runs-hot pattern again.",
-    "Plan has no weeks after 8 Nov: the next race block needs repointing in a coaching chat before I can write sessions.",
-    "Sleep was under 6h on 11 and 12 Nov. Sleep is still the main limiter."
+    "Block finished: the plan has no sessions or weeks after 8 Nov. The coaching chat needs to point the plan at the next race before I can schedule anything.",
+    "Wed 11 Nov: you ran a 138-load long run (2h18 at avg HR 149, RPE 7, feel Poor) 4 days after the race, on an amber morning (HRV 48, sleep 5.3h). The next day your HRV was 44.",
+    "Your HRV has swung between 44 and 68 this week (48, 44, 68, 48). The low mornings were 11 and 12 Nov, when you slept 5.3h and 5.8h. Watch your sleep and bedtime."
   ],
   "suggestedChange": null
 }
