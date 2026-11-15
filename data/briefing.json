@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T07:03:38.868Z",
-  "headline": "AMBER: easy or rest today, and the plan needs a new race block",
-  "summary": "Today is amber, so keep it easy or take the day off. Your HRV is 48, down 20 from 68 yesterday. That is below the 55 floor and more than a 10-point overnight drop. Your resting HR of 49 and 7.5h of sleep are both fine, so this is not red. The plan has nothing scheduled after the Valtellina block, so today is open. If you train, do 30-40min easy at 142-155bpm (Z2) or lower. Run it flat, with no strides. If you have a bike, a 30-40min spin at 134-147bpm also works. Don't add volume to make up for the last two days. Your fitness (CTL) is 52.7, your fatigue (ATL) is 41.0 and your form (TSB) is +11.7. You are fresh on load, so the low HRV is about recovery, not training volume. Looking back: you ran the race in 2h14 (134min) for 22.1km and 825m of climbing, at an average HR of 172 and RPE 9. That missed the sub-2h00 target. On Wed 11 Nov you ran 24.9km in 2h18 at an average HR of 149, for a load of 138. That was on a morning with HRV 48 and 5.3h of sleep, and you rated the feel 4 (Poor). The next morning your HRV was 44.",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T07:12:07.389Z",
+  "headline": "NO PLAN: block over, today is unscheduled. Treat as amber until HRV and sleep sync",
+  "summary": "The Valtellina block ended with the race on 7 Nov: 22.1km, 825m D+, 134min, avg HR 172, load 212, RPE 9. Nothing is planned from 8 Nov onward, so there's no session to grade or gate today. Today's readiness is incomplete. RHR is 49 (fine), but HRV and sleep haven't synced. Yesterday was amber: HRV 48, down 20 from 68 on the 13th, with RHR 49 and sleep 7.5h. So I can't call today green. Since the race: easy runs on 9 and 10 Nov (loads 20 and 30), then 24.9km / 572m D+ / 138min on 11 Nov (load 138, avg HR 149, RPE 7, feel 4 = Poor), four days after a race effort. The two mornings after that run were the low point: HRV 48 then 44, sleep 5.3h then 5.8h. No activity logged for 12-14 Nov. CTL has gone from 57.4 on race day to 51.4, ATL is 35.5 and TSB is about +16, so you're fully recovered and losing fitness. If HRV syncs at 55+ with sleep over 6h: 50-60min easy run, Z2 142-155bpm, with a hard cap at 155. A Z2 spin at 134-147bpm also works if you have a bike. If HRV is under 55 or sleep is under 6h: 30-40min Z1, at or below 141bpm, or rest.",
   "flags": [
-    "Block finished: the plan has no sessions or weeks after 8 Nov. The coaching chat needs to point the plan at the next race before I can schedule anything.",
-    "Wed 11 Nov: you ran a 138-load long run (2h18 at avg HR 149, RPE 7, feel Poor) 4 days after the race, on an amber morning (HRV 48, sleep 5.3h). The next day your HRV was 44.",
-    "Your HRV has swung between 44 and 68 this week (48, 44, 68, 48). The low mornings were 11 and 12 Nov, when you slept 5.3h and 5.8h. Watch your sleep and bedtime."
+    "The block is finished and the plan has no weeks after 8 Nov. The next race and a new block (race, baseline, weeks) need to be set up in the coaching chat. The daily coach can't do this.",
+    "11 Nov: 138min long run 4 days after the race, with feel 4 (Poor). HRV fell to 44-48 for the next two mornings. That's the long-day overreach pattern again.",
+    "CTL 57.4 -> 51.4 in 8 days with nothing logged for 12-14 Nov. A short recovery break is fine, but every extra empty day costs fitness for the next block."
   ],
   "suggestedChange": null
 }
