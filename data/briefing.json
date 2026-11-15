@@ -1,12 +1,11 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T07:12:07.389Z",
-  "headline": "NO PLAN: block over, today is unscheduled. Treat as amber until HRV and sleep sync",
-  "summary": "The Valtellina block ended with the race on 7 Nov: 22.1km, 825m D+, 134min, avg HR 172, load 212, RPE 9. Nothing is planned from 8 Nov onward, so there's no session to grade or gate today. Today's readiness is incomplete. RHR is 49 (fine), but HRV and sleep haven't synced. Yesterday was amber: HRV 48, down 20 from 68 on the 13th, with RHR 49 and sleep 7.5h. So I can't call today green. Since the race: easy runs on 9 and 10 Nov (loads 20 and 30), then 24.9km / 572m D+ / 138min on 11 Nov (load 138, avg HR 149, RPE 7, feel 4 = Poor), four days after a race effort. The two mornings after that run were the low point: HRV 48 then 44, sleep 5.3h then 5.8h. No activity logged for 12-14 Nov. CTL has gone from 57.4 on race day to 51.4, ATL is 35.5 and TSB is about +16, so you're fully recovered and losing fitness. If HRV syncs at 55+ with sleep over 6h: 50-60min easy run, Z2 142-155bpm, with a hard cap at 155. A Z2 spin at 134-147bpm also works if you have a bike. If HRV is under 55 or sleep is under 6h: 30-40min Z1, at or below 141bpm, or rest.",
+  "generatedAt": "2026-11-15T08:09:34.954Z",
+  "headline": "Castione trail run banked — strong finish, race long behind us now",
+  "summary": "Today's session was a 2h58 trail run at Castione (19.6km, 1188m D+, up to 1995m) with HR mostly 141-155bpm per the lap summary, average 143bpm — comfortably aerobic despite the climbing. RPE 8 but feel was 1 (Strong), which is a good combination: hard work, body responding well. No pain or ITB mentions logged. This lands two days after the Valtellina Wine Trail race itself (Nov 7), so we're now into post-race rebuild territory rather than taper — CTL sits at 54.8, ATL 54.4, ramp -1.3/wk, which is calm. HRV 51 and RHR 49 this morning are unremarkable given yesterday's reading was similar (HRV 48/RHR 49), and sleep was short again (5h15, score 60) — worth watching but not a red flag on a day you've already banked a solid altitude session on.",
   "flags": [
-    "The block is finished and the plan has no weeks after 8 Nov. The next race and a new block (race, baseline, weeks) need to be set up in the coaching chat. The daily coach can't do this.",
-    "11 Nov: 138min long run 4 days after the race, with feel 4 (Poor). HRV fell to 44-48 for the next two mornings. That's the long-day overreach pattern again.",
-    "CTL 57.4 -> 51.4 in 8 days with nothing logged for 12-14 Nov. A short recovery break is fine, but every extra empty day costs fitness for the next block."
+    "Three of the last four nights have been under 6h sleep (5h19, 5h48, 5h15) with sleep scores sliding 79→60 — a mild fatigue-debt pattern worth flagging even though today's session went well.",
+    "Session is at ~1450-1995m average/max altitude: treat today's resting HR/HRV as noise-prone from altitude, not a fatigue signal in isolation."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Given short sleep three nights running post-race, consider an easier or shorter session tomorrow to let sleep debt clear before building rebuild volume back up — confirm with Alberto rather than assuming."
 }
