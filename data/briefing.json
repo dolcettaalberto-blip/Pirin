@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T07:00:50.385Z",
-  "headline": "GREEN: no session planned, take an easy day. The plan needs a new race.",
-  "summary": "Readiness is GREEN. HRV is 77, up from 51 yesterday, so there's no drop to worry about. RHR is 47 and you slept 6.9h (score 84). CTL is 53.5 and ATL 47.2, so you're fresh at about +6.\n\nThe Valtellina block is over. Race day (7 Nov) was 22.1km / 825m D+ in 2h14 at an average of 172bpm, RPE 9. That's outside the sub-2h00 target. Since then you've logged 330 load in 8 days: 20 on the 9th, 30 on the 10th, 138 on the 11th (24.9km, 149bpm, feel 4 Poor) and 142 yesterday (Presolana, 19.6km / 1188m D+ in 2h45 at 143bpm, RPE 8, feel 1 Strong). Yesterday's average HR stayed in Z1 for a long climbing day, which is good control.\n\nNothing is planned from today on, and I'm not adding sessions until the next race is set. Today, after yesterday's 142: either 40-45min easy run at 130-150bpm on flat or rolling ground, or rest. If you have a bike, 45min Z2 spin at 134-147bpm is the no-impact option.",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T17:46:41.046Z",
+  "headline": "Unplanned easy treadmill run, done right: 57min at 113bpm. No plan change, the block needs repointing.",
+  "summary": "Review mode. No session was planned for today (the Valtellina block ended with the race on 7 Nov). You ran 8.0km on the treadmill in 57min, 0m D+, load 33. Average HR was 113 and max 158, RPE 1, feel 2 (Good). That is a true easy run, well inside Z1 (<=141), with none of the Z3 drift your easy days usually show. It was flat, so the treadmill undercount for incline sessions doesn't apply and 33 stands as logged.\n\nReadiness: HRV 80 is your best in 28 days (77 yesterday). RHR 45 is also the low. Sleep was 5.9h. That misses the green bar (>6h) but isn't amber (<5.5h), so it's green on recovery markers with sleep as the limiter, as usual.\n\nLoad: CTL 53.0, ATL 45.3, TSB about +7.7. Since the race you've logged 138 (Wed 11, 24.9km), 142 (Sun 15 Presolana, 19.6km / 1188m D+, RPE 8, max HR 181) and 33 today. That's 313 over the last 7 days, and the body is absorbing it: HRV went 51 to 77 to 80 after Sunday. CTL has held at 53-55 since race day.\n\nThe plan has no weeks or sessions past 8 Nov, so this run can't edit anything. The next block (race, baseline, weeks) needs to be set up in the coaching chat.",
   "flags": [
-    "The plan ends at the race (week 8, 2-8 Nov) and every date from 9 Nov has load 0. It needs repointing to a new race and block before I can prescribe again.",
-    "HRV was in the 40s on 4 of the last 6 days (48, 44, 48, 51) before today's 77. Sleep was 5.3h on 11 Nov and again on 15 Nov. Sleep is still the limiter, not load."
+    "Plan block finished: there are no planned sessions after 7 Nov. Set up the next race and weeks in the coaching chat so CTL doesn't drift down from 53 without a plan.",
+    "Sleep 5.9h is still under 6h even with HRV at 80. Sleep is still the limiter.",
+    "Sun 15 Presolana was a hard effort 8 days after the race (RPE 8, max HR 181, 1188m D+). It went fine (feel 1), but keep the next 2-3 days easy until the new block is built."
   ],
   "suggestedChange": null
 }
