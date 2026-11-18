@@ -1,12 +1,13 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T17:46:41.046Z",
-  "headline": "Unplanned easy treadmill run, done right: 57min at 113bpm. No plan change, the block needs repointing.",
-  "summary": "Review mode. No session was planned for today (the Valtellina block ended with the race on 7 Nov). You ran 8.0km on the treadmill in 57min, 0m D+, load 33. Average HR was 113 and max 158, RPE 1, feel 2 (Good). That is a true easy run, well inside Z1 (<=141), with none of the Z3 drift your easy days usually show. It was flat, so the treadmill undercount for incline sessions doesn't apply and 33 stands as logged.\n\nReadiness: HRV 80 is your best in 28 days (77 yesterday). RHR 45 is also the low. Sleep was 5.9h. That misses the green bar (>6h) but isn't amber (<5.5h), so it's green on recovery markers with sleep as the limiter, as usual.\n\nLoad: CTL 53.0, ATL 45.3, TSB about +7.7. Since the race you've logged 138 (Wed 11, 24.9km), 142 (Sun 15 Presolana, 19.6km / 1188m D+, RPE 8, max HR 181) and 33 today. That's 313 over the last 7 days, and the body is absorbing it: HRV went 51 to 77 to 80 after Sunday. CTL has held at 53-55 since race day.\n\nThe plan has no weeks or sessions past 8 Nov, so this run can't edit anything. The next block (race, baseline, weeks) needs to be set up in the coaching chat.",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T17:28:37.780Z",
+  "headline": "AMBER on sleep (4.8h): today's unplanned 10.5km is logged, keep tomorrow easy. No plan exists past race day",
+  "summary": "Today's readiness is AMBER. Sleep was 4.8h (score 65), under the 5.5h line. Amber overrides green, even though HRV 76 and RHR 44 (lowest in 28 days) both look strong. That fits your usual pattern: sleep debt is the limiter, not load. Today's run is already logged: Bucharest, 10.5km in 53min, 80m D+, load 61, avg HR 156, max 184, cadence 83, RPE 4, feel 2 (Good). Nothing was prescribed for today because the plan ends at the race on 7 Nov, so there is nothing to grade it against. If it was meant as an easy run, avg 156 sits at the bottom of Z3 (Z2 tops out at 155) and the 184 max reached Z5. That is the easy-day drift again. Since the race (load 212), your logged runs are 20, 30, 138 (Barcelona, 24.9km, feel 4), 142 (Presolana, 19.6km / 1188m D+, RPE 8, feel 1), 33 (treadmill, avg HR 113) and today's 61. CTL is 53.2, ATL 47.4, TSB +5.8, so fitness held through the post-race period without overload. Tomorrow, because of the amber sleep: rest, or at most 40min easy at 142-155bpm (or a Z2 spin at 134-147bpm if a bike is available), no strides, and get to bed early. I made no plan edits because there are no weeks or sessions after 7 Nov to edit.",
   "flags": [
-    "Plan block finished: there are no planned sessions after 7 Nov. Set up the next race and weeks in the coaching chat so CTL doesn't drift down from 53 without a plan.",
-    "Sleep 5.9h is still under 6h even with HRV at 80. Sleep is still the limiter.",
-    "Sun 15 Presolana was a hard effort 8 days after the race (RPE 8, max HR 181, 1188m D+). It went fine (feel 1), but keep the next 2-3 days easy until the new block is built."
+    "The plan block ended at the Valtellina race on 7 Nov and hasn't been pointed at a next race. Every day from 11 Nov to 2 Dec is empty. To fix it, open a coaching chat to set the next race and write the new block's weeks.",
+    "Today's run averaged 156bpm, the bottom of Z3. If you meant it as easy, that's the drift pattern again: easy runs should stay at or below 155bpm.",
+    "Sleep has been short on 3 of the last 4 nights: 5.3h on 15 Nov, 5.9h, then 4.8h today. That's the limiter, not training load.",
+    "The athlete-context calendar stops at Barcelona (12 Nov), but today's run was logged in Bucharest. The context file needs updating."
   ],
   "suggestedChange": null
 }
