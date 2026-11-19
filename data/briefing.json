@@ -1,13 +1,12 @@
 {
-  "date": "2026-11-18",
-  "generatedAt": "2026-11-18T17:28:37.780Z",
-  "headline": "AMBER on sleep (4.8h): today's unplanned 10.5km is logged, keep tomorrow easy. No plan exists past race day",
-  "summary": "Today's readiness is AMBER. Sleep was 4.8h (score 65), under the 5.5h line. Amber overrides green, even though HRV 76 and RHR 44 (lowest in 28 days) both look strong. That fits your usual pattern: sleep debt is the limiter, not load. Today's run is already logged: Bucharest, 10.5km in 53min, 80m D+, load 61, avg HR 156, max 184, cadence 83, RPE 4, feel 2 (Good). Nothing was prescribed for today because the plan ends at the race on 7 Nov, so there is nothing to grade it against. If it was meant as an easy run, avg 156 sits at the bottom of Z3 (Z2 tops out at 155) and the 184 max reached Z5. That is the easy-day drift again. Since the race (load 212), your logged runs are 20, 30, 138 (Barcelona, 24.9km, feel 4), 142 (Presolana, 19.6km / 1188m D+, RPE 8, feel 1), 33 (treadmill, avg HR 113) and today's 61. CTL is 53.2, ATL 47.4, TSB +5.8, so fitness held through the post-race period without overload. Tomorrow, because of the amber sleep: rest, or at most 40min easy at 142-155bpm (or a Z2 spin at 134-147bpm if a bike is available), no strides, and get to bed early. I made no plan edits because there are no weeks or sessions after 7 Nov to edit.",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T17:33:58.280Z",
+  "headline": "AMBER: easy day only, and the plan has nothing after the race. It needs a new block.",
+  "summary": "Readiness is AMBER. On its own numbers today would be GREEN: HRV 59, RHR 48 and sleep 7.1h (score 79). But HRV fell 17 overnight (76 to 59), and any drop over 10 makes it amber. Tonight's 7.1h of sleep came after only 4.8h on 18 Nov and 5.9h on 17 Nov, so sleep debt is the likely cause again, not load. Fitness is CTL 52.0 / ATL 41.1, so you're fresh (TSB about +11). Nothing is planned: the Valtellina block ended with the race on 7 Nov (22.1km, 2h14, avg HR 172) and the plan has no sessions after it. Today's call: if you run, 40min easy, Z1-Z2, staying at 155bpm or below, with no strides and no hills. If there's a bike, a 45min Z2 spin (134-147bpm) works instead. Rest is also fine. Yesterday's Bucharest run (10.5km, 53min) averaged 156bpm, which is Z3. At RPE 4 that's the usual easy-day drift, so hold the 155bpm cap today. Since the race you've done two big outings with no plan: 24.9km on 11 Nov (load 138, feel 4 = Poor) and 19.6km / 1188m D+ on 15 Nov (load 142, RPE 8). Volume is fine, but it isn't structured toward anything.",
   "flags": [
-    "The plan block ended at the Valtellina race on 7 Nov and hasn't been pointed at a next race. Every day from 11 Nov to 2 Dec is empty. To fix it, open a coaching chat to set the next race and write the new block's weeks.",
-    "Today's run averaged 156bpm, the bottom of Z3. If you meant it as easy, that's the drift pattern again: easy runs should stay at or below 155bpm.",
-    "Sleep has been short on 3 of the last 4 nights: 5.3h on 15 Nov, 5.9h, then 4.8h today. That's the limiter, not training load.",
-    "The athlete-context calendar stops at Barcelona (12 Nov), but today's run was logged in Bucharest. The context file needs updating."
+    "The plan has no sessions after 7 Nov. Point it at the next race (race, baseline, targetRaceCtl and weeks in both plan files) in a coaching session.",
+    "Easy-run drift: 18 Nov averaged 156bpm (Z3) at RPE 4.",
+    "Sleep debt: 4.8h on 18 Nov and 5.9h on 17 Nov, now a 17-point overnight HRV drop."
   ],
   "suggestedChange": null
 }
