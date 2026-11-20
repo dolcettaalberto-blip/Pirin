@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T17:33:58.280Z",
-  "headline": "AMBER: easy day only, and the plan has nothing after the race. It needs a new block.",
-  "summary": "Readiness is AMBER. On its own numbers today would be GREEN: HRV 59, RHR 48 and sleep 7.1h (score 79). But HRV fell 17 overnight (76 to 59), and any drop over 10 makes it amber. Tonight's 7.1h of sleep came after only 4.8h on 18 Nov and 5.9h on 17 Nov, so sleep debt is the likely cause again, not load. Fitness is CTL 52.0 / ATL 41.1, so you're fresh (TSB about +11). Nothing is planned: the Valtellina block ended with the race on 7 Nov (22.1km, 2h14, avg HR 172) and the plan has no sessions after it. Today's call: if you run, 40min easy, Z1-Z2, staying at 155bpm or below, with no strides and no hills. If there's a bike, a 45min Z2 spin (134-147bpm) works instead. Rest is also fine. Yesterday's Bucharest run (10.5km, 53min) averaged 156bpm, which is Z3. At RPE 4 that's the usual easy-day drift, so hold the 155bpm cap today. Since the race you've done two big outings with no plan: 24.9km on 11 Nov (load 138, feel 4 = Poor) and 19.6km / 1188m D+ on 15 Nov (load 142, RPE 8). Volume is fine, but it isn't structured toward anything.",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T07:04:05.952Z",
+  "headline": "No plan for today: the Valtellina block has ended and the next one isn't set up. Readiness is incomplete, so only an easy run if you run at all.",
+  "summary": "Verdict: there's no prescribed session today. The plan ended with the Valtellina race on 7 Nov, and every date from now to 4 Dec has planned load 0. Today's readiness can't be fully checked: RHR is 48 (green, at or below 51), but HRV and sleep haven't synced yet. Yesterday was green: HRV 59, RHR 48, sleep 7.1h. Wed 18 was amber, with only 4.8h sleep. If you run today, keep it easy: 45-60min in Z2 at 142-155bpm, flat. If HRV comes in under 55 or sleep under 5.5h, make it 30-40min in Z1 (141bpm or below) or rest. Since the race your CTL has dropped from 57.4 to 50.7 and ATL is 35.6, so TSB is about +15. You're well rested. Fitness is slowly falling, but there's no sign of fatigue. Since 9 Nov you've done two big days: Barcelona on 11 Nov (24.9km, 138min, load 138, feel 4 = Poor) and Presolana on 15 Nov (19.6km, 1188m D+, 165min, load 142, RPE 8, feel 1 = Strong). The 7 Nov race itself took 134min (2h14) against the sub-2h00 target, with load 212, average HR 172 and RPE 9.",
   "flags": [
-    "The plan has no sessions after 7 Nov. Point it at the next race (race, baseline, targetRaceCtl and weeks in both plan files) in a coaching session.",
-    "Easy-run drift: 18 Nov averaged 156bpm (Z3) at RPE 4.",
-    "Sleep debt: 4.8h on 18 Nov and 5.9h on 17 Nov, now a 17-point overnight HRV drop."
+    "The plan ends at 8 Nov and needs to be pointed at your next race in the coaching chat. Until then I can't build sessions, and you're training without a structure.",
+    "The pattern of easy runs drifting harder showed up on Wed 18 Nov. In Bucharest you ran 10.5km in 53min at an average of 156bpm, which is the bottom of Z3, with a max of 184. That was after 4.8h of sleep.",
+    "Today's HRV and sleep haven't synced yet. Check them before you pick how long to run."
   ],
   "suggestedChange": null
 }
