@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T07:15:22.505Z",
-  "headline": "GREEN, only just. No plan on the calendar, so do a free Z2 aerobic day",
-  "summary": "Readiness is green, but only just. HRV is 56, against a threshold of 55 or more. It was 60 yesterday, a drop of 4, well under the 10 that would make it amber. RHR is 51, right on the 51 limit. Sleep was 6.1h, which clears the 6h line (score 76). The plan has nothing scheduled: the Valtellina block ended with the race on 7 Nov (212 load, 22.1km / 825m D+, 2h14, avg HR 172). Today and the next 14 days are blank. Since the race, load has stayed fairly steady: Barcelona 24.9km on 11 Nov (138, feel Poor), Presolana 19.6km / 1188m D+ on 15 Nov (142, RPE 8, feel Strong), then 33 / 61 / 92 on 17, 18 and 21 Nov. CTL has eased from 57.4 on race day to 50.5. ATL is 37.4, so TSB is about +13: you are fresh but losing fitness. Suggestion for today, not written into the plan: 60-75min easy run or trail at 142-155bpm, capped at 155. If RHR reads 52+ tomorrow, make that an easy day.",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T20:28:31.374Z",
+  "headline": "GREEN, but there's no plan: the block ended at the race on 7 Nov and needs repointing",
+  "summary": "Readiness is GREEN. HRV is 72, up from 56 yesterday. RHR is 49 and sleep was 6.3h (score 78). Nothing is planned today or for the next 14 days, because the Valtellina block ended on race day (7 Nov) and the plan was never repointed. Fitness is slipping. CTL has fallen from 57.4 on race morning to 49.3. ATL is 32.4, so TSB is about +17. Last week (16-22 Nov) you logged 186 load over 4 sessions on 3 days, with nothing on 19, 20 or 22 Nov: treadmill 33 (17 Nov), run 61 (18 Nov), hike 27 and spin 65 (21 Nov). The 18 Nov run averaged 156bpm, which is the bottom of Z3 and not an easy day. That's your usual drift. With this readiness, today is a good day to start rebuilding. Suggested, though nothing is on the calendar: 60min Z2 run at 142-155bpm with 6x20s strides, or 60min Z2 spin at 134-147bpm if you're indoors. Keep the average HR under 155.",
   "flags": [
-    "No active training block: the plan ends 8 Nov. Use the coaching chat to point the plan at the next race (rewrite race/baseline/weeks, archive the Valtellina sessions, tag valtellina-final) so daily edits are possible again.",
-    "Easy-day drift: the 18 Nov Bucharest run averaged 156bpm, which is Z3, at RPE 4. Easy runs should stay at 155 or below.",
-    "Sleep is still the limiter: 4.8h on 18 Nov, 5.3h on 15 Nov, and a 21:57 spin last night before 6.1h of sleep with RHR at the 51 edge. Finish evening spins earlier.",
-    "CTL has slipped 6.9 points since race day (57.4 to 50.5). If the next race is close, it's time to rebuild steady volume."
+    "No plan exists past 8 Nov. Next race, dates and target CTL are needed so a new block can be repointed in the coaching chat.",
+    "CTL 49.3 and falling about 1 point every 2 days. It's down 8.1 from race day, which is now more than recovery.",
+    "Drift: the 18 Nov run averaged 156bpm (Z3) and peaked at 184.",
+    "Sleep 4.8h on 18 Nov. Sleep is still the main limiter to watch."
   ],
   "suggestedChange": null
 }
