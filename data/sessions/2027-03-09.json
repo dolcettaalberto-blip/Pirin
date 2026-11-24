@@ -1,36 +1,37 @@
 {
   "date": "2027-03-09",
-  "type": "easy",
-  "title": "Easy 45min + 4 strides",
-  "estimatedLoad": 40,
+  "type": "quality",
+  "title": "Taper tempo 3x6min",
+  "terrain": "Flat",
+  "estimatedLoad": 65,
   "steps": [
     {
-      "kind": "work",
-      "duration": "39m",
+      "kind": "warmup",
+      "duration": "15m",
       "target": "Z1-Z2, 138-150bpm"
     },
     {
       "kind": "repeat",
-      "count": 4,
+      "count": 3,
       "steps": [
         {
           "kind": "work",
-          "duration": "20s",
-          "target": "Z5, 179-188bpm strides"
+          "duration": "6m",
+          "target": "Z3, 158-166bpm"
         },
         {
           "kind": "recover",
-          "duration": "1m",
-          "target": "Z1, 120-140bpm"
+          "duration": "2m",
+          "target": "jog, Z1"
         }
       ]
     },
     {
       "kind": "cooldown",
-      "duration": "2m",
+      "duration": "10m",
       "target": "Z1, 120-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 39min at 138-150bpm, 4x20s strides (1min jog), 2min easy.\nGYM: none.\nFUEL: normal.\nSTOP RULE: under 5h30 sleep = no strides.",
-  "icuWorkoutText": "- 39m 138-150bpm\n\n4x\n- 20s 179-188bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
+  "coachNotes": "EXECUTION: 3x6min at 158-166bpm, 2min jog. Should feel easy.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
+  "icuWorkoutText": "- 15m 138-150bpm\n\n3x\n- 6m 158-166bpm\n- 2m 120-140bpm\n\n- 10m 120-140bpm"
 }

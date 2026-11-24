@@ -1067,5 +1067,16 @@
       "2027-02-20",
       "2027-03-13"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "change": "Race date corrected 13 Mar -> 20 Mar 2027 (race field fixed in both plan files). Added Wk14 'Absorb' (22-28 Feb, load 380, 2h30 trail) after the Sat 20 Feb race simulation; Sharpen (course run Sat 6 Mar), Taper and Race weeks shift one week later. Block is now 17 weeks. targetRaceCtl 58 -> 57.",
+    "reason": "Athlete confirmed the race is Sat 20 Mar. Extra week spent as absorb rather than more build: the simulation lands 4 weeks out and the last long course run 2 weeks out, which is the right spacing for a 5h race. Start-line CTL projects 57.3 (absorb week costs ~1 point vs the 13 Mar version), peak 67 unchanged.",
+    "affects": [
+      "2027-02-23",
+      "2027-03-06",
+      "2027-03-13",
+      "2027-03-20"
+    ]
   }
 ]

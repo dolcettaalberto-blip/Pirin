@@ -1,16 +1,16 @@
 {
   "date": "2027-03-06",
   "type": "long",
-  "title": "Trail 1h50m easy",
-  "terrain": "Hilly trail, ~700m D+",
-  "estimatedLoad": 110,
+  "title": "Course run 2h55m on the Ultrabericus loop",
+  "terrain": "Berici: km 24-46 of the 45K (Soghe to Torri di Arcugnano to finish)",
+  "estimatedLoad": 175,
   "steps": [
     {
       "kind": "work",
-      "duration": "1h50m",
-      "target": "Z1-Z2, 138-152bpm"
+      "duration": "2h55m",
+      "target": "Z1-Z2, 140-155bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 110min at 138-152bpm, hike over 15% grade. Time on feet, not pace.\nGYM: none.\nFUEL: water, 1 gel if over 90min.\nSTOP RULE: knee or hip signal = turn back on the shortest route.",
-  "icuWorkoutText": "- 1h50m 138-152bpm"
+  "coachNotes": "EXECUTION: 175min at 140-155bpm, hike over 15% grade. Run the climbs at race feel 150-160bpm, descents relaxed.\nGYM: none.\nFUEL: Tailwind 1 flask/h + 1 gel/45min from 1h, as race day.\nSTOP RULE: knee or hip signal = turn back on the shortest route.",
+  "icuWorkoutText": "- 2h55m 140-155bpm"
 }

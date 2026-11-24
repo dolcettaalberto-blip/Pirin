@@ -1,37 +1,16 @@
 {
   "date": "2027-03-11",
-  "type": "quality",
-  "title": "Openers 3x4min",
-  "terrain": "Flat",
-  "estimatedLoad": 35,
+  "type": "easy",
+  "title": "Indoor bike 50min Z2",
+  "terrain": "Indoor trainer",
+  "estimatedLoad": 50,
   "steps": [
     {
-      "kind": "warmup",
-      "duration": "15m",
-      "target": "Z1-Z2, 138-150bpm"
-    },
-    {
-      "kind": "repeat",
-      "count": 3,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "4m",
-          "target": "Z3, 160-166bpm"
-        },
-        {
-          "kind": "recover",
-          "duration": "2m",
-          "target": "jog, Z1"
-        }
-      ]
-    },
-    {
-      "kind": "cooldown",
-      "duration": "5m",
-      "target": "Z1, 120-140bpm"
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z2, 134-147bpm (bike zones)"
     }
   ],
-  "coachNotes": "EXECUTION: 3x4min at 160-166bpm, 2min jog.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
-  "icuWorkoutText": "- 15m 138-150bpm\n\n3x\n- 4m 160-166bpm\n- 2m 120-140bpm\n\n- 5m 120-140bpm"
+  "coachNotes": "EXECUTION: 50min at 134-147bpm, cadence 85-95. Hilly run of 45min at 138-150bpm is an equal swap.\nGYM: none.\nFUEL: normal.\nSTOP RULE: \nWHY: Aerobic load without impact.",
+  "icuWorkoutText": "- 50m 134-147bpm"
 }

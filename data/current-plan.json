@@ -1,7 +1,7 @@
 {
   "race": {
     "name": "Ultrabericus Marathon 45K",
-    "date": "2027-03-13",
+    "date": "2027-03-20",
     "distanceKm": 46.7,
     "dPlus": 1437
   },
@@ -10,7 +10,7 @@
     "ctl": 50,
     "atl": 38
   },
-  "targetRaceCtl": 58,
+  "targetRaceCtl": 60,
   "weeks": [
     {
       "week": 1,
@@ -223,6 +223,22 @@
     {
       "week": 14,
       "start": "2027-02-22",
+      "block": "Absorb",
+      "runKm": 52,
+      "weekendDplus": 900,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 60,
+        "wed": 55,
+        "thu": 65,
+        "fri": 0,
+        "sat": 150,
+        "sun": 50
+      }
+    },
+    {
+      "week": 15,
+      "start": "2027-03-01",
       "block": "Sharpen",
       "runKm": 60,
       "weekendDplus": 1000,
@@ -237,8 +253,8 @@
       }
     },
     {
-      "week": 15,
-      "start": "2027-03-01",
+      "week": 16,
+      "start": "2027-03-08",
       "block": "Taper",
       "runKm": 45,
       "weekendDplus": 600,
@@ -253,8 +269,8 @@
       }
     },
     {
-      "week": 16,
-      "start": "2027-03-08",
+      "week": 17,
+      "start": "2027-03-15",
       "block": "Race",
       "runKm": 72,
       "weekendDplus": 1437,
