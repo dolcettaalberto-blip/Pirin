@@ -1,9 +1,9 @@
 {
   "date": "2027-01-12",
   "type": "quality",
-  "title": "Tempo 3x12min",
-  "terrain": "Flat or rolling",
-  "estimatedLoad": 80,
+  "title": "Hill reps 6x3min",
+  "terrain": "Hilly road or trail, or treadmill 8%",
+  "estimatedLoad": 75,
   "steps": [
     {
       "kind": "warmup",
@@ -12,17 +12,17 @@
     },
     {
       "kind": "repeat",
-      "count": 3,
+      "count": 6,
       "steps": [
         {
           "kind": "work",
-          "duration": "12m",
-          "target": "Z3, 158-166bpm"
+          "duration": "3m",
+          "target": "Z4, 167-175bpm uphill 6-10%"
         },
         {
           "kind": "recover",
-          "duration": "2m",
-          "target": "jog, Z1"
+          "duration": "3m",
+          "target": "jog down, Z1"
         }
       ]
     },
@@ -32,6 +32,6 @@
       "target": "Z1, 120-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 3x12min at 158-166bpm, 2min jog.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
-  "icuWorkoutText": "- 15m 138-150bpm\n\n3x\n- 12m 158-166bpm\n- 2m 120-140bpm\n\n- 10m 120-140bpm"
+  "coachNotes": "EXECUTION: 6x3min uphill at 167-175bpm, jog back down 3min.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
+  "icuWorkoutText": "- 15m 138-150bpm\n\n6x\n- 3m 167-175bpm\n- 3m 120-140bpm\n\n- 10m 120-140bpm"
 }

@@ -1,37 +1,37 @@
 {
   "date": "2027-01-05",
-  "type": "quality",
-  "title": "Hill reps 6x3min",
-  "terrain": "Hilly road or trail, or treadmill 8%",
-  "estimatedLoad": 75,
+  "type": "easy",
+  "title": "Optional easy 35min + 4 strides (ski week)",
+  "terrain": "Before skiing or evening, flat or treadmill",
+  "estimatedLoad": 35,
   "steps": [
     {
-      "kind": "warmup",
-      "duration": "15m",
+      "kind": "work",
+      "duration": "29m",
       "target": "Z1-Z2, 138-150bpm"
     },
     {
       "kind": "repeat",
-      "count": 6,
+      "count": 4,
       "steps": [
         {
           "kind": "work",
-          "duration": "3m",
-          "target": "Z4, 167-175bpm uphill 6-10%"
+          "duration": "20s",
+          "target": "Z5, 179-188bpm strides"
         },
         {
           "kind": "recover",
-          "duration": "3m",
-          "target": "jog down, Z1"
+          "duration": "1m",
+          "target": "Z1, 120-140bpm"
         }
       ]
     },
     {
       "kind": "cooldown",
-      "duration": "10m",
+      "duration": "2m",
       "target": "Z1, 120-140bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 6x3min uphill at 167-175bpm, jog back down 3min.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
-  "icuWorkoutText": "- 15m 138-150bpm\n\n6x\n- 3m 167-175bpm\n- 3m 120-140bpm\n\n- 10m 120-140bpm"
+  "coachNotes": "EXECUTION: 29min at 138-150bpm, 4x20s strides, 2min easy. Optional.\nGYM: none.\nFUEL: normal.\nSTOP RULE: quads sore from skiing = skip, no make-up.\nWHY: Ski days are the training this week: record them on Garmin so intervals.icu counts the load.",
+  "icuWorkoutText": "- 29m 138-150bpm\n\n4x\n- 20s 179-188bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
 }

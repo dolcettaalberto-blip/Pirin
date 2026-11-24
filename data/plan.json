@@ -10,7 +10,7 @@
     "ctl": 50,
     "atl": 38
   },
-  "targetRaceCtl": 60,
+  "targetRaceCtl": 56,
   "weeks": [
     {
       "week": 1,
@@ -95,22 +95,38 @@
     {
       "week": 6,
       "start": "2026-12-28",
-      "block": "Recovery",
-      "runKm": 34,
-      "weekendDplus": 600,
+      "block": "Casual: New Year",
+      "runKm": 42,
+      "weekendDplus": 1000,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 45,
-        "wed": 40,
-        "thu": 45,
+        "tue": 50,
+        "wed": 45,
+        "thu": 50,
         "fri": 0,
-        "sat": 110,
-        "sun": 40
+        "sat": 130,
+        "sun": 50
       }
     },
     {
       "week": 7,
       "start": "2027-01-04",
+      "block": "Ski week",
+      "runKm": 12,
+      "weekendDplus": 0,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 35,
+        "wed": 0,
+        "thu": 35,
+        "fri": 0,
+        "sat": 0,
+        "sun": 50
+      }
+    },
+    {
+      "week": 8,
+      "start": "2027-01-11",
       "block": "Build 1",
       "runKm": 55,
       "weekendDplus": 1000,
@@ -122,22 +138,6 @@
         "fri": 40,
         "sat": 175,
         "sun": 60
-      }
-    },
-    {
-      "week": 8,
-      "start": "2027-01-11",
-      "block": "Build 1",
-      "runKm": 60,
-      "weekendDplus": 1200,
-      "plannedDailyLoad": {
-        "mon": 0,
-        "tue": 80,
-        "wed": 60,
-        "thu": 70,
-        "fri": 40,
-        "sat": 190,
-        "sun": 70
       }
     },
     {

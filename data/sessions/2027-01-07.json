@@ -1,16 +1,16 @@
 {
   "date": "2027-01-07",
   "type": "easy",
-  "title": "Indoor bike 60min Z2",
-  "terrain": "Indoor trainer",
-  "estimatedLoad": 65,
+  "title": "Optional easy 35min (ski week)",
+  "terrain": "Before skiing or evening, flat or treadmill",
+  "estimatedLoad": 35,
   "steps": [
     {
       "kind": "work",
-      "duration": "1h",
-      "target": "Z2, 134-147bpm (bike zones)"
+      "duration": "35m",
+      "target": "Z1-Z2, 138-150bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 60min at 134-147bpm, cadence 85-95. Hilly run of 60min at 138-150bpm is an equal swap.\nGYM: none.\nFUEL: normal.\nSTOP RULE: \nWHY: Aerobic load without impact.",
-  "icuWorkoutText": "- 1h 134-147bpm"
+  "coachNotes": "EXECUTION: 35min at 138-150bpm if legs allow. Optional: skip if skiing hard.\nGYM: none.\nFUEL: normal.\nSTOP RULE: quads sore from skiing = skip, no make-up.\nWHY: Keeps the running pattern alive, nothing more.",
+  "icuWorkoutText": "- 35m 138-150bpm"
 }

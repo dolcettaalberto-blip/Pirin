@@ -37,12 +37,12 @@ describe("CTL formula", () => {
     series.slice(1, 15).forEach((p, i) => expect(p.ctl).toBeCloseTo(handCtl[i], 5));
   });
 
-  it("lands start-line CTL inside the 56-61 target band with the placeholder plan", () => {
+  it("lands start-line CTL inside the 54-59 target band with the placeholder plan", () => {
     const plan = loadOriginalPlan();
     const series = plannedCtlSeries(plan);
     const race = series.at(-1)!;
     expect(race.date).toBe(plan.race.date);
-    expect(race.ctl).toBeGreaterThanOrEqual(56);
-    expect(race.ctl).toBeLessThanOrEqual(61);
+    expect(race.ctl).toBeGreaterThanOrEqual(54);
+    expect(race.ctl).toBeLessThanOrEqual(59);
   });
 });

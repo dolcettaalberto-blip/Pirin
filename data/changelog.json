@@ -1078,5 +1078,16 @@
       "2027-03-13",
       "2027-03-20"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "change": "Wk7 (4-10 Jan) becomes a ski week: optional easy 35min Tue (strides) and Thu, easy 50min Sun 10 Jan at home, weekly planned load 120. Build 1 now starts Mon 11 Jan with the hill reps (2 build weeks instead of 3: the old Wk8 tempo week is dropped, the B2B week kept). Wk6 (28 Dec-3 Jan) changed from Recovery to a normal casual week (280 -> 325), since the ski week already unloads running. targetRaceCtl 57 -> 56.",
+    "reason": "Athlete skiing the week of 4 Jan, running unlikely. Ski days are unplanned load: record them on Garmin and intervals.icu will count them, so real CTL should land 1-3 points above the 56 projection. Max ramp after the ski week +5.3 (Wk9); start-line CTL 55.7, under the 6 cap.",
+    "affects": [
+      "2027-01-05",
+      "2027-01-07",
+      "2027-01-10",
+      "2027-01-12"
+    ]
   }
 ]

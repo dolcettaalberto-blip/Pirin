@@ -1,16 +1,16 @@
 {
   "date": "2027-01-16",
   "type": "long",
-  "title": "Long run 3h5m, ~1350m D+",
-  "terrain": "Hilly trail, ~1350m D+",
-  "estimatedLoad": 190,
+  "title": "Long run 2h50m, ~1250m D+",
+  "terrain": "Hilly trail, ~1250m D+",
+  "estimatedLoad": 175,
   "steps": [
     {
       "kind": "work",
-      "duration": "3h5m",
+      "duration": "2h50m",
       "target": "Z1-Z2, 140-155bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 185min at 140-155bpm, hike over 15% grade.\nGYM: none.\nFUEL: Tailwind 1 flask/h + 1 gel/45min from 1h, as race day.\nSTOP RULE: knee or hip signal = turn back on the shortest route.",
-  "icuWorkoutText": "- 3h5m 140-155bpm"
+  "coachNotes": "EXECUTION: 170min at 140-155bpm, hike over 15% grade.\nGYM: none.\nFUEL: Tailwind 1 flask/h + 1 gel/45min from 1h, as race day.\nSTOP RULE: knee or hip signal = turn back on the shortest route.",
+  "icuWorkoutText": "- 2h50m 140-155bpm"
 }

@@ -1,15 +1,15 @@
 {
   "date": "2027-01-10",
   "type": "easy",
-  "title": "Easy 65min",
-  "estimatedLoad": 60,
+  "title": "Easy 55min",
+  "estimatedLoad": 50,
   "steps": [
     {
       "kind": "work",
-      "duration": "1h5m",
+      "duration": "55m",
       "target": "Z1-Z2, 138-150bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 65min at 138-150bpm.\nGYM: none.\nFUEL: normal.\nSTOP RULE: HRV amber = cut to 30min.",
-  "icuWorkoutText": "- 1h5m 138-150bpm"
+  "coachNotes": "EXECUTION: 55min at 138-150bpm.\nGYM: none.\nFUEL: normal.\nSTOP RULE: HRV amber = cut to 30min.",
+  "icuWorkoutText": "- 55m 138-150bpm"
 }
