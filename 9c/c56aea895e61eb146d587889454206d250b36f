@@ -1,0 +1,201 @@
+data/SCHEMA.md
+  s_b8075318eed227::t_5bc58b9cbdf4e9 14-15
+data/archive/2026-11-06.json
+  s_b8075318eed227::t_c30b1d2137e483 20,30-31
+data/briefing.json
+  s_b8075318eed227::t_9723c922bea16f 2-5,7-9
+data/changelog.json
+  s_b8075318eed227::t_b43efd6a9da9eb 1051-1069,1071
+data/current-plan.json
+  s_b8075318eed227::t_362b8b675de304 3-6,9-11,13,17-20,23-28,33-36,38-44,49-52,55-60,65-99,104-106,112-116,118-120,122,124,128-132,134-140,144-148,151-185,187-188,192-267,272
+data/plan.json
+  s_b8075318eed227::t_c12747bc59d63d 3-6,9-11,13,17-20,23-28,33-34,36,39-44,49-52,55-60,65-68,71-76,81-84,88-91,97-100,103-108,113-163,165-228,232-236,240-257,259-260,263-267,272
+data/sessions/2026-11-24.json
+  s_b8075318eed227::t_024285d5240910 1-15
+data/sessions/2026-11-26.json
+  s_b8075318eed227::t_63982e2774641d 1-36
+data/sessions/2026-11-28.json
+  s_b8075318eed227::t_8f7331cdd20693 1-16
+data/sessions/2026-11-29.json
+  s_b8075318eed227::t_6440e540e88ff9 1-15
+data/sessions/2026-12-01.json
+  s_b8075318eed227::t_5144b0d982df25 1-15
+data/sessions/2026-12-02.json
+  s_b8075318eed227::t_66abe02c9a7daa 1-15
+data/sessions/2026-12-04.json
+  s_b8075318eed227::t_f34d2393e9dc9f 1-36
+data/sessions/2026-12-05.json
+  s_b8075318eed227::t_633997fdc43802 1-16
+data/sessions/2026-12-06.json
+  s_b8075318eed227::t_4d37db69933bce 1-16
+data/sessions/2026-12-08.json
+  s_b8075318eed227::t_7020270c91abd6 1-15
+data/sessions/2026-12-09.json
+  s_b8075318eed227::t_904d68d6e047c2 1-15
+data/sessions/2026-12-11.json
+  s_b8075318eed227::t_b249adb1627f19 1-36
+data/sessions/2026-12-12.json
+  s_b8075318eed227::t_fe68b39a1df419 1-16
+data/sessions/2026-12-13.json
+  s_b8075318eed227::t_7a821d9360b395 1-15
+data/sessions/2026-12-15.json
+  s_b8075318eed227::t_0d81506196a854 1-15
+data/sessions/2026-12-16.json
+  s_b8075318eed227::t_6ecce0a22fc77a 1-15
+data/sessions/2026-12-18.json
+  s_b8075318eed227::t_3654153204639a 1-36
+data/sessions/2026-12-19.json
+  s_b8075318eed227::t_a06a749bdfe084 1-16
+data/sessions/2026-12-20.json
+  s_b8075318eed227::t_f917fa61b27c18 1-16
+data/sessions/2026-12-22.json
+  s_b8075318eed227::t_7f9cc469eb8e97 1-15
+data/sessions/2026-12-24.json
+  s_b8075318eed227::t_e16ef88c355293 1-36
+data/sessions/2026-12-26.json
+  s_b8075318eed227::t_9951deade91bb3 1-16
+data/sessions/2026-12-27.json
+  s_b8075318eed227::t_b0593b5718ea9f 1-15
+data/sessions/2026-12-29.json
+  s_b8075318eed227::t_79259721562129 1-15
+data/sessions/2026-12-30.json
+  s_b8075318eed227::t_c9345fe97c3439 1-15
+data/sessions/2026-12-31.json
+  s_b8075318eed227::t_a6035410d1124d 1-36
+data/sessions/2027-01-02.json
+  s_b8075318eed227::t_ce43049e7b4b11 1-16
+data/sessions/2027-01-03.json
+  s_b8075318eed227::t_3e68197cb4643f 1-15
+data/sessions/2027-01-05.json
+  s_b8075318eed227::t_83a3f331264399 1-37
+data/sessions/2027-01-06.json
+  s_b8075318eed227::t_0cc7a041c12e48 1-15
+data/sessions/2027-01-07.json
+  s_b8075318eed227::t_168ee87eb994a4 1-16
+data/sessions/2027-01-08.json
+  s_b8075318eed227::t_1064ced24047a8 1-15
+data/sessions/2027-01-09.json
+  s_b8075318eed227::t_b65f829b1b2416 1-16
+data/sessions/2027-01-10.json
+  s_b8075318eed227::t_1adf611529c232 1-15
+data/sessions/2027-01-12.json
+  s_b8075318eed227::t_f47e12a83ef493 1-37
+data/sessions/2027-01-13.json
+  s_b8075318eed227::t_ec5d4cfb77d503 1-15
+data/sessions/2027-01-14.json
+  s_b8075318eed227::t_24f4e787b31f70 1-16
+data/sessions/2027-01-15.json
+  s_b8075318eed227::t_3dadbc0c7ae831 1-15
+data/sessions/2027-01-16.json
+  s_b8075318eed227::t_d1c5f97abc0217 1-16
+data/sessions/2027-01-17.json
+  s_b8075318eed227::t_351cb4f5217e46 1-15
+data/sessions/2027-01-19.json
+  s_b8075318eed227::t_a70fd601cdf305 1-37
+data/sessions/2027-01-20.json
+  s_b8075318eed227::t_971fe21b84682e 1-15
+data/sessions/2027-01-21.json
+  s_b8075318eed227::t_cd9eddeaa892be 1-16
+data/sessions/2027-01-22.json
+  s_b8075318eed227::t_21ae8545bfad7d 1-15
+data/sessions/2027-01-23.json
+  s_b8075318eed227::t_3456869ffe3e3a 1-16
+data/sessions/2027-01-24.json
+  s_b8075318eed227::t_0740978fd83541 1-16
+data/sessions/2027-01-26.json
+  s_b8075318eed227::t_d3fe8d9de311c8 1-36
+data/sessions/2027-01-27.json
+  s_b8075318eed227::t_7443678635fd3e 1-15
+data/sessions/2027-01-28.json
+  s_b8075318eed227::t_b777a0068daf2f 1-16
+data/sessions/2027-01-30.json
+  s_b8075318eed227::t_b6981e14f5fd0d 1-16
+data/sessions/2027-01-31.json
+  s_b8075318eed227::t_0429cea47b3a6f 1-15
+data/sessions/2027-02-02.json
+  s_b8075318eed227::t_39eae268cac7f7 1-37
+data/sessions/2027-02-03.json
+  s_b8075318eed227::t_17c012c0c617dc 1-15
+data/sessions/2027-02-04.json
+  s_b8075318eed227::t_e37b6645ba4a93 1-16
+data/sessions/2027-02-05.json
+  s_b8075318eed227::t_d0415d5829b0c3 1-15
+data/sessions/2027-02-06.json
+  s_b8075318eed227::t_cf54e13804a80e 1-16
+data/sessions/2027-02-07.json
+  s_b8075318eed227::t_ec22d2a25bd988 1-15
+data/sessions/2027-02-09.json
+  s_b8075318eed227::t_57f0a131e12959 1-37
+data/sessions/2027-02-10.json
+  s_b8075318eed227::t_de4a7392fc2d95 1-15
+data/sessions/2027-02-11.json
+  s_b8075318eed227::t_c9b13aadaa35f6 1-16
+data/sessions/2027-02-12.json
+  s_b8075318eed227::t_716a8eb4f27264 1-15
+data/sessions/2027-02-13.json
+  s_b8075318eed227::t_86a7710beccd41 1-16
+data/sessions/2027-02-14.json
+  s_b8075318eed227::t_c3f3009291779a 1-16
+data/sessions/2027-02-16.json
+  s_b8075318eed227::t_989fb30b9c18ed 1-37
+data/sessions/2027-02-17.json
+  s_b8075318eed227::t_14225a3089d83d 1-15
+data/sessions/2027-02-18.json
+  s_b8075318eed227::t_dc2d707a358a67 1-16
+data/sessions/2027-02-19.json
+  s_b8075318eed227::t_9064e3c6899a24 1-15
+data/sessions/2027-02-20.json
+  s_b8075318eed227::t_d025bbcec0dc1a 1-26
+data/sessions/2027-02-21.json
+  s_b8075318eed227::t_5530648d8cc653 1-15
+data/sessions/2027-02-23.json
+  s_b8075318eed227::t_0cb9e4e546920b 1-37
+data/sessions/2027-02-24.json
+  s_b8075318eed227::t_f58b259a554143 1-15
+data/sessions/2027-02-25.json
+  s_b8075318eed227::t_c88e5fec98fa95 1-16
+data/sessions/2027-02-26.json
+  s_b8075318eed227::t_a034533f1b84a9 1-15
+data/sessions/2027-02-27.json
+  s_b8075318eed227::t_e8ee88b238f7cd 1-16
+data/sessions/2027-02-28.json
+  s_b8075318eed227::t_8158c9e7c9ed0a 1-15
+data/sessions/2027-03-02.json
+  s_b8075318eed227::t_2f41419cdf4e4c 1-37
+data/sessions/2027-03-03.json
+  s_b8075318eed227::t_93945b80a951eb 1-15
+data/sessions/2027-03-04.json
+  s_b8075318eed227::t_739bd6e88ead24 1-16
+data/sessions/2027-03-06.json
+  s_b8075318eed227::t_e27c9d952213b7 1-16
+data/sessions/2027-03-07.json
+  s_b8075318eed227::t_5ff184fa094015 1-15
+data/sessions/2027-03-09.json
+  s_b8075318eed227::t_a8aeb563a30bfe 1-36
+data/sessions/2027-03-11.json
+  s_b8075318eed227::t_9adc7df4bb405e 1-37
+data/sessions/2027-03-12.json
+  s_b8075318eed227::t_2f0bf0c615eed5 1-15
+data/sessions/2027-03-13.json
+  s_b8075318eed227::t_7d4feafbeb64b0 1-26
+tests/ctl.test.ts
+  s_b8075318eed227::t_d397c01e755c4c 14-18,20-21,24,32-33,36,40,45-46
+tests/plan-validate.test.ts
+  s_b8075318eed227::t_4f54f1eb53243b 17,30-31,36,44-45,59-60,72,85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "9cc56aea895e61eb146d587889454206d250b36f",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
