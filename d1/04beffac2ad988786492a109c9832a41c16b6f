@@ -1,0 +1,51 @@
+data/changelog.json
+  s_b8075318eed227::t_035b1b57aba996 1081-1091
+data/current-plan.json
+  s_b8075318eed227::t_7b2453002ce092 13,98-100,103-105,107-108,114-116,119-124,131-132,135-137,139-140
+data/plan.json
+  s_b8075318eed227::t_78e30c57af7458 13,98-100,103-105,107-108,114-116,119-124,131-132,135-137,139-140
+data/sessions/2026-12-29.json
+  s_b8075318eed227::t_f62b91bc7f6507 4-5,9,13-14
+data/sessions/2026-12-30.json
+  s_b8075318eed227::t_36e45da3c6e59d 4-5,9,13-14
+data/sessions/2026-12-31.json
+  s_b8075318eed227::t_48a508818ccd49 4-5,9,34-35
+data/sessions/2027-01-02.json
+  s_b8075318eed227::t_a33d6c7bab13a5 4-6,10,14-15
+data/sessions/2027-01-03.json
+  s_b8075318eed227::t_e35ff7b438b24f 4-5,9,13-14
+data/sessions/2027-01-05.json
+  s_b8075318eed227::t_abed10d71af311 3-6,9-10,15,19-20,24-25,31,35-36
+data/sessions/2027-01-07.json
+  s_b8075318eed227::t_c06e02de004524 4-6,10-11,14-15
+data/sessions/2027-01-10.json
+  s_b8075318eed227::t_4f53801519f7a6 4-5,9,13-14
+data/sessions/2027-01-12.json
+  s_b8075318eed227::t_f00149a4d0c141 4-6,15,19-20,24-25,35-36
+data/sessions/2027-01-13.json
+  s_b8075318eed227::t_0cb65a4ade9697 4-5,9,13-14
+data/sessions/2027-01-14.json
+  s_b8075318eed227::t_36cb4d5680dda4 4,6,10,14-15
+data/sessions/2027-01-16.json
+  s_b8075318eed227::t_66a7305fc28cbe 4-6,10,14-15
+data/sessions/2027-01-17.json
+  s_b8075318eed227::t_0e7ef1d09b6599 4-5,9,13-14
+tests/ctl.test.ts
+  s_b8075318eed227::t_59e52eaf668bfe 40,45-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "d104beffac2ad988786492a109c9832a41c16b6f",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
