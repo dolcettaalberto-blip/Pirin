@@ -1,0 +1,15 @@
+{
+  "date": "2027-01-15",
+  "type": "easy",
+  "title": "Easy 45min",
+  "estimatedLoad": 40,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "45m",
+      "target": "Z1-Z2, 138-150bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 45min at 138-150bpm.\nGYM: none.\nFUEL: normal.\nSTOP RULE: HRV amber = cut to 30min.",
+  "icuWorkoutText": "- 45m 138-150bpm"
+}

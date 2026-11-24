@@ -1,0 +1,37 @@
+{
+  "date": "2027-02-02",
+  "type": "quality",
+  "title": "Race-feel climbs 4x10min",
+  "terrain": "Long climb or treadmill 10%",
+  "estimatedLoad": 90,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 138-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 4,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "10m",
+          "target": "Z3, 155-163bpm, race-feel climbing"
+        },
+        {
+          "kind": "recover",
+          "duration": "3m",
+          "target": "easy, Z1"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1, 120-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 4x10min climbing at 155-163bpm (45K race effort), 3min easy. Hike if HR passes 165.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
+  "icuWorkoutText": "- 15m 138-150bpm\n\n4x\n- 10m 155-163bpm\n- 3m 120-140bpm\n\n- 10m 120-140bpm"
+}

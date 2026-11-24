@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T06:48:00.000Z",
-  "headline": "GREEN: run today as planned, 35min easy + 4 strides. No plan change this week.",
-  "summary": "HRV 67 (up from 55-56 on Sun/Mon), RHR 48 (back from 50), sleep 6h14 (score 75). CTL 55.7, ATL 60.5, TSB -4.7: Mon's 2x10min climbs (load 70, feel 2, RPE 5) absorbed cleanly. Projection with Tue 30 / Wed 35 / Thu 25 / Fri 15: race-morning CTL ~54, TSB ~+5. That is the right window for a 2h race. Execute: 28min at 138-150bpm, 4x20s strides at 175-185bpm with 1min jog, 2min easy. Garmin ~35.",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T07:03:51.219Z",
+  "headline": "GREEN, but there's no plan: CTL is down to 48.1, so train today and repoint the block",
+  "summary": "Readiness is GREEN. HRV is 66 (72 yesterday, a drop of 6), RHR is 47 and you slept 6.2h (score 75). Nothing is planned because the Valtellina block ended on 7 Nov and the plan hasn't been pointed at the next race yet. That shows in the numbers. CTL has slid from 57.4 on race day to 48.1, ATL is 28.1 and TSB is about +20. Since the race you have logged Presolana on 15 Nov (19.6km, 1188m D+, load 142), Bucharest on 18 Nov (10.5km, load 61), a treadmill run on 17 Nov (load 33) and, on 21 Nov, a 60min spin (load 65) plus a hike (load 27). Nothing on 22 or 23 Nov. You're fresh enough to train today. Suggested session: 60-70min Z2 run held at 142-155bpm with 6x20s strides, or 60min Z2 spin at 134-147bpm if you'd rather avoid impact. Neither is on the calendar, because the plan has no window past 8 Nov.",
   "flags": [
-    "No +10% bias this week: extra load now adds zero fitness by Saturday and costs TSB. Race-week exception stands.",
-    "Sleep is the limiter, not load: 6 of the last 7 nights under 6h40. Sofia QBR nights, lights out by 23:00 Tue and Wed.",
-    "Sat 31 Oct long run felt 5 (Weak) at RPE 7. HRV rebound to 67 says it was absorbed, but Wed openers stop at 2x4min if HRV under 55 or sleep under 5h30."
+    "The plan stops at the Valtellina race on 7 Nov. Repoint it at the next race so daily coaching can edit sessions again.",
+    "CTL has dropped 9.3 points since race day (57.4 to 48.1). About 2.5 weeks of mostly unstructured training is now costing fitness.",
+    "The unplanned Bucharest run on 18 Nov averaged 156bpm (Z3) after 4.8h of sleep. That's the usual habit of easy runs drifting harder than easy."
   ],
   "suggestedChange": null
 }

@@ -1,0 +1,26 @@
+{
+  "date": "2027-03-13",
+  "type": "race",
+  "title": "Ultrabericus Marathon 45K: 46.7km / 1,437m D+",
+  "terrain": "Vicenza, Piazza dei Signori, start 10:00, counter-clockwise, cut-offs km 11.6 12:10 / km 24.4 14:10 / km 36 16:10",
+  "estimatedLoad": 330,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h30m",
+      "target": "Z2, 145-155bpm, hold back"
+    },
+    {
+      "kind": "work",
+      "duration": "3h",
+      "target": "Z2-Z3, 148-162bpm on climbs"
+    },
+    {
+      "kind": "work",
+      "duration": "1h",
+      "target": "Z3, 155-166bpm, open up"
+    }
+  ],
+  "coachNotes": "EXECUTION: first 90min cap 155bpm. Hike the 20% wall at km 18.8. From Torri di Arcugnano (km 36) open up.\nGYM: none.\nFUEL: breakfast 07:00, 100-120g carb. ~70g carb/h: Tailwind + gels, refill at all 3 aid stations.\nSTOP RULE: knee or calf signal = hike-run, finish.\nWHY: 5h15-5h45 comes from an even first half.",
+  "icuWorkoutText": "- 1h30m 145-155bpm\n- 3h 148-162bpm\n- 1h 155-166bpm"
+}

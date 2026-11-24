@@ -14,7 +14,7 @@ function state(): RepoState {
   };
 }
 
-const entry = { date: "2026-10-14", change: "test", reason: "test", affects: ["2026-10-14"] };
+const entry = { date: "2026-12-23", change: "test", reason: "test", affects: ["2026-12-23"] };
 
 describe("agent plan updates", () => {
   it("the repo as committed is valid", () => {
@@ -27,13 +27,13 @@ describe("agent plan updates", () => {
     const update: PlanUpdate = {
       weeks: [{ week: 5, plannedDailyLoad: { ...week.plannedDailyLoad, wed: 44 } }],
       sessions: {
-        "2026-10-14": {
-          date: "2026-10-14", type: "easy", title: "Test session", estimatedLoad: 44,
+        "2026-12-23": {
+          date: "2026-12-23", type: "easy", title: "Test session", estimatedLoad: 44,
           steps: [{ kind: "work", duration: "45m", target: "Z2" }],
           icuWorkoutText: "- 45m Z2",
         },
       },
-      changelog: { ...entry, affects: ["2026-10-14"] },
+      changelog: { ...entry, affects: ["2026-12-23"] },
     };
     expect(validateState(applyUpdate(s, update))).toEqual([]);
   });
@@ -41,8 +41,8 @@ describe("agent plan updates", () => {
   it("rejects a session whose load disagrees with the week (the thing that breaks the build)", () => {
     const update: PlanUpdate = {
       sessions: {
-        "2026-10-14": {
-          date: "2026-10-14", type: "easy", title: "Mismatched", estimatedLoad: 999,
+        "2026-12-23": {
+          date: "2026-12-23", type: "easy", title: "Mismatched", estimatedLoad: 999,
           steps: [{ kind: "work", duration: "45m", target: "Z2" }],
           icuWorkoutText: "- 45m Z2",
         },
@@ -56,8 +56,8 @@ describe("agent plan updates", () => {
   it("rejects a session whose date does not match its key", () => {
     const update: PlanUpdate = {
       sessions: {
-        "2026-10-14": {
-          date: "2026-10-15", type: "easy", title: "Wrong date", estimatedLoad: 0,
+        "2026-12-23": {
+          date: "2026-12-24", type: "easy", title: "Wrong date", estimatedLoad: 0,
           steps: [{ kind: "work", duration: "45m", target: "Z2" }],
           icuWorkoutText: "- 45m Z2",
         },
@@ -69,7 +69,7 @@ describe("agent plan updates", () => {
 
   it("rejects malformed session documents", () => {
     const update: PlanUpdate = {
-      sessions: { "2026-10-14": { date: "2026-10-14", title: "no steps" } },
+      sessions: { "2026-12-23": { date: "2026-12-23", title: "no steps" } },
       changelog: entry,
     };
     expect(validateState(applyUpdate(state(), update)).length).toBeGreaterThan(0);
@@ -82,7 +82,7 @@ describe("agent plan updates", () => {
   });
 
   it("rejects a changelog entry pointing outside the plan window", () => {
-    const update: PlanUpdate = { changelog: { ...entry, affects: ["2027-01-01"] } };
+    const update: PlanUpdate = { changelog: { ...entry, affects: ["2027-04-01"] } };
     expect(validateState(applyUpdate(state(), update)).some((e) => e.includes("outside the plan window"))).toBe(true);
   });
 

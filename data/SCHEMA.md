@@ -11,8 +11,8 @@ current `baseline.date` belong to archived blocks and are exempt from the
 plan-window check. `tests/ctl.test.ts` hard-codes the first 14 days and the
 race-day CTL band, so it must be retargeted in the same commit.
 
-Current block: **Valtellina Wine Trail (Half)**, 2026-11-07, 21.7km / 914m D+.
-Previous block: Pirin Extreme, 2026-09-12 (tag `pirin-final`).
+Current block: **Ultrabericus Marathon 45K**, 2027-03-13, 46.7km / 1,437m D+ (Vicenza).
+Previous blocks: Valtellina Wine Trail (Half), 2026-11-07 (tag `vwt-final`); Pirin Extreme, 2026-09-12 (tag `pirin-final`).
 
 This directory is the **plan data source** for the tracker. It is edited by a
 Claude coaching project (via Cowork sessions), not by a human. Everything in this

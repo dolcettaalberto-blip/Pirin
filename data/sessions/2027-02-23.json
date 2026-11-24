@@ -1,0 +1,37 @@
+{
+  "date": "2027-02-23",
+  "type": "quality",
+  "title": "Tempo 3x8min",
+  "terrain": "Flat or rolling",
+  "estimatedLoad": 80,
+  "steps": [
+    {
+      "kind": "warmup",
+      "duration": "15m",
+      "target": "Z1-Z2, 138-150bpm"
+    },
+    {
+      "kind": "repeat",
+      "count": 3,
+      "steps": [
+        {
+          "kind": "work",
+          "duration": "8m",
+          "target": "Z3-Z4, 162-170bpm"
+        },
+        {
+          "kind": "recover",
+          "duration": "2m",
+          "target": "jog, Z1"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "duration": "10m",
+      "target": "Z1, 120-140bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 3x8min at 162-170bpm, 2min jog.\nGYM: none.\nFUEL: normal, 30-60g carb in the 2h before.\nSTOP RULE: amber HRV = drop one rep, keep the rest.",
+  "icuWorkoutText": "- 15m 138-150bpm\n\n3x\n- 8m 162-170bpm\n- 2m 120-140bpm\n\n- 10m 120-140bpm"
+}

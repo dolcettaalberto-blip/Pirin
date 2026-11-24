@@ -1,142 +1,270 @@
 {
   "race": {
-    "name": "Valtellina Wine Trail (Half)",
-    "date": "2026-11-07",
-    "distanceKm": 21.7,
-    "dPlus": 914
+    "name": "Ultrabericus Marathon 45K",
+    "date": "2027-03-13",
+    "distanceKm": 46.7,
+    "dPlus": 1437
   },
   "baseline": {
-    "date": "2026-09-13",
-    "ctl": 51,
-    "atl": 76
+    "date": "2026-11-22",
+    "ctl": 50,
+    "atl": 38
   },
-  "targetRaceCtl": 53,
+  "targetRaceCtl": 58,
   "weeks": [
     {
       "week": 1,
-      "start": "2026-09-14",
-      "block": "Recovery",
-      "runKm": 8,
-      "weekendDplus": 0,
+      "start": "2026-11-23",
+      "block": "Casual: off-season",
+      "runKm": 30,
+      "weekendDplus": 600,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 0,
-        "wed": 35,
-        "thu": 0,
-        "fri": 35,
-        "sat": 30,
-        "sun": 0
+        "tue": 40,
+        "wed": 0,
+        "thu": 45,
+        "fri": 0,
+        "sat": 100,
+        "sun": 40
       }
     },
     {
       "week": 2,
-      "start": "2026-09-21",
-      "block": "Rebuild",
+      "start": "2026-11-30",
+      "block": "Casual: base",
       "runKm": 38,
-      "weekendDplus": 0,
+      "weekendDplus": 800,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 55,
-        "wed": 55,
-        "thu": 45,
-        "fri": 35,
-        "sat": 95,
-        "sun": 30
+        "tue": 45,
+        "wed": 40,
+        "thu": 0,
+        "fri": 45,
+        "sat": 115,
+        "sun": 45
       }
     },
     {
       "week": 3,
-      "start": "2026-09-28",
-      "block": "Build",
-      "runKm": 46,
-      "weekendDplus": 0,
+      "start": "2026-12-07",
+      "block": "Casual: base",
+      "runKm": 42,
+      "weekendDplus": 900,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 65,
-        "wed": 60,
-        "thu": 50,
-        "fri": 35,
-        "sat": 120,
-        "sun": 100
+        "tue": 50,
+        "wed": 40,
+        "thu": 0,
+        "fri": 50,
+        "sat": 125,
+        "sun": 45
       }
     },
     {
       "week": 4,
-      "start": "2026-10-05",
-      "block": "Build",
-      "runKm": 52,
-      "weekendDplus": 400,
+      "start": "2026-12-14",
+      "block": "Casual: base",
+      "runKm": 44,
+      "weekendDplus": 1000,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 75,
-        "wed": 65,
-        "thu": 55,
-        "fri": 35,
-        "sat": 140,
-        "sun": 110
+        "tue": 50,
+        "wed": 45,
+        "thu": 0,
+        "fri": 50,
+        "sat": 135,
+        "sun": 50
       }
     },
     {
       "week": 5,
-      "start": "2026-10-12",
-      "block": "Recovery",
-      "runKm": 34,
-      "weekendDplus": 0,
+      "start": "2026-12-21",
+      "block": "Casual: Christmas (Brendola)",
+      "runKm": 45,
+      "weekendDplus": 1200,
       "plannedDailyLoad": {
         "mon": 0,
         "tue": 50,
-        "wed": 55,
-        "thu": 40,
-        "fri": 25,
-        "sat": 90,
+        "wed": 0,
+        "thu": 50,
+        "fri": 0,
+        "sat": 150,
         "sun": 50
       }
     },
     {
       "week": 6,
-      "start": "2026-10-19",
-      "block": "Specific",
-      "runKm": 56,
-      "weekendDplus": 700,
+      "start": "2026-12-28",
+      "block": "Recovery",
+      "runKm": 34,
+      "weekendDplus": 600,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 80,
-        "wed": 70,
-        "thu": 60,
-        "fri": 35,
-        "sat": 155,
-        "sun": 100
+        "tue": 45,
+        "wed": 40,
+        "thu": 45,
+        "fri": 0,
+        "sat": 110,
+        "sun": 40
       }
     },
     {
       "week": 7,
-      "start": "2026-10-26",
-      "block": "Specific",
-      "runKm": 54,
-      "weekendDplus": 700,
+      "start": "2027-01-04",
+      "block": "Build 1",
+      "runKm": 55,
+      "weekendDplus": 1000,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 80,
-        "wed": 70,
-        "thu": 55,
-        "fri": 35,
-        "sat": 150,
-        "sun": 100
+        "tue": 75,
+        "wed": 55,
+        "thu": 65,
+        "fri": 40,
+        "sat": 175,
+        "sun": 60
       }
     },
     {
       "week": 8,
-      "start": "2026-11-02",
-      "block": "Race",
-      "runKm": 32,
-      "weekendDplus": 914,
+      "start": "2027-01-11",
+      "block": "Build 1",
+      "runKm": 60,
+      "weekendDplus": 1200,
       "plannedDailyLoad": {
         "mon": 0,
-        "tue": 45,
-        "wed": 35,
-        "thu": 25,
-        "fri": 10,
-        "sat": 200,
+        "tue": 80,
+        "wed": 60,
+        "thu": 70,
+        "fri": 40,
+        "sat": 190,
+        "sun": 70
+      }
+    },
+    {
+      "week": 9,
+      "start": "2027-01-18",
+      "block": "Build 1",
+      "runKm": 64,
+      "weekendDplus": 1300,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 85,
+        "wed": 60,
+        "thu": 75,
+        "fri": 40,
+        "sat": 180,
+        "sun": 110
+      }
+    },
+    {
+      "week": 10,
+      "start": "2027-01-25",
+      "block": "Recovery",
+      "runKm": 45,
+      "weekendDplus": 700,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 55,
+        "wed": 45,
+        "thu": 50,
+        "fri": 0,
+        "sat": 120,
+        "sun": 40
+      }
+    },
+    {
+      "week": 11,
+      "start": "2027-02-01",
+      "block": "Specific",
+      "runKm": 68,
+      "weekendDplus": 1400,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 90,
+        "wed": 60,
+        "thu": 75,
+        "fri": 45,
+        "sat": 220,
+        "sun": 70
+      }
+    },
+    {
+      "week": 12,
+      "start": "2027-02-08",
+      "block": "Specific",
+      "runKm": 72,
+      "weekendDplus": 1500,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 95,
+        "wed": 65,
+        "thu": 80,
+        "fri": 45,
+        "sat": 205,
+        "sun": 120
+      }
+    },
+    {
+      "week": 13,
+      "start": "2027-02-15",
+      "block": "Peak: race simulation",
+      "runKm": 74,
+      "weekendDplus": 1600,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 85,
+        "wed": 65,
+        "thu": 75,
+        "fri": 40,
+        "sat": 255,
+        "sun": 50
+      }
+    },
+    {
+      "week": 14,
+      "start": "2027-02-22",
+      "block": "Sharpen",
+      "runKm": 60,
+      "weekendDplus": 1000,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 80,
+        "wed": 55,
+        "thu": 65,
+        "fri": 40,
+        "sat": 175,
+        "sun": 50
+      }
+    },
+    {
+      "week": 15,
+      "start": "2027-03-01",
+      "block": "Taper",
+      "runKm": 45,
+      "weekendDplus": 600,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 65,
+        "wed": 45,
+        "thu": 50,
+        "fri": 0,
+        "sat": 110,
+        "sun": 35
+      }
+    },
+    {
+      "week": 16,
+      "start": "2027-03-08",
+      "block": "Race",
+      "runKm": 72,
+      "weekendDplus": 1437,
+      "plannedDailyLoad": {
+        "mon": 0,
+        "tue": 40,
+        "wed": 0,
+        "thu": 35,
+        "fri": 20,
+        "sat": 330,
         "sun": 0
       }
     }

@@ -1,0 +1,16 @@
+{
+  "date": "2027-01-30",
+  "type": "long",
+  "title": "Trail 2h easy",
+  "terrain": "Hilly trail, ~750m D+",
+  "estimatedLoad": 120,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "2h",
+      "target": "Z1-Z2, 138-152bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 120min at 138-152bpm, hike over 15% grade. Time on feet, not pace.\nGYM: none.\nFUEL: Tailwind 1 flask/h + 1 gel/45min from 1h, as race day.\nSTOP RULE: knee or hip signal = turn back on the shortest route.",
+  "icuWorkoutText": "- 2h 138-152bpm"
+}

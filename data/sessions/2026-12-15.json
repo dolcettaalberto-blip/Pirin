@@ -1,0 +1,15 @@
+{
+  "date": "2026-12-15",
+  "type": "easy",
+  "title": "Easy 55min",
+  "estimatedLoad": 50,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "55m",
+      "target": "Z1-Z2, 138-150bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 55min at 138-150bpm. Casual block: skip freely, no make-up.\nGYM: none.\nFUEL: normal.\nSTOP RULE: HRV amber = cut to 30min.",
+  "icuWorkoutText": "- 55m 138-150bpm"
+}

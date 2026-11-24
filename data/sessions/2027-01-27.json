@@ -1,0 +1,15 @@
+{
+  "date": "2027-01-27",
+  "type": "easy",
+  "title": "Easy 50min + strength",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "50m",
+      "target": "Z1-Z2, 138-150bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 50min at 138-150bpm.\nGYM: 30min: single-leg squat 3x10, step-downs 3x12, calf raises 3x15, Copenhagen plank 3x20s.\nFUEL: normal.\nSTOP RULE: HRV amber = cut to 30min.",
+  "icuWorkoutText": "- 50m 138-150bpm"
+}

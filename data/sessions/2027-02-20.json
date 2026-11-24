@@ -1,0 +1,26 @@
+{
+  "date": "2027-02-20",
+  "type": "long",
+  "title": "Race simulation 4h: 33km, ~1,200m D+",
+  "terrain": "Berici hills if possible, start 10:00 like race day",
+  "estimatedLoad": 255,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h",
+      "target": "Z2, 142-155bpm, settle"
+    },
+    {
+      "kind": "work",
+      "duration": "2h30m",
+      "target": "Z2-Z3, 145-162bpm, race effort on climbs"
+    },
+    {
+      "kind": "work",
+      "duration": "30m",
+      "target": "Z3, 156-166bpm, finish strong"
+    }
+  ],
+  "coachNotes": "EXECUTION: 10:00 start after race breakfast at 07:00. Race kit, race shoes. Hike over 15%.\nGYM: none.\nFUEL: Race plan: Tailwind 1 flask/h + gel every 40min, ~70g carb/h. Log what you actually ate.\nSTOP RULE: calf or knee signal = stop at 3h.\nWHY: Last kit and fuelling change is allowed today, not after.",
+  "icuWorkoutText": "- 1h 142-155bpm\n- 2h30m 145-162bpm\n- 30m 156-166bpm"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-12-06",
+  "type": "easy",
+  "title": "Indoor bike 45min Z2",
+  "terrain": "Indoor trainer",
+  "estimatedLoad": 45,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "45m",
+      "target": "Z2, 134-147bpm (bike zones)"
+    }
+  ],
+  "coachNotes": "EXECUTION: 45min at 134-147bpm, cadence 85-95. Hilly run of 40min at 138-150bpm is an equal swap. Casual block: skip freely, no make-up.\nGYM: none.\nFUEL: normal.\nSTOP RULE: \nWHY: Aerobic load without impact.",
+  "icuWorkoutText": "- 45m 134-147bpm"
+}

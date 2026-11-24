@@ -1,0 +1,16 @@
+{
+  "date": "2027-01-14",
+  "type": "easy",
+  "title": "Indoor bike 65min Z2",
+  "terrain": "Indoor trainer",
+  "estimatedLoad": 70,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h5m",
+      "target": "Z2, 134-147bpm (bike zones)"
+    }
+  ],
+  "coachNotes": "EXECUTION: 65min at 134-147bpm, cadence 85-95. Hilly run of 65min at 138-150bpm is an equal swap.\nGYM: none.\nFUEL: normal.\nSTOP RULE: \nWHY: Aerobic load without impact.",
+  "icuWorkoutText": "- 1h5m 134-147bpm"
+}

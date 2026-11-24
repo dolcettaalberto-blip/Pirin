@@ -1,0 +1,16 @@
+{
+  "date": "2027-01-24",
+  "type": "long",
+  "title": "B2B day 2: 1h45m on tired legs",
+  "terrain": "Hilly trail if possible",
+  "estimatedLoad": 110,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "1h45m",
+      "target": "Z1-Z2, 138-150bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 105min at 138-152bpm, hike anything over 15%, practise eating on tired legs.\nGYM: none.\nFUEL: Tailwind 1 flask/h.\nSTOP RULE: knee or hip signal = walk home.\nWHY: Back-to-back teaches the second half of the race.",
+  "icuWorkoutText": "- 1h45m 138-150bpm"
+}

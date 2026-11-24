@@ -1,0 +1,16 @@
+{
+  "date": "2026-12-26",
+  "type": "long",
+  "title": "Berici recon 2h30m: course km 15-30",
+  "terrain": "From Brendola: Pederiva di Grancona, the 20% wall at km 18.7, counter-clockwise as 2027",
+  "estimatedLoad": 150,
+  "steps": [
+    {
+      "kind": "work",
+      "duration": "2h30m",
+      "target": "Z1-Z2, 138-152bpm"
+    }
+  ],
+  "coachNotes": "EXECUTION: 150min at 138-152bpm, hike over 15% grade. Note which climbs you hike. Casual: no pace target.\nGYM: none.\nFUEL: Tailwind 1 flask/h + 1 gel/45min from 1h, as race day.\nSTOP RULE: knee or hip signal = turn back on the shortest route.",
+  "icuWorkoutText": "- 2h30m 138-152bpm"
+}

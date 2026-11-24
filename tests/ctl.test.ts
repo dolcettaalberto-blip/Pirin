@@ -11,17 +11,17 @@ describe("CTL formula", () => {
   });
 
   it("matches the hand-computed simulation for the first 14 days of the plan", () => {
-    // Daily loads Sep 14 -> Sep 27 read off plan.json by hand (Mon-start weeks,
-    // weekday-keyed loads): W1 mon..sun = 0,0,35,0,35,30,0; W2 mon..sun =
-    // 0,55,55,45,35,95,30.
-    const handLoads = [0, 0, 35, 0, 35, 30, 0, 0, 55, 55, 45, 35, 95, 30];
-    // Recurrence from CTL=51 on 2026-09-13, computed independently of lib/:
+    // Daily loads Nov 23 -> Dec 6 read off plan.json by hand (Mon-start weeks,
+    // weekday-keyed loads): W1 mon..sun = 0,40,0,45,0,100,40; W2 mon..sun =
+    // 0,45,40,0,45,115,45.
+    const handLoads = [0, 40, 0, 45, 0, 100, 40, 0, 45, 40, 0, 45, 115, 45];
+    // Recurrence from CTL=50 on 2026-11-22, computed independently of lib/:
     const handCtl = [
-      49.785714, 48.600340, 48.276523, 47.127082, 46.838341, 46.437429, 45.331776,
-      44.252448, 44.508342, 44.758143, 44.763902, 44.531428, 45.733060, 45.358464,
+      48.809524, 48.599773, 47.442636, 47.384478, 46.256276, 47.535888, 47.356463,
+      46.228928, 46.199667, 46.052056, 44.955579, 44.956636, 46.624336, 46.585661,
     ];
 
-    const simulated = simulateCtl(51, handLoads);
+    const simulated = simulateCtl(50, handLoads);
     simulated.forEach((v, i) => expect(v).toBeCloseTo(handCtl[i], 5));
 
     // And the full pipeline (plan.json -> expandDailyLoads -> plannedCtlSeries)
@@ -29,20 +29,20 @@ describe("CTL formula", () => {
     const plan = loadOriginalPlan();
     const expanded = expandDailyLoads(plan).slice(0, 14);
     expect(expanded.map((d) => d.load)).toEqual(handLoads);
-    expect(expanded[0].date).toBe("2026-09-14");
-    expect(expanded[13].date).toBe("2026-09-27");
+    expect(expanded[0].date).toBe("2026-11-23");
+    expect(expanded[13].date).toBe("2026-12-06");
 
     const series = plannedCtlSeries(plan);
-    expect(series[0]).toEqual({ date: "2026-09-13", ctl: 51 });
+    expect(series[0]).toEqual({ date: "2026-11-22", ctl: 50 });
     series.slice(1, 15).forEach((p, i) => expect(p.ctl).toBeCloseTo(handCtl[i], 5));
   });
 
-  it("lands race-day CTL inside the 51-55 target band with the placeholder plan", () => {
+  it("lands start-line CTL inside the 56-61 target band with the placeholder plan", () => {
     const plan = loadOriginalPlan();
     const series = plannedCtlSeries(plan);
     const race = series.at(-1)!;
     expect(race.date).toBe(plan.race.date);
-    expect(race.ctl).toBeGreaterThanOrEqual(51);
-    expect(race.ctl).toBeLessThanOrEqual(55);
+    expect(race.ctl).toBeGreaterThanOrEqual(56);
+    expect(race.ctl).toBeLessThanOrEqual(61);
   });
 });
