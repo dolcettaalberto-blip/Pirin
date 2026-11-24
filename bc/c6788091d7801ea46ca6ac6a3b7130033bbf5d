@@ -1,0 +1,59 @@
+data/SCHEMA.md
+  s_b8075318eed227::t_1447bcec3f08cc 14
+data/changelog.json
+  s_b8075318eed227::t_247619c3f0f304 1070-1080
+data/current-plan.json
+  s_b8075318eed227::t_5b8dcf25e4dcd8 4,13,226-241,256-257,272-273
+data/plan.json
+  s_b8075318eed227::t_112a4ba4f3edd2 4,13,226-241,256-257,272-273
+data/sessions/2027-02-23.json
+  s_b8075318eed227::t_e08d31df380184 3-5,8-9,14,18-19,23-24,30,34-35
+data/sessions/2027-02-27.json
+  s_b8075318eed227::t_373dcd6779d456 4-6,10-11,14-15
+data/sessions/2027-03-02.json
+  s_b8075318eed227::t_f1fbb072c42797 4-6,19-20,35-36
+data/sessions/2027-03-03.json
+  s_b8075318eed227::t_bbd113a0ef72ec 4-5,9,13-14
+data/sessions/2027-03-04.json
+  s_b8075318eed227::t_e889e07e0c5179 4,6,10,14-15
+data/sessions/2027-03-05.json
+  s_b8075318eed227::t_8dee86ec596317 2
+data/sessions/2027-03-06.json
+  s_b8075318eed227::t_ac0a11ad9d3050 4-6,10-11,14-15
+data/sessions/2027-03-07.json
+  s_b8075318eed227::t_13c782c13b3519 4-5,9,13-14
+data/sessions/2027-03-09.json
+  s_b8075318eed227::t_4db9ca42fb77b5 3-6,9-10,15,19-20,24-25,31,35-36
+data/sessions/2027-03-10.json
+  s_b8075318eed227::t_54f8019346dfe9 1-15
+data/sessions/2027-03-11.json
+  s_b8075318eed227::t_50b64f9ee4d720 3-6,9-11,14-15
+data/sessions/2027-03-13.json
+  s_b8075318eed227::t_62ca40d53c1e3a 3-6,10-11,14-15
+data/sessions/2027-03-14.json
+  s_b8075318eed227::t_2ee113758073c2 1-15
+data/sessions/2027-03-16.json
+  s_b8075318eed227::t_2047e29c9b093c 1-36
+data/sessions/2027-03-18.json
+  s_b8075318eed227::t_bf76e29f4d8289 1-37
+data/sessions/2027-03-19.json
+  s_b8075318eed227::t_9cc9ee50de670e 2
+data/sessions/2027-03-20.json
+  s_b8075318eed227::t_d50a7c7d2ae40d 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "bcc6788091d7801ea46ca6ac6a3b7130033bbf5d",
+  "prompts": {},
+  "sessions": {
+    "s_b8075318eed227": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e839143e-b7f5-4758-982c-2a582b7e5425",
+        "model": "unknown"
+      },
+      "human_author": "Alberto Dolcetta <dolcetta.alberto@gmail.com>"
+    }
+  }
+}
