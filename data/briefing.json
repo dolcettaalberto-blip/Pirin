@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T18:47:14.776Z",
-  "headline": "AMBER (sleep 5.4h): rest day as planned, no plan changes",
-  "summary": "Readiness is amber on sleep alone. You slept 5.4h (score 68), under the 5.5h line. HRV 66 is flat on yesterday (66) and RHR is 49, so this is a short night, not accumulated fatigue. Today was already a rest day, so the amber cut costs nothing today. Thursday's easy 50min + 4 strides stays as written, and tomorrow morning's numbers decide it: its stop rule drops the strides if you sleep under 5h30 again. Load: CTL 47.0, ATL 24.3, so you're very fresh. CTL has slipped from 51.7 on 21 Nov because nothing is logged since the 60min spin and 36min hike that day. Yesterday's easy 45min (planned 40) wasn't done either, and the casual block says no make-up.",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T18:35:13.855Z",
+  "headline": "AMBER: easy 30min only today, no strides",
+  "summary": "Amber, close to red. HRV 43, down 23 from 66 yesterday and the lowest in 28 days (previous low was 44 on 12 Nov). RHR 52, up from 49. Sleep 6.3h (score 69), after 5.4h the night before. It isn't red because RHR is under 53 and sleep wasn't poor, but three amber triggers fired at once. Today's 50min + 4 strides (load 45) is cut to 30min easy at 135-148bpm with no strides (load 27). Nothing has been logged since Sat 21 Nov (spin 60min load 65 + hike load 27), so Tue 24's easy 45 was skipped. That's fine in the casual block, but CTL has slid from 50.5 on 22 Nov to 45.9, with ATL 21.1, so you are very fresh. This dip isn't from training load. It matches your usual pattern of sleep debt and late evenings. Tomorrow is a rest day. Sat's 1h40 trail run (load 100) stays in the plan for now and depends on Saturday morning's readiness.",
   "flags": [
-    "Your last run was Bucharest on 18 Nov (10.5km). The 60min spin and 36min hike on 21 Nov are the only sessions since. CTL is now 47, just under the 48 baseline, and the casual block plans for it to hold around 46, so it's fine for now. If Thursday and Saturday are skipped too, the base starts to erode before Build 1.",
-    "Sleep is still the limiter: 6.1h, 6.3h, 6.2h, then 5.4h over the last four nights. An earlier bedtime tonight matters more for Thursday than anything in the plan."
+    "HRV 43 is a 28-day low and RHR 52 is the amber threshold. If tomorrow shows RHR 53+ with poor sleep, or any fever or sore throat, that is red: full rest and skip Saturday's long run.",
+    "Two short nights in a row (5.4h, 6.3h) look like the limiter. Get to bed early tonight and eat a lighter dinner.",
+    "Tue 24 easy 45min not logged. You tend to under-deliver easy volume, and CTL has dropped 4.6 points in 4 days."
   ],
-  "suggestedChange": null
+  "suggestedChange": "Today cut from easy 50min + 4 strides (load 45) to easy 30min at 135-148bpm, no strides (load 27)."
 }

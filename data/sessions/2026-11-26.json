@@ -1,36 +1,15 @@
 {
   "date": "2026-11-26",
   "type": "easy",
-  "title": "Easy 50min + 4 strides",
-  "estimatedLoad": 45,
+  "title": "Easy 30min (amber)",
+  "estimatedLoad": 27,
   "steps": [
     {
       "kind": "work",
-      "duration": "44m",
-      "target": "Z1-Z2, 138-150bpm"
-    },
-    {
-      "kind": "repeat",
-      "count": 4,
-      "steps": [
-        {
-          "kind": "work",
-          "duration": "20s",
-          "target": "Z5, 179-188bpm strides"
-        },
-        {
-          "kind": "recover",
-          "duration": "1m",
-          "target": "Z1, 120-140bpm"
-        }
-      ]
-    },
-    {
-      "kind": "cooldown",
-      "duration": "2m",
-      "target": "Z1, 120-140bpm"
+      "duration": "30m",
+      "target": "Z1-Z2, 135-148bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 44min at 138-150bpm, 4x20s strides (1min jog), 2min easy. Casual block: skip freely, no make-up.\nGYM: none.\nFUEL: normal.\nSTOP RULE: under 5h30 sleep = no strides.",
-  "icuWorkoutText": "- 44m 138-150bpm\n\n4x\n- 20s 179-188bpm\n- 1m 120-140bpm\n\n- 2m 120-140bpm"
+  "coachNotes": "EXECUTION: 30min at 135-148bpm, flat, conversational. No strides.\nGYM: none.\nFUEL: normal.\nSTOP RULE: heavy legs, HR over 150 on flat or any illness sign = walk home and rest.\nWHY: HRV 43 (-23), RHR 52: amber cut.",
+  "icuWorkoutText": "- 30m 135-148bpm"
 }

@@ -1089,5 +1089,13 @@
       "2027-01-10",
       "2027-01-12"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "change": "Thu 26 Nov easy 50min + 4x20s strides (load 45) -> easy 30min at 135-148bpm, no strides (load 27). Wk1 planned load 225 -> 207.",
+    "reason": "Amber: HRV 43 vs 66 yesterday (drop of 23, 28-day low), RHR 52 (49 yesterday), sleep 6.3h after 5.4h. Not red because RHR is under 53. Base call was 25 (30min). The +10% bias would give about 27, so the session stays at 30min and is loaded at 27. Casual block, no make-up.",
+    "affects": [
+      "2026-11-26"
+    ]
   }
 ]
