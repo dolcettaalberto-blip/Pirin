@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-26T18:35:13.855Z",
-  "headline": "AMBER: easy 30min only today, no strides",
-  "summary": "Amber, close to red. HRV 43, down 23 from 66 yesterday and the lowest in 28 days (previous low was 44 on 12 Nov). RHR 52, up from 49. Sleep 6.3h (score 69), after 5.4h the night before. It isn't red because RHR is under 53 and sleep wasn't poor, but three amber triggers fired at once. Today's 50min + 4 strides (load 45) is cut to 30min easy at 135-148bpm with no strides (load 27). Nothing has been logged since Sat 21 Nov (spin 60min load 65 + hike load 27), so Tue 24's easy 45 was skipped. That's fine in the casual block, but CTL has slid from 50.5 on 22 Nov to 45.9, with ATL 21.1, so you are very fresh. This dip isn't from training load. It matches your usual pattern of sleep debt and late evenings. Tomorrow is a rest day. Sat's 1h40 trail run (load 100) stays in the plan for now and depends on Saturday morning's readiness.",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T07:13:34.502Z",
+  "headline": "AMBER: rest today as planned, Sat trail cut 1h40m to 1h20m",
+  "summary": "Today is a planned rest day and stays one. Readiness is amber for the second morning in a row. HRV is 48, under the 55 line, though up from 43 yesterday. RHR is 49, down from 52. Sleep was 6.8h with a score of 74. That is not red, because HRV is above 45 and RHR is under 53. Load isn't causing this. No activity has been logged since Sat 21 Nov (60min spin, load 65, plus a hike, load 27), and ATL is down to 18.3. So the HRV dip points to sleep and life stress, which fits your usual pattern (5.4h sleep on the 25th). Per protocol I'm cutting tomorrow's long trail: 1h20m at 138-152bpm on about 500m D+, load 80 instead of 100. On the other side, CTL has slid from 51.7 on 21 Nov to 44.8. Tue 24 (easy 45min) and Thu 26 (easy 30min) don't show as logged. This casual block expected CTL to hold around 46. Skipping is allowed, but we're now below that line.",
   "flags": [
-    "HRV 43 is a 28-day low and RHR 52 is the amber threshold. If tomorrow shows RHR 53+ with poor sleep, or any fever or sore throat, that is red: full rest and skip Saturday's long run.",
-    "Two short nights in a row (5.4h, 6.3h) look like the limiter. Get to bed early tonight and eat a lighter dinner.",
-    "Tue 24 easy 45min not logged. You tend to under-deliver easy volume, and CTL has dropped 4.6 points in 4 days."
+    "Second amber morning in a row (HRV 43 then 48) with almost no training load. If you have a sore throat, chills or a raised temperature, it's red: rest Sat too.",
+    "CTL 44.8 and falling, 6 days without a logged session. Tue 24 and Thu 26 are missing. Getting Sat and Sun done matters more than how long they are.",
+    "Keep Sat in Z1-Z2 for real: the last logged road run (Bucharest, 18 Nov) averaged 156bpm, which is Z3."
   ],
-  "suggestedChange": "Today cut from easy 50min + 4 strides (load 45) to easy 30min at 135-148bpm, no strides (load 27)."
+  "suggestedChange": null
 }
