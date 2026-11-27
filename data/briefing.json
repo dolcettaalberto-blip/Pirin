@@ -1,12 +1,8 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T07:13:34.502Z",
-  "headline": "AMBER: rest today as planned, Sat trail cut 1h40m to 1h20m",
-  "summary": "Today is a planned rest day and stays one. Readiness is amber for the second morning in a row. HRV is 48, under the 55 line, though up from 43 yesterday. RHR is 49, down from 52. Sleep was 6.8h with a score of 74. That is not red, because HRV is above 45 and RHR is under 53. Load isn't causing this. No activity has been logged since Sat 21 Nov (60min spin, load 65, plus a hike, load 27), and ATL is down to 18.3. So the HRV dip points to sleep and life stress, which fits your usual pattern (5.4h sleep on the 25th). Per protocol I'm cutting tomorrow's long trail: 1h20m at 138-152bpm on about 500m D+, load 80 instead of 100. On the other side, CTL has slid from 51.7 on 21 Nov to 44.8. Tue 24 (easy 45min) and Thu 26 (easy 30min) don't show as logged. This casual block expected CTL to hold around 46. Skipping is allowed, but we're now below that line.",
-  "flags": [
-    "Second amber morning in a row (HRV 43 then 48) with almost no training load. If you have a sore throat, chills or a raised temperature, it's red: rest Sat too.",
-    "CTL 44.8 and falling, 6 days without a logged session. Tue 24 and Thu 26 are missing. Getting Sat and Sun done matters more than how long they are.",
-    "Keep Sat in Z1-Z2 for real: the last logged road run (Bucharest, 18 Nov) averaged 156bpm, which is Z3."
-  ],
-  "suggestedChange": null
+  "generatedAt": "2026-11-27T12:18:36.380Z",
+  "headline": "Treadmill tempo done — reps hit, feel marked Poor, watch the amber trend",
+  "summary": "Prescribed-equivalent quality session: 6x4:53 at ~166bpm (zone 4) plus warm-up blocks, all 6 reps completed, cadence steady at 83spm. HR bands were on target but RPE 3 / feel 4 (Poor) is a notch worse than the recent norm for this type of session — worth noting given yesterday's HRV dipped to 43 and today's sits at 48, right on the GREEN/AMBER line. RHR 49 and sleep 6.8h are both fine, so this reads as AMBER-ish executed under acceptable conditions, not a red flag, but it's the second day running of a flat-to-poor feel after Tuesday's amber call. Remember intervals.icu's load (49) likely undercounts this treadmill interval session by ~20-25%, so treat the completed reps and on-target HR as the real signal, not the raw TSS.</summary>\n<parameter name=\"flags\">[\"HRV has swung 43->48 across two days after a 66-76 range last week — one more low/poor-feel day would be worth flagging as a pattern, not a one-off.\", \"This is week 1 of a casual block with no structured sessions prescribed on the plan, so the treadmill tempo is an unplanned add — fine for freshness but check it isn't quietly creeping ahead of the base-building intent.\"]",
+  "flags": [],
+  "suggestedChange": "Consider an easier Fri/weekend given the back-to-back amber/poor-feel days, before the planned Sat long effort — confirm with Alberto rather than auto-adjusting."
 }
