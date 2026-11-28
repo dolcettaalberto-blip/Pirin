@@ -1,8 +1,12 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T12:18:36.380Z",
-  "headline": "Treadmill tempo done — reps hit, feel marked Poor, watch the amber trend",
-  "summary": "Prescribed-equivalent quality session: 6x4:53 at ~166bpm (zone 4) plus warm-up blocks, all 6 reps completed, cadence steady at 83spm. HR bands were on target but RPE 3 / feel 4 (Poor) is a notch worse than the recent norm for this type of session — worth noting given yesterday's HRV dipped to 43 and today's sits at 48, right on the GREEN/AMBER line. RHR 49 and sleep 6.8h are both fine, so this reads as AMBER-ish executed under acceptable conditions, not a red flag, but it's the second day running of a flat-to-poor feel after Tuesday's amber call. Remember intervals.icu's load (49) likely undercounts this treadmill interval session by ~20-25%, so treat the completed reps and on-target HR as the real signal, not the raw TSS.</summary>\n<parameter name=\"flags\">[\"HRV has swung 43->48 across two days after a 66-76 range last week — one more low/poor-feel day would be worth flagging as a pattern, not a one-off.\", \"This is week 1 of a casual block with no structured sessions prescribed on the plan, so the treadmill tempo is an unplanned add — fine for freshness but check it isn't quietly creeping ahead of the base-building intent.\"]",
-  "flags": [],
-  "suggestedChange": "Consider an easier Fri/weekend given the back-to-back amber/poor-feel days, before the planned Sat long effort — confirm with Alberto rather than auto-adjusting."
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T17:06:37.892Z",
+  "headline": "AMBER, and today was well short: 35min flat at avg 156bpm instead of a 1h40m easy trail. Tomorrow cut to 30min easy.",
+  "summary": "Today's plan was a 100min hilly trail run, about 650m D+, at 138-152bpm, load 100. What you logged in Livorno was 7.1km in 35min with 31m D+, load 39, avg HR 156, max 179, RPE 3, feel 2 (Good). That is about a third of the planned time, almost none of the climbing, and your average HR was 4bpm over the 152 cap, which puts it in Z3. This is a casual block, so there's no make-up for the shortfall. The thing to fix is the drift: yesterday's treadmill run (40min, load 49) also averaged 158bpm, with feel 4 (Poor). Readiness is amber. HRV is 47, and with 43 and 48 the two days before, that's three mornings in a row under 55. RHR is 48 and sleep was 7.7h (score 85), so this is not red. Week 1 so far: 88 load against 207 planned (Thu 26 skipped, the treadmill run on Fri 27 used the rest day). CTL is 45.8 and ATL 26.7, so you're fresh. Low HRV, not fatigue, is the limiter. Tomorrow's 45min easy run is cut to 30min with a hard 148bpm ceiling.",
+  "flags": [
+    "HRV under 55 for 3 mornings in a row (43, 48, 47) while RHR stays at 48-52. Get to bed earlier and eat dinner earlier tonight.",
+    "Easy runs are drifting into Z3: avg 158bpm on Fri 27 and 156bpm today, against an easy cap of 150-152. Slow down until HR is back under the cap, even on the flat.",
+    "Week 1 has delivered 88 of 207 planned load. CTL is easing to 45.8, which is acceptable in the casual block."
+  ],
+  "suggestedChange": "Sun 29 Nov easy 45min (load 40) cut to easy 30min at 135-148bpm (load 27)."
 }

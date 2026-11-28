@@ -1097,5 +1097,13 @@
     "affects": [
       "2026-11-26"
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "change": "Sun 29 Nov easy 45min (load 40) cut to easy 30min at 135-148bpm (load 27). Wk1 planned load 207 -> 194.",
+    "reason": "Amber: HRV 47, the third straight day under 55 (43, 48, 47). RHR 48 and sleep 7.7h are fine, so not red. Sat 28 logged 39 vs 100 (35min, 31m D+, avg HR 156 over the 152 cap). Fri 27 treadmill averaged 158. Base call was 25 (30min). The +10% bias gives about 27, so the session stays at 30min and is loaded at 27. Casual block, no make-up.",
+    "affects": [
+      "2026-11-29"
+    ]
   }
 ]

@@ -1,15 +1,15 @@
 {
   "date": "2026-11-29",
   "type": "easy",
-  "title": "Easy 45min",
-  "estimatedLoad": 40,
+  "title": "Easy 30min (amber)",
+  "estimatedLoad": 27,
   "steps": [
     {
       "kind": "work",
-      "duration": "45m",
-      "target": "Z1-Z2, 138-150bpm"
+      "duration": "30m",
+      "target": "Z1-Z2, 135-148bpm"
     }
   ],
-  "coachNotes": "EXECUTION: 45min at 138-150bpm. Casual block: skip freely, no make-up.\nGYM: none.\nFUEL: normal.\nSTOP RULE: HRV amber = cut to 30min.",
-  "icuWorkoutText": "- 45m 138-150bpm"
+  "coachNotes": "EXECUTION: 30min at 135-148bpm, flat, conversational. Hard ceiling 148: walk 1min if it goes over. No strides.\nGYM: none.\nFUEL: normal.\nSTOP RULE: heavy legs, HR over 150 on flat after walking, or any illness sign = walk home and rest.\nWHY: HRV under 55 for 3 days (47 today) and the last 2 easy runs averaged 156-158bpm.",
+  "icuWorkoutText": "- 30m 135-148bpm"
 }
